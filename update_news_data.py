@@ -3,9 +3,6 @@ import pandas as pd
 import re
 import requests
 import hashlib
-import subprocess
-import csv
-import os
 
 # Function to fetch data from a URL
 def fetch_json_data(url):
@@ -25,7 +22,7 @@ def extract_title_url(entry):
     title_url_en = ""
     title_text_fr = ""
     title_url_fr = ""
-    
+
     # Separate English title and URL
     if 'TITLE_EN' in entry and entry['TITLE_EN']:
         match_en = re.search(r"<a href='(.*?)'>(.*?)</a>", entry['TITLE_EN'])
@@ -34,7 +31,7 @@ def extract_title_url(entry):
             title_text_en = match_en.group(2)
         else:
             title_text_en = entry['TITLE_EN']
-    
+
     # Separate French title and URL
     if 'TITLE_FR' in entry and entry['TITLE_FR']:
         match_fr = re.search(r"<a href='(.*?)'>(.*?)</a>", entry['TITLE_FR'])
@@ -43,7 +40,7 @@ def extract_title_url(entry):
             title_text_fr = match_fr.group(2)
         else:
             title_text_fr = entry['TITLE_FR']
-    
+
     entry['TITLE_TEXT_EN'] = clean_text(title_text_en)
     entry['TITLE_URL_EN'] = clean_text(title_url_en)
     entry['TITLE_TEXT_FR'] = clean_text(title_text_fr)
@@ -66,30 +63,22 @@ def hash_row(row):
     row_str = ','.join(str(value) for key, value in sorted_items)
     return hashlib.md5(row_str.encode()).hexdigest()
 
-# Function to get git diff for modified entries
-def get_git_diff(file_path):
-    try:
-        diff_output = subprocess.check_output(['git', 'diff', '--unified=0', file_path], text=True)
-        return diff_output
-    except subprocess.CalledProcessError:
-        return ''
-
 # Main function to fetch data, process it, and return the DataFrame
 def main():
     url_en = "https://www.canada.ca/en/news.datatable.json"
     url_fr = "https://www.canada.ca/fr/nouvelles.datatable.json"
-    
+
     # Fetch the JSON data
     data_en = fetch_json_data(url_en)
     data_fr = fetch_json_data(url_fr)
-    
+
     if data_en is None or data_fr is None:
         print("Failed to fetch data from URLs.")
         return None
-    
+
     news_en = data_en['data']
     news_fr = data_fr['data']
-    
+
     # Normalize Minister names in both datasets and clean text fields
     for entry in news_en:
         entry['MINISTER_EN'] = normalize_minister_name(clean_text(entry.get('MINISTER', '')))
@@ -99,7 +88,7 @@ def main():
         entry['MINISTER_FR'] = normalize_minister_name(clean_text(entry.get('MINISTER', '')))
         for key in entry:
             entry[key] = clean_text(entry[key])
-    
+
     # Combine the data into a single DataFrame based on timestamp and minister name
     combined_data = []
     for en in news_en:
@@ -134,10 +123,10 @@ def main():
                 "SUBJECT_FR": match_fr.get("SUBJECT", "")
             }
             combined_data.append(extract_title_url(combined_entry))
-    
+
     # Create a DataFrame
     df_combined = pd.DataFrame(combined_data)
-    
+
     # Reorder the columns to include the separated TITLE_TEXT and TITLE_URL fields
     ordered_columns = [
         "PUBDATE",
@@ -152,16 +141,16 @@ def main():
         "TOPIC_EN", "TOPIC_FR",
         "SUBJECT_EN", "SUBJECT_FR"
     ]
-    
+
     # Create a copy to avoid SettingWithCopyWarning
     df_combined_ordered = df_combined[ordered_columns].copy()
-    
+
     # Convert PUBDATE to datetime
     df_combined_ordered['PUBDATE'] = pd.to_datetime(df_combined_ordered['PUBDATE'])
-    
-    # Sort by PUBDATE descending
-    df_combined_ordered = df_combined_ordered.sort_values(by='PUBDATE', ascending=False)
-    
+
+    # Sort by PUBDATE ascending and TITLE_TEXT_EN ascending
+    df_combined_ordered = df_combined_ordered.sort_values(by=['PUBDATE', 'TITLE_TEXT_EN'], ascending=[False, True])
+
     return df_combined_ordered
 
 if __name__ == "__main__":
@@ -177,7 +166,6 @@ if __name__ == "__main__":
 
         # Load the existing CSV
         existing_csv_path = 'combined_news.csv'
-        log_file_path = 'update_log.csv'
         try:
             existing_data = pd.read_csv(existing_csv_path)
             existing_data['PUBDATE'] = pd.to_datetime(existing_data['PUBDATE'])
@@ -191,114 +179,18 @@ if __name__ == "__main__":
             # Define the unique identifier columns
             id_columns = ['PUBDATE', 'TITLE_TEXT_EN', 'TITLE_URL_EN']
 
-            # Merge data to identify new and modified entries
-            merged_data = existing_data.merge(
-                new_data,
-                on=id_columns,
-                how='outer',
-                indicator=True,
-                suffixes=('_old', '')
-            )
-
-            # Entries that are in new_data but not in existing_data (New entries)
-            new_entries = merged_data[merged_data['_merge'] == 'right_only']
-            num_new_entries = len(new_entries)
-
-            # Entries that are in both datasets (Potentially modified entries)
-            potentially_modified_entries = merged_data[merged_data['_merge'] == 'both'].copy()
-
-            # List of columns to compare (excluding unique identifiers and 'hash')
-            compare_columns = [col for col in new_data.columns if col not in id_columns + ['hash']]
-
-            # Columns from the old data (suffix '_old')
-            old_cols = [col + '_old' for col in compare_columns]
-
-            # Rename old columns to match new columns for comparison
-            modified_entries_old = potentially_modified_entries[old_cols].copy()
-            modified_entries_old.columns = compare_columns  # Remove '_old' suffix
-
-            # Select new columns
-            modified_entries_new = potentially_modified_entries[compare_columns].copy()
-
-            # Reset index to align rows
-            potentially_modified_entries.reset_index(drop=True, inplace=True)
-            modified_entries_old.reset_index(drop=True, inplace=True)
-            modified_entries_new.reset_index(drop=True, inplace=True)
-
-            # Compare the old and new data
-            differences = (modified_entries_new != modified_entries_old).any(axis=1)
-
-            # Select rows where differences are found
-            modified_entries = potentially_modified_entries.loc[differences]
-            num_modified_entries = len(modified_entries)
-
             # Combine data and remove duplicates based on unique identifiers
             combined_data = pd.concat([existing_data, new_data], ignore_index=True)
             combined_data.drop_duplicates(subset=id_columns, keep='last', inplace=True)
 
         except FileNotFoundError:
             # If the file does not exist, use new data as the combined data
-            combined_data = new_data
-            num_new_entries = len(combined_data)
-            num_modified_entries = 0
-            new_entries = combined_data.copy()
-            modified_entries = pd.DataFrame()
+            combined_data = new_data.copy()
             print("Created new data with 'hash' column.")
 
-        # Sort by PUBDATE descending
-        combined_data = combined_data.sort_values(by='PUBDATE', ascending=False)
+        # Sort by PUBDATE descending and TITLE_TEXT_EN ascending
+        combined_data = combined_data.sort_values(by=['PUBDATE', 'TITLE_TEXT_EN'], ascending=[False, True])
 
         # Save the updated CSV file
         combined_data.to_csv(existing_csv_path, index=False)
         print(f"Updated combined CSV saved to {existing_csv_path}")
-
-        # Record the updates in the log file
-        with open(log_file_path, 'w', newline='', encoding='utf-8') as log_file:
-            csv_writer = csv.writer(log_file)
-            csv_writer.writerow(['Type', 'PUBDATE', 'TITLE_TEXT_EN', 'TITLE_URL_EN', 'Details'])
-
-            entries_written = False  # Flag to check if any entries were written
-
-            # Write new entries
-            for _, row in new_entries.iterrows():
-                csv_writer.writerow([
-                    'New',
-                    row['PUBDATE'],
-                    row['TITLE_TEXT_EN'],
-                    row['TITLE_URL_EN'],
-                    ''
-                ])
-                entries_written = True
-
-            # Write modified entries with git diff
-            if num_modified_entries > 0:
-                # Save combined_data to CSV to have the latest changes before diff
-                combined_data.to_csv(existing_csv_path, index=False)
-
-                # Get git diff
-                diff_output = get_git_diff(existing_csv_path)
-
-                # Reset index of modified_entries
-                modified_entries.reset_index(drop=True, inplace=True)
-
-                for _, row in modified_entries.iterrows():
-                    csv_writer.writerow([
-                        'Modified',
-                        row['PUBDATE'],
-                        row['TITLE_TEXT_EN'],
-                        row['TITLE_URL_EN'],
-                        diff_output
-                    ])
-                    entries_written = True
-            else:
-                # If there are no modified entries, ensure diff_output is empty
-                diff_output = ''
-
-            # If no entries were written, write a message indicating no changes
-            if not entries_written:
-                csv_writer.writerow([
-                    'No changes detected',
-                    '', '', '', ''
-                ])
-
-        print(f"Update log saved to {log_file_path}")
