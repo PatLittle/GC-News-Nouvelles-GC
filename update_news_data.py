@@ -215,6 +215,7 @@ if __name__ == "__main__":
             modified_entries_new = modified_entries[diff_columns].copy()
 
             # Reset index to align rows
+            modified_entries.reset_index(drop=True, inplace=True)
             modified_entries_old.reset_index(drop=True, inplace=True)
             modified_entries_new.reset_index(drop=True, inplace=True)
 
