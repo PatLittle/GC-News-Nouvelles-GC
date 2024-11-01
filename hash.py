@@ -1,7 +1,7 @@
 import csv
 import hashlib
 
-input_file = '‎combined_news (3).csv'
+input_file = 'combined_news (3).csv'
 output_file = 'combined_news.csv'
 
 def hash_row(row):
