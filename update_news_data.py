@@ -150,11 +150,14 @@ def main():
         "SUBJECT_EN", "SUBJECT_FR"
     ]
     
-    df_combined_ordered = df_combined[ordered_columns]
+    # Create a copy to avoid SettingWithCopyWarning
+    df_combined_ordered = df_combined[ordered_columns].copy()
+    
+    # Convert PUBDATE to datetime
+    df_combined_ordered['PUBDATE'] = pd.to_datetime(df_combined_ordered['PUBDATE'])
     
     # Sort by PUBDATE descending
-    df_combined_ordered['PUBDATE'] = pd.to_datetime(df_combined_ordered['PUBDATE'])
-    df_combined_ordered.sort_values(by='PUBDATE', ascending=False, inplace=True)
+    df_combined_ordered = df_combined_ordered.sort_values(by='PUBDATE', ascending=False)
     
     return df_combined_ordered
 
@@ -163,25 +166,25 @@ if __name__ == "__main__":
     if new_data is not None:
         # Compute the hash for the new data
         new_data['hash'] = new_data.apply(hash_row, axis=1)
-        
+
         # Move the 'hash' column to the first position
         columns = new_data.columns.tolist()
         columns.insert(0, columns.pop(columns.index('hash')))
         new_data = new_data[columns]
-        
+
         # Load the existing CSV
         existing_csv_path = 'combined_news.csv'
         log_file_path = 'update_log.csv'
         try:
             existing_data = pd.read_csv(existing_csv_path)
             existing_data['PUBDATE'] = pd.to_datetime(existing_data['PUBDATE'])
-            
+
             # Check if 'hash' column exists in the existing data
             if 'hash' not in existing_data.columns:
                 # Compute the hash for the existing data
                 existing_data['hash'] = existing_data.apply(hash_row, axis=1)
                 print("Backfilled 'hash' column for existing data.")
-            
+
             # Merge data to identify new and modified entries
             merged_data = existing_data.merge(
                 new_data,
@@ -190,25 +193,42 @@ if __name__ == "__main__":
                 indicator=True,
                 suffixes=('_old', '')
             )
-            
+
             # Entries that are in new_data but not in existing_data
             new_entries = merged_data[merged_data['_merge'] == 'right_only']
             num_new_entries = len(new_entries)
-            
-            # Entries that are in both but have differences (modified)
-            modified_entries = merged_data[merged_data['_merge'] == 'both']
-            modified_entries = modified_entries.merge(existing_data, on='hash', suffixes=('', '_old'))
-            # Compare all columns except 'hash' and 'PUBDATE' to find differences
+
+            # Entries that are in both
+            modified_entries = merged_data[merged_data['_merge'] == 'both'].copy()
+
+            # List of columns to compare (excluding 'hash' and 'PUBDATE')
             diff_columns = [col for col in new_data.columns if col not in ['hash', 'PUBDATE']]
-            modified_entries = modified_entries[
-                (modified_entries[[col for col in diff_columns]] != modified_entries[[col + '_old' for col in diff_columns]]).any(axis=1)
-            ]
+
+            # Columns from the old data (suffix '_old')
+            old_cols = [col + '_old' for col in diff_columns]
+
+            # Rename old columns to match new columns for comparison
+            modified_entries_old = modified_entries[old_cols].copy()
+            modified_entries_old.columns = diff_columns  # Remove '_old' suffix
+
+            # Select new columns
+            modified_entries_new = modified_entries[diff_columns].copy()
+
+            # Reset index to align rows
+            modified_entries_old.reset_index(drop=True, inplace=True)
+            modified_entries_new.reset_index(drop=True, inplace=True)
+
+            # Compare the old and new data
+            differences = (modified_entries_new != modified_entries_old).any(axis=1)
+
+            # Select rows where differences are found
+            modified_entries = modified_entries.loc[differences]
             num_modified_entries = len(modified_entries)
-            
+
             # Combine data and remove duplicates based on 'hash'
             combined_data = pd.concat([existing_data, new_data], ignore_index=True)
             combined_data.drop_duplicates(subset='hash', keep='last', inplace=True)
-            
+
         except FileNotFoundError:
             # If the file does not exist, use new data as the combined data
             combined_data = new_data
@@ -217,19 +237,19 @@ if __name__ == "__main__":
             new_entries = combined_data.copy()
             modified_entries = pd.DataFrame()
             print("Created new data with 'hash' column.")
-        
+
         # Sort by PUBDATE descending
-        combined_data.sort_values(by='PUBDATE', ascending=False, inplace=True)
-        
+        combined_data = combined_data.sort_values(by='PUBDATE', ascending=False)
+
         # Save the updated CSV file
         combined_data.to_csv(existing_csv_path, index=False)
         print(f"Updated combined CSV saved to {existing_csv_path}")
-        
+
         # Record the number of new and modified entries in CSV
         with open(log_file_path, 'w', newline='', encoding='utf-8') as log_file:
             csv_writer = csv.writer(log_file)
             csv_writer.writerow(['Type', 'PUBDATE', 'TITLE_TEXT_EN', 'TITLE_URL_EN', 'Details'])
-            
+
             # Write new entries
             for _, row in new_entries.iterrows():
                 csv_writer.writerow([
@@ -239,15 +259,15 @@ if __name__ == "__main__":
                     row['TITLE_URL_EN'],
                     ''
                 ])
-            
+
             # Write modified entries with git diff
             if num_modified_entries > 0:
                 # Save combined_data to CSV to have the latest changes before diff
                 combined_data.to_csv(existing_csv_path, index=False)
-                
+
                 # Get git diff
                 diff_output = get_git_diff(existing_csv_path)
-                
+
                 # Write modified entries and their diffs
                 for _, row in modified_entries.iterrows():
                     csv_writer.writerow([
