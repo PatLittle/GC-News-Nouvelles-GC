@@ -221,6 +221,7 @@ if __name__ == "__main__":
             modified_entries_new = potentially_modified_entries[compare_columns].copy()
 
             # Reset index to align rows
+            potentially_modified_entries.reset_index(drop=True, inplace=True)
             modified_entries_old.reset_index(drop=True, inplace=True)
             modified_entries_new.reset_index(drop=True, inplace=True)
 
@@ -228,7 +229,7 @@ if __name__ == "__main__":
             differences = (modified_entries_new != modified_entries_old).any(axis=1)
 
             # Select rows where differences are found
-            modified_entries = potentially_modified_entries[differences]
+            modified_entries = potentially_modified_entries.loc[differences]
             num_modified_entries = len(modified_entries)
 
             # Combine data and remove duplicates based on unique identifiers
@@ -251,43 +252,53 @@ if __name__ == "__main__":
         combined_data.to_csv(existing_csv_path, index=False)
         print(f"Updated combined CSV saved to {existing_csv_path}")
 
-        # Record the number of new and modified entries in CSV
+        # Record the updates in the log file
         with open(log_file_path, 'w', newline='', encoding='utf-8') as log_file:
             csv_writer = csv.writer(log_file)
             csv_writer.writerow(['Type', 'PUBDATE', 'TITLE_TEXT_EN', 'TITLE_URL_EN', 'Details'])
 
-            if num_new_entries > 0 or num_modified_entries > 0:
-                # Write new entries
-                for _, row in new_entries.iterrows():
+            entries_written = False  # Flag to check if any entries were written
+
+            # Write new entries
+            for _, row in new_entries.iterrows():
+                csv_writer.writerow([
+                    'New',
+                    row['PUBDATE'],
+                    row['TITLE_TEXT_EN'],
+                    row['TITLE_URL_EN'],
+                    ''
+                ])
+                entries_written = True
+
+            # Write modified entries with git diff
+            if num_modified_entries > 0:
+                # Save combined_data to CSV to have the latest changes before diff
+                combined_data.to_csv(existing_csv_path, index=False)
+
+                # Get git diff
+                diff_output = get_git_diff(existing_csv_path)
+
+                # Reset index of modified_entries
+                modified_entries.reset_index(drop=True, inplace=True)
+
+                for _, row in modified_entries.iterrows():
                     csv_writer.writerow([
-                        'New',
+                        'Modified',
                         row['PUBDATE'],
                         row['TITLE_TEXT_EN'],
                         row['TITLE_URL_EN'],
-                        ''
+                        diff_output
                     ])
-
-                # Write modified entries with git diff
-                if num_modified_entries > 0:
-                    # Save combined_data to CSV to have the latest changes before diff
-                    combined_data.to_csv(existing_csv_path, index=False)
-
-                    # Get git diff
-                    diff_output = get_git_diff(existing_csv_path)
-
-                    # Write modified entries and their diffs
-                    for _, row in modified_entries.iterrows():
-                        csv_writer.writerow([
-                            'Modified',
-                            row['PUBDATE'],
-                            row['TITLE_TEXT_EN'],
-                            row['TITLE_URL_EN'],
-                            diff_output
-                        ])
+                    entries_written = True
             else:
-                # If no changes are detected, write an entry indicating that
+                # If there are no modified entries, ensure diff_output is empty
+                diff_output = ''
+
+            # If no entries were written, write a message indicating no changes
+            if not entries_written:
                 csv_writer.writerow([
-                    'No Changes Detected', '', '', '', ''
+                    'No changes detected',
+                    '', '', '', ''
                 ])
 
-            print(f"Update log saved to {log_file_path}")
+        print(f"Update log saved to {log_file_path}")
