@@ -60,7 +60,10 @@ def normalize_minister_name(name):
 
 # Function to compute MD5 hash of a row
 def hash_row(row):
-    row_str = ','.join(row.astype(str).fillna(''))
+    # Sort the items by column names to ensure consistent order
+    items = row.fillna('').items()
+    sorted_items = sorted(items, key=lambda x: x[0])
+    row_str = ','.join(str(value) for key, value in sorted_items)
     return hashlib.md5(row_str.encode()).hexdigest()
 
 # Function to get git diff for modified entries
@@ -185,37 +188,39 @@ if __name__ == "__main__":
                 existing_data['hash'] = existing_data.apply(hash_row, axis=1)
                 print("Backfilled 'hash' column for existing data.")
 
+            # Define the unique identifier columns
+            id_columns = ['PUBDATE', 'TITLE_TEXT_EN', 'TITLE_URL_EN']
+
             # Merge data to identify new and modified entries
             merged_data = existing_data.merge(
                 new_data,
-                on=['hash'],
+                on=id_columns,
                 how='outer',
                 indicator=True,
                 suffixes=('_old', '')
             )
 
-            # Entries that are in new_data but not in existing_data
+            # Entries that are in new_data but not in existing_data (New entries)
             new_entries = merged_data[merged_data['_merge'] == 'right_only']
             num_new_entries = len(new_entries)
 
-            # Entries that are in both
-            modified_entries = merged_data[merged_data['_merge'] == 'both'].copy()
+            # Entries that are in both datasets (Potentially modified entries)
+            potentially_modified_entries = merged_data[merged_data['_merge'] == 'both'].copy()
 
-            # List of columns to compare (excluding 'hash' and 'PUBDATE')
-            diff_columns = [col for col in new_data.columns if col not in ['hash', 'PUBDATE']]
+            # List of columns to compare (excluding unique identifiers and 'hash')
+            compare_columns = [col for col in new_data.columns if col not in id_columns + ['hash']]
 
             # Columns from the old data (suffix '_old')
-            old_cols = [col + '_old' for col in diff_columns]
+            old_cols = [col + '_old' for col in compare_columns]
 
             # Rename old columns to match new columns for comparison
-            modified_entries_old = modified_entries[old_cols].copy()
-            modified_entries_old.columns = diff_columns  # Remove '_old' suffix
+            modified_entries_old = potentially_modified_entries[old_cols].copy()
+            modified_entries_old.columns = compare_columns  # Remove '_old' suffix
 
             # Select new columns
-            modified_entries_new = modified_entries[diff_columns].copy()
+            modified_entries_new = potentially_modified_entries[compare_columns].copy()
 
             # Reset index to align rows
-            modified_entries.reset_index(drop=True, inplace=True)
             modified_entries_old.reset_index(drop=True, inplace=True)
             modified_entries_new.reset_index(drop=True, inplace=True)
 
@@ -223,12 +228,12 @@ if __name__ == "__main__":
             differences = (modified_entries_new != modified_entries_old).any(axis=1)
 
             # Select rows where differences are found
-            modified_entries = modified_entries.loc[differences]
+            modified_entries = potentially_modified_entries[differences]
             num_modified_entries = len(modified_entries)
 
-            # Combine data and remove duplicates based on 'hash'
+            # Combine data and remove duplicates based on unique identifiers
             combined_data = pd.concat([existing_data, new_data], ignore_index=True)
-            combined_data.drop_duplicates(subset='hash', keep='last', inplace=True)
+            combined_data.drop_duplicates(subset=id_columns, keep='last', inplace=True)
 
         except FileNotFoundError:
             # If the file does not exist, use new data as the combined data
@@ -251,34 +256,38 @@ if __name__ == "__main__":
             csv_writer = csv.writer(log_file)
             csv_writer.writerow(['Type', 'PUBDATE', 'TITLE_TEXT_EN', 'TITLE_URL_EN', 'Details'])
 
-            # Write new entries
-            for _, row in new_entries.iterrows():
-                csv_writer.writerow([
-                    'New',
-                    row['PUBDATE'],
-                    row['TITLE_TEXT_EN'],
-                    row['TITLE_URL_EN'],
-                    ''
-                ])
-
-            # Write modified entries with git diff
-            if num_modified_entries > 0:
-                # Save combined_data to CSV to have the latest changes before diff
-                combined_data.to_csv(existing_csv_path, index=False)
-
-                # Get git diff
-                diff_output = get_git_diff(existing_csv_path)
-
-                # Write modified entries and their diffs
-                for _, row in modified_entries.iterrows():
+            if num_new_entries > 0 or num_modified_entries > 0:
+                # Write new entries
+                for _, row in new_entries.iterrows():
                     csv_writer.writerow([
-                        'Modified',
+                        'New',
                         row['PUBDATE'],
                         row['TITLE_TEXT_EN'],
                         row['TITLE_URL_EN'],
-                        diff_output
+                        ''
                     ])
+
+                # Write modified entries with git diff
+                if num_modified_entries > 0:
+                    # Save combined_data to CSV to have the latest changes before diff
+                    combined_data.to_csv(existing_csv_path, index=False)
+
+                    # Get git diff
+                    diff_output = get_git_diff(existing_csv_path)
+
+                    # Write modified entries and their diffs
+                    for _, row in modified_entries.iterrows():
+                        csv_writer.writerow([
+                            'Modified',
+                            row['PUBDATE'],
+                            row['TITLE_TEXT_EN'],
+                            row['TITLE_URL_EN'],
+                            diff_output
+                        ])
             else:
-                # If there are no modified entries, ensure diff_output is empty
-                diff_output = ''
+                # If no changes are detected, write an entry indicating that
+                csv_writer.writerow([
+                    'No Changes Detected', '', '', '', ''
+                ])
+
             print(f"Update log saved to {log_file_path}")
