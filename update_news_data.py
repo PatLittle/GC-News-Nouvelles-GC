@@ -5,6 +5,7 @@ import requests
 import hashlib
 import subprocess
 import csv
+import os
 
 # Function to fetch data from a URL
 def fetch_json_data(url):
@@ -67,7 +68,7 @@ def get_git_diff(file_path):
     try:
         diff_output = subprocess.check_output(['git', 'diff', '--unified=0', file_path], text=True)
         return diff_output
-    except subprocess.CalledProcessError as e:
+    except subprocess.CalledProcessError:
         return ''
 
 # Main function to fetch data, process it, and return the DataFrame
@@ -196,12 +197,11 @@ if __name__ == "__main__":
             
             # Entries that are in both but have differences (modified)
             modified_entries = merged_data[merged_data['_merge'] == 'both']
-            modified_entries = modified_entries[existing_data.columns]
-            modified_entries = modified_entries.merge(new_data, on='hash', suffixes=('_old', ''))
+            modified_entries = modified_entries.merge(existing_data, on='hash', suffixes=('', '_old'))
+            # Compare all columns except 'hash' and 'PUBDATE' to find differences
+            diff_columns = [col for col in new_data.columns if col not in ['hash', 'PUBDATE']]
             modified_entries = modified_entries[
-                (modified_entries.drop(columns=['hash', 'PUBDATE_old', 'PUBDATE']).ne(
-                    modified_entries.filter(regex='_old').drop(columns=['hash', 'PUBDATE_old', 'PUBDATE']))
-                ).any(axis=1)
+                (modified_entries[[col for col in diff_columns]] != modified_entries[[col + '_old' for col in diff_columns]]).any(axis=1)
             ]
             num_modified_entries = len(modified_entries)
             
@@ -257,4 +257,7 @@ if __name__ == "__main__":
                         row['TITLE_URL_EN'],
                         diff_output
                     ])
+            else:
+                # If there are no modified entries, ensure diff_output is empty
+                diff_output = ''
             print(f"Update log saved to {log_file_path}")
