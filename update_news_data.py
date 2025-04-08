@@ -3,6 +3,7 @@ import pandas as pd
 import re
 import requests
 import hashlib
+import time
 
 # Function to fetch data from a URL
 def fetch_json_data(url):
