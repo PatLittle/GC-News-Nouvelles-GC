@@ -65,8 +65,9 @@ def hash_row(row):
 
 # Main function to fetch data, process it, and return the DataFrame
 def main():
-    url_en = "https://www.canada.ca/en/news.datatable.json"
-    url_fr = "https://www.canada.ca/fr/nouvelles.datatable.json"
+    timestamp = int(time.time() * 1000)
+    url_en = f"https://www.canada.ca/en/news.datatable.json?_={timestamp}"
+    url_fr = f"https://www.canada.ca/fr/nouvelles.datatable.json?_={timestamp}"
 
     # Fetch the JSON data
     data_en = fetch_json_data(url_en)
