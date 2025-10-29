@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 import spacy
+from collections import Counter
 
 # Load the English language model for spaCy
 nlp = spacy.load("en_core_web_sm")
