@@ -123,7 +123,9 @@ def extract_dates(period_string):
 
     return (None, None)
 
-def extract_person(text):
+
+
+def extract_person_candidates(text):
     """
     Extracts person entities from a given text using spaCy.
 
@@ -131,23 +133,38 @@ def extract_person(text):
         text: The input text string.
 
     Returns:
-        A string containing the extracted person entity (including titles and ranks)
-        or None if no person entity is found.
+        A list of extracted person entities.
     """
     if not isinstance(text, str):
-        return None
-
+        return []
     doc = nlp(text)
-    person_entities = []
-    for ent in doc.ents:
-        if ent.label_ == "PERSON":
-            person_entities.append(ent.text)
+    return [ent.text for ent in doc.ents if ent.label_ == "PERSON"]
 
-    # Return the first identified person entity
-    if person_entities:
-        return person_entities[0]
-    else:
-        return None
+def enrich_person_candidates(row):
+    """
+    Extract all person candidates from multiple columns and rank them by frequency.
+
+    Args:
+        row: Pandas Series representing a row in the DataFrame.
+
+    Returns:
+        List of tuples (person_name, score) sorted by score descending.
+    """
+    # Columns to parse for person names (EN + FR)
+    columns = [
+        "notice_en", "period_en", "location_en", "details_en",
+        "notice_fr", "period_fr", "location_fr", "details_fr"
+    ]
+    candidates = []
+    for col in columns:
+        candidates.extend(extract_person_candidates(row.get(col, "")))
+    # Rank by frequency
+    counter = Counter(candidates)
+    # If no candidates found, return empty list
+    if not counter:
+        return []
+    # Return sorted list of (name, score)
+    return counter.most_common()
 
 def enrich_data(df):
     """
@@ -184,14 +201,8 @@ def enrich_data(df):
 
     df.loc[single_day_mask & (df['dt_start'].notnull()) & (df['dt_start'] != df['dt_end']), 'dt_end'] = df['dt_start']
 
-    # Person Extraction
-    df['person'] = df['notice_en'].apply(extract_person).fillna(
-        df['details_en'].apply(extract_person)
-    ).fillna(
-        df['period_en'].apply(extract_person)
-    ).fillna(
-        df['location_en'].apply(extract_person)
-    )
+    # Person Extraction (now returns all candidates ranked by score)
+    df['person_candidates'] = df.apply(enrich_person_candidates, axis=1)
 
     return df
 
@@ -209,3 +220,4 @@ df_enriched = enrich_data(df)
 df_enriched.to_csv(output_csv_path, index=False)
 
 print(f"Enriched data saved to {output_csv_path}")
+
