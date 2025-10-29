@@ -22,11 +22,15 @@ jobs:
 
     - name: Install Dependencies
       run: |
-        pip install pandas requests
+        pip install pandas requests beautifulsoup4
 
-    - name: Run Update Script
+    - name: Run Update News Script
       run: |
         python update_news_data.py
+
+    - name: Run Half-masting Scraper
+      run: |
+        python scripts/scrape_half_masting.py
 
     - name: Commit and Push Changes
       uses: stefanzweifel/git-auto-commit-action@v4
@@ -35,5 +39,6 @@ jobs:
         file_pattern: |
           combined_news.csv
           update_log.csv
+          data/half_masting_combined.csv
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
