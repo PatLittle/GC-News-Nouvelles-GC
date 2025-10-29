@@ -32,13 +32,10 @@ jobs:
       run: |
         python scripts/scrape_half_masting.py
 
-    - name: Commit and Push Changes
-      uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        commit_message: 'Automated update of combined_news.csv and update_log.csv'
-        file_pattern: |
-          combined_news.csv
-          update_log.csv
-          data/half_masting_combined.csv
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
+    - name: commit files
+      run: |
+         git config --local user.email "action@github.com"
+         git config --local user.name "GitHub Action"
+         git add -A
+         git commit -a -m "updates" --allow-empty
+         git push -f
