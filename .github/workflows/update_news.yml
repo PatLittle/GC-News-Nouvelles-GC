@@ -1,5 +1,9 @@
 name: Update News Data
 
+# Allow this workflow to push changes back to the repository
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 0 * * *'  # Runs every day at midnight UTC
@@ -39,3 +43,32 @@ jobs:
          git add -A
          git commit -a -m "updates" --allow-empty
          git push -f
+
+  enrich-halfmast:
+    needs: update-data
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+     
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install Dependencies
+      run: |
+        pip install pandas requests beautifulsoup4 spacy
+        python -m spacy download en_core_web_sm
+
+    - name: Run Enrich Half-masting Script
+      run: |
+        python scripts/enrich_halfmast.py
+
+    - name: Commit enriched outputs
+      run: |
+         git config --local user.email "action@github.com"
+         git config --local user.name "GitHub Action"
+         git add -A
+         git commit -m "Add/enrich half-masting output" --allow-empty
+         git push
