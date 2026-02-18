@@ -14,6 +14,9 @@ pie showData title Breakdown of TYPE_EN
     "speeches" : 69
     "readouts" : 26
 ```
+### News by TYPE_EN (last 30 days)
+
+![News by TYPE_EN (last 30 days)](docs/news_type_30d.svg)
 
 ## Releases by Department Over the Last 30 Days
 
