@@ -35,6 +35,6 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
 
-          git add docs/type_by_quarter_last12_complete_months_radar.mmd
+          git add *.md
           git diff --cached --quiet || git commit -m "Update quarterly TYPE_EN radar (last 12 complete months)"
           git push
