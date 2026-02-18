@@ -1,6 +1,6 @@
 ```mermaid
 radar-beta
-  title "GC News — TYPE_EN counts (last 7 days)"
-  axis "news releases", "media advisories", backgrounders, readouts, statements, speeches
-  curve total{41,25,8,8,8,1}
+  title "GC News Types"
+  axis nr["news releases"], ma["media advisories"], b["backgrounders"], r["readouts"], st["statements"], sp["speeches"]
+  curve t["total"]{41,25,8,8,8,1}
 ```
