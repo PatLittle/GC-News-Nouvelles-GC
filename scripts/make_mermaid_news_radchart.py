@@ -174,7 +174,7 @@ fig.update_layout(
     xaxis_title="Date",
     yaxis_title="TYPE_EN",
     xaxis_nticks=36,
-    height=500,
+    height=800,
     margin=dict(l=160, r=40, t=80, b=60),
 )
 
