@@ -99,3 +99,87 @@ OUT.parent.mkdir(parents=True, exist_ok=True)
 OUT.write_text("\n".join(lines), encoding="utf-8")
 
 print("Wrote", OUT)
+
+import io
+from pathlib import Path
+from datetime import timedelta
+
+import pandas as pd
+import requests
+import plotly.graph_objects as go
+
+CSV_URL = "https://github.com/PatLittle/GC-News-Nouvelles-GC/raw/refs/heads/main/combined_news.csv"
+
+OUT = Path("docs/type_heatmap_180d.svg")
+DAYS = 180
+TOP_TYPES = 12  # keep readable
+
+
+# --- Load data ---
+r = requests.get(CSV_URL, timeout=60)
+r.raise_for_status()
+df = pd.read_csv(io.BytesIO(r.content))
+
+# Parse datetime
+df["PUBDATE"] = pd.to_datetime(df["PUBDATE"], errors="coerce", utc=True)
+df = df[df["PUBDATE"].notna()].copy()
+df["_dt"] = df["PUBDATE"].dt.tz_convert(None)
+df["_date"] = df["_dt"].dt.date
+df["_type"] = df["TYPE_EN"].astype(str).str.strip()
+
+# --- Last 180 days relative to newest record ---
+max_date = df["_date"].max()
+start_date = max_date - timedelta(days=DAYS - 1)
+
+df = df[df["_date"] >= start_date].copy()
+
+# --- Top TYPE_EN across window ---
+top_types = (
+    df["_type"]
+    .value_counts()
+    .head(TOP_TYPES)
+    .index
+    .tolist()
+)
+
+df = df[df["_type"].isin(top_types)]
+
+# --- Pivot: rows = type, columns = date ---
+pivot = (
+    df.groupby(["_type", "_date"])
+      .size()
+      .unstack("_date", fill_value=0)
+)
+
+# Ensure continuous date axis
+all_dates = pd.date_range(start=start_date, end=max_date, freq="D")
+pivot = pivot.reindex(columns=all_dates.date, fill_value=0)
+
+# Sort types by total volume
+pivot = pivot.loc[pivot.sum(axis=1).sort_values(ascending=False).index]
+
+# --- Plotly Heatmap ---
+fig = go.Figure(
+    data=go.Heatmap(
+        z=pivot.values,
+        x=all_dates,
+        y=pivot.index.tolist(),
+        colorscale="Viridis",
+        colorbar=dict(title="Count"),
+    )
+)
+
+fig.update_layout(
+    title=f"GC News — TYPE_EN counts per day (last {DAYS} days ending {max_date})",
+    xaxis_title="Date",
+    yaxis_title="TYPE_EN",
+    xaxis_nticks=36,
+    height=500,
+    margin=dict(l=160, r=40, t=80, b=60),
+)
+
+# --- Save SVG ---
+OUT.parent.mkdir(parents=True, exist_ok=True)
+fig.write_image(str(OUT))
+
+print("Saved:", OUT)
