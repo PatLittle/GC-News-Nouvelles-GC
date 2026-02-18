@@ -32,9 +32,14 @@ jobs:
       run: |
         python update_news_data.py
 
-    - name: Run Half-masting Scraper
+    - name: get html
       run: |
-        python scripts/scrape_half_masting.py
+        curl -v 'https://www.canada.ca/en/canadian-heritage/services/half-masting-notices.html' > data/en.html
+        curl -v 'https://www.canada.ca/fr/patrimoine-canadien/services/avis-mise-berne.html' > data/fr.html
+
+    #- name: Run Half-masting Scraper
+    #  run: |
+     #   python scripts/scrape_half_masting.py
 
     - name: commit files
       run: |
