@@ -1,47 +1,145 @@
-name: Update news TYPE_EN chart
+name: Update GC News TYPE_EN chart
 
 on:
   schedule:
-    - cron: "20 6 * * *"   # daily
+    - cron: "20 6 * * *"   # daily at 06:20 UTC
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Install python deps
+      - name: Install Python dependencies
         run: pip install pandas requests
 
       - name: Generate Mermaid chart (.mmd)
-        run: python scripts/make_mermaid_news_xychart.py
+        run: |
+          mkdir -p docs scripts
+          python - <<'PY'
+          import io
+          from datetime import timedelta
+          from pathlib import Path
+          import pandas as pd
+          import requests
+
+          CSV_URL = "https://github.com/PatLittle/GC-News-Nouvelles-GC/raw/refs/heads/main/combined_news.csv"
+          OUT = Path("docs/news_type_30d.mmd")
+
+          def esc(s):
+              s = str(s).replace('"', '\\"')
+              if any(c.isspace() for c in s) or any(c in s for c in [",", "[", "]"]):
+                  return f'"{s}"'
+              return s
+
+          # Load data
+          r = requests.get(CSV_URL, timeout=60)
+          r.raise_for_status()
+          df = pd.read_csv(io.BytesIO(r.content))
+
+          # Required fields
+          df["PUBDATE"] = pd.to_datetime(df["PUBDATE"], errors="coerce", utc=True)
+          df = df[df["PUBDATE"].notna()].copy()
+
+          df["_date"] = df["PUBDATE"].dt.tz_convert(None).dt.date
+          df["_type"] = df["TYPE_EN"].astype(str).str.strip()
+
+          # Last 30 days relative to newest record
+          max_date = pd.to_datetime(df["_date"]).max().date()
+          start_date = (pd.to_datetime(max_date) - timedelta(days=29)).date()
+          df = df[df["_date"] >= start_date]
+
+          # Count by day + type
+          g = (
+              df.groupby(["_date", "_type"])
+              .size()
+              .reset_index(name="count")
+          )
+
+          # Keep top categories (readability)
+          top_types = (
+              g.groupby("_type")["count"]
+              .sum()
+              .sort_values(ascending=False)
+              .head(10)
+              .index
+          )
+          g = g[g["_type"].isin(top_types)]
+
+          pivot = (
+              g.pivot(index="_date", columns="_type", values="count")
+              .fillna(0)
+              .sort_index()
+          )
+
+          # Ensure full date range
+          all_days = pd.date_range(start=start_date, end=max_date, freq="D").date
+          pivot = pivot.reindex(all_days, fill_value=0)
+
+          x_labels = [d.strftime("%Y-%m-%d") for d in pivot.index]
+          ymax = max(1, int(pivot.sum(axis=1).max()))
+
+          # Simulated stacked (cumulative)
+          lines = []
+          lines.append("```mermaid")
+          lines.append("xychart-beta")
+          lines.append('  title "GC News — TYPE_EN per day (last 30 days)"')
+          lines.append("  x-axis [" + ", ".join(esc(x) for x in x_labels) + "]")
+          lines.append(f'  y-axis "Count" 0 --> {ymax}')
+
+          running = pd.Series([0]*len(pivot), index=pivot.index)
+          for col in pivot.columns:
+              running = running + pivot[col]
+              vals = ", ".join(str(int(v)) for v in running)
+              lines.append(f"  bar {esc(col)} [{vals}]")
+
+          lines.append("```")
+
+          OUT.parent.mkdir(parents=True, exist_ok=True)
+          OUT.write_text("\n".join(lines), encoding="utf-8")
+          print("Generated:", OUT)
+          PY
 
       - name: Install mermaid-cli
         run: npm install -g @mermaid-js/mermaid-cli
 
-      - name: Render SVG from Mermaid
+      - name: Extract Mermaid and render SVG
         run: |
-          # extract the mermaid block content into a .mermaid file for mmdc
           python - <<'PY'
           from pathlib import Path
           txt = Path("docs/news_type_30d.mmd").read_text(encoding="utf-8")
           inside = txt.split("```mermaid",1)[1].split("```",1)[0].strip() + "\n"
           Path("docs/news_type_30d.mermaid").write_text(inside, encoding="utf-8")
           PY
-          mmdc -i docs/news_type_30d.mermaid -o docs/news_type_30d.svg
 
-      - name: Commit updates
+          # Puppeteer sandbox fix for GitHub runners
+          cat > puppeteer-config.json <<'JSON'
+          {
+            "args": ["--no-sandbox", "--disable-setuid-sandbox"]
+          }
+          JSON
+
+          mmdc \
+            -i docs/news_type_30d.mermaid \
+            -o docs/news_type_30d.svg \
+            --puppeteerConfigFile puppeteer-config.json
+
+      - name: Commit and push if changed
         run: |
-          git config user.email "action@github.com"
           git config user.name "GitHub Action"
-          git add docs/news_type_30d.mmd docs/news_type_30d.mermaid docs/news_type_30d.svg
-          git commit -m "Update TYPE_EN chart (last 30 days)" --allow-empty
+          git config user.email "action@github.com"
+
+          git add docs/news_type_30d.*
+          git diff --cached --quiet || git commit -m "Update TYPE_EN chart (last 30 days)"
           git push
