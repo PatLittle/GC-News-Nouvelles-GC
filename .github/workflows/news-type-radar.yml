@@ -1,8 +1,8 @@
-name: Update GC News TYPE_EN radar (7 daily curves)
+name: Update TYPE_EN quarterly radar (last 12 complete months)
 
 on:
   schedule:
-    - cron: "25 6 * * *"   # daily at 06:25 UTC
+    - cron: "30 6 * * *"   # daily 06:30 UTC
   workflow_dispatch:
 
 permissions:
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -21,128 +21,20 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install Python dependencies
-        run: pip install pandas requests
+      - name: Install dependencies
+        run: |
+          pip install pandas requests
 
-      - name: Generate Mermaid radar chart (.mmd) with 7 curves (one per day)
+      - name: Run radar generator
         run: |
           mkdir -p docs
-          python - <<'PY'
-          import io
-          from datetime import timedelta
-          from pathlib import Path
+          python scripts/make_mermaid_news_radchart.py
 
-          import pandas as pd
-          import requests
-
-          CSV_URL = "https://github.com/PatLittle/GC-News-Nouvelles-GC/raw/refs/heads/main/combined_news.csv"
-          DAYS = 7
-          MAX_AXES = 12  # keep radar readable
-
-          OUT_MMD = Path("docs/news_type_7d_radar_daily.mmd")
-
-          def esc_label(s: str) -> str:
-              s = str(s).replace('"', '\\"')
-              if any(c.isspace() for c in s) or any(c in s for c in [",", "{", "}", "[", "]"]):
-                  return f'"{s}"'
-              return s
-
-          def curve_name(d: str) -> str:
-              # Mermaid curve id should be simple; use yyyymmdd
-              return d.replace("-", "")
-
-          # Download CSV
-          r = requests.get(CSV_URL, timeout=60)
-          r.raise_for_status()
-          df = pd.read_csv(io.BytesIO(r.content))
-
-          if "PUBDATE" not in df.columns or "TYPE_EN" not in df.columns:
-              raise SystemExit(f"Expected PUBDATE and TYPE_EN. Columns: {list(df.columns)}")
-
-          # Parse PUBDATE
-          dt = pd.to_datetime(df["PUBDATE"], errors="coerce", utc=True)
-          df = df.loc[dt.notna()].copy()
-          df["_date"] = dt.loc[dt.notna()].dt.tz_convert(None).dt.date
-          df["_type"] = df["TYPE_EN"].astype(str).str.strip()
-
-          # Last 7 days relative to newest date present
-          max_date = pd.to_datetime(df["_date"]).max().date()
-          start_date = (pd.to_datetime(max_date) - timedelta(days=DAYS - 1)).date()
-          df = df[df["_date"] >= start_date].copy()
-
-          # Determine axis categories from the whole 7-day window (top N by total volume)
-          totals = (
-              df.groupby("_type")
-                .size()
-                .sort_values(ascending=False)
-          ).head(MAX_AXES)
-
-          axis_types = totals.index.tolist()
-          if not axis_types:
-              axis_types = ["No data"]
-
-          # Build day x type pivot (ensure all days and all axis types exist)
-          pivot = (
-              df.groupby(["_date", "_type"])
-                .size()
-                .unstack("_type")
-                .reindex(columns=axis_types, fill_value=0)
-          )
-
-          all_days = pd.date_range(start=start_date, end=max_date, freq="D").date
-          pivot = pivot.reindex(all_days, fill_value=0)
-
-          axes = [esc_label(t) for t in axis_types]
-
-          # Emit Mermaid radar-beta
-          lines = []
-          lines.append("```mermaid")
-          lines.append("radar-beta")
-          lines.append(f'  title "GC News — TYPE_EN counts by day (last {DAYS} days)"')
-          lines.append("  axis " + ", ".join(axes))
-
-          # One curve per day
-          for day in pivot.index:
-              day_str = pd.to_datetime(day).strftime("%Y-%m-%d")
-              cid = curve_name(day_str)  # simple curve id
-              vals = ",".join(str(int(v)) for v in pivot.loc[day].tolist())
-              lines.append(f"  curve {cid}{{{vals}}} %% {day_str}")
-
-          lines.append("```")
-
-          OUT_MMD.write_text("\n".join(lines) + "\n", encoding="utf-8")
-          print("Generated:", OUT_MMD)
-          PY
-
-      - name: Install mermaid-cli
-        run: npm install -g @mermaid-js/mermaid-cli
-
-      - name: Extract Mermaid block and render SVG
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          txt = Path("docs/news_type_7d_radar_daily.mmd").read_text(encoding="utf-8")
-          inside = txt.split("```mermaid",1)[1].split("```",1)[0].strip() + "\n"
-          Path("docs/news_type_7d_radar_daily.mermaid").write_text(inside, encoding="utf-8")
-          PY
-
-          # Puppeteer sandbox fix (GitHub runners)
-          cat > puppeteer-config.json <<'JSON'
-          {
-            "args": ["--no-sandbox", "--disable-setuid-sandbox"]
-          }
-          JSON
-
-          mmdc \
-            -i docs/news_type_7d_radar_daily.mermaid \
-            -o docs/news_type_7d_radar_daily.svg \
-            --puppeteerConfigFile puppeteer-config.json
-
-      - name: Commit and push if changed
+      - name: Commit if changed
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
 
-          git add docs/news_type_7d_radar_daily.*
-          git diff --cached --quiet || git commit -m "Update TYPE_EN daily radar (last 7 days)"
+          git add docs/type_by_quarter_last12_complete_months_radar.mmd
+          git diff --cached --quiet || git commit -m "Update quarterly TYPE_EN radar (last 12 complete months)"
           git push
