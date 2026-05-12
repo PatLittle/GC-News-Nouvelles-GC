@@ -1,0 +1,55 @@
+name: Extract News Quotes And Images
+
+permissions:
+  contents: write
+
+on:
+  workflow_run:
+    workflows: ["Update News Data"]
+    types:
+      - completed
+  workflow_dispatch:
+    inputs:
+      full_rebuild:
+        description: "Re-scan every article instead of using the saved state cache"
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  extract-news-quotes:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: |
+          pip install requests beautifulsoup4
+
+      - name: Extract Quotes And Images
+        env:
+          FULL_REBUILD: ${{ github.event_name == 'workflow_dispatch' && inputs.full_rebuild || 'false' }}
+        run: |
+          if [ "$FULL_REBUILD" = "true" ]; then
+            python scripts/extract_news_quotes.py --full-rebuild
+          else
+            python scripts/extract_news_quotes.py
+          fi
+
+      - name: Commit generated quote data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add combined_news_quotes.csv combined_news_images.csv data/news_quotes_state.json data/news_images scripts/extract_news_quotes.py .github/workflows/extract-news-quotes.yml
+          git diff --cached --quiet && exit 0
+          git commit -m "Extract news quotes and images"
+          git push
