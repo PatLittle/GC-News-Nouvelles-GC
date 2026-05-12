@@ -15,6 +15,11 @@ on:
         required: false
         default: false
         type: boolean
+      limit:
+        description: "Maximum number of uncached articles to process in this run"
+        required: false
+        default: "50"
+        type: string
 
 jobs:
   extract-news-quotes:
@@ -38,18 +43,19 @@ jobs:
       - name: Extract Quotes And Images
         env:
           FULL_REBUILD: ${{ github.event_name == 'workflow_dispatch' && inputs.full_rebuild || 'false' }}
+          LIMIT: ${{ github.event_name == 'workflow_dispatch' && inputs.limit || '50' }}
         run: |
           if [ "$FULL_REBUILD" = "true" ]; then
-            python scripts/extract_news_quotes.py --full-rebuild
+            python scripts/extract_news_quotes.py --full-rebuild --limit "$LIMIT"
           else
-            python scripts/extract_news_quotes.py
+            python scripts/extract_news_quotes.py --limit "$LIMIT"
           fi
 
       - name: Commit generated quote data
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add combined_news_quotes.csv combined_news_images.csv data/news_quotes_state.json data/news_images scripts/extract_news_quotes.py .github/workflows/extract-news-quotes.yml
+          git add combined_news.csv combined_news_quotes.csv combined_news_images.csv data/news_quotes_state.json data/news_images scripts/extract_news_quotes.py .github/workflows/extract-news-quotes.yml
           git diff --cached --quiet && exit 0
           git commit -m "Extract news quotes and images"
           git push

@@ -43,6 +43,7 @@ IMAGE_OUTPUT_FIELDS = [
 ]
 
 ARTICLE_KEY_FIELDS = ["hash", "PUBDATE", "TITLE_URL_EN", "TITLE_URL_FR"]
+COUNT_FIELDS = ["QUOTE_COUNT", "IMAGE_COUNT"]
 HEADING_TARGETS = {
     "en": {"quotes"},
     "fr": {"citations"},
@@ -60,7 +61,7 @@ QUOTE_MARKS = {
 }
 SKIP_IMAGE_BASENAMES = {"wmms-blk.svg", "sig-blk-en.svg"}
 ARTICLE_IMAGE_DIR = os.path.join("data", "news_images")
-STATE_VERSION = 2
+STATE_VERSION = 3
 
 
 def parse_args() -> argparse.Namespace:
@@ -133,12 +134,19 @@ def ensure_parent_dir(path: str) -> None:
         os.makedirs(parent, exist_ok=True)
 
 
-def load_input_rows(path: str, limit: int) -> List[Dict[str, str]]:
+def load_input_rows(path: str) -> Tuple[List[Dict[str, str]], List[str]]:
     with open(path, newline="", encoding="utf-8") as fh:
-        rows = list(csv.DictReader(fh))
-    if limit > 0:
-        return rows[:limit]
-    return rows
+        reader = csv.DictReader(fh)
+        rows = list(reader)
+        fieldnames = list(reader.fieldnames or [])
+    return rows, fieldnames
+
+
+def write_input_rows(path: str, fieldnames: List[str], rows: List[Dict[str, str]]) -> None:
+    with open(path, "w", newline="", encoding="utf-8") as fh:
+        writer = csv.DictWriter(fh, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
 
 
 def load_existing_rows(path: str, extra_fields: List[str]) -> Dict[str, List[Dict[str, str]]]:
@@ -339,14 +347,6 @@ def build_quote_rows(
     return output_rows
 
 
-def download_image(session: requests.Session, image_url: str, destination_path: str, timeout: int) -> None:
-    response = session.get(image_url, timeout=timeout)
-    response.raise_for_status()
-    ensure_parent_dir(destination_path)
-    with open(destination_path, "wb") as fh:
-        fh.write(response.content)
-
-
 def build_image_rows(
     session: requests.Session,
     row: Dict[str, str],
@@ -371,13 +371,13 @@ def build_image_rows(
         if not source_url:
             continue
 
-        head_response = session.get(source_url, timeout=timeout)
-        head_response.raise_for_status()
-        extension = infer_extension(source_url, head_response.headers.get("Content-Type", ""))
+        response = session.get(source_url, timeout=timeout)
+        response.raise_for_status()
+        extension = infer_extension(source_url, response.headers.get("Content-Type", ""))
         filename = f"{article_hash}_{image_index + 1:03d}{extension}"
         destination_path = os.path.join(article_dir, filename)
         with open(destination_path, "wb") as fh:
-            fh.write(head_response.content)
+            fh.write(response.content)
 
         output_rows.append(
             {
@@ -399,13 +399,46 @@ def build_image_rows(
     return output_rows
 
 
+def valid_cached_state(cached_state: Dict[str, str]) -> bool:
+    if not cached_state:
+        return False
+    if int(cached_state.get("version", 0)) < STATE_VERSION:
+        return False
+    if cached_state.get("status") not in {"ok", "not_found"}:
+        return False
+    return "quote_count" in cached_state and "image_count" in cached_state
+
+
 def process_article(
     row: Dict[str, str], images_dir: str, timeout: int
 ) -> Tuple[str, List[Dict[str, str]], List[Dict[str, str]], Dict[str, str]]:
     key = article_key(row)
     session = make_session()
-    quotes_en, images_en = fetch_article_assets(session, row.get("TITLE_URL_EN", ""), "en", timeout)
-    quotes_fr, images_fr = fetch_article_assets(session, row.get("TITLE_URL_FR", ""), "fr", timeout)
+
+    try:
+        quotes_en, images_en = fetch_article_assets(session, row.get("TITLE_URL_EN", ""), "en", timeout)
+        quotes_fr, images_fr = fetch_article_assets(session, row.get("TITLE_URL_FR", ""), "fr", timeout)
+    except requests.HTTPError as exc:
+        status_code = getattr(exc.response, "status_code", None)
+        if status_code == 404:
+            shutil.rmtree(
+                image_directory_for_hash(images_dir, row.get("hash", "")),
+                ignore_errors=True,
+            )
+            state_row = {
+                "version": STATE_VERSION,
+                "hash": row.get("hash", ""),
+                "PUBDATE": row.get("PUBDATE", ""),
+                "TITLE_URL_EN": row.get("TITLE_URL_EN", ""),
+                "TITLE_URL_FR": row.get("TITLE_URL_FR", ""),
+                "quote_count": -1,
+                "image_count": -1,
+                "status": "not_found",
+                "updated_at": datetime.now(timezone.utc).isoformat(),
+            }
+            return key, [], [], state_row
+        raise
+
     quote_rows = build_quote_rows(row, quotes_en, quotes_fr)
     image_rows = build_image_rows(session, row, images_en, images_fr, images_dir, timeout)
     state_row = {
@@ -443,11 +476,34 @@ def cleanup_removed_article_dirs(images_dir: str, current_hashes: set) -> None:
             shutil.rmtree(full_path, ignore_errors=True)
 
 
+def apply_counts_to_input_rows(
+    input_rows: List[Dict[str, str]],
+    state: Dict[str, Dict[str, str]],
+) -> None:
+    for row in input_rows:
+        key = article_key(row)
+        cached_state = state.get(key)
+        if valid_cached_state(cached_state):
+            row["QUOTE_COUNT"] = str(cached_state.get("quote_count", ""))
+            row["IMAGE_COUNT"] = str(cached_state.get("image_count", ""))
+        else:
+            row.setdefault("QUOTE_COUNT", "")
+            row.setdefault("IMAGE_COUNT", "")
+
+
+def ensure_count_fields(fieldnames: List[str]) -> List[str]:
+    updated = list(fieldnames)
+    for field in COUNT_FIELDS:
+        if field not in updated:
+            updated.append(field)
+    return updated
+
+
 def main() -> int:
     args = parse_args()
     logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
-    input_rows = load_input_rows(args.input, args.limit)
+    input_rows, input_fieldnames = load_input_rows(args.input)
     current_keys = {article_key(row) for row in input_rows}
     current_hashes = {normalize_space(row.get("hash", "")) for row in input_rows}
 
@@ -466,27 +522,28 @@ def main() -> int:
 
     rows_by_key_quotes: Dict[str, List[Dict[str, str]]] = {}
     rows_by_key_images: Dict[str, List[Dict[str, str]]] = {}
-    rows_to_fetch: List[Dict[str, str]] = []
+    rows_needing_fetch: List[Dict[str, str]] = []
 
     for row in input_rows:
         key = article_key(row)
         cached_state = state.get(key)
-        if (
-            cached_state
-            and cached_state.get("status") == "ok"
-            and int(cached_state.get("version", 0)) >= STATE_VERSION
-            and "image_count" in cached_state
-        ):
+        if valid_cached_state(cached_state):
             rows_by_key_quotes[key] = existing_quotes.get(key, [])
             rows_by_key_images[key] = existing_images.get(key, [])
         else:
-            rows_to_fetch.append(row)
+            rows_needing_fetch.append(row)
+
+    if args.limit > 0:
+        rows_to_fetch = rows_needing_fetch[: args.limit]
+    else:
+        rows_to_fetch = rows_needing_fetch
 
     logging.info(
-        "Preparing quote and image extraction for %s articles (%s cached, %s to fetch).",
+        "Preparing quote and image extraction for %s articles (%s cached, %s to fetch this run, %s still pending).",
         len(input_rows),
-        len(input_rows) - len(rows_to_fetch),
+        len(input_rows) - len(rows_needing_fetch),
         len(rows_to_fetch),
+        max(len(rows_needing_fetch) - len(rows_to_fetch), 0),
     )
 
     os.makedirs(args.images_dir, exist_ok=True)
@@ -503,7 +560,6 @@ def main() -> int:
                 article_key_value, quote_rows, image_rows, state_row = future.result()
             except Exception as exc:
                 logging.warning("Failed to process %s: %s", key, exc)
-                state.pop(key, None)
                 continue
 
             rows_by_key_quotes[article_key_value] = quote_rows
@@ -521,9 +577,11 @@ def main() -> int:
         ordered_quote_rows.extend(quote_rows)
         ordered_image_rows.extend(image_rows)
 
+    apply_counts_to_input_rows(input_rows, state)
     write_rows(args.quotes_output, QUOTE_OUTPUT_FIELDS, ordered_quote_rows)
     write_rows(args.images_output, IMAGE_OUTPUT_FIELDS, ordered_image_rows)
     write_state(args.state, state)
+    write_input_rows(args.input, ensure_count_fields(input_fieldnames), input_rows)
 
     logging.info(
         "Wrote %s quote rows to %s and %s image rows to %s.",
