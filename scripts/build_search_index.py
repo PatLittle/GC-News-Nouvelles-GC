@@ -37,6 +37,16 @@ def split_list(v):
     if not norm(v): return []
     return [x.strip() for x in re.split(r",\s+(?=[A-Z])", norm(v)) if x.strip()]
 
+HONORIFICS_RE = re.compile(r"^(?:The Honourable|His worship|His Worship|Her Worship|His Excellency|The Rt\. Hon\.|The Hon\.|The Right Honourable)\s+", re.IGNORECASE)
+
+def strip_honorifics(name):
+    n = norm(name)
+    prev = None
+    while n and n != prev:
+        prev = n
+        n = HONORIFICS_RE.sub("", n).strip()
+    return n
+
 def tokenize(*parts):
     c="".join(ch if ch.isalnum() else " " for ch in " ".join(low(p) for p in parts if p))
     return sorted({t for t in c.split() if len(t)>1})
@@ -67,6 +77,10 @@ for i,r in enumerate(quote_rows):
     h=norm(r.get('hash') or r.get('HASH')); a=articles.get(h,{})
     qt=norm(r.get('QUOTE_EN') or r.get('QUOTE_TEXT') or r.get('TEXT'))
     sp,title,org=parse_speaker_title_org(r.get('SPEAKER_NAME_EN') or r.get('SPEAKER_EN'), r.get('SPEAKER_ORGANIZATION_EN') or r.get('ORG'), qt)
+    sp = strip_honorifics(sp)
+    raw_title = norm(r.get('SPEAKER_TITLE_EN'))
+    if raw_title:
+        title = raw_title
     q={"id":f"q{i}","hash":h,"quote_text":qt,"speaker":sp,"speaker_title":title,"org":org,
        "date":a.get('date',parse_date(r.get('PUBDATE'))),"dept_en":a.get('dept_en',''),"type_en":a.get('type_en',''),
        "topic_en":a.get('topic_en',[]),"subject_en":a.get('subject_en',[]),"article_title":a.get('title',''),"article_url":a.get('url','')}
