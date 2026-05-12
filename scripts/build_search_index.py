@@ -55,6 +55,7 @@ for r in news_rows:
         "dept_en": norm(r.get("DEPT_EN")),
         "topic_en": norm(r.get("TOPIC_EN")),
         "subject_en": norm(r.get("SUBJECT_EN")),
+        "type_en": norm(r.get("TYPE_EN")),
     }
 
 quotes, images = [], []
@@ -66,7 +67,8 @@ for i, r in enumerate(quote_rows):
     q = {
         "id": f"q{i}", "hash": h,
         "date": a.get("date", parse_date(r.get("PUBDATE"))),
-        "dept_en": a.get("dept_en", ""), "topic_en": a.get("topic_en", ""), "subject_en": a.get("subject_en", ""),
+        "dept_en": a.get("dept_en", ""), "topic_en": a.get("topic_en", ""), "subject_en": a.get("subject_en", ""), "type_en": a.get("type_en", ""),
+        "article_title": a.get("title", ""), "article_url": a.get("url", ""),
         "quote_text": norm(r.get("QUOTE_EN") or r.get("QUOTE_TEXT") or r.get("TEXT")),
         "speaker": norm(r.get("SPEAKER_NAME_EN") or r.get("SPEAKER_EN") or r.get("SPEAKER")),
         "org": norm(r.get("SPEAKER_ORGANIZATION_EN") or r.get("ORG") or r.get("ORGANIZATION")),
@@ -83,7 +85,8 @@ for i, r in enumerate(image_rows):
     im = {
         "id": f"img{i}", "hash": h,
         "date": a.get("date", parse_date(r.get("PUBDATE"))),
-        "dept_en": a.get("dept_en", ""), "topic_en": a.get("topic_en", ""), "subject_en": a.get("subject_en", ""),
+        "dept_en": a.get("dept_en", ""), "topic_en": a.get("topic_en", ""), "subject_en": a.get("subject_en", ""), "type_en": a.get("type_en", ""),
+        "article_title": a.get("title", ""), "article_url": a.get("url", ""),
         "alt_text": norm(r.get("ALT_TEXT_EN") or r.get("ALT_TEXT") or r.get("alt")),
         "file_type": ext, "file_path": fp,
         "url": f"{RAW_BASE}{fp}" if fp else "",
