@@ -1,0 +1,43 @@
+<!doctype html><html lang='en'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>GC News Search</title>
+<style>
+:root{--line:#dfe5f2;--bg:#f6f8fc;--card:#fff;--accent:#276ef1;--muted:#5f6b82}*{box-sizing:border-box}
+body{margin:0;background:var(--bg);font-family:Inter,Arial,sans-serif}.shell{max-width:1300px;margin:20px auto;padding:0 16px}
+.top{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;gap:10px;justify-content:center;align-items:center}
+.top input{max-width:680px;width:100%;padding:11px;border:1px solid var(--line);border-radius:10px}.btn{padding:10px 16px;border-radius:10px;border:1px solid var(--line);cursor:pointer}.btn.primary{background:var(--accent);color:#fff;border:none}
+.layout{display:grid;grid-template-columns:320px 1fr;gap:14px;margin-top:12px}.panel,.results{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px}
+.tabs{display:flex;gap:8px;margin-bottom:8px}.tab{flex:1}.tab.active{background:#eaf1ff}.facet{margin:10px 0}.facet h4{margin:0 0 6px}.facetlist{max-height:170px;overflow:auto;border:1px solid var(--line);border-radius:10px;padding:6px}
+label.row{display:flex;align-items:center;gap:8px;padding:2px 0;font-size:13px}.meta{font-size:12px;color:var(--muted)}.card{border:1px solid var(--line);border-radius:12px;padding:10px;margin:8px 0}img{max-width:240px;border-radius:8px}
+</style></head><body><div class='shell'>
+<div class='top'><input id='textSearch' placeholder='Search quote text (Quotes tab) or image alt text (Images tab)'><button id='searchBtn' class='btn primary'>Search</button></div>
+<div class='layout'><aside class='panel'>
+<div class='tabs'><button id='tabQ' class='btn tab active'>Quotes</button><button id='tabI' class='btn tab'>Images</button></div>
+<div class='facet'><h4>Pubdate</h4><input id='dateFrom' type='date'><input id='dateTo' type='date'></div>
+<div class='facet'><h4>DEPT_EN</h4><div id='fDept' class='facetlist'></div></div>
+<div class='facet'><h4>TOPIC_EN</h4><div id='fTopic' class='facetlist'></div></div>
+<div class='facet'><h4>SUBJECT_EN</h4><div id='fSubject' class='facetlist'></div></div>
+<div class='facet' id='spFacet'><h4>Speaker</h4><div id='fSpeaker' class='facetlist'></div></div>
+<div class='facet' id='orgFacet'><h4>Speaker Org</h4><div id='fOrg' class='facetlist'></div></div>
+<div class='facet' id='ftFacet' style='display:none'><h4>File Type</h4><div id='fFileType' class='facetlist'></div></div>
+<button id='filterBtn' class='btn'>Filter</button>
+<div id='status' class='meta' style='margin-top:8px'>Loading...</div>
+</aside><main class='results'><div id='results'></div></main></div></div>
+<script>
+let D,tab='q'; const $=x=>document.getElementById(x);
+const tok=s=>(s||'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim().split(/\s+/).filter(x=>x.length>1); const has=(a,b)=>!b||(a||'').toLowerCase().includes(b);
+const anyIn=(arr,sel)=>!sel.length||sel.some(v=>(arr||[]).includes(v)); const inD=(d,f,t)=>!d||(!(f&&d<f)&&!(t&&d>t));
+const pre=(idx,terms)=>{if(!terms.length)return null;let s=null;for(const t of terms){const c=new Set(idx[t]||[]);s=s?new Set([...s].filter(x=>c.has(x))):c;}return s||new Set();};
+const checked=name=>[...document.querySelectorAll(`input[name='${name}']:checked`)].map(x=>x.value);
+function buildFacet(el,counts,name){const rows=Object.entries(counts).filter(([,n])=>n>0).sort((a,b)=>b[1]-a[1]); $(el).innerHTML=rows.map(([v,n])=>`<label class='row'><input type='checkbox' name='${name}' value="${v.replace(/"/g,'&quot;')}">${v} <span class='meta'>(${n})</span></label>`).join('')||"<div class='meta'>No values</div>";}
+function switchTab(t){tab=t; $('tabQ').classList.toggle('active',t==='q'); $('tabI').classList.toggle('active',t==='i'); $('spFacet').style.display=t==='q'?'block':'none'; $('orgFacet').style.display=t==='q'?'block':'none'; $('ftFacet').style.display=t==='i'?'block':'none'; $('results').innerHTML='';}
+$('tabQ').onclick=()=>switchTab('q'); $('tabI').onclick=()=>switchTab('i');
+
+function facetCounts(items){const c={dept:{},topic:{},subject:{},speaker:{},org:{},file:{}}; const inc=(m,k)=>m[k]=(m[k]||0)+1;
+for(const x of items){if(x.dept_en)inc(c.dept,x.dept_en); for(const t of (x.topic_en||[]))inc(c.topic,t); for(const s of (x.subject_en||[]))inc(c.subject,s); if(x.speaker)inc(c.speaker,x.speaker); if(x.org)inc(c.org,x.org); if(x.file_type)inc(c.file,x.file_type);} return c;}
+function renderFacets(items){const c=facetCounts(items); buildFacet('fDept',c.dept,'dept'); buildFacet('fTopic',c.topic,'topic'); buildFacet('fSubject',c.subject,'subject'); buildFacet('fSpeaker',c.speaker,'speaker'); buildFacet('fOrg',c.org,'org'); buildFacet('fFileType',c.file,'filetype');}
+
+function run(){if(!D)return; const q=$('textSearch').value.toLowerCase().trim(); const f={dept:checked('dept'),topic:checked('topic'),subject:checked('subject'),speaker:checked('speaker'),org:checked('org'),ft:checked('filetype'),df:$('dateFrom').value,dt:$('dateTo').value};
+if(tab==='q'){const pf=pre(D.indexes.quote_tokens,tok(q).concat(f.speaker.flatMap(tok)).concat(f.org.flatMap(tok))); const out=D.quotes.filter(x=>(!pf||pf.has(x.id))&&(!f.dept.length||f.dept.includes(x.dept_en))&&anyIn(x.topic_en,f.topic)&&anyIn(x.subject_en,f.subject)&&(!f.speaker.length||f.speaker.includes(x.speaker))&&(!f.org.length||f.org.includes(x.org))&&inD(x.date,f.df,f.dt)&&has(x.quote_text,q)).slice(0,200); $('results').innerHTML=out.map(x=>`<div class='card'><div>${x.quote_text||''}</div><div class='meta'>${x.speaker||''}${x.org?` (${x.org})`:''}</div><div><a href='${x.article_url||'#'}' target='_blank'>${x.article_title||'Article link'}</a></div><div class='meta'>${x.dept_en} | ${x.type_en} | ${x.date}</div></div>`).join('')||'<i>No quotes</i>'; renderFacets(out); $('status').textContent=`Found ${out.length} quotes`;}
+else {const pf=pre(D.indexes.image_tokens,tok(q).concat(f.ft.flatMap(tok))); const out=D.images.filter(x=>(!pf||pf.has(x.id))&&(!f.dept.length||f.dept.includes(x.dept_en))&&anyIn(x.topic_en,f.topic)&&anyIn(x.subject_en,f.subject)&&(!f.ft.length||f.ft.includes(x.file_type))&&inD(x.date,f.df,f.dt)&&has(x.alt_text,q)).slice(0,200); $('results').innerHTML=out.map(x=>`<div class='card'><a href='${x.url}' target='_blank'><img src='${x.url}' alt='${x.alt_text||''}'></a><div>${x.alt_text||''}</div><div><a href='${x.article_url||'#'}' target='_blank'>${x.article_title||'Article link'}</a></div><div class='meta'>${x.dept_en} | ${x.type_en} | ${x.date}</div></div>`).join('')||'<i>No images</i>'; renderFacets(out); $('status').textContent=`Found ${out.length} images`;}}
+fetch('./search-data.json').then(r=>r.json()).then(d=>{D=d; renderFacets(d.quotes.concat(d.images)); $('status').textContent=`Loaded ${d.meta.counts.quotes} quotes and ${d.meta.counts.images} images`;});
+$('searchBtn').onclick=run; $('filterBtn').onclick=run;
+</script></body></html>
