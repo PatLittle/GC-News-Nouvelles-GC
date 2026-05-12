@@ -135,6 +135,7 @@ TITLE_OF_ORG_PREFIXES = {
     "founder of",
     "co-founder of",
     "cofounder of",
+    "mayor of",
 }
 
 
@@ -344,16 +345,39 @@ def split_speaker_fields(speaker_text: str) -> Tuple[str, str, str]:
 
     org_parts = []
     title_parts = []
-    for part in normalized_items:
+    index = 0
+    while index < len(normalized_items):
+        part = normalized_items[index]
         lowered = part.lower()
         starts_like_title = any(lowered.startswith(prefix) for prefix in TITLE_PREFIXES)
         is_org = any(keyword in lowered for keyword in ORG_KEYWORDS)
         if starts_like_title:
-            title_parts.append(part)
+            title_part = part
+            organization_from_title = ""
+
+            if re.search(r"\bof\s+", part, flags=re.IGNORECASE):
+                of_match = re.match(r"^(.*?)\s+\bof\b\s+(.+)$", part, flags=re.IGNORECASE)
+                if of_match:
+                    title_part = normalize_space(of_match.group(1))
+                    organization_from_title = normalize_space(of_match.group(2))
+
+            if (
+                not organization_from_title
+                and index + 1 < len(normalized_items)
+                and lowered in {"ceo", "chief executive officer", "president", "director general"}
+            ):
+                organization_from_title = normalize_space(normalized_items[index + 1])
+                index += 1
+
+            if title_part:
+                title_parts.append(title_part)
+            if organization_from_title:
+                org_parts.append(organization_from_title)
         elif is_org:
             org_parts.append(part)
         else:
             title_parts.append(part)
+        index += 1
 
     if not title_parts and normalized_items:
         title_parts = [normalized_items[0]]
@@ -372,7 +396,7 @@ def split_speaker_fields(speaker_text: str) -> Tuple[str, str, str]:
     if title_parts and not org_parts:
         lowered = title_parts[-1].lower()
         if any(lowered.startswith(prefix) for prefix in TITLE_OF_ORG_PREFIXES):
-            of_match = re.match(r"^(.*?\bof)\s+(.+)$", title_parts[-1], flags=re.IGNORECASE)
+            of_match = re.match(r"^(.*?)\s+\bof\b\s+(.+)$", title_parts[-1], flags=re.IGNORECASE)
             if of_match:
                 title_parts[-1] = normalize_space(of_match.group(1))
                 org_parts.append(normalize_space(of_match.group(2)))
