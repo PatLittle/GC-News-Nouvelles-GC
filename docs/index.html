@@ -1,28 +1,49 @@
-<!doctype html><html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>GC News Search</title>
-<style>body{font-family:Arial;margin:0} .wrap{display:grid;grid-template-columns:280px 1fr;gap:12px;padding:12px}.side{border-right:1px solid #ddd;padding-right:10px}.tabs button{margin-right:6px}.tab.active{font-weight:700}.facet{margin:10px 0}.counts div{font-size:12px}.card{border:1px solid #ddd;border-radius:6px;padding:8px;margin:8px 0}img{max-width:240px}select,input,button{width:100%;padding:6px;margin:4px 0}</style></head>
-<body><div class='wrap'><aside class='side'>
-<div class='tabs'><button id='tabQ' class='tab active'>Quotes</button><button id='tabI' class='tab'>Images</button></div>
-<div class='facet'><label>DEPT_EN</label><select id='dept'></select><div id='cDept' class='counts'></div></div>
-<div class='facet'><label>TOPIC_EN (multi)</label><select id='topic' multiple size='6'></select><div id='cTopic' class='counts'></div></div>
-<div class='facet'><label>SUBJECT_EN (multi)</label><select id='subject' multiple size='6'></select><div id='cSubject' class='counts'></div></div>
-<div class='facet'><label>Date from</label><input id='dateFrom' type='date'><label>Date to</label><input id='dateTo' type='date'></div>
-<div id='qOnly'><div class='facet'><label>Quote text</label><input id='quoteText'></div><div class='facet'><label>Speaker</label><select id='speaker'></select></div><div class='facet'><label>Speaker Org</label><select id='org'></select></div></div>
-<div id='iOnly' style='display:none'><div class='facet'><label>Alt text</label><input id='altText'></div><div class='facet'><label>File type</label><select id='fileType'></select><div id='cFileType' class='counts'></div></div></div>
-<button id='search'>Search</button><div id='status'>Loading…</div></aside><main><div id='results'></div></main></div>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GC News Search</title>
+  <style>
+    :root{--bg:#f6f8fc;--card:#fff;--line:#dfe5f2;--text:#1d2738;--muted:#62708a;--accent:#276ef1}
+    *{box-sizing:border-box} body{margin:0;background:linear-gradient(180deg,#f6f8fc,#eef3fb);font-family:Inter,Arial,sans-serif;color:var(--text)}
+    .shell{max-width:1280px;margin:24px auto;padding:0 16px}
+    .hero{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px;box-shadow:0 8px 28px rgba(24,39,75,.06)}
+    h1{margin:0 0 6px;font-size:28px} .sub{color:var(--muted);margin:0}
+    .layout{display:grid;grid-template-columns:310px 1fr;gap:14px;margin-top:14px}
+    .panel,.results{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+    .tabs{display:flex;gap:8px;margin-bottom:10px}.tab{flex:1;padding:10px;border:1px solid var(--line);background:#f7f9ff;border-radius:10px;cursor:pointer}.tab.active{background:#e9f0ff;border-color:#bfd3ff;color:#113f95;font-weight:600}
+    label{font-size:12px;color:var(--muted)} select,input,button{width:100%;padding:9px;border:1px solid var(--line);border-radius:10px;margin:5px 0 10px;background:#fff}
+    select[multiple]{min-height:120px} button.primary{background:var(--accent);color:#fff;border:0;font-weight:600}
+    .counts{font-size:12px;color:var(--muted);max-height:110px;overflow:auto;margin:-4px 0 8px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px}
+    .card{border:1px solid var(--line);border-radius:12px;padding:12px;background:#fff}
+    .meta{font-size:12px;color:var(--muted)} img{max-width:100%;max-height:220px;border-radius:8px}
+  </style>
+</head>
+<body><div class="shell"><div class="hero"><h1>GC News Quote & Image Search</h1><p class="sub">Filter by article metadata, then explore quotes or images in a focused tab.</p></div>
+<div class="layout"><aside class="panel">
+<div class="tabs"><button id="tabQ" class="tab active">Quotes</button><button id="tabI" class="tab">Images</button></div>
+<label>Department</label><select id="dept"></select><div id="cDept" class="counts"></div>
+<label>Topics (multi-select)</label><select id="topic" multiple></select><div id="cTopic" class="counts"></div>
+<label>Subjects (multi-select)</label><select id="subject" multiple></select><div id="cSubject" class="counts"></div>
+<label>Date from</label><input id="dateFrom" type="date"><label>Date to</label><input id="dateTo" type="date">
+<div id="qOnly"><label>Quote text</label><input id="quoteText"><label>Speaker</label><select id="speaker"></select><label>Speaker org</label><select id="org"></select></div>
+<div id="iOnly" style="display:none"><label>Image alt text</label><input id="altText"><label>File type</label><select id="fileType"></select><div id="cFileType" class="counts"></div></div>
+<button id="search" class="primary">Search</button><div id="status" class="meta">Loading…</div></aside>
+<main class="results"><div id="results" class="grid"></div></main></div></div>
 <script>
-let D,tab='q'; const $=x=>document.getElementById(x), v=x=>($(x).value||'').toLowerCase().trim();
-const vs=x=>[...$(x).selectedOptions].map(o=>o.value).filter(Boolean);
-const fill=(id,arr,all)=>$(id).innerHTML=`<option value=''>${all}</option>`+arr.map(x=>`<option>${x}</option>`).join('');
-const fillMulti=(id,arr)=>$(id).innerHTML=arr.map(x=>`<option>${x}</option>`).join('');
-const has=(a,b)=>!b||(a||'').toLowerCase().includes(b); const tok=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim().split(/\s+/).filter(x=>x.length>1);
-const pre=(idx,terms)=>{if(!terms.length)return null;let s=null;for(const t of terms){const c=new Set(idx[t]||[]);s=s?new Set([...s].filter(x=>c.has(x))):c;}return s||new Set();};
-const inDate=(d,f,t)=>!d||(!(f&&d<f)&&!(t&&d>t)); const anyIn=(arr,selected)=>!selected.length||selected.some(x=>(arr||[]).includes(x));
-function baseMatch(x,f){return has(x.dept_en,f.dept)&&anyIn(x.topic_en,f.topics)&&anyIn(x.subject_en,f.subjects)&&inDate(x.date,f.df,f.dt)}
-function setCounts(items){const mk=(vals,key,multi=false)=>vals.map(v=>`<div>${v}: ${items.filter(i=>multi?(i[key]||[]).includes(v):i[key]===v).length}</div>`).join('');$('cDept').innerHTML=mk(D.facets.dept_en,'dept_en');$('cTopic').innerHTML=mk(D.facets.topic_en,'topic_en',true);$('cSubject').innerHTML=mk(D.facets.subject_en,'subject_en',true);$('cFileType').innerHTML=mk(D.facets.file_type,'file_type');}
-function switchTab(t){tab=t;$('tabQ').classList.toggle('active',t==='q');$('tabI').classList.toggle('active',t==='i');$('qOnly').style.display=t==='q'?'block':'none';$('iOnly').style.display=t==='i'?'block':'none';$('results').innerHTML='';}
-$('tabQ').onclick=()=>switchTab('q');$('tabI').onclick=()=>switchTab('i');
-fetch('./search-data.json').then(r=>r.json()).then(d=>{D=d;fill('dept',d.facets.dept_en,'All departments');fillMulti('topic',d.facets.topic_en);fillMulti('subject',d.facets.subject_en);fill('speaker',d.facets.speaker,'All speakers');fill('org',d.facets.org,'All orgs');fill('fileType',d.facets.file_type,'All file types');$('status').textContent=`Loaded ${d.meta.counts.quotes} quotes and ${d.meta.counts.images} images`; setCounts(d.quotes.concat(d.images));});
-$('search').onclick=()=>{if(!D)return; const f={dept:v('dept'),topics:vs('topic'),subjects:vs('subject'),df:$('dateFrom').value,dt:$('dateTo').value,qt:v('quoteText'),sp:v('speaker'),org:v('org'),alt:v('altText'),ft:v('fileType')};
-if(tab==='q'){const pf=pre(D.indexes.quote_tokens,[...tok(f.qt),...tok(f.sp),...tok(f.org)]); const out=D.quotes.filter(q=>(!pf||pf.has(q.id))&&baseMatch(q,f)&&has(q.quote_text,f.qt)&&has(q.speaker,f.sp)&&has(q.org,f.org)).slice(0,200); $('results').innerHTML=out.map(q=>`<div class='card'><div>${q.quote_text||''}</div><small>${q.speaker||''}${q.org?` (${q.org})`:''}</small><div><a href='${q.article_url||'#'}' target='_blank'>${q.article_title||'Article link'}</a></div><small>${q.dept_en} | ${q.type_en} | ${q.date}</small></div>`).join('')||'<i>No quotes</i>'; setCounts(out); $('status').textContent=`Found ${out.length} quotes`;}
-else {const pf=pre(D.indexes.image_tokens,[...tok(f.alt),...tok(f.ft)]); const out=D.images.filter(i=>(!pf||pf.has(i.id))&&baseMatch(i,f)&&has(i.alt_text,f.alt)&&has(i.file_type,f.ft)).slice(0,200); $('results').innerHTML=out.map(i=>`<div class='card'><a href='${i.url}' target='_blank'><img src='${i.url}' alt='${i.alt_text||''}'></a><div>${i.alt_text||''}</div><div><a href='${i.article_url||'#'}' target='_blank'>${i.article_title||'Article link'}</a></div><small>${i.dept_en} | ${i.type_en} | ${i.date}</small></div>`).join('')||'<i>No images</i>'; setCounts(out); $('status').textContent=`Found ${out.length} images`;}}
+let D,tab='q';const $=x=>document.getElementById(x),v=x=>($(x).value||'').toLowerCase().trim(),vs=x=>[...$(x).selectedOptions].map(o=>o.value).filter(Boolean);
+const fill=(id,a,all)=>$(id).innerHTML=`<option value=''>${all}</option>`+a.map(x=>`<option>${x}</option>`).join(''); const fillM=(id,a)=>$(id).innerHTML=a.map(x=>`<option>${x}</option>`).join('');
+const has=(a,b)=>!b||(a||'').toLowerCase().includes(b), tok=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim().split(/\s+/).filter(x=>x.length>1);
+const pre=(idx,t)=>{if(!t.length)return null;let s=null;for(const k of t){const c=new Set(idx[k]||[]);s=s?new Set([...s].filter(x=>c.has(x))):c;}return s||new Set();};
+const anyIn=(arr,s)=>!s.length||s.some(x=>(arr||[]).includes(x)); const inD=(d,f,t)=>!d||(!(f&&d<f)&&!(t&&d>t));
+const base=(x,f)=>has(x.dept_en,f.dept)&&anyIn(x.topic_en,f.topics)&&anyIn(x.subject_en,f.subjects)&&inD(x.date,f.df,f.dt);
+function counts(items){const mk=(vals,key,m=false)=>vals.map(v=>`<div>${v}: ${items.filter(i=>m?(i[key]||[]).includes(v):i[key]===v).length}</div>`).join('');$('cDept').innerHTML=mk(D.facets.dept_en,'dept_en');$('cTopic').innerHTML=mk(D.facets.topic_en,'topic_en',true);$('cSubject').innerHTML=mk(D.facets.subject_en,'subject_en',true);$('cFileType').innerHTML=mk(D.facets.file_type,'file_type');}
+function sw(t){tab=t;$('tabQ').classList.toggle('active',t==='q');$('tabI').classList.toggle('active',t==='i');$('qOnly').style.display=t==='q'?'block':'none';$('iOnly').style.display=t==='i'?'block':'none';$('results').innerHTML='';}
+$('tabQ').onclick=()=>sw('q');$('tabI').onclick=()=>sw('i');
+fetch('./search-data.json').then(r=>r.json()).then(d=>{D=d;fill('dept',d.facets.dept_en,'All departments');fillM('topic',d.facets.topic_en);fillM('subject',d.facets.subject_en);fill('speaker',d.facets.speaker,'All speakers');fill('org',d.facets.org,'All orgs');fill('fileType',d.facets.file_type,'All file types');counts(d.quotes.concat(d.images));$('status').textContent=`Loaded ${d.meta.counts.quotes} quotes and ${d.meta.counts.images} images`;});
+$('search').onclick=()=>{if(!D)return;const f={dept:v('dept'),topics:vs('topic'),subjects:vs('subject'),df:$('dateFrom').value,dt:$('dateTo').value,qt:v('quoteText'),sp:v('speaker'),org:v('org'),alt:v('altText'),ft:v('fileType')};
+if(tab==='q'){const pf=pre(D.indexes.quote_tokens,[...tok(f.qt),...tok(f.sp),...tok(f.org)]);const out=D.quotes.filter(q=>(!pf||pf.has(q.id))&&base(q,f)&&has(q.quote_text,f.qt)&&has(q.speaker,f.sp)&&has(q.org,f.org)).slice(0,200);$('results').innerHTML=out.map(q=>`<article class='card'><div>${q.quote_text||''}</div><div class='meta'>${q.speaker||''}${q.org?` (${q.org})`:''}</div><div><a href='${q.article_url||'#'}' target='_blank'>${q.article_title||'Article link'}</a></div><div class='meta'>${q.dept_en} | ${q.type_en} | ${q.date}</div></article>`).join('')||'<i>No quotes</i>';counts(out);$('status').textContent=`Found ${out.length} quotes`;}
+else {const pf=pre(D.indexes.image_tokens,[...tok(f.alt),...tok(f.ft)]);const out=D.images.filter(i=>(!pf||pf.has(i.id))&&base(i,f)&&has(i.alt_text,f.alt)&&has(i.file_type,f.ft)).slice(0,200);$('results').innerHTML=out.map(i=>`<article class='card'><a href='${i.url}' target='_blank'><img src='${i.url}' alt='${i.alt_text||''}'></a><div>${i.alt_text||''}</div><div><a href='${i.article_url||'#'}' target='_blank'>${i.article_title||'Article link'}</a></div><div class='meta'>${i.dept_en} | ${i.type_en} | ${i.date}</div></article>`).join('')||'<i>No images</i>';counts(out);$('status').textContent=`Found ${out.length} images`;}};
 </script></body></html>

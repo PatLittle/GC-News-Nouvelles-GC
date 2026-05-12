@@ -11,6 +11,11 @@ IMAGES_CSV = ROOT / "combined_news_images.csv"
 OUT_JSON = ROOT / "docs" / "search-data.json"
 RAW_BASE = "https://raw.githubusercontent.com/PatLittle/GC-News-Nouvelles-GC/main/"
 
+EXCLUDED_IMAGE_FILENAMES = {
+    "1740510181215.png", "1670521263418.jpg", "1659473302212.jpg", "1690916130422.jpg",
+    "1690916350787.jpg", "1776957674516.jpg", "1690916184988.jpg", "1690915715898.jpg", "1678892852520.jpg"
+}
+
 KEEP_TITLES = {
 "Chief of the Defence Staff","Minister of Municipal Affairs","CEO and General Secretary of Canada Soccer",
 "Minister of Environment and Climate Change and Minister responsible for the Regional Development Corporation"
@@ -71,6 +76,8 @@ for i,r in enumerate(quote_rows):
 for i,r in enumerate(image_rows):
     h=norm(r.get('hash') or r.get('HASH')); a=articles.get(h,{})
     fp=norm(r.get('FILE_PATH')); ext=fp.rsplit('.',1)[-1].lower() if '.' in fp else ''
+    if fp.rsplit('/',1)[-1] in EXCLUDED_IMAGE_FILENAMES:
+        continue
     im={"id":f"img{i}","hash":h,"alt_text":norm(r.get('ALT_TEXT_EN') or r.get('ALT_TEXT')),"file_type":ext,"file_path":fp,"url":f"{RAW_BASE}{fp}" if fp else "",
         "date":a.get('date',parse_date(r.get('PUBDATE'))),"dept_en":a.get('dept_en',''),"type_en":a.get('type_en',''),
         "topic_en":a.get('topic_en',[]),"subject_en":a.get('subject_en',[]),"article_title":a.get('title',''),"article_url":a.get('url','')}
