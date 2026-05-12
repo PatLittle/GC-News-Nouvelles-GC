@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>GC News Search</title>
+<style>
+body{font-family:Arial,sans-serif;max-width:1200px;margin:20px auto;padding:0 12px}
+.tabs{display:flex;gap:8px;margin-bottom:10px}.tab{padding:8px 12px;border:1px solid #ccc;background:#f5f5f5;cursor:pointer}.tab.active{background:#fff;border-bottom:2px solid #005ea5}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px;margin-bottom:8px}
+input,select,button{padding:6px}.card{border:1px solid #ddd;padding:10px;border-radius:6px;margin:8px 0}
+small{color:#555} img{max-width:260px;height:auto}
+</style>
+</head>
+<body>
+<h1>GC News Search</h1>
+<div class="tabs">
+  <button class="tab active" id="tabQuotes">Quotes</button>
+  <button class="tab" id="tabImages">Images</button>
+</div>
+
+<div id="commonFilters" class="grid">
+  <select id="dept"></select><select id="topic"></select><select id="subject"></select>
+  <input id="dateFrom" type="date" /><input id="dateTo" type="date" />
+</div>
+
+<div id="quotesPane">
+  <h2>Quotes</h2>
+  <div class="grid">
+    <input id="quoteText" placeholder="Quote text" />
+    <select id="speaker"></select>
+    <select id="org"></select>
+  </div>
+</div>
+
+<div id="imagesPane" style="display:none">
+  <h2>Images</h2>
+  <div class="grid">
+    <input id="altText" placeholder="Image alt text" />
+    <input id="fileType" placeholder="File type (jpg/png)" />
+  </div>
+</div>
+
+<p><button id="searchBtn">Search</button></p>
+<div id="status">Loading data…</div>
+<div id="results"></div>
+
+<script>
+let DATA, active='quotes';
+const ids=x=>document.getElementById(x), txt=x=>(ids(x).value||'').trim().toLowerCase();
+const fill=(id,vals,label)=>ids(id).innerHTML=`<option value=''>All ${label}</option>`+(vals||[]).map(v=>`<option>${v}</option>`).join('');
+const has=(v,q)=>!q||(v||'').toLowerCase().includes(q);
+const tokens=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim().split(/\s+/).filter(t=>t.length>1);
+const prefilter=(idx,terms)=>{if(!terms.length)return null;let set=null;for(const t of terms){const cur=new Set(idx[t]||[]);set=set?new Set([...set].filter(x=>cur.has(x))):cur;}return set||new Set();};
+const inRange=(d,f,t)=>{if(!d)return true;if(f&&d<f)return false;if(t&&d>t)return false;return true;};
+const metaMatch=(x,f)=>has(x.dept_en,f.dept)&&has(x.topic_en,f.topic)&&has(x.subject_en,f.subject)&&inRange(x.date,f.dateFrom,f.dateTo);
+
+function switchTab(tab){active=tab;ids('tabQuotes').classList.toggle('active',tab==='quotes');ids('tabImages').classList.toggle('active',tab==='images');ids('quotesPane').style.display=tab==='quotes'?'block':'none';ids('imagesPane').style.display=tab==='images'?'block':'none';ids('results').innerHTML='';}
+ids('tabQuotes').onclick=()=>switchTab('quotes'); ids('tabImages').onclick=()=>switchTab('images');
+
+fetch('./search-data.json').then(r=>r.json()).then(d=>{DATA=d;fill('dept',d.facets.dept_en,'DEPT_EN');fill('topic',d.facets.topic_en,'TOPIC_EN');fill('subject',d.facets.subject_en,'SUBJECT_EN');fill('speaker',d.facets.speaker,'Speakers');fill('org',d.facets.org,'Organizations');ids('status').textContent=`Loaded ${d.meta.counts.quotes} quotes and ${d.meta.counts.images} images.`;}).catch(()=>ids('status').textContent='Missing search-data.json. Run workflow.');
+
+ids('searchBtn').onclick=()=>{
+  if(!DATA) return;
+  const f={dept:txt('dept'),topic:txt('topic'),subject:txt('subject'),dateFrom:ids('dateFrom').value,dateTo:ids('dateTo').value,quoteText:txt('quoteText'),speaker:txt('speaker'),org:txt('org'),altText:txt('altText'),fileType:txt('fileType')};
+
+  if(active==='quotes'){
+    const pref=prefilter(DATA.indexes.quote_tokens,[...tokens(f.quoteText),...tokens(f.speaker),...tokens(f.org)]);
+    const out=DATA.quotes.filter(q=>(!pref||pref.has(q.id))&&metaMatch(q,f)&&has(q.quote_text,f.quoteText)&&has(q.speaker,f.speaker)&&has(q.org,f.org)).slice(0,200);
+    ids('results').innerHTML=out.map(q=>`<div class='card'><div>${q.quote_text||''}</div><small>${q.speaker||''}${q.org?` (${q.org})`:''}</small><div><a href='${q.article_url||'#'}' target='_blank'>${q.article_title||'Article link'}</a></div><small>${q.dept_en||''} | ${q.type_en||''} | ${q.date||''}</small></div>`).join('')||'<i>No quotes</i>';
+    ids('status').textContent=`Found ${out.length} quotes (max 200).`;
+  } else {
+    const pref=prefilter(DATA.indexes.image_tokens,[...tokens(f.altText),...tokens(f.fileType)]);
+    const out=DATA.images.filter(i=>(!pref||pref.has(i.id))&&metaMatch(i,f)&&has(i.alt_text,f.altText)&&has(i.file_type,f.fileType)).slice(0,200);
+    ids('results').innerHTML=out.map(i=>`<div class='card'><a href='${i.url}' target='_blank'><img loading='lazy' src='${i.url}' alt='${i.alt_text||''}'></a><div>${i.alt_text||''}</div><div><a href='${i.article_url||'#'}' target='_blank'>${i.article_title||'Article link'}</a></div><small>${i.dept_en||''} | ${i.type_en||''} | ${i.date||''}</small></div>`).join('')||'<i>No images</i>';
+    ids('status').textContent=`Found ${out.length} images (max 200).`;
+  }
+};
+</script>
+</body></html>
