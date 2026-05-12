@@ -5,6 +5,7 @@ import logging
 import os
 import re
 import shutil
+from io import BytesIO
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from typing import Dict, List, Tuple
@@ -12,6 +13,7 @@ from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
+from PIL import Image, ExifTags
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -40,6 +42,7 @@ IMAGE_OUTPUT_FIELDS = [
     "ALT_TEXT_EN",
     "ALT_TEXT_FR",
     "FILE_PATH",
+    "EXIF_JSON",
 ]
 
 ARTICLE_KEY_FIELDS = ["hash", "PUBDATE", "TITLE_URL_EN", "TITLE_URL_FR"]
@@ -61,7 +64,7 @@ QUOTE_MARKS = {
 }
 SKIP_IMAGE_BASENAMES = {"wmms-blk.svg", "sig-blk-en.svg"}
 ARTICLE_IMAGE_DIR = os.path.join("data", "news_images")
-STATE_VERSION = 3
+STATE_VERSION = 4
 
 
 def parse_args() -> argparse.Namespace:
@@ -285,6 +288,48 @@ def infer_extension(image_url: str, content_type: str) -> str:
     return ".bin"
 
 
+def original_filename_from_url(image_url: str) -> str:
+    basename = os.path.basename(urlparse(image_url).path)
+    return normalize_space(basename)
+
+
+def make_unique_filename(article_dir: str, filename: str, fallback_stem: str) -> str:
+    candidate = filename or fallback_stem
+    stem, ext = os.path.splitext(candidate)
+    if not stem:
+        stem = fallback_stem
+    if not ext:
+        ext = ".bin"
+
+    unique_name = f"{stem}{ext}"
+    counter = 2
+    while os.path.exists(os.path.join(article_dir, unique_name)):
+        unique_name = f"{stem}_{counter}{ext}"
+        counter += 1
+    return unique_name
+
+
+def extract_exif_json(content: bytes) -> str:
+    try:
+        with Image.open(BytesIO(content)) as image:
+            raw_exif = image.getexif()
+            if not raw_exif:
+                return "{}"
+
+            exif_map = {}
+            for tag_id, value in raw_exif.items():
+                tag_name = ExifTags.TAGS.get(tag_id, str(tag_id))
+                if isinstance(value, bytes):
+                    value = value.decode("utf-8", errors="replace")
+                elif isinstance(value, tuple):
+                    value = list(value)
+                exif_map[tag_name] = value
+
+            return json.dumps(exif_map, ensure_ascii=False, sort_keys=True)
+    except Exception:
+        return "{}"
+
+
 def extract_images_from_html(page_url: str, html: str) -> List[Dict[str, str]]:
     soup = BeautifulSoup(html, "html.parser")
     container = find_article_container(soup)
@@ -374,7 +419,14 @@ def build_image_rows(
         response = session.get(source_url, timeout=timeout)
         response.raise_for_status()
         extension = infer_extension(source_url, response.headers.get("Content-Type", ""))
-        filename = f"{article_hash}_{image_index + 1:03d}{extension}"
+        original_filename = original_filename_from_url(source_url)
+        if original_filename and not os.path.splitext(original_filename)[1]:
+            original_filename = f"{original_filename}{extension}"
+        filename = make_unique_filename(
+            article_dir,
+            original_filename,
+            f"{article_hash}_{image_index + 1:03d}",
+        )
         destination_path = os.path.join(article_dir, filename)
         with open(destination_path, "wb") as fh:
             fh.write(response.content)
@@ -390,6 +442,7 @@ def build_image_rows(
                 "ALT_TEXT_EN": image_en.get("alt_text", ""),
                 "ALT_TEXT_FR": image_fr.get("alt_text", ""),
                 "FILE_PATH": destination_path.replace("\\", "/"),
+                "EXIF_JSON": extract_exif_json(response.content),
             }
         )
 
@@ -513,7 +566,7 @@ def main() -> int:
     )
     existing_images = {} if args.full_rebuild else load_existing_rows(
         args.images_output,
-        ["IMAGE_INDEX", "FILENAME", "ALT_TEXT_EN", "ALT_TEXT_FR", "FILE_PATH"],
+        ["IMAGE_INDEX", "FILENAME", "ALT_TEXT_EN", "ALT_TEXT_FR", "FILE_PATH", "EXIF_JSON"],
     )
     state = {} if args.full_rebuild else load_state(args.state)
     existing_quotes, existing_images, state = prune_to_current_keys(
@@ -531,6 +584,8 @@ def main() -> int:
             rows_by_key_quotes[key] = existing_quotes.get(key, [])
             rows_by_key_images[key] = existing_images.get(key, [])
         else:
+            rows_by_key_quotes[key] = existing_quotes.get(key, [])
+            rows_by_key_images[key] = existing_images.get(key, [])
             rows_needing_fetch.append(row)
 
     if args.limit > 0:
