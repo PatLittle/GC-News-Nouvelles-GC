@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GC News Quote & Image Search</title>
+  <style>
+    body{font-family:Arial,sans-serif;max-width:1200px;margin:20px auto;padding:0 12px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px}
+    input,select,button{padding:6px}.results{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .card{border:1px solid #ddd;padding:8px;border-radius:6px;margin:6px 0}img{max-width:220px;height:auto}
+  </style>
+</head>
+<body>
+<h1>GC News Search</h1>
+<p>Search quotes and images with metadata filters.</p>
+<div class="grid">
+  <input id="dept" placeholder="DEPT_EN" />
+  <input id="topic" placeholder="TOPIC_EN" />
+  <input id="subject" placeholder="SUBJECT_EN" />
+  <input id="dateFrom" type="date" />
+  <input id="dateTo" type="date" />
+  <input id="quoteText" placeholder="Quote text" />
+  <input id="speaker" placeholder="Quote speaker" />
+  <input id="org" placeholder="Quote org" />
+  <input id="altText" placeholder="Image alt text" />
+  <input id="fileType" placeholder="File type (jpg/png)" />
+</div>
+<p><button id="searchBtn">Search</button></p>
+<div id="status">Loading data…</div>
+<div class="results">
+  <div><h2>Quotes</h2><div id="quotes"></div></div>
+  <div><h2>Images</h2><div id="images"></div></div>
+</div>
+<script>
+let DATA;
+const ids = x => document.getElementById(x);
+const txt = x => (ids(x).value || '').trim().toLowerCase();
+fetch('./search-data.json').then(r=>r.json()).then(d=>{DATA=d;ids('status').textContent=`Loaded ${d.meta.counts.quotes} quotes and ${d.meta.counts.images} images.`;}).catch(()=>ids('status').textContent='Missing search-data.json. Run workflow.');
+
+function inRange(d,from,to){if(!d) return true; if(from && d<from) return false; if(to && d>to) return false; return true;}
+function has(v,q){return !q || (v||'').toLowerCase().includes(q);}
+function matchMeta(x,f){return has(x.dept_en,f.dept)&&has(x.topic_en,f.topic)&&has(x.subject_en,f.subject)&&inRange(x.date,f.dateFrom,f.dateTo)}
+function tokens(s){return s.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim().split(/\s+/).filter(t=>t.length>1)}
+function prefilter(index, terms){if(!terms.length) return null; let set=null; for(const t of terms){const arr=index[t]||[]; const cur=new Set(arr); set=set?new Set([...set].filter(x=>cur.has(x))):cur;} return set||new Set();}
+
+ids('searchBtn').onclick=()=>{
+ if(!DATA) return;
+ const f={dept:txt('dept'),topic:txt('topic'),subject:txt('subject'),dateFrom:ids('dateFrom').value,dateTo:ids('dateTo').value,quoteText:txt('quoteText'),speaker:txt('speaker'),org:txt('org'),altText:txt('altText'),fileType:txt('fileType')};
+ const qPref=prefilter(DATA.indexes.quote_tokens,[...tokens(f.quoteText),...tokens(f.speaker),...tokens(f.org)]);
+ const iPref=prefilter(DATA.indexes.image_tokens,[...tokens(f.altText),...tokens(f.fileType)]);
+ const quotes=DATA.quotes.filter(q=>(!qPref||qPref.has(q.id))&&matchMeta(q,f)&&has(q.quote_text,f.quoteText)&&has(q.speaker,f.speaker)&&has(q.org,f.org)).slice(0,200);
+ const images=DATA.images.filter(i=>(!iPref||iPref.has(i.id))&&matchMeta(i,f)&&has(i.alt_text,f.altText)&&has(i.file_type,f.fileType)).slice(0,200);
+ ids('quotes').innerHTML=quotes.map(q=>`<div class='card'><div>${q.quote_text||''}</div><small>${q.speaker||''} ${q.org?('('+q.org+')'):''}</small><br><small>${q.date} | ${q.dept_en} | ${q.topic_en}</small></div>`).join('') || '<i>No quotes</i>';
+ ids('images').innerHTML=images.map(i=>`<div class='card'><a href='${i.url}' target='_blank'><img loading='lazy' src='${i.url}' alt='${i.alt_text||''}'></a><div>${i.alt_text||''}</div><small>${i.file_type} | ${i.date}</small></div>`).join('') || '<i>No images</i>';
+ ids('status').textContent=`Found ${quotes.length} quotes and ${images.length} images (showing max 200 each).`;
+};
+</script>
+</body>
+</html>
