@@ -27,8 +27,14 @@ QUOTE_OUTPUT_FIELDS = [
     "QUOTE_INDEX",
     "QUOTE_EN",
     "SPEAKER_EN",
+    "SPEAKER_NAME_EN",
+    "SPEAKER_TITLE_EN",
+    "SPEAKER_ORGANIZATION_EN",
     "QUOTE_FR",
     "SPEAKER_FR",
+    "SPEAKER_NAME_FR",
+    "SPEAKER_TITLE_FR",
+    "SPEAKER_ORGANIZATION_FR",
 ]
 
 IMAGE_OUTPUT_FIELDS = [
@@ -64,7 +70,72 @@ QUOTE_MARKS = {
 }
 SKIP_IMAGE_BASENAMES = {"wmms-blk.svg", "sig-blk-en.svg"}
 ARTICLE_IMAGE_DIR = os.path.join("data", "news_images")
-STATE_VERSION = 4
+STATE_VERSION = 6
+ORG_KEYWORDS = {
+    "agency",
+    "association",
+    "bureau",
+    "canada",
+    "centre",
+    "center",
+    "college",
+    "commission",
+    "community",
+    "corporation",
+    "council",
+    "department",
+    "first nation",
+    "foundation",
+    "government",
+    "group",
+    "inc",
+    "institute",
+    "i-sparc",
+    "nation",
+    "office",
+    "organization",
+    "pathoscan",
+    "prairiescan",
+    "region",
+    "school",
+    "sport",
+    "technologies",
+    "university",
+    "usask",
+}
+TITLE_PREFIXES = {
+    "ceo",
+    "chief",
+    "co-founder",
+    "cofounder",
+    "director",
+    "executive",
+    "founder",
+    "manager",
+    "member",
+    "minister",
+    "mp",
+    "officer",
+    "operator",
+    "parliamentary",
+    "president",
+    "secretary",
+    "student",
+    "vice-president",
+    "vice president",
+    "whip",
+}
+TITLE_OF_ORG_PREFIXES = {
+    "ceo of",
+    "president & ceo of",
+    "president and ceo of",
+    "chief executive officer of",
+    "executive director of",
+    "director of",
+    "founder of",
+    "co-founder of",
+    "cofounder of",
+}
 
 
 def parse_args() -> argparse.Namespace:
@@ -120,7 +191,18 @@ def strip_outer_quotes(value: str) -> str:
 
 
 def clean_speaker(value: str) -> str:
-    return re.sub(r"^[\-\u2013\u2014\s]+", "", normalize_space(value))
+    return re.sub(r"^[\-\u2013\u2014\|\s]+", "", normalize_space(value))
+
+
+def combine_text_values(*values: str) -> str:
+    parts = []
+    seen = set()
+    for value in values:
+        cleaned = normalize_space(value)
+        if cleaned and cleaned not in seen:
+            parts.append(cleaned)
+            seen.add(cleaned)
+    return " | ".join(parts)
 
 
 def article_key(row: Dict[str, str]) -> str:
@@ -201,6 +283,105 @@ def heading_matches(text: str, lang: str) -> bool:
     return normalize_space(text).lower() in HEADING_TARGETS[lang]
 
 
+def split_speaker_fields(speaker_text: str) -> Tuple[str, str, str]:
+    cleaned = clean_speaker(speaker_text)
+    if not cleaned:
+        return "", "", ""
+
+    bar_segments = [
+        normalize_space(segment.strip(" ,"))
+        for segment in re.split(r"\s*\|\s*", cleaned)
+        if normalize_space(segment.strip(" ,"))
+    ]
+    if not bar_segments:
+        return "", "", ""
+
+    name = ""
+    items: List[str] = []
+    first_segment = bar_segments[0]
+    if "," in first_segment:
+        first_name, first_tail = first_segment.split(",", 1)
+        name = normalize_space(first_name)
+        if normalize_space(first_tail):
+            items.append(normalize_space(first_tail))
+    else:
+        name = first_segment
+    items.extend(bar_segments[1:])
+
+    expanded_items: List[str] = []
+    for item in items:
+        expanded_items.extend(
+            [normalize_space(part) for part in item.split(",") if normalize_space(part)]
+        )
+
+    if not name and expanded_items:
+        name = expanded_items[0]
+        expanded_items = expanded_items[1:]
+
+    if not expanded_items and re.search(r"\b(CEO|Chief|President|Founder|Director|Minister|Manager|Officer)\b", name):
+        name_parts = name.split(None, 1)
+        if len(name_parts) == 2:
+            maybe_name, maybe_rest = name_parts
+            if maybe_rest:
+                name = maybe_name
+                expanded_items = [maybe_rest]
+
+    name = normalize_space(re.sub(r"\b(CEO|Chief|President)\b.*$", "", name)) or name
+
+    if not expanded_items:
+        return name, "", ""
+
+    normalized_items: List[str] = []
+    for item in expanded_items:
+        if normalized_items and (
+            normalized_items[-1].endswith(" and")
+            or normalized_items[-1].endswith("&")
+            or re.fullmatch(r"[A-Z]{2,6}", item)
+        ):
+            normalized_items[-1] = f"{normalized_items[-1]} {item}"
+        else:
+            normalized_items.append(item)
+
+    org_parts = []
+    title_parts = []
+    for part in normalized_items:
+        lowered = part.lower()
+        starts_like_title = any(lowered.startswith(prefix) for prefix in TITLE_PREFIXES)
+        is_org = any(keyword in lowered for keyword in ORG_KEYWORDS)
+        if starts_like_title:
+            title_parts.append(part)
+        elif is_org:
+            org_parts.append(part)
+        else:
+            title_parts.append(part)
+
+    if not title_parts and normalized_items:
+        title_parts = [normalized_items[0]]
+        org_parts = normalized_items[1:]
+
+    if title_parts and not org_parts:
+        tail = title_parts[-1]
+        comma_match = re.match(r"^(.*?),(.*)$", tail)
+        if comma_match:
+            left = normalize_space(comma_match.group(1))
+            right = normalize_space(comma_match.group(2))
+            title_parts[-1] = left
+            if right:
+                org_parts.append(right)
+
+    if title_parts and not org_parts:
+        lowered = title_parts[-1].lower()
+        if any(lowered.startswith(prefix) for prefix in TITLE_OF_ORG_PREFIXES):
+            of_match = re.match(r"^(.*?\bof)\s+(.+)$", title_parts[-1], flags=re.IGNORECASE)
+            if of_match:
+                title_parts[-1] = normalize_space(of_match.group(1))
+                org_parts.append(normalize_space(of_match.group(2)))
+
+    title = ", ".join(title_parts).strip()
+    organization = ", ".join(org_parts).strip()
+    return name, title, organization
+
+
 def extract_quotes_from_html(html: str, lang: str) -> List[Tuple[str, str]]:
     soup = BeautifulSoup(html, "html.parser")
     heading = None
@@ -222,25 +403,28 @@ def extract_quotes_from_html(html: str, lang: str) -> List[Tuple[str, str]]:
 
     extracted: List[Tuple[str, str]] = []
     for block in quote_blocks:
-        paragraphs = [
-            normalize_space(p.get_text(" ", strip=True))
-            for p in block.find_all("p")
-            if normalize_space(p.get_text(" ", strip=True))
-        ]
+        chunks = [normalize_space(text) for text in block.stripped_strings if normalize_space(text)]
+        if not chunks:
+            continue
 
-        if paragraphs:
-            quote_text = strip_outer_quotes(paragraphs[0])
-            speaker_text = clean_speaker(" ".join(paragraphs[1:]))
-        else:
-            lines = [
-                normalize_space(text)
-                for text in block.get_text("\n", strip=True).splitlines()
-                if normalize_space(text)
-            ]
-            if not lines:
-                continue
-            quote_text = strip_outer_quotes(lines[0])
-            speaker_text = clean_speaker(" ".join(lines[1:]))
+        quote_parts: List[str] = []
+        speaker_parts: List[str] = []
+        quote_closed = False
+
+        for chunk in chunks:
+            if not quote_closed:
+                quote_parts.append(chunk)
+                if re.search(r'[”"»]\s*$', chunk):
+                    quote_closed = True
+            else:
+                speaker_parts.append(chunk)
+
+        if not speaker_parts and len(chunks) >= 2:
+            quote_parts = [chunks[0]]
+            speaker_parts = chunks[1:]
+
+        quote_text = strip_outer_quotes(" ".join(quote_parts))
+        speaker_text = clean_speaker(" | ".join(speaker_parts))
 
         if quote_text:
             extracted.append((quote_text, speaker_text))
@@ -342,10 +526,16 @@ def extract_images_from_html(page_url: str, html: str) -> List[Dict[str, str]]:
         src = normalize_image_src(page_url, src)
         if is_skippable_image(src):
             continue
+        figure = img.find_parent("figure")
+        caption_text = ""
+        if figure:
+            figcaption = figure.find("figcaption")
+            if figcaption:
+                caption_text = figcaption.get_text(" ", strip=True)
         images.append(
             {
                 "source_url": src,
-                "alt_text": normalize_space(img.get("alt", "")),
+                "alt_text": combine_text_values(img.get("alt", ""), caption_text),
             }
         )
 
@@ -375,6 +565,8 @@ def build_quote_rows(
     for quote_index in range(count):
         quote_en, speaker_en = quotes_en[quote_index] if quote_index < len(quotes_en) else ("", "")
         quote_fr, speaker_fr = quotes_fr[quote_index] if quote_index < len(quotes_fr) else ("", "")
+        speaker_name_en, speaker_title_en, speaker_org_en = split_speaker_fields(speaker_en)
+        speaker_name_fr, speaker_title_fr, speaker_org_fr = split_speaker_fields(speaker_fr)
         output_rows.append(
             {
                 "hash": row.get("hash", ""),
@@ -384,8 +576,14 @@ def build_quote_rows(
                 "QUOTE_INDEX": quote_index + 1,
                 "QUOTE_EN": quote_en,
                 "SPEAKER_EN": speaker_en,
+                "SPEAKER_NAME_EN": speaker_name_en,
+                "SPEAKER_TITLE_EN": speaker_title_en,
+                "SPEAKER_ORGANIZATION_EN": speaker_org_en,
                 "QUOTE_FR": quote_fr,
                 "SPEAKER_FR": speaker_fr,
+                "SPEAKER_NAME_FR": speaker_name_fr,
+                "SPEAKER_TITLE_FR": speaker_title_fr,
+                "SPEAKER_ORGANIZATION_FR": speaker_org_fr,
             }
         )
 
@@ -562,7 +760,19 @@ def main() -> int:
 
     existing_quotes = {} if args.full_rebuild else load_existing_rows(
         args.quotes_output,
-        ["QUOTE_INDEX", "QUOTE_EN", "SPEAKER_EN", "QUOTE_FR", "SPEAKER_FR"],
+        [
+            "QUOTE_INDEX",
+            "QUOTE_EN",
+            "SPEAKER_EN",
+            "SPEAKER_NAME_EN",
+            "SPEAKER_TITLE_EN",
+            "SPEAKER_ORGANIZATION_EN",
+            "QUOTE_FR",
+            "SPEAKER_FR",
+            "SPEAKER_NAME_FR",
+            "SPEAKER_TITLE_FR",
+            "SPEAKER_ORGANIZATION_FR",
+        ],
     )
     existing_images = {} if args.full_rebuild else load_existing_rows(
         args.images_output,
