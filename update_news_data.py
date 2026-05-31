@@ -150,8 +150,10 @@ def main():
     # Convert PUBDATE to datetime
     df_combined_ordered['PUBDATE'] = pd.to_datetime(df_combined_ordered['PUBDATE'])
 
-    # Sort by PUBDATE ascending and TITLE_TEXT_EN ascending
-    df_combined_ordered = df_combined_ordered.sort_values(by=['PUBDATE', 'TITLE_TEXT_EN'], ascending=[False, True])
+    # Sort oldest first so new feed items append instead of shifting every existing row down.
+    df_combined_ordered = df_combined_ordered.sort_values(
+        by=['PUBDATE', 'TITLE_TEXT_EN'], ascending=[True, True], kind='mergesort'
+    )
 
     return df_combined_ordered
 
@@ -190,8 +192,10 @@ if __name__ == "__main__":
             combined_data = new_data.copy()
             print("Created new data with 'hash' column.")
 
-        # Sort by PUBDATE descending and TITLE_TEXT_EN ascending
-        combined_data = combined_data.sort_values(by=['PUBDATE', 'TITLE_TEXT_EN'], ascending=[False, True])
+        # Sort oldest first so new rows append at the end and CSV diffs stay small.
+        combined_data = combined_data.sort_values(
+            by=['PUBDATE', 'TITLE_TEXT_EN'], ascending=[True, True], kind='mergesort'
+        )
 
         # Save the updated CSV file
         combined_data.to_csv(existing_csv_path, index=False)

@@ -1,80 +1,51 @@
 name: Update News Data
 
-# Allow this workflow to push changes back to the repository
 permissions:
   contents: write
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs every day at midnight UTC
-  workflow_dispatch:     # Allows manual triggering
+    - cron: '0 0 * * *'  # daily at 00:00 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: gc-news-data-pipeline
+  cancel-in-progress: false
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v3
-      with:
-        fetch-depth: 0  # Fetch all history for git diff
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-    - name: Install Dependencies
-      run: |
-        pip install pandas requests beautifulsoup4
+      - name: Install Dependencies
+        run: |
+          pip install pandas requests beautifulsoup4 spacy
+          python -m spacy download en_core_web_sm
 
-    - name: Run Update News Script
-      run: |
-        python update_news_data.py
+      - name: Refresh primary news CSV
+        run: python update_news_data.py
 
-    - name: get html
-      run: |
-        curl -v 'https://www.canada.ca/en/canadian-heritage/services/half-masting-notices.html' > data/en.html
-        curl -v 'https://www.canada.ca/fr/patrimoine-canadien/services/avis-mise-berne.html' > data/fr.html
+      - name: Scrape and enrich half-masting data
+        run: |
+          python scripts/scrape_half_masting.py
+          python scripts/enrich_halfmast.py
 
-    #- name: Run Half-masting Scraper
-    #  run: |
-     #   python scripts/scrape_half_masting.py
-
-    - name: commit files
-      run: |
-         git config --local user.email "action@github.com"
-         git config --local user.name "GitHub Action"
-         git add -A
-         git commit -a -m "updates" --allow-empty
-         git push -f
-
-  enrich-halfmast:
-    needs: update-data
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v3
-     
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.11'
-
-    - name: Install Dependencies
-      run: |
-        pip install pandas requests beautifulsoup4 spacy
-        python -m spacy download en_core_web_sm
-
-    - name: Run Enrich Half-masting Script
-      run: |
-        python scripts/enrich_halfmast.py
-
-    - name: Commit enriched outputs
-      run: |
-         git config --local user.email "action@github.com"
-         git config --local user.name "GitHub Action"
-         git pull
-         git add -A
-         git commit -m "Add/enrich half-masting output" --allow-empty
-         git push
+      - name: Commit refreshed source data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add combined_news.csv data/half_masting_combined.csv data/half_masting_enriched.csv
+          git diff --cached --quiet && exit 0
+          git commit -m "Update news and half-masting data"
+          git pull --rebase
+          git push

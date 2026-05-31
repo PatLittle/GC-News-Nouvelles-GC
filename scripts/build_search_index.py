@@ -81,7 +81,8 @@ for i,r in enumerate(quote_rows):
     raw_title = norm(r.get('SPEAKER_TITLE_EN'))
     if raw_title:
         title = raw_title
-    q={"id":f"q{i}","hash":h,"quote_text":qt,"speaker":sp,"speaker_title":title,"org":org,
+    qid=norm(r.get('id')) or f"q{i}"
+    q={"id":qid,"hash":h,"quote_text":qt,"speaker":sp,"speaker_title":title,"org":org,
        "date":a.get('date',parse_date(r.get('PUBDATE'))),"dept_en":a.get('dept_en',''),"type_en":a.get('type_en',''),
        "topic_en":a.get('topic_en',[]),"subject_en":a.get('subject_en',[]),"article_title":a.get('title',''),"article_url":a.get('url','')}
     quotes.append(q)
@@ -92,7 +93,8 @@ for i,r in enumerate(image_rows):
     fp=norm(r.get('FILE_PATH')); ext=fp.rsplit('.',1)[-1].lower() if '.' in fp else ''
     if fp.rsplit('/',1)[-1] in EXCLUDED_IMAGE_FILENAMES:
         continue
-    im={"id":f"img{i}","hash":h,"alt_text":norm(r.get('ALT_TEXT_EN') or r.get('ALT_TEXT')),"file_type":ext,"file_path":fp,"url":f"{RAW_BASE}{fp}" if fp else "",
+    iid=norm(r.get('id')) or f"img{i}"
+    im={"id":iid,"hash":h,"alt_text":norm(r.get('ALT_TEXT_EN') or r.get('ALT_TEXT')),"file_type":ext,"file_path":fp,"url":f"{RAW_BASE}{fp}" if fp else "",
         "date":a.get('date',parse_date(r.get('PUBDATE'))),"dept_en":a.get('dept_en',''),"type_en":a.get('type_en',''),
         "topic_en":a.get('topic_en',[]),"subject_en":a.get('subject_en',[]),"article_title":a.get('title',''),"article_url":a.get('url','')}
     images.append(im)

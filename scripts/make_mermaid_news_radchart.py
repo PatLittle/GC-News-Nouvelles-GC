@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
-import io
 import math
 from pathlib import Path
 
 import pandas as pd
-import requests
 
-CSV_URL = "https://github.com/PatLittle/GC-News-Nouvelles-GC/raw/refs/heads/main/combined_news.csv"
+CSV_PATH = Path("combined_news.csv")
 OUT = Path("docs/type_axes_quarter_curves.md")
 
 TOP_TYPES = 10  # keep readable
@@ -27,9 +25,8 @@ def nice_max(n: int) -> int:
 
 
 # --- Load data ---
-r = requests.get(CSV_URL, timeout=60)
-r.raise_for_status()
-df = pd.read_csv(io.BytesIO(r.content))
+# Use the checked-out CSV so charts are generated after the upstream CSV jobs finish.
+df = pd.read_csv(CSV_PATH)
 
 df["PUBDATE"] = pd.to_datetime(df["PUBDATE"], errors="coerce", utc=True)
 df = df[df["PUBDATE"].notna()].copy()
@@ -100,15 +97,13 @@ OUT.write_text("\n".join(lines), encoding="utf-8")
 
 print("Wrote", OUT)
 
-import io
 from pathlib import Path
 from datetime import timedelta
 
 import pandas as pd
-import requests
 import plotly.graph_objects as go
 
-CSV_URL = "https://github.com/PatLittle/GC-News-Nouvelles-GC/raw/refs/heads/main/combined_news.csv"
+CSV_PATH = Path("combined_news.csv")
 
 OUT = Path("docs/type_heatmap_180d.svg")
 DAYS = 180
@@ -116,9 +111,8 @@ TOP_TYPES = 12  # keep readable
 
 
 # --- Load data ---
-r = requests.get(CSV_URL, timeout=60)
-r.raise_for_status()
-df = pd.read_csv(io.BytesIO(r.content))
+# Use the checked-out CSV so charts are generated after the upstream CSV jobs finish.
+df = pd.read_csv(CSV_PATH)
 
 # Parse datetime
 df["PUBDATE"] = pd.to_datetime(df["PUBDATE"], errors="coerce", utc=True)

@@ -1,20 +1,29 @@
 name: Update GC News TYPE_EN chart
 
 on:
-  schedule:
-    - cron: "20 6 * * *"   # daily at 06:20 UTC
+  workflow_run:
+    workflows: ["Build search data"]
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: gc-news-data-pipeline
+  cancel-in-progress: false
+
 jobs:
   build:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -22,20 +31,17 @@ jobs:
           python-version: "3.12"
 
       - name: Install Python dependencies
-        run: pip install pandas requests
+        run: pip install pandas
 
       - name: Generate Mermaid chart (.mmd)
         run: |
           mkdir -p docs scripts
           python - <<'PY'
-          import io
           from datetime import timedelta
           from pathlib import Path
           import pandas as pd
-          import requests
-
-          CSV_URL = "https://github.com/PatLittle/GC-News-Nouvelles-GC/raw/refs/heads/main/combined_news.csv"
           OUT = Path("docs/news_type_30d.mmd")
+          CSV_PATH = Path("combined_news.csv")
 
           def esc(s):
               s = str(s).replace('"', '\\"')
@@ -43,10 +49,8 @@ jobs:
                   return f'"{s}"'
               return s
 
-          # Load data
-          r = requests.get(CSV_URL, timeout=60)
-          r.raise_for_status()
-          df = pd.read_csv(io.BytesIO(r.content))
+          # Load the checked-out CSV produced earlier in the workflow chain.
+          df = pd.read_csv(CSV_PATH)
 
           # Required fields
           df["PUBDATE"] = pd.to_datetime(df["PUBDATE"], errors="coerce", utc=True)
@@ -141,5 +145,7 @@ jobs:
           git config user.email "action@github.com"
 
           git add docs/news_type_30d.*
-          git diff --cached --quiet || git commit -m "Update TYPE_EN chart (last 30 days)"
+          git diff --cached --quiet && exit 0
+          git commit -m "Update TYPE_EN chart (last 30 days)"
+          git pull --rebase
           git push

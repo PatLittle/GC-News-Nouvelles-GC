@@ -270,13 +270,27 @@ def write_state(path: str, state: Dict[str, Dict[str, str]]) -> None:
         json.dump(state, fh, ensure_ascii=False, indent=2, sort_keys=True)
 
 
-def write_rows(path: str, fieldnames: List[str], rows: List[Dict[str, str]]) -> None:
+def stable_row_id(row: Dict[str, str], index_field: str, prefix: str) -> str:
+    article_hash = normalize_space(row.get("hash", ""))
+    item_index = normalize_space(str(row.get(index_field, "")))
+    if article_hash and item_index:
+        return f"{prefix}_{article_hash}_{int(item_index):03d}"
+    return normalize_space(row.get("id", ""))
+
+
+def write_rows(
+    path: str,
+    fieldnames: List[str],
+    rows: List[Dict[str, str]],
+    index_field: str,
+    id_prefix: str,
+) -> None:
     with open(path, "w", newline="", encoding="utf-8") as fh:
         writer = csv.DictWriter(fh, fieldnames=fieldnames)
         writer.writeheader()
-        for idx, row in enumerate(rows, start=1):
+        for row in rows:
             row_out = dict(row)
-            row_out["id"] = idx
+            row_out["id"] = stable_row_id(row_out, index_field, id_prefix)
             writer.writerow(row_out)
 
 
@@ -867,8 +881,8 @@ def main() -> int:
         ordered_image_rows.extend(image_rows)
 
     apply_counts_to_input_rows(input_rows, state)
-    write_rows(args.quotes_output, QUOTE_OUTPUT_FIELDS, ordered_quote_rows)
-    write_rows(args.images_output, IMAGE_OUTPUT_FIELDS, ordered_image_rows)
+    write_rows(args.quotes_output, QUOTE_OUTPUT_FIELDS, ordered_quote_rows, "QUOTE_INDEX", "quote")
+    write_rows(args.images_output, IMAGE_OUTPUT_FIELDS, ordered_image_rows, "IMAGE_INDEX", "image")
     write_state(args.state, state)
     write_input_rows(args.input, ensure_count_fields(input_fieldnames), input_rows)
 

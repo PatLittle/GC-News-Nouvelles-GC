@@ -129,12 +129,12 @@ These scripts are used to aggregate the news dataset into visual or textual summ
 
 ### `.github/workflows/update_news.yml`
 
-This workflow is the main scheduled automation. It:
+This workflow is the first scheduled automation stage. It:
 
 - refreshes `combined_news.csv`
-- captures half-masting source HTML into `data/en.html` and `data/fr.html`
-- runs half-masting enrichment
-- commits and pushes generated updates back to the repository
+- runs the half-masting scraper to update `data/half_masting_combined.csv`
+- runs half-masting enrichment to update `data/half_masting_enriched.csv`
+- commits once after those source datasets are ready
 
 ### `.github/workflows/extract-news-quotes.yml`
 
@@ -143,7 +143,34 @@ This workflow runs after the main news update workflow succeeds. It:
 - reads the latest `combined_news.csv`
 - extracts quotes and images from article pages
 - updates the derived CSVs and downloaded image assets
+- writes stable quote and image row IDs based on article hash plus within-article index
 - commits those outputs back to the repository
+
+
+## Automation Order And Generated Outputs
+
+The GitHub Actions workflows are intentionally chained so that each derived output is generated only after its source CSVs have settled. The shared `gc-news-data-pipeline` concurrency group lets one stage finish before the next stage writes to the branch, which avoids the earlier pattern where scheduled jobs could commit against stale intermediate data.
+
+```mermaid
+flowchart TD
+    A[Update News Data<br/>00:00 UTC or manual] --> B[combined_news.csv<br/>oldest-first stable sort]
+    A --> C[data/half_masting_combined.csv]
+    C --> D[data/half_masting_enriched.csv]
+    B --> E[Extract News Quotes And Images<br/>workflow_run after Update News Data]
+    E --> F[combined_news_quotes.csv<br/>stable quote hash index ids]
+    E --> G[combined_news_images.csv<br/>stable image hash index ids]
+    E --> H[data/news_quotes_state.json<br/>and data/news_images/]
+    F --> I[Build search data<br/>workflow_run after extraction]
+    G --> I
+    B --> I
+    I --> J[docs/search-data.json]
+    J --> K[30-day TYPE_EN chart<br/>workflow_run after search data]
+    K --> L[docs/news_type_30d.*]
+    L --> M[Quarterly radar and heatmap<br/>workflow_run after 30-day chart]
+    M --> N[docs/type_axes_quarter_curves.md<br/>and docs/type_heatmap_180d.svg]
+```
+
+In short: the primary CSV is refreshed first, article-level CSVs are extracted second, search JSON is built third, and charts are rendered last in a serial order. Manual runs still work at each stage, but scheduled automation no longer builds HTML, search data, or charts in the middle of a multi-step CSV update.
 
 ## Repository Structure
 
