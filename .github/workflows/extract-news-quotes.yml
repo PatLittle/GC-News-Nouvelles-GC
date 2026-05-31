@@ -21,6 +21,10 @@ on:
         default: "50"
         type: string
 
+concurrency:
+  group: gc-news-data-pipeline
+  cancel-in-progress: false
+
 jobs:
   extract-news-quotes:
     if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
@@ -30,6 +34,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -51,11 +57,12 @@ jobs:
             python scripts/extract_news_quotes.py --limit "$LIMIT"
           fi
 
-      - name: Commit generated quote data
+      - name: Commit generated quote and image data
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add combined_news.csv combined_news_quotes.csv combined_news_images.csv data/news_quotes_state.json data/news_images scripts/extract_news_quotes.py .github/workflows/extract-news-quotes.yml
+          git add combined_news.csv combined_news_quotes.csv combined_news_images.csv data/news_quotes_state.json data/news_images
           git diff --cached --quiet && exit 0
           git commit -m "Extract news quotes and images"
+          git pull --rebase
           git push
