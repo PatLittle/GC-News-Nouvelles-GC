@@ -27,10 +27,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install Dependencies
+      - name: Install Python deps
         run: |
-          pip install pandas requests beautifulsoup4 spacy
-          python -m spacy download en_core_web_sm
+            python -m pip install --upgrade pip setuptools wheel
+            python -m pip install pandas requests beautifulsoup4 click typer "spacy==3.8.14"
+            python -m spacy download en_core_web_sm
 
       - name: Refresh primary news CSV
         run: python update_news_data.py
