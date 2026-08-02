@@ -17500,6 +17500,17 @@
     "updated_at": "2026-07-10T02:30:45.816675+00:00",
     "version": 6
   },
+  "211f00a148984a5b51e30ef66b25bd8e|2026-08-01 11:00:00|https://www.canada.ca/en/canadian-heritage/news/2026/07/statement-by-minister-miller-on-emancipation-day.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/07/declaration-du-ministre-miller-a-loccasion-du-jour-de-lemancipation.html": {
+    "PUBDATE": "2026-08-01 11:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/07/statement-by-minister-miller-on-emancipation-day.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/07/declaration-du-ministre-miller-a-loccasion-du-jour-de-lemancipation.html",
+    "hash": "211f00a148984a5b51e30ef66b25bd8e",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-02T02:13:03.327656+00:00",
+    "version": 6
+  },
   "21225e9133a85754d6fe2a2f1b9c4ada|2025-04-25 16:03:23|https://www.canada.ca/en/agriculture-agri-food/news/2025/04/governments-extend-agristability-enrolment-deadline-for-2025-program-year.html|https://www.canada.ca/fr/agriculture-agroalimentaire/nouvelles/2025/04/les-gouvernements-prolongent-la-date-limite-dinscription-au-programme-agri-stabilite-pour-lannee-2025.html": {
     "PUBDATE": "2025-04-25 16:03:23",
     "TITLE_URL_EN": "https://www.canada.ca/en/agriculture-agri-food/news/2025/04/governments-extend-agristability-enrolment-deadline-for-2025-program-year.html",
@@ -56627,6 +56638,17 @@
     "updated_at": "2026-05-12T14:12:43.845586+00:00",
     "version": 6
   },
+  "6affdf9c0940d3947334c5de58018a77|2026-08-01 12:00:04|https://www.canada.ca/en/fisheries-oceans/news/2026/07/minister-announces-small-craft-harbour-improvement-projects-on-the-burin-peninsula-newfoundland-and-labrador.html|https://www.canada.ca/fr/peches-oceans/nouvelles/2026/07/la-ministre-annonce-des-projets-damelioration-des-ports-pour-petits-bateaux-sur-la-peninsule-de-burin-a-terre-neuve-et-labrador.html": {
+    "PUBDATE": "2026-08-01 12:00:04",
+    "TITLE_URL_EN": "https://www.canada.ca/en/fisheries-oceans/news/2026/07/minister-announces-small-craft-harbour-improvement-projects-on-the-burin-peninsula-newfoundland-and-labrador.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/peches-oceans/nouvelles/2026/07/la-ministre-annonce-des-projets-damelioration-des-ports-pour-petits-bateaux-sur-la-peninsule-de-burin-a-terre-neuve-et-labrador.html",
+    "hash": "6affdf9c0940d3947334c5de58018a77",
+    "image_count": 0,
+    "quote_count": 1,
+    "status": "ok",
+    "updated_at": "2026-08-02T02:13:04.381312+00:00",
+    "version": 6
+  },
   "6b00a848584464ec0714902175a77fe8|2026-05-12 17:52:15|https://www.canada.ca/en/innovation-science-economic-development/news/2026/05/minister-joly-to-hold-media-scrum-in-charlottetown.html|https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2026/05/la-ministre-joly-participera-a-une-melee-de-presse-a-charlottetown.html": {
     "PUBDATE": "2026-05-12 17:52:15",
     "TITLE_URL_EN": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/05/minister-joly-to-hold-media-scrum-in-charlottetown.html",
@@ -85258,6 +85280,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T13:46:48.001779+00:00",
+    "version": 6
+  },
+  "a1853b3dbb0ca996a40874cf81921007|2026-08-01 09:00:08|https://www.canada.ca/en/agriculture-agri-food/news/2026/07/ministers-statement-food-day-canada-2026.html|https://www.canada.ca/fr/agriculture-agroalimentaire/nouvelles/2026/07/declaration-du-ministre--journee-canadienne-de-lalimentation-de-2026.html": {
+    "PUBDATE": "2026-08-01 09:00:08",
+    "TITLE_URL_EN": "https://www.canada.ca/en/agriculture-agri-food/news/2026/07/ministers-statement-food-day-canada-2026.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/agriculture-agroalimentaire/nouvelles/2026/07/declaration-du-ministre--journee-canadienne-de-lalimentation-de-2026.html",
+    "hash": "a1853b3dbb0ca996a40874cf81921007",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-02T02:13:01.372094+00:00",
     "version": 6
   },
   "a18716ec7ac778bd6749e7f5662b3e9b|2026-05-15 17:54:07|https://www.canada.ca/en/northern-economic-development/news/2026/05/backgrounder-the-government-of-canada-invests-nearly-490000-to-expand-innovation-for-a-resilient-northern-economy.html|https://www.canada.ca/fr/developpement-economique-nord/nouvelles/2026/05/document-dinformation--le-gouvernement-du-canada-investit-pres-de-490-000--pour-accroitre-linnovation-au-service-dune-economie-nordique-resiliente.html": {
