@@ -7226,17 +7226,6 @@
     "updated_at": "2026-05-12T15:03:34.223415+00:00",
     "version": 6
   },
-  "0e6087da423eb72e5c838641fae07fd1|2026-07-08 15:59:22|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/the-government-of-canada-will-help-fund-the-vaudreuil-soulanges-hospital-project.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-gouvernement-du-canada-contribuera-au-financement-du-projet-de-lhopital-vaudreuil-soulanges.html": {
-    "PUBDATE": "2026-07-08 15:59:22",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/the-government-of-canada-will-help-fund-the-vaudreuil-soulanges-hospital-project.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-gouvernement-du-canada-contribuera-au-financement-du-projet-de-lhopital-vaudreuil-soulanges.html",
-    "hash": "0e6087da423eb72e5c838641fae07fd1",
-    "image_count": 0,
-    "quote_count": 7,
-    "status": "ok",
-    "updated_at": "2026-07-08T23:03:30.185850+00:00",
-    "version": 6
-  },
   "0e6273d78857dc908a58e762ec3f1873|2025-10-18 12:00:00|https://www.canada.ca/en/canada-water-agency/news/2025/10/canada-water-agency-advances-efforts-to-restore-and-protect-lake-winnipeg.html|https://www.canada.ca/fr/agence-eau-canada/nouvelles/2025/10/lagence-de-leau-du-canada-poursuit-ses-efforts-pour-restaurer-et-proteger-le-lac-winnipeg.html": {
     "PUBDATE": "2025-10-18 12:00:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/canada-water-agency/news/2025/10/canada-water-agency-advances-efforts-to-restore-and-protect-lake-winnipeg.html",
@@ -7312,6 +7301,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:41:58.269820+00:00",
+    "version": 6
+  },
+  "0e768a0634c546eccc635b391f34f395|2026-07-08 15:59:22|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/the-government-of-canada-will-help-fund-the-vaudreuil-soulanges-hospital-project.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-gouvernement-du-canada-contribuera-au-financement-du-projet-de-lhopital-vaudreuil-soulanges.html": {
+    "PUBDATE": "2026-07-08 15:59:22",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/the-government-of-canada-will-help-fund-the-vaudreuil-soulanges-hospital-project.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-gouvernement-du-canada-contribuera-au-financement-du-projet-de-lhopital-vaudreuil-soulanges.html",
+    "hash": "0e768a0634c546eccc635b391f34f395",
+    "image_count": 0,
+    "quote_count": 7,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:32.061403+00:00",
     "version": 6
   },
   "0e78f27c067eaa85789e870cac5e1c4c|2026-07-05 19:00:41|https://www.canada.ca/en/defence-investment-agency/news/2026/07/secretary-of-state-fuhr-to-announce-new-measures-to-make-canada-more-secure-resilient-and-prosperous.html|https://www.canada.ca/fr/agence-investissement-defense/nouvelles/2026/07/le-secretaire-detat-fuhr-annoncera-de-nouvelles-mesures-visant-a-rendre-le-canada-plus-sur-plus-resilient-et-plus-prospere.html": {
@@ -18204,17 +18204,6 @@
     "updated_at": "2026-05-12T14:55:36.480097+00:00",
     "version": 6
   },
-  "229850593854c18d511db1bed116ae96|2026-07-27 12:41:58|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-from-playground-to-podiumgovernment-of-canada-makes-major-investments-in-alberta.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-du-terrain-de-jeu-au-podiumle-gouvernement-du-canada-fait-des-investissements-importants-en-alberta.html": {
-    "PUBDATE": "2026-07-27 12:41:58",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-from-playground-to-podiumgovernment-of-canada-makes-major-investments-in-alberta.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-du-terrain-de-jeu-au-podiumle-gouvernement-du-canada-fait-des-investissements-importants-en-alberta.html",
-    "hash": "229850593854c18d511db1bed116ae96",
-    "image_count": 0,
-    "quote_count": 7,
-    "status": "ok",
-    "updated_at": "2026-07-28T02:03:08.813294+00:00",
-    "version": 6
-  },
   "22a1b10660e01f637df8db1aebf4ea77|2024-07-10 15:04:27|https://www.canada.ca/en/fisheries-oceans/news/2024/07/sechelt-property-owner-fined-70000-for-contravening-the-federal-fisheries-act.html|https://www.canada.ca/fr/peches-oceans/nouvelles/2024/07/un-proprietaire-foncier-de-sechelt-recoit-une-amende-de-70-000--pour-avoir-enfreint-la-loi-sur-les-peches-du-gouvernement-federal.html": {
     "PUBDATE": "2024-07-10 15:04:27",
     "TITLE_URL_EN": "https://www.canada.ca/en/fisheries-oceans/news/2024/07/sechelt-property-owner-fined-70000-for-contravening-the-federal-fisheries-act.html",
@@ -21295,6 +21284,17 @@
     "updated_at": "2026-05-12T14:21:21.309841+00:00",
     "version": 6
   },
+  "287dcd0431de017ebf22edd6a8d89290|2026-07-20 13:15:51|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-wastewater-infrastructure-in-green-hill.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-les-infrastructures-de-traitement-des-eaux-usees-de-green-hill.html": {
+    "PUBDATE": "2026-07-20 13:15:51",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-wastewater-infrastructure-in-green-hill.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-les-infrastructures-de-traitement-des-eaux-usees-de-green-hill.html",
+    "hash": "287dcd0431de017ebf22edd6a8d89290",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:37.197322+00:00",
+    "version": 6
+  },
   "2885551d64b313201c301ae2e17510e4|2025-09-22 14:37:17|https://www.canada.ca/en/department-national-defence/news/2025/09/canada-army-run-2025-thousands-racing-with-purpose-in-support-of-the-canadian-armed-forces.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2025/09/des-milliers-de-personnes-se-mobilisent-pour-soutenir-les-forces-armees-canadiennes-dans-le-cadre-de-la-course-de-larmee-du-canada-2025.html": {
     "PUBDATE": "2025-09-22 14:37:17",
     "TITLE_URL_EN": "https://www.canada.ca/en/department-national-defence/news/2025/09/canada-army-run-2025-thousands-racing-with-purpose-in-support-of-the-canadian-armed-forces.html",
@@ -21656,17 +21656,6 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T13:44:11.993949+00:00",
-    "version": 6
-  },
-  "28fac3f332dd7d34e3f415f6437b92b4|2026-06-20 12:30:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/building-canada-strong-by-investing-in-wastewater-infrastructure-in-the-rm-of-st-laurent.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/batir-un-canada-fort-en-investissant-dans-les-infrastructures-de-traitement-des-eaux-usees-de-la-mr-de-saint-laurent.html": {
-    "PUBDATE": "2026-06-20 12:30:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/building-canada-strong-by-investing-in-wastewater-infrastructure-in-the-rm-of-st-laurent.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/batir-un-canada-fort-en-investissant-dans-les-infrastructures-de-traitement-des-eaux-usees-de-la-mr-de-saint-laurent.html",
-    "hash": "28fac3f332dd7d34e3f415f6437b92b4",
-    "image_count": 0,
-    "quote_count": 2,
-    "status": "ok",
-    "updated_at": "2026-06-21T03:35:01.971240+00:00",
     "version": 6
   },
   "2907f17ee94b0451d870efc316f641a5|2024-06-20 13:56:16|https://www.canada.ca/en/economic-development-southern-ontario/news/2024/06/healthy-meals-for-up-to-400000-more-kids.html|https://www.canada.ca/fr/developpement-economique-sud-ontario/nouvelles/2024/06/des-repas-sains-pour-400-000-enfants-de-plus.html": {
@@ -24727,6 +24716,17 @@
     "updated_at": "2026-05-12T13:43:00.280725+00:00",
     "version": 6
   },
+  "2e566156e74ab4911e9815e03946ffd6|2026-06-30 12:19:21|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/building-canada-strong-by-investing-in-regional-wastewater-infrastructure-in-the-rm-of-st-clements.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/batir-un-canada-fort-en-investissant-dans-les-infrastructures-regionales-de-gestion-des-eaux-usees-de-la-mr-de-st-clements.html": {
+    "PUBDATE": "2026-06-30 12:19:21",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/building-canada-strong-by-investing-in-regional-wastewater-infrastructure-in-the-rm-of-st-clements.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/batir-un-canada-fort-en-investissant-dans-les-infrastructures-regionales-de-gestion-des-eaux-usees-de-la-mr-de-st-clements.html",
+    "hash": "2e566156e74ab4911e9815e03946ffd6",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:30.089888+00:00",
+    "version": 6
+  },
   "2e580572314c49f37c7c1821e59fbe85|2025-08-27 16:17:00|https://www.canada.ca/en/national-film-board/news/2025/08/world-premiere-of-brishkay-ahmeds-in-the-room-headlines-a-bold-lineup-of-nfb-documentary-and-animation-at-viff-2025.html|https://www.canada.ca/fr/office-national-film/nouvelles/2025/08/lonf-au-festival-international-du-film-de-vancouver--une-audacieuse-selection-dont-in-the-room-de-brishkay-ahmed-en-premiere-mondiale.html": {
     "PUBDATE": "2025-08-27 16:17:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/national-film-board/news/2025/08/world-premiere-of-brishkay-ahmeds-in-the-room-headlines-a-bold-lineup-of-nfb-documentary-and-animation-at-viff-2025.html",
@@ -25407,6 +25407,17 @@
     "quote_count": 3,
     "status": "ok",
     "updated_at": "2026-05-12T14:47:14.132619+00:00",
+    "version": 6
+  },
+  "2f7546ba567df466d901f3d27a2d0e25|2026-07-15 09:30:01|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/the-project-to-expand-and-renovate-the-charles-le-moyne-hospital-is-moving-forward.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-projet-dagrandissement-et-de-reamenagement-de-lhopital-charles-le-moyne-va-de-lavant.html": {
+    "PUBDATE": "2026-07-15 09:30:01",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/the-project-to-expand-and-renovate-the-charles-le-moyne-hospital-is-moving-forward.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-projet-dagrandissement-et-de-reamenagement-de-lhopital-charles-le-moyne-va-de-lavant.html",
+    "hash": "2f7546ba567df466d901f3d27a2d0e25",
+    "image_count": 0,
+    "quote_count": 11,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:33.425764+00:00",
     "version": 6
   },
   "2f7db24801a7436b26422e51885ae7aa|2026-04-08 16:24:04|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/04/housing-announcement-in-morin-heights.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/04/annonce-concernant-le-logement-a-morin-heights.html": {
@@ -26441,6 +26452,17 @@
     "quote_count": 7,
     "status": "ok",
     "updated_at": "2026-05-12T14:40:07.361425+00:00",
+    "version": 6
+  },
+  "3196b533e6fd03d4e32c1d838a4ff05c|2026-08-04 07:30:00|https://www.canada.ca/en/defence-investment-agency/news/2026/08/the-government-of-canada-awards-a-military-communications-contract-to-support-arctic-sovereignty-and-national-security0.html|https://www.canada.ca/fr/agence-investissement-defense/nouvelles/2026/08/le-gouvernement-du-canada-attribue-un-contrat-de-communications-militaires-visant-a-soutenir-la-souverainete-dans-larctique-et-la-securite-nationale0.html": {
+    "PUBDATE": "2026-08-04 07:30:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/defence-investment-agency/news/2026/08/the-government-of-canada-awards-a-military-communications-contract-to-support-arctic-sovereignty-and-national-security0.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/agence-investissement-defense/nouvelles/2026/08/le-gouvernement-du-canada-attribue-un-contrat-de-communications-militaires-visant-a-soutenir-la-souverainete-dans-larctique-et-la-securite-nationale0.html",
+    "hash": "3196b533e6fd03d4e32c1d838a4ff05c",
+    "image_count": 0,
+    "quote_count": 6,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:40.884298+00:00",
     "version": 6
   },
   "31a0f1bb485a4c0a553794c00fe4fbf2|2024-07-10 16:44:49|https://www.canada.ca/en/agriculture-agri-food/news/2024/07/building-resiliency-for-alberta-beef-farms.html|https://www.canada.ca/fr/agriculture-agroalimentaire/nouvelles/2024/07/renforcer-la-resilience-des-exploitations-bovines-de-lalberta.html": {
@@ -28366,6 +28388,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T15:06:42.665672+00:00",
+    "version": 6
+  },
+  "358320b0190b839091f39464a946e564|2026-07-16 10:00:06|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-upgrades-to-water-distribution-in-north-dundas.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-lamelioration-du-reseau-dalimentation-en-eau-de-north-dundas.html": {
+    "PUBDATE": "2026-07-16 10:00:06",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-upgrades-to-water-distribution-in-north-dundas.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-lamelioration-du-reseau-dalimentation-en-eau-de-north-dundas.html",
+    "hash": "358320b0190b839091f39464a946e564",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:34.338741+00:00",
     "version": 6
   },
   "3583c8feabbd2c0262fed6a43098a7f6|2025-08-29 15:00:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2025/08/samuel-de-champlain-bridge-special-illumination-for-the-international-overdose-awareness-day.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2025/08/pont-samuel-de-champlain--illumination-speciale-pour-la-journee-internationale-de-sensibilisation-aux-surdoses.html": {
@@ -30436,6 +30469,17 @@
     "updated_at": "2026-05-12T14:08:25.440255+00:00",
     "version": 6
   },
+  "397cdec2bfc4e09623f669fae6077bc2|2026-08-04 16:41:09|https://www.canada.ca/en/correctional-service/news/2026/08/seizure-of-contraband-and-unauthorized-items-at-drumheller-institution.html|https://www.canada.ca/fr/service-correctionnel/nouvelles/2026/08/saisie-dobjets-interdits-et-non-autorises-a-letablissement-de-drumheller.html": {
+    "PUBDATE": "2026-08-04 16:41:09",
+    "TITLE_URL_EN": "https://www.canada.ca/en/correctional-service/news/2026/08/seizure-of-contraband-and-unauthorized-items-at-drumheller-institution.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/service-correctionnel/nouvelles/2026/08/saisie-dobjets-interdits-et-non-autorises-a-letablissement-de-drumheller.html",
+    "hash": "397cdec2bfc4e09623f669fae6077bc2",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:48.616967+00:00",
+    "version": 6
+  },
   "397d1b4138cf90eceb52305a235cd44d|2024-12-13 10:43:09|https://www.canada.ca/en/innovation-science-economic-development/news/2024/12/minister-valdez-and-minister-khera-to-highlight-tax-break-for-all-canadians.html|https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2024/12/les-ministres-valdez-et-khera-souligneront-le-conge-de-taxe-pour-tous-les-canadiens.html": {
     "PUBDATE": "2024-12-13 10:43:09",
     "TITLE_URL_EN": "https://www.canada.ca/en/innovation-science-economic-development/news/2024/12/minister-valdez-and-minister-khera-to-highlight-tax-break-for-all-canadians.html",
@@ -31151,6 +31195,17 @@
     "updated_at": "2026-05-12T13:26:16.317782+00:00",
     "version": 6
   },
+  "3b11906ac09e1077a6f57e013c5b634e|2026-08-04 11:43:40|https://www.canada.ca/en/treasury-board-secretariat/news/2026/07/statement-by-the-government-of-canada-on-the-notice-of-settlement-approval-regarding-the-sweet-v-hmk-class-action.html|https://www.canada.ca/fr/secretariat-conseil-tresor/nouvelles/2026/07/declaration-du-gouvernement-du-canada-concernant-lapprobation-de-laccord-de-reglement-dans-le-cadre-du-recours-collectif-sweet-c-sa-majeste-le-roi.html": {
+    "PUBDATE": "2026-08-04 11:43:40",
+    "TITLE_URL_EN": "https://www.canada.ca/en/treasury-board-secretariat/news/2026/07/statement-by-the-government-of-canada-on-the-notice-of-settlement-approval-regarding-the-sweet-v-hmk-class-action.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/secretariat-conseil-tresor/nouvelles/2026/07/declaration-du-gouvernement-du-canada-concernant-lapprobation-de-laccord-de-reglement-dans-le-cadre-du-recours-collectif-sweet-c-sa-majeste-le-roi.html",
+    "hash": "3b11906ac09e1077a6f57e013c5b634e",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:46.000024+00:00",
+    "version": 6
+  },
   "3b13cdd6f3fc4e6fdf218577bfec6a69|2025-11-01 09:00:00|https://www.canada.ca/en/canadian-heritage/news/2025/10/statement-by-minister-guilbeault-on-hindu-heritage-month.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2025/10/declaration-du-ministre-guilbeault-a-loccasion-du-mois-du-patrimoine-hindou.html": {
     "PUBDATE": "2025-11-01 09:00:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2025/10/statement-by-minister-guilbeault-on-hindu-heritage-month.html",
@@ -31611,6 +31666,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:33:06.398251+00:00",
+    "version": 6
+  },
+  "3c0f64dd244007c504f85c4737321a70|2026-07-23 10:00:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/canada-and-nunavut-partner-to-build-essential-infrastructure-and-more-homes.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-canada-et-lontario-soulignent-une-autre-etape-importante-du-prolongement-vers-le-nord-de-la-ligne-de-metro-yonge.html": {
+    "PUBDATE": "2026-07-23 10:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/canada-and-nunavut-partner-to-build-essential-infrastructure-and-more-homes.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-canada-et-lontario-soulignent-une-autre-etape-importante-du-prolongement-vers-le-nord-de-la-ligne-de-metro-yonge.html",
+    "hash": "3c0f64dd244007c504f85c4737321a70",
+    "image_count": 0,
+    "quote_count": 8,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:35.739156+00:00",
     "version": 6
   },
   "3c160e0ce2ffa6d72178b855a710ed14|2024-11-05 15:26:33|https://www.canada.ca/en/department-finance/news/2024/11/remarks-by-the-deputy-prime-minister-at-the-standing-committee-on-natural-resources-regarding-the-trans-mountain-expansion-project.html|https://www.canada.ca/fr/ministere-finances/nouvelles/2024/11/allocution-de-la-vice-premiere-ministre-devant-le-comite-permanent-des-ressources-naturelles-sur-le-projet-dagrandissement-du-.html": {
@@ -32876,17 +32942,6 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:51:00.509679+00:00",
-    "version": 6
-  },
-  "3ea01841a96aabbf5bf15111a4fbb9c4|2026-07-27 17:58:28|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/canada-and-northwest-territories-partner-to-build-more-homes-and-essential-infrastructure.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-canada-et-les-territoires-du-nord-ouest-sassocient-pour-batir-davantage-de-logements-et-dinfrastructures-essentielles.html": {
-    "PUBDATE": "2026-07-27 17:58:28",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/canada-and-northwest-territories-partner-to-build-more-homes-and-essential-infrastructure.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-canada-et-les-territoires-du-nord-ouest-sassocient-pour-batir-davantage-de-logements-et-dinfrastructures-essentielles.html",
-    "hash": "3ea01841a96aabbf5bf15111a4fbb9c4",
-    "image_count": 0,
-    "quote_count": 8,
-    "status": "ok",
-    "updated_at": "2026-07-28T02:03:15.155109+00:00",
     "version": 6
   },
   "3ea18d69dd360185b328a5e7155facb2|2026-05-12 12:00:04|https://www.canada.ca/en/transport-canada/news/2026/05/government-of-canada-marks-the-groundbreaking-of-a-major-supply-chain-expansion-project-at-edmonton-international-airport.html|https://www.canada.ca/fr/transports-canada/nouvelles/2026/05/le-gouvernement-du-canada-marque-le-debut-des-travaux-dun-important-projet-dexpansion-de-la-chaine-dapprovisionnement-a-laeroport-international-ded.html": {
@@ -36519,6 +36574,17 @@
     "updated_at": "2026-05-12T13:53:16.791412+00:00",
     "version": 6
   },
+  "4549404c6abcdfbee217b92856164e4b|2026-08-04 13:00:00|https://www.canada.ca/en/natural-resources-canada/news/2026/08/strengthening-indigenous-leadership-in-british-columbias-forest-sector.html|https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2026/08/renforcer-le-leadership-autochtone-dans-le-secteur-forestier-britanno-colombien.html": {
+    "PUBDATE": "2026-08-04 13:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/natural-resources-canada/news/2026/08/strengthening-indigenous-leadership-in-british-columbias-forest-sector.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2026/08/renforcer-le-leadership-autochtone-dans-le-secteur-forestier-britanno-colombien.html",
+    "hash": "4549404c6abcdfbee217b92856164e4b",
+    "image_count": 0,
+    "quote_count": 4,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:48.380346+00:00",
+    "version": 6
+  },
   "454e54acb8a1d03433dabff9f54aa3d3|2024-10-15 10:55:41|https://www.canada.ca/en/department-justice/news/2024/10/minister-of-justice-and-attorney-general-of-canada-announces-a-judicial-appointment-in-the-province-of-manitoba.html|https://www.canada.ca/fr/ministere-justice/nouvelles/2024/10/le-ministre-de-la-justice-et-procureur-general-du-canada-annonce-une-nomination-a-la-magistrature-du-manitoba.html": {
     "PUBDATE": "2024-10-15 10:55:41",
     "TITLE_URL_EN": "https://www.canada.ca/en/department-justice/news/2024/10/minister-of-justice-and-attorney-general-of-canada-announces-a-judicial-appointment-in-the-province-of-manitoba.html",
@@ -38959,6 +39025,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:33:20.117774+00:00",
+    "version": 6
+  },
+  "496b059bfb0cb2856343c6976a12b278|2026-08-04 11:10:01|https://www.canada.ca/en/public-safety-canada/news/2026/08/government-of-canada-establishes-foreign-influence-registry.html|https://www.canada.ca/fr/securite-publique-canada/nouvelles/2026/08/le-gouvernement-du-canada-etablit-un-registre-des-activites-dinfluence-etrangere.html": {
+    "PUBDATE": "2026-08-04 11:10:01",
+    "TITLE_URL_EN": "https://www.canada.ca/en/public-safety-canada/news/2026/08/government-of-canada-establishes-foreign-influence-registry.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/securite-publique-canada/nouvelles/2026/08/le-gouvernement-du-canada-etablit-un-registre-des-activites-dinfluence-etrangere.html",
+    "hash": "496b059bfb0cb2856343c6976a12b278",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:47.064242+00:00",
     "version": 6
   },
   "496bb196b74bc0420f3b1359ed1b15dd|2025-10-28 16:59:57|https://www.canada.ca/en/global-affairs/news/2025/10/paris-joint-political-declaration-on-achieving-gender-equality-promoting-human-rights-of-all-women-and-girls-and-strengthening-a-feminist-approach-.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2025/10/declaration-politique-commune-de-paris-sur-la-realisation-de-legalite-des-genres-la-promotion-des-droits-de-toutes-les-femmes-et-filles-et-le-renfo.html": {
@@ -44736,17 +44813,6 @@
     "updated_at": "2026-05-12T14:59:13.796291+00:00",
     "version": 6
   },
-  "548be2503993ea9bb551a5d15e5f0ec4|2026-07-20 13:15:51|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-wastewater-infrastructure-in-green-hill.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-les-infrastructures-de-traitement-des-eaux-usees-de-green-hill.html": {
-    "PUBDATE": "2026-07-20 13:15:51",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-wastewater-infrastructure-in-green-hill.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-les-infrastructures-de-traitement-des-eaux-usees-de-green-hill.html",
-    "hash": "548be2503993ea9bb551a5d15e5f0ec4",
-    "image_count": 0,
-    "quote_count": 2,
-    "status": "ok",
-    "updated_at": "2026-07-22T02:07:06.237283+00:00",
-    "version": 6
-  },
   "5490c96a827e090603f4a3f802404b29|2026-03-26 14:13:43|https://www.canada.ca/en/prairies-economic-development/news/2026/03/government-of-canada-announces-support-for-black-entrepreneurs-in-saskatchewan.html|https://www.canada.ca/fr/developpement-economique-prairies/nouvelles/2026/03/le-gouvernement-du-canada-annonce-son-soutien-aux-entrepreneurs-noirs-de-la-saskatchewan.html": {
     "PUBDATE": "2026-03-26 14:13:43",
     "TITLE_URL_EN": "https://www.canada.ca/en/prairies-economic-development/news/2026/03/government-of-canada-announces-support-for-black-entrepreneurs-in-saskatchewan.html",
@@ -45198,17 +45264,6 @@
     "updated_at": "2026-05-12T13:26:23.911061+00:00",
     "version": 6
   },
-  "5566bba9e059d8c6e4a3dbdad0a07603|2026-07-22 13:45:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-the-bob-macquarrie-recreation-complex.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-le-complexe-recreatif-bob-macquarrie.html": {
-    "PUBDATE": "2026-07-22 13:45:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-the-bob-macquarrie-recreation-complex.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-le-complexe-recreatif-bob-macquarrie.html",
-    "hash": "5566bba9e059d8c6e4a3dbdad0a07603",
-    "image_count": 0,
-    "quote_count": 3,
-    "status": "ok",
-    "updated_at": "2026-07-23T02:13:42.219584+00:00",
-    "version": 6
-  },
   "556ccad28191513be2bebc0c2f385851|2024-05-27 13:53:30|https://www.canada.ca/en/employment-social-development/news/2024/05/backgrounder-employment-equity-achievement-awards-2024.html|https://www.canada.ca/fr/emploi-developpement-social/nouvelles/2024/05/document-dinformation--prix-de-realisation-pour-lequite-en-emploi-2024.html": {
     "PUBDATE": "2024-05-27 13:53:30",
     "TITLE_URL_EN": "https://www.canada.ca/en/employment-social-development/news/2024/05/backgrounder-employment-equity-achievement-awards-2024.html",
@@ -45339,6 +45394,17 @@
     "quote_count": 2,
     "status": "ok",
     "updated_at": "2026-06-23T02:45:40.244070+00:00",
+    "version": 6
+  },
+  "55ac261bef4c6fdfcce248ef210ebcf0|2026-07-09 14:24:39|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/backgrounder-the-project-to-expand-and-renovate-the-psychiatric-services-centre-and-emergency-department-at-the-saint-francois-dassise-hospital-wil.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/document-dinformation--le-projet-dagrandissement-et-de-reamenagement-du-centre-de-services-en-psychiatrie-et-de-lurgence-de-lhopital-saint-francois.html": {
+    "PUBDATE": "2026-07-09 14:24:39",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/backgrounder-the-project-to-expand-and-renovate-the-psychiatric-services-centre-and-emergency-department-at-the-saint-francois-dassise-hospital-wil.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/document-dinformation--le-projet-dagrandissement-et-de-reamenagement-du-centre-de-services-en-psychiatrie-et-de-lurgence-de-lhopital-saint-francois.html",
+    "hash": "55ac261bef4c6fdfcce248ef210ebcf0",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:33.325127+00:00",
     "version": 6
   },
   "55b371e6c16a1f49f82fe27138c2c252|2024-10-02 11:19:43|https://www.canada.ca/en/environment-climate-change/news/2024/10/strengthening-protections-from-pollution-and-the-right-to-a-healthy-environment.html|https://www.canada.ca/fr/environnement-changement-climatique/nouvelles/2024/10/renforcer-les-protections-contre-la-pollution-et-pour-le-droit-a-un-environnement-sain.html": {
@@ -47145,17 +47211,6 @@
     "updated_at": "2026-05-12T14:29:54.184946+00:00",
     "version": 6
   },
-  "593ad8b5d932aa74b9ba8a15c71ced65|2026-07-01 15:15:06|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-phase-2-of-the-white-rock-pier-reconstruction.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-la-phase-2-de-la-reconstruction-de-la-jetee-de-white-rock.html": {
-    "PUBDATE": "2026-07-01 15:15:06",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-phase-2-of-the-white-rock-pier-reconstruction.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-la-phase-2-de-la-reconstruction-de-la-jetee-de-white-rock.html",
-    "hash": "593ad8b5d932aa74b9ba8a15c71ced65",
-    "image_count": 0,
-    "quote_count": 2,
-    "status": "ok",
-    "updated_at": "2026-07-02T02:46:41.476441+00:00",
-    "version": 6
-  },
   "59413d0554e04e8b5a45d5765a0015e7|2026-02-16 09:52:42|https://www.canada.ca/en/fednor/news/2026/02/government-of-canada-invests-over-75000-to-support-global-maple-syrup-conference-in-northern-ontario.html|https://www.canada.ca/fr/fednor/nouvelles/2026/02/le-gouvernement-du-canada-investit-plus-de-75-000--pour-soutenir-une-conference-internationale-sur-le-sirop-derable-dans-le-nord-de-lontario.html": {
     "PUBDATE": "2026-02-16 09:52:42",
     "TITLE_URL_EN": "https://www.canada.ca/en/fednor/news/2026/02/government-of-canada-invests-over-75000-to-support-global-maple-syrup-conference-in-northern-ontario.html",
@@ -47880,17 +47935,6 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:47:45.076086+00:00",
-    "version": 6
-  },
-  "5a823c31c94ae0f77027aaf5822646f0|2026-07-16 10:00:06|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-upgrades-to-water-distribution-in-north-dundas.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-lamelioration-du-reseau-dalimentation-en-eau-de-north-dundas.html": {
-    "PUBDATE": "2026-07-16 10:00:06",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-upgrades-to-water-distribution-in-north-dundas.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-lamelioration-du-reseau-dalimentation-en-eau-de-north-dundas.html",
-    "hash": "5a823c31c94ae0f77027aaf5822646f0",
-    "image_count": 0,
-    "quote_count": 2,
-    "status": "ok",
-    "updated_at": "2026-07-17T02:09:30.122365+00:00",
     "version": 6
   },
   "5a83bbd573fc99c9a22eb09410f87825|2024-09-17 11:33:21|https://www.canada.ca/en/department-national-defence/news/2024/09/minister-of-national-defence-remarks-at-the-seoul-defence-dialogue.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2024/09/allocution-du-ministre-de-la-defense-nationale-lors-du-dialogue-sur-la-defense-a-seoul.html": {
@@ -51952,17 +51996,6 @@
     "updated_at": "2026-05-12T14:56:15.657418+00:00",
     "version": 6
   },
-  "6190c08dc09935443093fdd5c9deded8|2026-07-29 12:15:44|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-the-saint-john-multipurpose-recreational-facility.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-le-complexe-recreatif-polyvalent-de-saint-john.html": {
-    "PUBDATE": "2026-07-29 12:15:44",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-the-saint-john-multipurpose-recreational-facility.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-le-complexe-recreatif-polyvalent-de-saint-john.html",
-    "hash": "6190c08dc09935443093fdd5c9deded8",
-    "image_count": 0,
-    "quote_count": 3,
-    "status": "ok",
-    "updated_at": "2026-07-31T02:14:20.571536+00:00",
-    "version": 6
-  },
   "61927a02a5c40b19efb72772d2e0af76|2025-05-14 10:17:29|https://www.canada.ca/en/canadian-coast-guard/news/2025/05/canadian-coast-guard-inshore-rescue-boat-stations-open-across-ontario0.html|https://www.canada.ca/fr/garde-cotiere-canadienne/nouvelles/2025/05/ouverture-des-stations-dembarcations-de-sauvetage-cotier-de-la-garde-cotiere-canadienne-en-ontario0.html": {
     "PUBDATE": "2025-05-14 10:17:29",
     "TITLE_URL_EN": "https://www.canada.ca/en/canadian-coast-guard/news/2025/05/canadian-coast-guard-inshore-rescue-boat-stations-open-across-ontario0.html",
@@ -54447,6 +54480,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T13:29:26.089572+00:00",
+    "version": 6
+  },
+  "66831bd26c92d40b2293586e92012a71|2026-08-04 10:57:00|https://www.canada.ca/en/health-canada/news/2026/08/health-canada-authorizes-vaccine-clinical-trial-for-ebola-disease-caused-by-the-bundibugyo-virus.html|https://www.canada.ca/fr/sante-canada/nouvelles/2026/08/sante-canada-autorise-un-essai-clinique-pour-un-vaccin-contre-la-maladie-ebola-causee-par-le-virus-bundibugyo.html": {
+    "PUBDATE": "2026-08-04 10:57:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/health-canada/news/2026/08/health-canada-authorizes-vaccine-clinical-trial-for-ebola-disease-caused-by-the-bundibugyo-virus.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/sante-canada/nouvelles/2026/08/sante-canada-autorise-un-essai-clinique-pour-un-vaccin-contre-la-maladie-ebola-causee-par-le-virus-bundibugyo.html",
+    "hash": "66831bd26c92d40b2293586e92012a71",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:41.788073+00:00",
     "version": 6
   },
   "6688f84c7dd72a9c988f2a6ec7d4c501|2026-03-26 10:10:00|https://www.canada.ca/en/democratic-institutions/news/2026/03/government-of-canada-introduces-measures-to-further-protect-canadas-electoral-processes-and-strengthen-democracy.html|https://www.canada.ca/fr/institutions-democratiques/nouvelles/2026/03/le-gouvernement-du-canada-annonce-de-nouvelles-mesures-visant-a-mieux-proteger-les-processus-electoraux-et-a-renforcer-la-democratie-au-canada.html": {
@@ -60697,6 +60741,17 @@
     "updated_at": "2026-05-12T13:39:05.428657+00:00",
     "version": 6
   },
+  "7276757ccc423723d31f9600af015956|2026-08-04 08:11:17|https://www.canada.ca/en/women-gender-equality/news/2026/08/minister-valdez-announces-federal-support-for-crisis-hotlines-responding-to-gender-based-violence-in-newfoundland-and-labrador.html|https://www.canada.ca/fr/femmes-egalite-genres/nouvelles/2026/08/la-ministre-valdez-annonce-un-soutien-federal-aux-lignes-dassistance-telephonique-en-cas-de-crise-pour-contrer-la-violence-fondee-sur-le-sexe-a-ter.html": {
+    "PUBDATE": "2026-08-04 08:11:17",
+    "TITLE_URL_EN": "https://www.canada.ca/en/women-gender-equality/news/2026/08/minister-valdez-announces-federal-support-for-crisis-hotlines-responding-to-gender-based-violence-in-newfoundland-and-labrador.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/femmes-egalite-genres/nouvelles/2026/08/la-ministre-valdez-annonce-un-soutien-federal-aux-lignes-dassistance-telephonique-en-cas-de-crise-pour-contrer-la-violence-fondee-sur-le-sexe-a-ter.html",
+    "hash": "7276757ccc423723d31f9600af015956",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:41.934323+00:00",
+    "version": 6
+  },
   "727879f5cf94265bfcb87463339cdbdd|2026-07-09 12:00:00|https://www.canada.ca/en/canadian-heritage/news/2026/07/government-of-canada-supports-indigenous-broadcasting-in-northern-saskatchewan.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/07/le-gouvernement-du-canada-appuie-la-radiodiffusion-autochtone-dans-le-nord-de-la-saskatchewan.html": {
     "PUBDATE": "2026-07-09 12:00:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/07/government-of-canada-supports-indigenous-broadcasting-in-northern-saskatchewan.html",
@@ -61663,6 +61718,17 @@
     "quote_count": 1,
     "status": "ok",
     "updated_at": "2026-05-12T14:28:08.058832+00:00",
+    "version": 6
+  },
+  "744d5ede86ddd79a522a0116e77c2aa7|2026-08-04 17:50:40|https://www.canada.ca/en/department-national-defence/news/2026/08/minister-mcguinty-to-deliver-keynote-address-on-albertas-support-to-canadas-defence-and-security.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/08/le-ministre-mcguinty-prononcera-un-discours-programme-sur-le-soutien-de-lalberta-a-la-defense-et-a-la-securite-du-canada.html": {
+    "PUBDATE": "2026-08-04 17:50:40",
+    "TITLE_URL_EN": "https://www.canada.ca/en/department-national-defence/news/2026/08/minister-mcguinty-to-deliver-keynote-address-on-albertas-support-to-canadas-defence-and-security.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/08/le-ministre-mcguinty-prononcera-un-discours-programme-sur-le-soutien-de-lalberta-a-la-defense-et-a-la-securite-du-canada.html",
+    "hash": "744d5ede86ddd79a522a0116e77c2aa7",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:51.140469+00:00",
     "version": 6
   },
   "74556ddc793cbfdc8d6a6ccb143f4b7c|2026-03-18 10:31:29|https://www.canada.ca/en/economic-development-southern-ontario/news/2026/03/parliamentary-secretary-peter-fragiskatos-in-stratford-to-announce-support-for-automotive-industry-in-southern-ontario.html|https://www.canada.ca/fr/developpement-economique-sud-ontario/nouvelles/2026/03/le-secretaire-parlementaire-peter-fragiskatos-a-stratford-pour-annoncer-du-soutien-a-lindustrie-automobile-dans-le-sud-de-lontario.html": {
@@ -66406,6 +66472,17 @@
     "updated_at": "2026-05-12T14:41:49.167482+00:00",
     "version": 6
   },
+  "7d9d6808ecce3b177993506c1b81984a|2026-07-09 14:24:53|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/the-project-to-expand-and-renovate-the-psychiatric-services-centre-and-emergency-department-at-the-saint-francois-dassise-hospital-will-be-able-to-.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-projet-dagrandissement-et-de-reamenagement-du-centre-de-services-en-psychiatrie-et-de-lurgence-de-lhopital-saint-francois-dassise-pourra-aller-d.html": {
+    "PUBDATE": "2026-07-09 14:24:53",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/the-project-to-expand-and-renovate-the-psychiatric-services-centre-and-emergency-department-at-the-saint-francois-dassise-hospital-will-be-able-to-.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-projet-dagrandissement-et-de-reamenagement-du-centre-de-services-en-psychiatrie-et-de-lurgence-de-lhopital-saint-francois-dassise-pourra-aller-d.html",
+    "hash": "7d9d6808ecce3b177993506c1b81984a",
+    "image_count": 0,
+    "quote_count": 7,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:33.475872+00:00",
+    "version": 6
+  },
   "7da34ca291d0595e614d62aae1a75d25|2024-09-27 16:07:59|https://www.canada.ca/en/parks-canada/news/2024/09/mikmaq-epekwitnewaq-kapmntemuow-and-parks-canada-sign-co-management-agreement.html|https://www.canada.ca/fr/parcs-canada/nouvelles/2024/09/mikmaq-epekwitnewaq-kapmntemuow-et-parcs-canada-signent-une-entente-de-cogestion.html": {
     "PUBDATE": "2024-09-27 16:07:59",
     "TITLE_URL_EN": "https://www.canada.ca/en/parks-canada/news/2024/09/mikmaq-epekwitnewaq-kapmntemuow-and-parks-canada-sign-co-management-agreement.html",
@@ -67240,17 +67317,6 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T13:55:47.255470+00:00",
-    "version": 6
-  },
-  "7f5aa82041a21617b2032056dc84b3b8|2026-06-30 12:19:21|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/building-canada-strong-by-investing-in-regional-wastewater-infrastructure-in-the-rm-of-st-clements.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/batir-un-canada-fort-en-investissant-dans-les-infrastructures-regionales-de-gestion-des-eaux-usees-de-la-mr-de-st-clements.html": {
-    "PUBDATE": "2026-06-30 12:19:21",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/building-canada-strong-by-investing-in-regional-wastewater-infrastructure-in-the-rm-of-st-clements.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/batir-un-canada-fort-en-investissant-dans-les-infrastructures-regionales-de-gestion-des-eaux-usees-de-la-mr-de-st-clements.html",
-    "hash": "7f5aa82041a21617b2032056dc84b3b8",
-    "image_count": 0,
-    "quote_count": 2,
-    "status": "ok",
-    "updated_at": "2026-07-01T02:56:40.009992+00:00",
     "version": 6
   },
   "7f686b09ff64b44ea98bbff3990888d3|2025-06-10 11:05:41|https://www.canada.ca/en/global-affairs/news/2025/06/backgrounder---canada-imposes-fourth-round-of-sanctions-on-facilitators-of-extremist-settler-violence-against-civilians-in-the-west-bank.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2025/06/document-dinformation--document-dinformation---le-canada-impose-une-quatrieme-serie-de-sanctions-a-des-colons-extremistes-qui-commettent-des-actes-.html": {
@@ -69035,6 +69101,17 @@
     "updated_at": "2026-05-12T15:11:29.765617+00:00",
     "version": 6
   },
+  "82f9e8664cd6d250f4610f14b98c4afc|2026-07-27 17:58:28|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/canada-and-northwest-territories-partner-to-build-more-homes-and-essential-infrastructure.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-canada-et-les-territoires-du-nord-ouest-sassocient-pour-batir-davantage-de-logements-et-dinfrastructures-essentielles.html": {
+    "PUBDATE": "2026-07-27 17:58:28",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/canada-and-northwest-territories-partner-to-build-more-homes-and-essential-infrastructure.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-canada-et-les-territoires-du-nord-ouest-sassocient-pour-batir-davantage-de-logements-et-dinfrastructures-essentielles.html",
+    "hash": "82f9e8664cd6d250f4610f14b98c4afc",
+    "image_count": 0,
+    "quote_count": 8,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:38.847092+00:00",
+    "version": 6
+  },
   "82fec9f16efa499692b46c8277ceaed5|2026-07-30 10:01:33|https://www.canada.ca/en/border-services-agency/news/2026/07/cbsa-to-end-commercial-driver-registration-program-due-to-low-uptake.html|https://www.canada.ca/fr/agence-services-frontaliers/nouvelles/2026/07/lasfc-mettra-fin-au-programme-dinscription-des-chauffeurs-du-secteur-commercial-en-raison-dun-faible-taux-dadhesion.html": {
     "PUBDATE": "2026-07-30 10:01:33",
     "TITLE_URL_EN": "https://www.canada.ca/en/border-services-agency/news/2026/07/cbsa-to-end-commercial-driver-registration-program-due-to-low-uptake.html",
@@ -69649,17 +69726,6 @@
     "quote_count": 1,
     "status": "ok",
     "updated_at": "2026-05-12T15:05:26.410387+00:00",
-    "version": 6
-  },
-  "844fd3616ac8971b3a459b87509ec128|2026-07-17 10:28:21|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/the-government-of-canada-is-joining-forces-with-quebec-to-support-the-project-to-expand-and-modernize-the-chicoutimi-hospital.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-gouvernement-du-canada-se-joint-au-quebec-pour-soutenir-le-projet-dagrandissement-et-de-modernisation-de-lhopital-de-chicoutimi.html": {
-    "PUBDATE": "2026-07-17 10:28:21",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/the-government-of-canada-is-joining-forces-with-quebec-to-support-the-project-to-expand-and-modernize-the-chicoutimi-hospital.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-gouvernement-du-canada-se-joint-au-quebec-pour-soutenir-le-projet-dagrandissement-et-de-modernisation-de-lhopital-de-chicoutimi.html",
-    "hash": "844fd3616ac8971b3a459b87509ec128",
-    "image_count": 0,
-    "quote_count": 4,
-    "status": "ok",
-    "updated_at": "2026-07-18T01:58:57.071018+00:00",
     "version": 6
   },
   "84540eba30ad2d4e06d15887b5568bbf|2025-07-04 11:09:11|https://www.canada.ca/en/agriculture-agri-food/news/2025/07/canada-and-ontario-strengthening-provinces-agri-food-industry.html|https://www.canada.ca/fr/agriculture-agroalimentaire/nouvelles/2025/07/le-canada-et-lontario-renforcent-lindustrie-agroalimentaire-de-la-province.html": {
@@ -73114,6 +73180,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:59:00.269427+00:00",
+    "version": 6
+  },
+  "8b3044e95bba35cbff4b3bc90f388a36|2026-07-31 14:59:25|https://www.canada.ca/en/correctional-service/news/2026/07/seizures-of-contraband-and-unauthorized-items-at-collins-bay-institution1.html|https://www.canada.ca/fr/service-correctionnel/nouvelles/2026/07/saisies-dobjets-interdits-et-non-autorises-a-letablissement-de-collins-bay1.html": {
+    "PUBDATE": "2026-07-31 14:59:25",
+    "TITLE_URL_EN": "https://www.canada.ca/en/correctional-service/news/2026/07/seizures-of-contraband-and-unauthorized-items-at-collins-bay-institution1.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/service-correctionnel/nouvelles/2026/07/saisies-dobjets-interdits-et-non-autorises-a-letablissement-de-collins-bay1.html",
+    "hash": "8b3044e95bba35cbff4b3bc90f388a36",
+    "image_count": 1,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:46.857293+00:00",
     "version": 6
   },
   "8b315cb2f51f5d2e621791b5af487bf0|2025-05-22 11:26:05|https://www.canada.ca/en/environment-climate-change/news/2025/05/environment-and-climate-change-canada-presents-the-2025-hurricane-season-outlook.html|https://www.canada.ca/fr/environnement-changement-climatique/nouvelles/2025/05/environnement-et-changement-climatique-canada-fera-un-survol-de-la-saison-des-ouragans-prevue-en-2025.html": {
@@ -79936,6 +80013,17 @@
     "updated_at": "2026-05-12T13:29:29.024299+00:00",
     "version": 6
   },
+  "97b5d70f753c894401d6de3e901942a4|2026-08-04 16:05:00|https://www.canada.ca/en/international-trade-tribunal/news/2026/08/tribunal-initiates-expiry-reviewcertain-grinding-media-from-india.html|https://www.canada.ca/fr/tribunal-commerce-exterieur/nouvelles/2026/08/le-tribunal-ouvre-un-reexamen-relatif-a-lexpiration--certains-corps-de-broyage-provenant-de-linde.html": {
+    "PUBDATE": "2026-08-04 16:05:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/international-trade-tribunal/news/2026/08/tribunal-initiates-expiry-reviewcertain-grinding-media-from-india.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/tribunal-commerce-exterieur/nouvelles/2026/08/le-tribunal-ouvre-un-reexamen-relatif-a-lexpiration--certains-corps-de-broyage-provenant-de-linde.html",
+    "hash": "97b5d70f753c894401d6de3e901942a4",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:47.124609+00:00",
+    "version": 6
+  },
   "97c221635dc5f7dd4901d371940bd70a|2024-09-11 14:27:55|https://www.canada.ca/en/public-services-procurement/news/2024/09/public-services-and-procurement-canada-to-host-a-media-tour-of-the-lasalle-causeway-in-kingston-ontario-in-advance-of-the-installation-of-the-tempo.html|https://www.canada.ca/fr/services-publics-approvisionnement/nouvelles/2024/09/services-publics-et-approvisionnement-canada-organise-a-lintention-des-medias-une-visite-du-pontjetee-lasalle-a-kingston-ontario-en-prevision-de-li.html": {
     "PUBDATE": "2024-09-11 14:27:55",
     "TITLE_URL_EN": "https://www.canada.ca/en/public-services-procurement/news/2024/09/public-services-and-procurement-canada-to-host-a-media-tour-of-the-lasalle-causeway-in-kingston-ontario-in-advance-of-the-installation-of-the-tempo.html",
@@ -80453,6 +80541,17 @@
     "updated_at": "2026-05-12T13:26:32.199951+00:00",
     "version": 6
   },
+  "98d05a3efb8dab862d733385c5eb8d9d|2026-07-17 10:28:21|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/the-government-of-canada-is-joining-forces-with-quebec-to-support-the-project-to-expand-and-modernize-the-chicoutimi-hospital.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-gouvernement-du-canada-se-joint-au-quebec-pour-soutenir-le-projet-dagrandissement-et-de-modernisation-de-lhopital-de-chicoutimi.html": {
+    "PUBDATE": "2026-07-17 10:28:21",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/the-government-of-canada-is-joining-forces-with-quebec-to-support-the-project-to-expand-and-modernize-the-chicoutimi-hospital.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-gouvernement-du-canada-se-joint-au-quebec-pour-soutenir-le-projet-dagrandissement-et-de-modernisation-de-lhopital-de-chicoutimi.html",
+    "hash": "98d05a3efb8dab862d733385c5eb8d9d",
+    "image_count": 0,
+    "quote_count": 4,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:36.422659+00:00",
+    "version": 6
+  },
   "98d777f4a6a4e57d89ba1d5d4d518b79|2025-03-21 15:00:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2025/03/backgrounder-critical-water-and-ventilation-infrastructure-upgrades-for-communities-in-manitoba.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2025/03/preservation-et-restauration-du-musee-de-saint-boniface-a-winnipeg.html": {
     "PUBDATE": "2025-03-21 15:00:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2025/03/backgrounder-critical-water-and-ventilation-infrastructure-upgrades-for-communities-in-manitoba.html",
@@ -80583,6 +80682,17 @@
     "quote_count": 4,
     "status": "ok",
     "updated_at": "2026-05-12T13:52:20.166730+00:00",
+    "version": 6
+  },
+  "990f62ede888e7d4038290456eba02ba|2026-07-01 15:15:06|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-phase-2-of-the-white-rock-pier-reconstruction.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-la-phase-2-de-la-reconstruction-de-la-jetee-de-white-rock.html": {
+    "PUBDATE": "2026-07-01 15:15:06",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-phase-2-of-the-white-rock-pier-reconstruction.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-la-phase-2-de-la-reconstruction-de-la-jetee-de-white-rock.html",
+    "hash": "990f62ede888e7d4038290456eba02ba",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:31.044816+00:00",
     "version": 6
   },
   "9913cb67a56d16cc508dda5340266e59|2026-07-30 11:45:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-communities-strong-in-british-columbia-with-54-new-infrastructure-projects.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-des-collectivites-fortes-en-colombie-britannique-grace-a-financement-dans-54-nouveaux-projets-dinfrastructure.html": {
@@ -80902,17 +81012,6 @@
     "quote_count": 3,
     "status": "ok",
     "updated_at": "2026-05-12T15:09:58.185568+00:00",
-    "version": 6
-  },
-  "99ac6ce2871c834e7047d3904f7cbb8f|2026-06-16 12:01:02|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/building-canada-strong-by-investing-in-sewer-infrastructure-in-the-district-of-saanich.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/batir-un-canada-fort-en-investissant-dans-les-infrastructures-dassainissement-du-district-de-saanich.html": {
-    "PUBDATE": "2026-06-16 12:01:02",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/building-canada-strong-by-investing-in-sewer-infrastructure-in-the-district-of-saanich.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/batir-un-canada-fort-en-investissant-dans-les-infrastructures-dassainissement-du-district-de-saanich.html",
-    "hash": "99ac6ce2871c834e7047d3904f7cbb8f",
-    "image_count": 0,
-    "quote_count": 2,
-    "status": "ok",
-    "updated_at": "2026-06-17T03:33:29.984929+00:00",
     "version": 6
   },
   "99ad193f28cf0ae7b27f775e19c1999e|2026-05-11 05:03:35|https://www.canada.ca/en/global-affairs/news/2026/05/minister-anand-announces-additional-sanctions-in-response-to-russias-violations-against-ukrainian-children.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/05/la-ministre-anand-annonce-des-sanctions-supplementaires-en-reponse-aux-violations-commises-par-la-russie-a-lencontre-denfants-ukrainiens.html": {
@@ -81364,17 +81463,6 @@
     "quote_count": 3,
     "status": "ok",
     "updated_at": "2026-05-12T14:52:11.276258+00:00",
-    "version": 6
-  },
-  "9a51041bd69d0c7a721631b69090c118|2026-07-09 14:24:53|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/the-project-to-expand-and-renovate-the-psychiatric-services-centre-and-emergency-department-at-the-saint-francois-dassise-hospital-will-be-able-to-.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-projet-dagrandissement-et-de-reamenagement-du-centre-de-services-en-psychiatrie-et-de-lurgence-de-lhopital-saint-francois-dassise-pourra-aller-d.html": {
-    "PUBDATE": "2026-07-09 14:24:53",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/the-project-to-expand-and-renovate-the-psychiatric-services-centre-and-emergency-department-at-the-saint-francois-dassise-hospital-will-be-able-to-.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-projet-dagrandissement-et-de-reamenagement-du-centre-de-services-en-psychiatrie-et-de-lurgence-de-lhopital-saint-francois-dassise-pourra-aller-d.html",
-    "hash": "9a51041bd69d0c7a721631b69090c118",
-    "image_count": 0,
-    "quote_count": 7,
-    "status": "ok",
-    "updated_at": "2026-07-10T02:30:52.219565+00:00",
     "version": 6
   },
   "9a540b7f5b63e3fc73d7954ba170e235|2025-09-20 10:00:00|https://www.canada.ca/en/natural-resources-canada/news/2025/09/making-home-heating-more-affordable-for-ontarians.html|https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2025/09/des-couts-de-chauffage-residentiel-plus-abordables-pour-les-ontariens.html": {
@@ -90364,6 +90452,17 @@
     "updated_at": "2026-05-12T14:22:56.065834+00:00",
     "version": 6
   },
+  "ac2548b508159a268a8b543e39879658|2026-08-04 09:00:01|https://www.canada.ca/en/global-affairs/news/2026/08/minister-anand-to-travel-to-benin-and-cote-divoire-to-strengthen-canadas-partnerships-in-west-africa.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/la-ministre-anand-se-rendra-au-benin-et-en-cote-divoire-pour-renforcer-les-partenariats-du-canada-en-afrique-de-louest.html": {
+    "PUBDATE": "2026-08-04 09:00:01",
+    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/08/minister-anand-to-travel-to-benin-and-cote-divoire-to-strengthen-canadas-partnerships-in-west-africa.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/la-ministre-anand-se-rendra-au-benin-et-en-cote-divoire-pour-renforcer-les-partenariats-du-canada-en-afrique-de-louest.html",
+    "hash": "ac2548b508159a268a8b543e39879658",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:44.500553+00:00",
+    "version": 6
+  },
   "ac32369aa4d988ddcbf12ae41487eb73|2024-05-21 14:03:46|https://www.canada.ca/en/canadian-coast-guard/news/2024/05/canadian-coast-guard-issues-15000-fine-for-a-hazardous-vessel.html|https://www.canada.ca/fr/garde-cotiere-canadienne/nouvelles/2024/05/la-garde-cotiere-canadienne-inflige-une-amende-de-15-000--liee-a-un-navire-dangereux.html": {
     "PUBDATE": "2024-05-21 14:03:46",
     "TITLE_URL_EN": "https://www.canada.ca/en/canadian-coast-guard/news/2024/05/canadian-coast-guard-issues-15000-fine-for-a-hazardous-vessel.html",
@@ -91772,6 +91871,17 @@
     "updated_at": "2026-07-04T02:27:16.436868+00:00",
     "version": 6
   },
+  "aeb9cd99d972f393579fb86d105eb6e0|2026-08-04 13:30:21|https://www.canada.ca/en/fisheries-oceans/news/2026/08/fisheries-and-oceans-canada-partners-with-manitoba-government-to-complete-third-aquatic-invasive-species-roadside-inspection-blitz-of-the-season-on.html|https://www.canada.ca/fr/peches-oceans/nouvelles/2026/08/peches-et-oceans-canada-collabore-avec-le-gouvernement-du-manitoba-pour-effectuer-la-troisieme-inspection-eclair-de-detection-des-especes-aquatique.html": {
+    "PUBDATE": "2026-08-04 13:30:21",
+    "TITLE_URL_EN": "https://www.canada.ca/en/fisheries-oceans/news/2026/08/fisheries-and-oceans-canada-partners-with-manitoba-government-to-complete-third-aquatic-invasive-species-roadside-inspection-blitz-of-the-season-on.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/peches-oceans/nouvelles/2026/08/peches-et-oceans-canada-collabore-avec-le-gouvernement-du-manitoba-pour-effectuer-la-troisieme-inspection-eclair-de-detection-des-especes-aquatique.html",
+    "hash": "aeb9cd99d972f393579fb86d105eb6e0",
+    "image_count": 1,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:50.584141+00:00",
+    "version": 6
+  },
   "aebc063da3714c062d548849cffe7d63|2024-07-16 15:41:18|https://www.canada.ca/en/correctional-service/news/2024/07/death-of-an-inmate-from-the-regional-treatment-centre-pacific-institution.html|https://www.canada.ca/fr/service-correctionnel/nouvelles/2024/07/deces-dun-detenu-du-centre-regional-de-traitement-etablissement-du-pacifique.html": {
     "PUBDATE": "2024-07-16 15:41:18",
     "TITLE_URL_EN": "https://www.canada.ca/en/correctional-service/news/2024/07/death-of-an-inmate-from-the-regional-treatment-centre-pacific-institution.html",
@@ -92520,6 +92630,17 @@
     "updated_at": "2026-05-12T14:33:36.905675+00:00",
     "version": 6
   },
+  "b05e5ac5d838635b9ea3d7687da8ff0f|2026-07-03 15:15:35|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-40-million-in-the-contemporary-calgary-centennial-planetarium-transformation-project.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-40-millions-de-dollars-dans-le-projet-de-transformation-du-planetarium-centennial-de-contemporary-calgary.html": {
+    "PUBDATE": "2026-07-03 15:15:35",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-40-million-in-the-contemporary-calgary-centennial-planetarium-transformation-project.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-40-millions-de-dollars-dans-le-projet-de-transformation-du-planetarium-centennial-de-contemporary-calgary.html",
+    "hash": "b05e5ac5d838635b9ea3d7687da8ff0f",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:29.997476+00:00",
+    "version": 6
+  },
   "b0664e82bd01f0d5156aa3714edad9c0|2025-06-19 08:01:47|https://www.canada.ca/en/competition-bureau/news/2025/06/backgrounder-unique-air-travel-challenges-for-northern-and-remote-communities.html|https://www.canada.ca/fr/bureau-concurrence/nouvelles/2025/06/precis-dinformation--des-defis-uniques-en-matiere-de-transport-aerien-pour-les-collectivites-nordiques-et-eloignees.html": {
     "PUBDATE": "2025-06-19 08:01:47",
     "TITLE_URL_EN": "https://www.canada.ca/en/competition-bureau/news/2025/06/backgrounder-unique-air-travel-challenges-for-northern-and-remote-communities.html",
@@ -92872,6 +92993,17 @@
     "updated_at": "2026-05-12T14:43:13.643232+00:00",
     "version": 6
   },
+  "b0fab0ff18cd6dd57c2713db43345988|2026-07-26 13:15:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-an-acadian-cultural-and-historical-space.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-un-espace-culturel-et-historique-acadien.html": {
+    "PUBDATE": "2026-07-26 13:15:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-an-acadian-cultural-and-historical-space.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-un-espace-culturel-et-historique-acadien.html",
+    "hash": "b0fab0ff18cd6dd57c2713db43345988",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:39.326829+00:00",
+    "version": 6
+  },
   "b0fd1bf80164fa55bd41ea54c4308cdf|2024-10-11 09:15:44|https://www.canada.ca/en/health-canada/news/2024/10/government-of-canada-supporting-solutions-and-rapid-responses-to-the-substance-use-and-overdose-crisis.html|https://www.canada.ca/fr/sante-canada/nouvelles/2024/10/le-gouvernement-du-canada-appuie-des-solutions-et-des-reponses-rapides-a-la-crise-des-surdoses-et-de-la-consommation-de-substances.html": {
     "PUBDATE": "2024-10-11 09:15:44",
     "TITLE_URL_EN": "https://www.canada.ca/en/health-canada/news/2024/10/government-of-canada-supporting-solutions-and-rapid-responses-to-the-substance-use-and-overdose-crisis.html",
@@ -93156,6 +93288,17 @@
     "quote_count": 1,
     "status": "ok",
     "updated_at": "2026-05-12T14:49:36.985997+00:00",
+    "version": 6
+  },
+  "b16da97154a0feaf2fede0b3d8c38bc6|2026-06-15 13:55:28|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/federal-and-provincial-government-investment-of-more-than-200-million-for-phase-ii-of-the-university-of-montreal-science-complex-canada-and-quebec-.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/investissement-gouvernemental-federal-et-provincial-de-plus-de-200-m-dans-la-phase-ii-du-complexe-des-sciences-de-luniversite-de-montreal--le-canad.html": {
+    "PUBDATE": "2026-06-15 13:55:28",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/federal-and-provincial-government-investment-of-more-than-200-million-for-phase-ii-of-the-university-of-montreal-science-complex-canada-and-quebec-.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/investissement-gouvernemental-federal-et-provincial-de-plus-de-200-m-dans-la-phase-ii-du-complexe-des-sciences-de-luniversite-de-montreal--le-canad.html",
+    "hash": "b16da97154a0feaf2fede0b3d8c38bc6",
+    "image_count": 0,
+    "quote_count": 6,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:30.089736+00:00",
     "version": 6
   },
   "b16f34671a6faf1209fbba743296661f|2026-07-02 13:09:08|https://www.canada.ca/en/transport-canada/news/2026/07/government-of-canada-invests-in-key-infrastructure-at-the-erik-nielsen-whitehorse-international-airport.html|https://www.canada.ca/fr/transports-canada/nouvelles/2026/07/le-gouvernement-du-canada-investit-dans-des-infrastructures-cles-a-laeroport-international-erik-nielsen-de-whitehorse.html": {
@@ -93761,17 +93904,6 @@
     "quote_count": 2,
     "status": "ok",
     "updated_at": "2026-05-12T14:29:58.459954+00:00",
-    "version": 6
-  },
-  "b2892f6aeb617eb36e2affd3554b7138|2026-07-03 15:15:35|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-40-million-in-the-contemporary-calgary-centennial-planetarium-transformation-project.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-40-millions-de-dollars-dans-le-projet-de-transformation-du-planetarium-centennial-de-contemporary-calgary.html": {
-    "PUBDATE": "2026-07-03 15:15:35",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-40-million-in-the-contemporary-calgary-centennial-planetarium-transformation-project.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-40-millions-de-dollars-dans-le-projet-de-transformation-du-planetarium-centennial-de-contemporary-calgary.html",
-    "hash": "b2892f6aeb617eb36e2affd3554b7138",
-    "image_count": 0,
-    "quote_count": 3,
-    "status": "ok",
-    "updated_at": "2026-07-04T02:27:11.551520+00:00",
     "version": 6
   },
   "b2897f2b19dd0da49415a2504824dbad|2024-07-04 12:41:58|https://www.canada.ca/en/prairies-economic-development/news/2024/07/minister-vandal-announces-federal-investments-to-support-clean-technology-advancements-across-alberta.html|https://www.canada.ca/fr/developpement-economique-prairies/nouvelles/2024/07/le-ministre-vandal-annonce-des-investissements-federaux-visant-a-soutenir-des-avancees-en-matiere-de-technologies-propres-en-alberta.html": {
@@ -95116,17 +95248,6 @@
     "updated_at": "2026-07-28T02:03:02.045120+00:00",
     "version": 6
   },
-  "b526717d80da20107a0cda31c2d3938f|2026-07-15 09:30:01|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/the-project-to-expand-and-renovate-the-charles-le-moyne-hospital-is-moving-forward.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-projet-dagrandissement-et-de-reamenagement-de-lhopital-charles-le-moyne-va-de-lavant.html": {
-    "PUBDATE": "2026-07-15 09:30:01",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/the-project-to-expand-and-renovate-the-charles-le-moyne-hospital-is-moving-forward.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-projet-dagrandissement-et-de-reamenagement-de-lhopital-charles-le-moyne-va-de-lavant.html",
-    "hash": "b526717d80da20107a0cda31c2d3938f",
-    "image_count": 0,
-    "quote_count": 11,
-    "status": "ok",
-    "updated_at": "2026-07-16T02:06:12.461167+00:00",
-    "version": 6
-  },
   "b52784f957343e1c1ef52f22003b32d4|2025-06-04 14:25:00|https://www.canada.ca/en/public-safety-canada/news/2025/06/governments-of-canada-and-saskatchewan-announce-support-through-the-red-cross-to-help-those-impacted-by-saskatchewan-wildfires.html|https://www.canada.ca/fr/securite-publique-canada/nouvelles/2025/06/les-gouvernements-du-canada-et-de-la-saskatchewan-annoncent-un-soutien-par-lintermediaire-de-la-croix-rouge-canadienne-pour-venir-en-aide-aux-perso.html": {
     "PUBDATE": "2025-06-04 14:25:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/public-safety-canada/news/2025/06/governments-of-canada-and-saskatchewan-announce-support-through-the-red-cross-to-help-those-impacted-by-saskatchewan-wildfires.html",
@@ -96423,6 +96544,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-15T02:42:04.825931+00:00",
+    "version": 6
+  },
+  "b7d8864e03f7a06674b30ad5d5ac5dbc|2026-07-22 13:45:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-the-bob-macquarrie-recreation-complex.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-le-complexe-recreatif-bob-macquarrie.html": {
+    "PUBDATE": "2026-07-22 13:45:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-the-bob-macquarrie-recreation-complex.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-le-complexe-recreatif-bob-macquarrie.html",
+    "hash": "b7d8864e03f7a06674b30ad5d5ac5dbc",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:37.593817+00:00",
     "version": 6
   },
   "b7de5b1afc40b384aa0338ba2be60a96|2025-10-23 12:18:52|https://www.canada.ca/en/prairies-economic-development/news/2025/10/government-of-canada-making-strategic-investments-to-grow-albertas-defence-industry.html|https://www.canada.ca/fr/developpement-economique-prairies/nouvelles/2025/10/le-gouvernement-du-canada-realise-des-investissements-strategiques-pour-stimuler-la-croissance-de-lindustrie-de-la-defense-en-alberta.html": {
@@ -99351,6 +99483,17 @@
     "updated_at": "2026-05-23T02:36:04.108922+00:00",
     "version": 6
   },
+  "bd7e74a39e13509e00174a76cb8e3461|2026-08-04 12:00:04|https://www.canada.ca/en/fisheries-oceans/news/2026/08/fisheries-and-oceans-canada-to-share-results-of-the-2026-operation-north-pacific-guard-mission-in-the-indo-pacific.html|https://www.canada.ca/fr/peches-oceans/nouvelles/2026/08/peches-et-oceans-canada-presentera-les-resultats-de-la-mission-north-pacific-guard-2026-menee-dans-lindo-pacifique.html": {
+    "PUBDATE": "2026-08-04 12:00:04",
+    "TITLE_URL_EN": "https://www.canada.ca/en/fisheries-oceans/news/2026/08/fisheries-and-oceans-canada-to-share-results-of-the-2026-operation-north-pacific-guard-mission-in-the-indo-pacific.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/peches-oceans/nouvelles/2026/08/peches-et-oceans-canada-presentera-les-resultats-de-la-mission-north-pacific-guard-2026-menee-dans-lindo-pacifique.html",
+    "hash": "bd7e74a39e13509e00174a76cb8e3461",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:47.044284+00:00",
+    "version": 6
+  },
   "bd8710f0410b5f647cb2e6560445c358|2026-03-02 11:09:29|https://www.canada.ca/en/innovation-science-economic-development/news/2026/03/minister-joly-to-participate-in-opening-of-the-new-all-canadian-build-facility-at-new-flyer-industries.html|https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2026/03/la-ministre-joly-participera-a-linauguration-des-installations-de-fabrication-entierement-canadienne-de-new-flyer-industries.html": {
     "PUBDATE": "2026-03-02 11:09:29",
     "TITLE_URL_EN": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/03/minister-joly-to-participate-in-opening-of-the-new-all-canadian-build-facility-at-new-flyer-industries.html",
@@ -100385,6 +100528,17 @@
     "updated_at": "2026-06-04T07:11:09.957164+00:00",
     "version": 6
   },
+  "bf9895873e4ab7a31ea37fb9d506e7be|2026-06-23 15:46:51|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/canada-and-ontario-making-homes-more-affordable-in-toronto.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/le-canada-et-lontario-rendent-les-logements-plus-abordables-a-toronto.html": {
+    "PUBDATE": "2026-06-23 15:46:51",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/canada-and-ontario-making-homes-more-affordable-in-toronto.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/le-canada-et-lontario-rendent-les-logements-plus-abordables-a-toronto.html",
+    "hash": "bf9895873e4ab7a31ea37fb9d506e7be",
+    "image_count": 0,
+    "quote_count": 5,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:32.995613+00:00",
+    "version": 6
+  },
   "bf9cc33342066cada0cf96d84e67e3f8|2025-10-21 13:00:56|https://www.canada.ca/en/public-health/news/2025/10/government-of-canada-to-make-an-announcement-to-support-the-mental-health-of-black-canadians.html|https://www.canada.ca/fr/sante-publique/nouvelles/2025/10/le-gouvernement-du-canada-fera-une-annonce-a-lappui-de-la-sante-mentale-des-communautes-noires.html": {
     "PUBDATE": "2025-10-21 13:00:56",
     "TITLE_URL_EN": "https://www.canada.ca/en/public-health/news/2025/10/government-of-canada-to-make-an-announcement-to-support-the-mental-health-of-black-canadians.html",
@@ -100537,6 +100691,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:00:09.487408+00:00",
+    "version": 6
+  },
+  "bfda6d6ef19b11e212bd44cf85a81be0|2026-07-27 12:41:58|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-from-playground-to-podiumgovernment-of-canada-makes-major-investments-in-alberta.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-du-terrain-de-jeu-au-podiumle-gouvernement-du-canada-fait-des-investissements-importants-en-alberta.html": {
+    "PUBDATE": "2026-07-27 12:41:58",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-from-playground-to-podiumgovernment-of-canada-makes-major-investments-in-alberta.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-du-terrain-de-jeu-au-podiumle-gouvernement-du-canada-fait-des-investissements-importants-en-alberta.html",
+    "hash": "bfda6d6ef19b11e212bd44cf85a81be0",
+    "image_count": 0,
+    "quote_count": 7,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:39.621214+00:00",
     "version": 6
   },
   "bfdd32ef444da3d163099f999b30bb5a|2026-05-14 13:17:57|https://www.canada.ca/en/global-affairs/news/2026/05/minister-sidhu-advances-commercial-opportunities-and-free-trade-agreement-outreach-in-the-philippines.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/05/le-ministre-sidhu-fait-la-promotion-des-debouches-commerciaux-et-des-accords-de-libre-echange-aux-philippines.html": {
@@ -101736,6 +101901,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-26T02:44:09.708661+00:00",
+    "version": 6
+  },
+  "c2635db9739b4d92ddc4d735ebe8e01b|2026-08-04 09:00:00|https://www.canada.ca/en/food-inspection-agency/news/2026/07/wood-you-take-two-minutes-to-protect-canadas-trees.html|https://www.canada.ca/fr/agence-inspection-aliments/nouvelles/2026/07/deux-minutes-pour-les-arbres-du-canada--ca-pousse-a-agir.html": {
+    "PUBDATE": "2026-08-04 09:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/food-inspection-agency/news/2026/07/wood-you-take-two-minutes-to-protect-canadas-trees.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/agence-inspection-aliments/nouvelles/2026/07/deux-minutes-pour-les-arbres-du-canada--ca-pousse-a-agir.html",
+    "hash": "c2635db9739b4d92ddc4d735ebe8e01b",
+    "image_count": 0,
+    "quote_count": 1,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:42.156171+00:00",
     "version": 6
   },
   "c269672320b0c832c38019580b3f8557|2024-11-08 17:07:16|https://www.canada.ca/en/global-affairs/news/2024/11/joint-statement-of-the-2nd-trade-policy-dialogue-between-canada-and-the-african-union-commission.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2024/11/declaration-conjointe-a-la-suite-du2e-dialogue-sur-la-politique-commerciale-entre-le-canada-et-la-commission-de-lunion-africaine.html": {
@@ -103188,6 +103364,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T13:54:25.470408+00:00",
+    "version": 6
+  },
+  "c4acc1beb5a539e7fe71623318973bdb|2026-06-16 12:01:02|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/building-canada-strong-by-investing-in-sewer-infrastructure-in-the-district-of-saanich.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/batir-un-canada-fort-en-investissant-dans-les-infrastructures-dassainissement-du-district-de-saanich.html": {
+    "PUBDATE": "2026-06-16 12:01:02",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/building-canada-strong-by-investing-in-sewer-infrastructure-in-the-district-of-saanich.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/batir-un-canada-fort-en-investissant-dans-les-infrastructures-dassainissement-du-district-de-saanich.html",
+    "hash": "c4acc1beb5a539e7fe71623318973bdb",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:32.086111+00:00",
     "version": 6
   },
   "c4bcc8b5365203bbbe6f76a9ef8adcbd|2024-08-26 15:07:21|https://www.canada.ca/en/correctional-service/news/2024/08/death-of-an-inmate-from-bath-institution.html|https://www.canada.ca/fr/service-correctionnel/nouvelles/2024/08/deces-dun-detenu-de-letablissement-de-bath.html": {
@@ -106094,17 +106281,6 @@
     "updated_at": "2026-05-12T14:08:29.854631+00:00",
     "version": 6
   },
-  "c9e88e8773e596b6f5265fd5d60efd06|2026-06-15 13:55:28|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/federal-and-provincial-government-investment-of-more-than-200-million-for-phase-ii-of-the-university-of-montreal-science-complex-canada-and-quebec-.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/investissement-gouvernemental-federal-et-provincial-de-plus-de-200-m-dans-la-phase-ii-du-complexe-des-sciences-de-luniversite-de-montreal--le-canad.html": {
-    "PUBDATE": "2026-06-15 13:55:28",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/federal-and-provincial-government-investment-of-more-than-200-million-for-phase-ii-of-the-university-of-montreal-science-complex-canada-and-quebec-.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/investissement-gouvernemental-federal-et-provincial-de-plus-de-200-m-dans-la-phase-ii-du-complexe-des-sciences-de-luniversite-de-montreal--le-canad.html",
-    "hash": "c9e88e8773e596b6f5265fd5d60efd06",
-    "image_count": 0,
-    "quote_count": 6,
-    "status": "ok",
-    "updated_at": "2026-06-16T03:34:57.859833+00:00",
-    "version": 6
-  },
   "c9ea980b28cff1c7d72dac8045db7795|2025-12-08 18:33:09|https://www.canada.ca/en/canadian-heritage/news/2025/12/the-government-of-canada-supports-live-music-experiences-in-greater-victoria.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2025/12/le-gouvernement-du-canada-soutient-la-presentation-de-concerts-dans-le-grand-victoria.html": {
     "PUBDATE": "2025-12-08 18:33:09",
     "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2025/12/the-government-of-canada-supports-live-music-experiences-in-greater-victoria.html",
@@ -107170,6 +107346,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-07-24T02:10:24.001180+00:00",
+    "version": 6
+  },
+  "cbf547363d85cdd893a06b2b88fbe1b2|2026-07-29 12:15:44|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-the-saint-john-multipurpose-recreational-facility.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-le-complexe-recreatif-polyvalent-de-saint-john.html": {
+    "PUBDATE": "2026-07-29 12:15:44",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-the-saint-john-multipurpose-recreational-facility.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-le-complexe-recreatif-polyvalent-de-saint-john.html",
+    "hash": "cbf547363d85cdd893a06b2b88fbe1b2",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:39.012082+00:00",
     "version": 6
   },
   "cbf8a0fedf59c8ac929c8a0f1d29df7f|2025-02-12 16:30:49|https://www.canada.ca/en/health-canada/news/2025/02/clinical-practice-guideline-for-the-management-of-perinatal-mood-anxiety-and-related-disorders.html|https://www.canada.ca/fr/sante-canada/nouvelles/2025/02/guide-de-pratique-clinique-pour-la-prise-en-charge-des-troubles-perinataux-de-lhumeur-de-lanxiete-et-apparentes.html": {
@@ -112914,17 +113101,6 @@
     "updated_at": "2026-05-12T13:56:00.503716+00:00",
     "version": 6
   },
-  "d685ddbcef424757c72f55928b1d3ea2|2026-06-23 15:46:51|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/canada-and-ontario-making-homes-more-affordable-in-toronto.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/le-canada-et-lontario-rendent-les-logements-plus-abordables-a-toronto.html": {
-    "PUBDATE": "2026-06-23 15:46:51",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/canada-and-ontario-making-homes-more-affordable-in-toronto.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/le-canada-et-lontario-rendent-les-logements-plus-abordables-a-toronto.html",
-    "hash": "d685ddbcef424757c72f55928b1d3ea2",
-    "image_count": 0,
-    "quote_count": 5,
-    "status": "ok",
-    "updated_at": "2026-06-25T02:46:30.483707+00:00",
-    "version": 6
-  },
   "d68aa989918fd95210457ab4e35be2c7|2025-02-27 09:55:38|https://www.canada.ca/en/immigration-refugees-citizenship/news/2025/02/canada-extends-some-temporary-measures-for-ukrainians.html|https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2025/02/le-canada-prolonge-certaines-mesures-temporaires-pour-les-ukrainiens.html": {
     "PUBDATE": "2025-02-27 09:55:38",
     "TITLE_URL_EN": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2025/02/canada-extends-some-temporary-measures-for-ukrainians.html",
@@ -114861,6 +115037,17 @@
     "updated_at": "2026-05-12T13:39:20.350035+00:00",
     "version": 6
   },
+  "da210b5702361658f9ee9e1fe2f813fd|2026-07-22 17:45:03|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-newton-parks.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-les-parcs-du-quartier-newton.html": {
+    "PUBDATE": "2026-07-22 17:45:03",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-newton-parks.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-les-parcs-du-quartier-newton.html",
+    "hash": "da210b5702361658f9ee9e1fe2f813fd",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:37.774608+00:00",
+    "version": 6
+  },
   "da38408331a76b30d1afb82c27a05c77|2026-02-26 11:50:56|https://www.canada.ca/en/economic-development-southern-ontario/news/2026/02/canadas-defence-industrial-strategy-to-strengthen-security-create-prosperity-and-reinforce-strategic-autonomy.html|https://www.canada.ca/fr/developpement-economique-sud-ontario/nouvelles/2026/02/strategie-industrielle-de-defense-du-canada-contribuera-a-renforcer-la-securite-a-creer-de-la-prosperite-et-a-accroitre-lautonomie-strategique.html": {
     "PUBDATE": "2026-02-26 11:50:56",
     "TITLE_URL_EN": "https://www.canada.ca/en/economic-development-southern-ontario/news/2026/02/canadas-defence-industrial-strategy-to-strengthen-security-create-prosperity-and-reinforce-strategic-autonomy.html",
@@ -115134,17 +115321,6 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:11:13.758823+00:00",
-    "version": 6
-  },
-  "daad916810c1b3f9dff07d5402eab712|2026-07-26 13:15:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-an-acadian-cultural-and-historical-space.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-un-espace-culturel-et-historique-acadien.html": {
-    "PUBDATE": "2026-07-26 13:15:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-an-acadian-cultural-and-historical-space.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-un-espace-culturel-et-historique-acadien.html",
-    "hash": "daad916810c1b3f9dff07d5402eab712",
-    "image_count": 0,
-    "quote_count": 3,
-    "status": "ok",
-    "updated_at": "2026-07-27T02:27:52.102099+00:00",
     "version": 6
   },
   "daadcada8e0414ad062fe33e6784d68a|2024-10-15 11:46:21|https://www.canada.ca/en/housing-infrastructure-communities/news/2024/10/upgrades-for-the-crawford-lake-visitor-centre.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2024/10/amelioration-du-centre-daccueil-du-lac-crawford.html": {
@@ -119800,17 +119976,6 @@
     "updated_at": "2026-06-04T07:11:02.113513+00:00",
     "version": 6
   },
-  "e3c733537046667abb1884719a151cbc|2026-07-09 14:24:39|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/backgrounder-the-project-to-expand-and-renovate-the-psychiatric-services-centre-and-emergency-department-at-the-saint-francois-dassise-hospital-wil.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/document-dinformation--le-projet-dagrandissement-et-de-reamenagement-du-centre-de-services-en-psychiatrie-et-de-lurgence-de-lhopital-saint-francois.html": {
-    "PUBDATE": "2026-07-09 14:24:39",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/backgrounder-the-project-to-expand-and-renovate-the-psychiatric-services-centre-and-emergency-department-at-the-saint-francois-dassise-hospital-wil.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/document-dinformation--le-projet-dagrandissement-et-de-reamenagement-du-centre-de-services-en-psychiatrie-et-de-lurgence-de-lhopital-saint-francois.html",
-    "hash": "e3c733537046667abb1884719a151cbc",
-    "image_count": 0,
-    "quote_count": 0,
-    "status": "ok",
-    "updated_at": "2026-07-10T02:30:51.593877+00:00",
-    "version": 6
-  },
   "e3cd38cadbd62949dde9507a142239fa|2025-08-07 16:58:00|https://www.canada.ca/en/canadian-heritage/news/2025/08/vancouvers-ruby-slippers-production-society-takes-centre-stage-with-new-federal-funding.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2025/08/la-ruby-slippers-production-society-de-vancouver-occupe-le-devant-de-la-scene-grace-a-un-nouveau-financement-federal.html": {
     "PUBDATE": "2025-08-07 16:58:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2025/08/vancouvers-ruby-slippers-production-society-takes-centre-stage-with-new-federal-funding.html",
@@ -120856,6 +121021,17 @@
     "updated_at": "2026-05-12T13:44:34.789154+00:00",
     "version": 6
   },
+  "e5cde5dd5e04a311c68118a8d28d6ca2|2026-08-04 09:00:00|https://www.canada.ca/en/canadian-heritage/news/2026/08/government-of-canada-supports-the-toronto-caribbean-carnival.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/08/le-gouvernement-du-canada-appuie-le-carnaval-caribeen-de-toronto.html": {
+    "PUBDATE": "2026-08-04 09:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/08/government-of-canada-supports-the-toronto-caribbean-carnival.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/08/le-gouvernement-du-canada-appuie-le-carnaval-caribeen-de-toronto.html",
+    "hash": "e5cde5dd5e04a311c68118a8d28d6ca2",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:42.972762+00:00",
+    "version": 6
+  },
   "e5d17754d02453f6332f326363775e63|2026-04-22 17:47:00|https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/04/minister-alty-highlights-indigenous-rights-health-and-climate-leadership-at-the-25th-united-nations-permanent-forum-on-indigenous-issues.html|https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/04/la-ministre-alty-met-en-avant-les-droits-des-peuples-autochtones-la-sante-et-le-leadership-climatique-lors-de-la-25e-session-de-linstance-permanent.html": {
     "PUBDATE": "2026-04-22 17:47:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/04/minister-alty-highlights-indigenous-rights-health-and-climate-leadership-at-the-25th-united-nations-permanent-forum-on-indigenous-issues.html",
@@ -121459,17 +121635,6 @@
     "quote_count": 1,
     "status": "ok",
     "updated_at": "2026-05-12T14:30:57.271491+00:00",
-    "version": 6
-  },
-  "e730811b36056d4e891a17b1b82520f6|2026-07-16 14:15:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-water-and-wastewater-infrastructure-to-support-housing-growth.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-les-infrastructures-dapprovisionnement-en-eau-et-de-traitement-des-eaux-usees-afin-de-soutenir-la-constru.html": {
-    "PUBDATE": "2026-07-16 14:15:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-water-and-wastewater-infrastructure-to-support-housing-growth.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-les-infrastructures-dapprovisionnement-en-eau-et-de-traitement-des-eaux-usees-afin-de-soutenir-la-constru.html",
-    "hash": "e730811b36056d4e891a17b1b82520f6",
-    "image_count": 0,
-    "quote_count": 2,
-    "status": "ok",
-    "updated_at": "2026-07-17T02:09:37.850443+00:00",
     "version": 6
   },
   "e731e77b5f44959f0d16ebd2b148311f|2024-08-07 15:49:26|https://www.canada.ca/en/employment-social-development/news/2024/08/building-more-child-care-spaces-for-families-in-manitoba.html|https://www.canada.ca/fr/emploi-developpement-social/nouvelles/2024/08/creer-davantage-de-places-dans-des-services-de-garde-pour-les-familles-du-manitoba.html": {
@@ -122803,6 +122968,17 @@
     "updated_at": "2026-05-12T13:56:38.648541+00:00",
     "version": 6
   },
+  "e98b48e170bd53aad71099daf1f5bedb|2026-08-04 07:25:00|https://www.canada.ca/en/defence-investment-agency/news/2026/08/the-government-of-canada-awards-a-military-communications-contract-to-support-arctic-sovereignty-and-national-security.html|https://www.canada.ca/fr/agence-investissement-defense/nouvelles/2026/08/le-gouvernement-du-canada-attribue-un-contrat-de-communications-militaires-visant-a-soutenir-la-souverainete-dans-larctique-et-la-securite-nationale.html": {
+    "PUBDATE": "2026-08-04 07:25:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/defence-investment-agency/news/2026/08/the-government-of-canada-awards-a-military-communications-contract-to-support-arctic-sovereignty-and-national-security.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/agence-investissement-defense/nouvelles/2026/08/le-gouvernement-du-canada-attribue-un-contrat-de-communications-militaires-visant-a-soutenir-la-souverainete-dans-larctique-et-la-securite-nationale.html",
+    "hash": "e98b48e170bd53aad71099daf1f5bedb",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:42.384327+00:00",
+    "version": 6
+  },
   "e9910d0abb2f039b5ce616d40272a065|2024-10-18 10:58:00|https://www.canada.ca/en/economic-development-quebec-regions/news/2024/10/government-of-canada-invests-in-innovation-and-growth-with-support-for-evah-corp.html|https://www.canada.ca/fr/developpement-economique-regions-quebec/nouvelles/2024/10/le-gouvernement-du-canada-investit-dans-linnovation-et-la-croissance-en-soutenant-evah-corp.html": {
     "PUBDATE": "2024-10-18 10:58:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/economic-development-quebec-regions/news/2024/10/government-of-canada-invests-in-innovation-and-growth-with-support-for-evah-corp.html",
@@ -123098,17 +123274,6 @@
     "quote_count": 3,
     "status": "ok",
     "updated_at": "2026-05-12T14:21:48.929063+00:00",
-    "version": 6
-  },
-  "ea5476dfc54d31b04a221ee0fe7236f1|2026-07-23 10:00:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/canada-and-nunavut-partner-to-build-essential-infrastructure-and-more-homes.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-canada-et-lontario-soulignent-une-autre-etape-importante-du-prolongement-vers-le-nord-de-la-ligne-de-metro-yonge.html": {
-    "PUBDATE": "2026-07-23 10:00:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/canada-and-nunavut-partner-to-build-essential-infrastructure-and-more-homes.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-canada-et-lontario-soulignent-une-autre-etape-importante-du-prolongement-vers-le-nord-de-la-ligne-de-metro-yonge.html",
-    "hash": "ea5476dfc54d31b04a221ee0fe7236f1",
-    "image_count": 0,
-    "quote_count": 8,
-    "status": "ok",
-    "updated_at": "2026-08-04T02:01:39.371881+00:00",
     "version": 6
   },
   "ea579b100e39b5b54afbaff57de2baa3|2026-06-29 11:44:59|https://www.canada.ca/en/correctional-service/news/2026/06/assault-of-an-inmate-at-mission-institution-medium-security-unit.html|https://www.canada.ca/fr/service-correctionnel/nouvelles/2026/06/agression-contre-un-detenu-a-letablissement-de-mission---unite-a-securite-moyenne.html": {
@@ -126180,6 +126345,17 @@
     "updated_at": "2026-06-22T03:40:20.486775+00:00",
     "version": 6
   },
+  "f09b522eca21070f74fab3f6ded65e00|2026-06-20 12:30:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/building-canada-strong-by-investing-in-wastewater-infrastructure-in-the-rm-of-st-laurent.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/batir-un-canada-fort-en-investissant-dans-les-infrastructures-de-traitement-des-eaux-usees-de-la-mr-de-saint-laurent.html": {
+    "PUBDATE": "2026-06-20 12:30:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/06/building-canada-strong-by-investing-in-wastewater-infrastructure-in-the-rm-of-st-laurent.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/06/batir-un-canada-fort-en-investissant-dans-les-infrastructures-de-traitement-des-eaux-usees-de-la-mr-de-saint-laurent.html",
+    "hash": "f09b522eca21070f74fab3f6ded65e00",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:33.922880+00:00",
+    "version": 6
+  },
   "f09ead5c8839e1f5d6046fc59c19e2cd|2024-08-09 15:58:11|https://www.canada.ca/en/canadian-heritage/news/2024/08/government-of-canada-supports-the-construction-of-a-cultural-centre-at-algoma-university-in-sault-ste-marie.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2024/08/le-gouvernement-du-canada-soutient-la-construction-dun-centre-culturel-a-luniversite-algoma-a-sault-ste-marie.html": {
     "PUBDATE": "2024-08-09 15:58:11",
     "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2024/08/government-of-canada-supports-the-construction-of-a-cultural-centre-at-algoma-university-in-sault-ste-marie.html",
@@ -128378,6 +128554,17 @@
     "quote_count": 5,
     "status": "ok",
     "updated_at": "2026-05-12T14:26:56.976803+00:00",
+    "version": 6
+  },
+  "f4bbf0197cf61352a9952efd03b17587|2026-07-16 14:15:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-water-and-wastewater-infrastructure-to-support-housing-growth.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-les-infrastructures-dapprovisionnement-en-eau-et-de-traitement-des-eaux-usees-afin-de-soutenir-la-constru.html": {
+    "PUBDATE": "2026-07-16 14:15:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-water-and-wastewater-infrastructure-to-support-housing-growth.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-les-infrastructures-dapprovisionnement-en-eau-et-de-traitement-des-eaux-usees-afin-de-soutenir-la-constru.html",
+    "hash": "f4bbf0197cf61352a9952efd03b17587",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-08-05T02:00:34.481209+00:00",
     "version": 6
   },
   "f4c2a9ff90224098cf33ab33e24bd01d|2026-06-09 10:48:05|https://www.canada.ca/en/space-agency/news/2026/06/canadian-space-agency-astronaut-jeremy-hansen-in-canada.html|https://www.canada.ca/fr/agence-spatiale/nouvelles/2026/06/lastronaute-de-lagence-spatiale-canadienne-jeremy-hansen-au-canada.html": {
@@ -133141,17 +133328,6 @@
     "quote_count": 2,
     "status": "ok",
     "updated_at": "2026-05-12T14:54:38.677991+00:00",
-    "version": 6
-  },
-  "fdbac2c53eca3a4005ebaa275be1e657|2026-07-22 17:45:03|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-newton-parks.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-les-parcs-du-quartier-newton.html": {
-    "PUBDATE": "2026-07-22 17:45:03",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-newton-parks.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-les-parcs-du-quartier-newton.html",
-    "hash": "fdbac2c53eca3a4005ebaa275be1e657",
-    "image_count": 0,
-    "quote_count": 2,
-    "status": "ok",
-    "updated_at": "2026-07-23T02:13:44.308355+00:00",
     "version": 6
   },
   "fdbfd078ec52efae55a47ae406b48d11|2025-07-29 06:00:00|https://www.canada.ca/en/natural-resources-canada/news/2025/07/minister-solomon-to-announce-transportation-decarbonization-funding.html|https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2025/07/le-ministre-solomon-annoncera-du-financement-pour-la-decarbonation-des-transports.html": {
