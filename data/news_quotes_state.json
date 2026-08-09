@@ -26971,6 +26971,17 @@
     "updated_at": "2026-05-12T13:56:03.489469+00:00",
     "version": 6
   },
+  "32d63ccb7bfa3e1abd0c8e428da71fc5|2026-08-08 08:30:00|https://www.canada.ca/en/canadian-heritage/news/2026/08/government-of-canada-provides-funding-for-the-afromonde-festival.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/08/le-gouvernement-du-canada-accorde-un-soutien-financier-au-festival-afromonde.html": {
+    "PUBDATE": "2026-08-08 08:30:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/08/government-of-canada-provides-funding-for-the-afromonde-festival.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/08/le-gouvernement-du-canada-accorde-un-soutien-financier-au-festival-afromonde.html",
+    "hash": "32d63ccb7bfa3e1abd0c8e428da71fc5",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-08-09T01:16:53.984258+00:00",
+    "version": 6
+  },
   "32d6578d03903fe702acc82e370c84a1|2024-07-17 15:22:16|https://www.canada.ca/en/immigration-refugees-citizenship/news/2024/07/minister-miller-to-attend-citizenship-ceremony-in-toronto.html|https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2024/07/le-ministre-miller-participera-a-une-ceremonie-de-citoyennete-a-toronto.html": {
     "PUBDATE": "2024-07-17 15:22:16",
     "TITLE_URL_EN": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2024/07/minister-miller-to-attend-citizenship-ceremony-in-toronto.html",
