@@ -11857,17 +11857,6 @@
     "updated_at": "2026-07-25T02:09:29.556575+00:00",
     "version": 6
   },
-  "1688c573b62a488746b3e0e07dc83d60|2026-06-19 14:18:00|https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/06/canada-proposes-new-regulations-to-modernize-the-asylum-process-and-support-timely-decisions.html|https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/06/le-canada-propose-un-nouveau-reglement-pour-moderniser-le-processus-doctroi-de-lasile-et-appuyer-la-prise-de-decisions-en-temps-opportun0.html": {
-    "PUBDATE": "2026-06-19 14:18:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/06/canada-proposes-new-regulations-to-modernize-the-asylum-process-and-support-timely-decisions.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/06/le-canada-propose-un-nouveau-reglement-pour-moderniser-le-processus-doctroi-de-lasile-et-appuyer-la-prise-de-decisions-en-temps-opportun0.html",
-    "hash": "1688c573b62a488746b3e0e07dc83d60",
-    "image_count": 0,
-    "quote_count": 1,
-    "status": "ok",
-    "updated_at": "2026-08-16T00:59:41.027901+00:00",
-    "version": 6
-  },
   "1690e9965b07f39bf671d1b899f065c0|2025-12-01 11:00:15|https://www.canada.ca/en/public-services-procurement/news/2025/11/ministers-lightbound-and-mcguinty-and-secretary-of-state-fuhr-to-announce-a-strategic-partnership-to-strengthen-the-canadian-armed-forces-arctic-co.html|https://www.canada.ca/fr/services-publics-approvisionnement/nouvelles/2025/11/les-ministre-lightbound-et-mcguinty-ainsi-que-le-secretaire-detat-fuhr-annonceront-un-partenariat-strategique-visant-a-renforcer-les-communications.html": {
     "PUBDATE": "2025-12-01 11:00:15",
     "TITLE_URL_EN": "https://www.canada.ca/en/public-services-procurement/news/2025/11/ministers-lightbound-and-mcguinty-and-secretary-of-state-fuhr-to-announce-a-strategic-partnership-to-strengthen-the-canadian-armed-forces-arctic-co.html",
@@ -25387,6 +25376,17 @@
     "updated_at": "2026-05-12T15:05:32.073524+00:00",
     "version": 6
   },
+  "2f00a219c4f3bdfc3dfb959299ff1c7b|2026-06-19 14:18:00|https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/06/canada-proposes-new-regulations-to-modernize-the-asylum-process-and-support-timely-decisions.html|https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/06/le-canada-propose-un-nouveau-reglement-pour-moderniser-le-processus-doctroi-de-lasile-et-appuyer-la-prise-de-decisions-en-temps-opportun.html": {
+    "PUBDATE": "2026-06-19 14:18:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/06/canada-proposes-new-regulations-to-modernize-the-asylum-process-and-support-timely-decisions.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/06/le-canada-propose-un-nouveau-reglement-pour-moderniser-le-processus-doctroi-de-lasile-et-appuyer-la-prise-de-decisions-en-temps-opportun.html",
+    "hash": "2f00a219c4f3bdfc3dfb959299ff1c7b",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-17T00:57:20.030029+00:00",
+    "version": 6
+  },
   "2f0653e4ac0ccd9257131a3692316c14|2025-12-03 15:52:20|https://www.canada.ca/en/global-affairs/news/2025/12/statement-following-the-22nd-kimberley-process-plenary-on-conflict-diamonds.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2025/12/declaration-a-lissue-de-la-22e-reunion-pleniere-du-processus-de-kimberley-sur-les-diamants-de-conflit.html": {
     "PUBDATE": "2025-12-03 15:52:20",
     "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2025/12/statement-following-the-22nd-kimberley-process-plenary-on-conflict-diamonds.html",
@@ -27541,6 +27541,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:19:22.594497+00:00",
+    "version": 6
+  },
+  "3377447f454493d981fc70c2c6342718|2026-08-16 17:00:00|https://www.canada.ca/en/canadian-heritage/news/2026/08/government-of-canada-supports-the-summerworks-theatre-festival.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/08/le-gouvernement-du-canada-appuie-le-summerworks-theatre-festival.html": {
+    "PUBDATE": "2026-08-16 17:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/08/government-of-canada-supports-the-summerworks-theatre-festival.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/08/le-gouvernement-du-canada-appuie-le-summerworks-theatre-festival.html",
+    "hash": "3377447f454493d981fc70c2c6342718",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-08-17T00:57:21.884231+00:00",
     "version": 6
   },
   "337b25bd7bc7c87bf1b0b2aaad70ffed|2024-06-13 12:42:10|https://www.canada.ca/en/atlantic-canada-opportunities/news/2024/06/backgrounder-federal-investment-will-improve-climate-comfort-centres-in-antigonish-and-pictou-counties.html|https://www.canada.ca/fr/promotion-economique-canada-atlantique/nouvelles/2024/06/fiche-dinformation--un-investissement-federal-ameliorera-des-centres-de-confort-climatique-dans-les-comtes-dantigonish-et-de-pictou.html": {
@@ -61333,6 +61344,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:09:58.988652+00:00",
+    "version": 6
+  },
+  "7225948084e4619d8b1fa7a34f6aa8a5|2026-06-19 14:18:00|https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/06/canada-proposes-new-regulations-to-modernize-the-asylum-process-and-support-timely-decisions0.html|https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/06/le-canada-propose-un-nouveau-reglement-pour-moderniser-le-processus-doctroi-de-lasile-et-appuyer-la-prise-de-decisions-en-temps-opportun.html": {
+    "PUBDATE": "2026-06-19 14:18:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/06/canada-proposes-new-regulations-to-modernize-the-asylum-process-and-support-timely-decisions0.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/06/le-canada-propose-un-nouveau-reglement-pour-moderniser-le-processus-doctroi-de-lasile-et-appuyer-la-prise-de-decisions-en-temps-opportun.html",
+    "hash": "7225948084e4619d8b1fa7a34f6aa8a5",
+    "image_count": 0,
+    "quote_count": 1,
+    "status": "ok",
+    "updated_at": "2026-08-17T00:57:21.884041+00:00",
     "version": 6
   },
   "72268bec2089eb34f91ac390f543c835|2026-05-12 11:34:15|https://www.canada.ca/en/employment-social-development/news/2026/05/minister-hajdu-announces-reappointment-of-stephanie-cadieux-as-chief-accessibility-officer.html|https://www.canada.ca/fr/emploi-developpement-social/nouvelles/2026/05/la-ministre-hajdu-annonce-le-renouvellement-du-mandat-de-stephanie-cadieux-a-titre-de-dirigeante-principale-de-laccessibilite.html": {
@@ -111605,17 +111627,6 @@
     "updated_at": "2026-05-12T14:56:31.456762+00:00",
     "version": 6
   },
-  "d09a9999f6f4286c6204b8ccb52b368a|2026-06-19 14:18:00|https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/06/canada-proposes-new-regulations-to-modernize-the-asylum-process-and-support-timely-decisions0.html|https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/06/le-canada-propose-un-nouveau-reglement-pour-moderniser-le-processus-doctroi-de-lasile-et-appuyer-la-prise-de-decisions-en-temps-opportun0.html": {
-    "PUBDATE": "2026-06-19 14:18:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/06/canada-proposes-new-regulations-to-modernize-the-asylum-process-and-support-timely-decisions0.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/06/le-canada-propose-un-nouveau-reglement-pour-moderniser-le-processus-doctroi-de-lasile-et-appuyer-la-prise-de-decisions-en-temps-opportun0.html",
-    "hash": "d09a9999f6f4286c6204b8ccb52b368a",
-    "image_count": 0,
-    "quote_count": 1,
-    "status": "ok",
-    "updated_at": "2026-08-16T00:59:39.989850+00:00",
-    "version": 6
-  },
   "d0a8e983ee41cad6c5fb03d9758c0be9|2025-11-27 13:00:36|https://www.canada.ca/en/parks-canada/news/2025/11/minister-steven-guilbeault-concludes-participation-at-cop30-reaffirming-canadas-leadership-on-nature-conservation-and-protection.html|https://www.canada.ca/fr/parcs-canada/nouvelles/2025/11/le-ministre-steven-guilbeault-conclut-sa-participation-a-la-cop30-et-reaffirme-le-leadership-du-canada-en-matiere-de-conservation-et-de-protection-.html": {
     "PUBDATE": "2025-11-27 13:00:36",
     "TITLE_URL_EN": "https://www.canada.ca/en/parks-canada/news/2025/11/minister-steven-guilbeault-concludes-participation-at-cop30-reaffirming-canadas-leadership-on-nature-conservation-and-protection.html",
@@ -123793,6 +123804,17 @@
     "updated_at": "2026-05-12T14:07:38.798506+00:00",
     "version": 6
   },
+  "e818d21b04761d8186b4000aed5ad780|2026-08-16 17:00:07|https://www.canada.ca/en/natural-resources-canada/news/2026/08/government-of-canada-officials-to-hold-a-media-technical-briefing-on-clean-energy-projects-in-newfoundland-and-labrador-and-quebec.html|https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2026/08/des-representants-du-gouvernement-du-canada-tiendront-une-seance-dinformation-technique-a-lintention-des-medias-sur-des-projets-denergie-propre-a-t.html": {
+    "PUBDATE": "2026-08-16 17:00:07",
+    "TITLE_URL_EN": "https://www.canada.ca/en/natural-resources-canada/news/2026/08/government-of-canada-officials-to-hold-a-media-technical-briefing-on-clean-energy-projects-in-newfoundland-and-labrador-and-quebec.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2026/08/des-representants-du-gouvernement-du-canada-tiendront-une-seance-dinformation-technique-a-lintention-des-medias-sur-des-projets-denergie-propre-a-t.html",
+    "hash": "e818d21b04761d8186b4000aed5ad780",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-17T00:57:21.815641+00:00",
+    "version": 6
+  },
   "e82348117f3f9c5d273369d81aa43bb3|2025-10-16 11:30:00|https://www.canada.ca/en/health-canada/news/2025/10/expanding-mental-health-care-to-more-youth-in-alberta.html|https://www.canada.ca/fr/sante-canada/nouvelles/2025/10/un-meilleur-acces-aux-soins-de-sante-mentale-pour-les-jeunes-en-alberta.html": {
     "PUBDATE": "2025-10-16 11:30:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/health-canada/news/2025/10/expanding-mental-health-care-to-more-youth-in-alberta.html",
@@ -134681,6 +134703,17 @@
     "quote_count": 2,
     "status": "ok",
     "updated_at": "2026-05-12T14:39:02.700614+00:00",
+    "version": 6
+  },
+  "fcc8f5222c7ac6d146d5c645db04f68c|2026-08-16 13:30:26|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/08/the-government-of-canada-and-ontario-investing-1-billion-to-help-non-development-charge-municipalities-build-more-homes.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/08/le-gouvernement-du-canada-et-lontario-investissent-1-milliard-de-dollars-pour-aider-les-municipalites-qui-nimposent-pas-de-droits-damenagement-a-co.html": {
+    "PUBDATE": "2026-08-16 13:30:26",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/08/the-government-of-canada-and-ontario-investing-1-billion-to-help-non-development-charge-municipalities-build-more-homes.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/08/le-gouvernement-du-canada-et-lontario-investissent-1-milliard-de-dollars-pour-aider-les-municipalites-qui-nimposent-pas-de-droits-damenagement-a-co.html",
+    "hash": "fcc8f5222c7ac6d146d5c645db04f68c",
+    "image_count": 0,
+    "quote_count": 16,
+    "status": "ok",
+    "updated_at": "2026-08-17T00:57:22.896765+00:00",
     "version": 6
   },
   "fcca9b0976598bc53c6378222c3cce67|2025-03-06 13:01:13|https://www.canada.ca/en/environment-climate-change/news/2025/03/federal-support-helps-deliver-innovative-clean-energy-upgrades-at-carleton-university.html|https://www.canada.ca/fr/environnement-changement-climatique/nouvelles/2025/03/octroi-dune-aide-federale-pour-soutenir-des-ameliorations-novatrices-en-matiere-denergie-propre-a-luniversite-carleton.html": {
