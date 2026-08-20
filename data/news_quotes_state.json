@@ -3090,6 +3090,17 @@
     "updated_at": "2026-05-12T13:27:38.741575+00:00",
     "version": 6
   },
+  "063ecc160f23401b82c4f9c355353f7a|2026-08-19 13:30:34|https://www.canada.ca/en/employment-social-development/news/2026/08/minister-hajdu-invites-organizations-to-apply-for-funding-to-help-persons-with-disabilities-access-benefits.html|https://www.canada.ca/fr/emploi-developpement-social/nouvelles/2026/08/la-ministrehajdu-invite-les-organismes-a-presenter-une-demande-de-financement-pour-aider-les-personnes-en-situation-de-handicap-a-acceder-aux-prest.html": {
+    "PUBDATE": "2026-08-19 13:30:34",
+    "TITLE_URL_EN": "https://www.canada.ca/en/employment-social-development/news/2026/08/minister-hajdu-invites-organizations-to-apply-for-funding-to-help-persons-with-disabilities-access-benefits.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/emploi-developpement-social/nouvelles/2026/08/la-ministrehajdu-invite-les-organismes-a-presenter-une-demande-de-financement-pour-aider-les-personnes-en-situation-de-handicap-a-acceder-aux-prest.html",
+    "hash": "063ecc160f23401b82c4f9c355353f7a",
+    "image_count": 0,
+    "quote_count": 1,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:37.696057+00:00",
+    "version": 6
+  },
   "06428291063a6abf01f29d83d4eb445e|2024-07-02 10:05:04|https://www.canada.ca/en/employment-social-development/news/2024/06/g7-ministers-meeting-on-education-held-in-trieste-italy.html|https://www.canada.ca/fr/emploi-developpement-social/nouvelles/2024/06/la-reunion-des-ministres-de-leducation-du-g7-sacheve-a-trieste-en-italie.html": {
     "PUBDATE": "2024-07-02 10:05:04",
     "TITLE_URL_EN": "https://www.canada.ca/en/employment-social-development/news/2024/06/g7-ministers-meeting-on-education-held-in-trieste-italy.html",
@@ -8126,6 +8137,17 @@
     "quote_count": 4,
     "status": "ok",
     "updated_at": "2026-05-21T02:50:46.880761+00:00",
+    "version": 6
+  },
+  "0fa4d0923c5f21123806c6eddce34dd0|2026-08-18 13:30:00|https://www.canada.ca/en/health-canada/news/2026/08/government-of-canada-to-make-an-announcement-in-support-of-youth-mental-health-in-the-yukon.html|https://www.canada.ca/fr/sante-canada/nouvelles/2026/08/le-gouvernement-du-canada-annonce-du-financement-pour-soutenir-la-sante-mentale-des-jeunes-au-yukon.html": {
+    "PUBDATE": "2026-08-18 13:30:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/health-canada/news/2026/08/government-of-canada-to-make-an-announcement-in-support-of-youth-mental-health-in-the-yukon.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/sante-canada/nouvelles/2026/08/le-gouvernement-du-canada-annonce-du-financement-pour-soutenir-la-sante-mentale-des-jeunes-au-yukon.html",
+    "hash": "0fa4d0923c5f21123806c6eddce34dd0",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:29.517333+00:00",
     "version": 6
   },
   "0fafdb408f4a69e136dc2882256009e7|2025-02-25 14:24:30|https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2025/02/minister-anandasangaree-appoints-aluki-kotierk-to-lead-external-review-of-nutrition-north-canada.html|https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2025/02/le-ministre-anandasangaree-nomme-aluki-kotierk-pour-diriger-lexamen-externe-du-programme-nutrition-nord-canada.html": {
@@ -14341,6 +14363,17 @@
     "quote_count": 3,
     "status": "ok",
     "updated_at": "2026-05-30T15:17:13.541170+00:00",
+    "version": 6
+  },
+  "1aaa624dce9918ed6b5ac7daf6cdb881|2026-08-19 13:35:24|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/08/investing-in-cycling-facilities-in-ottawas-east-end.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/08/investir-dans-les-pistes-cyclables-dans-lest-dottawa.html": {
+    "PUBDATE": "2026-08-19 13:35:24",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/08/investing-in-cycling-facilities-in-ottawas-east-end.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/08/investir-dans-les-pistes-cyclables-dans-lest-dottawa.html",
+    "hash": "1aaa624dce9918ed6b5ac7daf6cdb881",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:36.676551+00:00",
     "version": 6
   },
   "1aafc57c41d35870e6e26cf502fd8d65|2026-02-09 16:08:29|https://www.canada.ca/en/correctional-service/news/2026/02/death-of-an-inmate-from-bath-institution0.html|https://www.canada.ca/fr/service-correctionnel/nouvelles/2026/02/deces-dun-detenu-de-letablissement-de-bath0.html": {
@@ -31899,6 +31932,17 @@
     "updated_at": "2026-06-27T02:41:52.029154+00:00",
     "version": 6
   },
+  "3b5f5de73a31d8d8d4ab2549e58237ff|2026-08-19 10:05:53|https://www.canada.ca/en/border-services-agency/news/2026/08/cbsa-charges-new-brunswick-man-for-smuggling-firearms.html|https://www.canada.ca/fr/agence-services-frontaliers/nouvelles/2026/08/lasfc-porte-des-accusations-contre-un-homme-du-nouveau-brunswick-pour-contrebande-darmes-a-feu.html": {
+    "PUBDATE": "2026-08-19 10:05:53",
+    "TITLE_URL_EN": "https://www.canada.ca/en/border-services-agency/news/2026/08/cbsa-charges-new-brunswick-man-for-smuggling-firearms.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/agence-services-frontaliers/nouvelles/2026/08/lasfc-porte-des-accusations-contre-un-homme-du-nouveau-brunswick-pour-contrebande-darmes-a-feu.html",
+    "hash": "3b5f5de73a31d8d8d4ab2549e58237ff",
+    "image_count": 1,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:35.834319+00:00",
+    "version": 6
+  },
   "3b643f9c12b70e4ecfd165d29ad795a7|2024-07-16 19:23:21|https://www.canada.ca/en/department-justice/news/2024/07/government-of-canadas-new-green-buildings-strategy-a-plan-to-help-canadians-save-money-on-their-energy-bills.html|https://www.canada.ca/fr/ministere-justice/nouvelles/2024/07/la-nouvelle-strategie-canadienne-pour-les-batiments-verts-du-gouvernement-du-canada-aidera-les-canadiens-a-economiser-sur-leurs-factures-denergie.html": {
     "PUBDATE": "2024-07-16 19:23:21",
     "TITLE_URL_EN": "https://www.canada.ca/en/department-justice/news/2024/07/government-of-canadas-new-green-buildings-strategy-a-plan-to-help-canadians-save-money-on-their-energy-bills.html",
@@ -32051,6 +32095,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:17:36.561778+00:00",
+    "version": 6
+  },
+  "3bbdeb176223a64f51c8b0fcec11306a|2026-08-19 16:00:33|https://www.canada.ca/en/fisheries-oceans/news/2026/08/the-governments-of-british-columbia-and-canada-co-chair-the-canadian-council-of-fisheries-and-aquaculture-ministers-annual-meeting.html|https://www.canada.ca/fr/peches-oceans/nouvelles/2026/08/les-gouvernements-de-la-colombie-britannique-et-du-canada-copresident-la-reunion-annuelle-du-conseil-canadien-des-ministres-des-peches-et-de-laquac.html": {
+    "PUBDATE": "2026-08-19 16:00:33",
+    "TITLE_URL_EN": "https://www.canada.ca/en/fisheries-oceans/news/2026/08/the-governments-of-british-columbia-and-canada-co-chair-the-canadian-council-of-fisheries-and-aquaculture-ministers-annual-meeting.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/peches-oceans/nouvelles/2026/08/les-gouvernements-de-la-colombie-britannique-et-du-canada-copresident-la-reunion-annuelle-du-conseil-canadien-des-ministres-des-peches-et-de-laquac.html",
+    "hash": "3bbdeb176223a64f51c8b0fcec11306a",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:38.130306+00:00",
     "version": 6
   },
   "3bcd3797bdfee6860c08cc0e858cd185|2025-02-25 20:11:12|https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2025/02/statement-from-minister-anandasangaree-marking-50-years-of-modern-treaties-in-canada-with-indigenous-leaders-and-governments-at-land-claims-agreeme.html|https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2025/02/declaration-du-ministre-anandasangaree-et-des-dirigeants-et-gouvernements-autochtones-pour-les-50-ans-de-traites-modernes-au-canada-a-la-conference.html": {
@@ -38310,6 +38365,17 @@
     "quote_count": 3,
     "status": "ok",
     "updated_at": "2026-05-12T14:22:15.259416+00:00",
+    "version": 6
+  },
+  "46eae883d6d342f3b8127508ecd386b0|2026-08-19 09:30:29|https://www.canada.ca/en/canadian-coast-guard/news/2026/08/canadian-coast-guard-officially-welcomes-ccgs-cascumpec-bay-into-service-in-shippagan.html|https://www.canada.ca/fr/garde-cotiere-canadienne/nouvelles/2026/08/la-garde-cotiere-canadienne-accueille-officiellement-le-ngcc-cascumpec-bay-au-sein-de-sa-flotte-a-shippagan.html": {
+    "PUBDATE": "2026-08-19 09:30:29",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-coast-guard/news/2026/08/canadian-coast-guard-officially-welcomes-ccgs-cascumpec-bay-into-service-in-shippagan.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/garde-cotiere-canadienne/nouvelles/2026/08/la-garde-cotiere-canadienne-accueille-officiellement-le-ngcc-cascumpec-bay-au-sein-de-sa-flotte-a-shippagan.html",
+    "hash": "46eae883d6d342f3b8127508ecd386b0",
+    "image_count": 0,
+    "quote_count": 4,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:27.551974+00:00",
     "version": 6
   },
   "46f744793a249c9a5fd509dade1a430b|2025-08-12 11:00:07|https://www.canada.ca/en/transport-canada/news/2025/08/transport-canada-ensuring-safety-on-the-water-by-restricting-vessel-traffic-on-the-st-clair-river-on-august-17-20250.html|https://www.canada.ca/fr/transports-canada/nouvelles/2025/08/transports-canada-assure-la-securite-sur-leau-en-restreignant-le-trafic-maritime-sur-la-riviere-sainte-claire-le-17-aout-20250.html": {
@@ -62259,6 +62325,17 @@
     "updated_at": "2026-05-12T14:52:07.964313+00:00",
     "version": 6
   },
+  "7363b2834e333556440bdc1ec966afb0|2026-08-19 12:15:51|https://www.canada.ca/en/indigenous-services-canada/news/2026/08/minister-gull-masty-and-chief-darcy-bear-to-make-an-announcement-in-whitecap-dakota-nation.html|https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/08/la-ministre-gull-masty-et-le-chef-darcy-bear-fera-une-annonce-au-sein-de-la-nation-dakota-de-whitecap.html": {
+    "PUBDATE": "2026-08-19 12:15:51",
+    "TITLE_URL_EN": "https://www.canada.ca/en/indigenous-services-canada/news/2026/08/minister-gull-masty-and-chief-darcy-bear-to-make-an-announcement-in-whitecap-dakota-nation.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/08/la-ministre-gull-masty-et-le-chef-darcy-bear-fera-une-annonce-au-sein-de-la-nation-dakota-de-whitecap.html",
+    "hash": "7363b2834e333556440bdc1ec966afb0",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:34.816874+00:00",
+    "version": 6
+  },
   "736d3016adee575a2f17367e77913f2c|2025-03-21 21:28:05|https://www.canada.ca/en/housing-infrastructure-communities/news/2025/03/federal-government-invests-to-improve-infrastructure-that-will-support-more-housing-in-sudbury.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2025/03/le-gouvernement-federal-investit-pour-ameliorer-les-infrastructures-qui-soutiennent-la-construction-de-logements-a-sudbury.html": {
     "PUBDATE": "2025-03-21 21:28:05",
     "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2025/03/federal-government-invests-to-improve-infrastructure-that-will-support-more-housing-in-sudbury.html",
@@ -63049,6 +63126,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T13:37:58.202541+00:00",
+    "version": 6
+  },
+  "74d3704d5116d01cbe28f2d4e6b79535|2026-08-19 08:00:00|https://www.canada.ca/en/economic-development-quebec-regions/news/2026/08/invitation-to-media--rachel-bendayan-to-announce-government-of-canada-support-for-roberval-manufacturing-business.html|https://www.canada.ca/fr/developpement-economique-regions-quebec/nouvelles/2026/08/invitation-aux-medias--rachel-bendayan-annoncera-un-appui-du-gouvernement-du-canada-a-une-entreprise-manufacturiere-de-roberval.html": {
+    "PUBDATE": "2026-08-19 08:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/economic-development-quebec-regions/news/2026/08/invitation-to-media--rachel-bendayan-to-announce-government-of-canada-support-for-roberval-manufacturing-business.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/developpement-economique-regions-quebec/nouvelles/2026/08/invitation-aux-medias--rachel-bendayan-annoncera-un-appui-du-gouvernement-du-canada-a-une-entreprise-manufacturiere-de-roberval.html",
+    "hash": "74d3704d5116d01cbe28f2d4e6b79535",
+    "image_count": 1,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:34.722412+00:00",
     "version": 6
   },
   "74d932bdc5d527a0b24c40a2227092ac|2025-09-11 16:05:25|https://www.canada.ca/en/international-trade-tribunal/news/2025/09/tribunal-initiates-final-injury-inquirythermal-paper-rolls-from-china.html|https://www.canada.ca/fr/tribunal-commerce-exterieur/nouvelles/2025/09/le-tribunal-ouvre-une-enquete-definitive-de-dommage--rouleaux-de-papier-thermique-provenant-de-la-chine.html": {
@@ -65273,6 +65361,17 @@
     "updated_at": "2026-05-12T13:28:16.825015+00:00",
     "version": 6
   },
+  "791c8591507ba4032038a0502805c946|2026-08-19 11:06:12|https://www.canada.ca/en/employment-social-development/news/2026/08/minister-hajdu-appoints-new-members-to-the-national-advisory-committee-for-canadas-volunteer-awards.html|https://www.canada.ca/fr/emploi-developpement-social/nouvelles/2026/08/la-ministre-hajdu-nomme-de-nouveaux-membres-au-comite-consultatif-national-des-prix-pour-le-benevolat-du-canada.html": {
+    "PUBDATE": "2026-08-19 11:06:12",
+    "TITLE_URL_EN": "https://www.canada.ca/en/employment-social-development/news/2026/08/minister-hajdu-appoints-new-members-to-the-national-advisory-committee-for-canadas-volunteer-awards.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/emploi-developpement-social/nouvelles/2026/08/la-ministre-hajdu-nomme-de-nouveaux-membres-au-comite-consultatif-national-des-prix-pour-le-benevolat-du-canada.html",
+    "hash": "791c8591507ba4032038a0502805c946",
+    "image_count": 0,
+    "quote_count": 1,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:32.766876+00:00",
+    "version": 6
+  },
   "792a4a075a87c56d89d6d8fc9ce38982|2024-09-13 13:02:51|https://www.canada.ca/en/agriculture-agri-food/news/2024/09/manitoba-celebrates-10-years-of-farm-and-food-awareness-week-with-support-to-agriculture-in-the-classroom-manitoba.html|https://www.canada.ca/fr/agriculture-agroalimentaire/nouvelles/2024/09/le-manitoba-celebre-les-10-ans-de-la-semaine-de-promotion-du-secteur-agroalimentaire-avec-le-soutien-dagriculture-en-classe-au-manitoba.html": {
     "PUBDATE": "2024-09-13 13:02:51",
     "TITLE_URL_EN": "https://www.canada.ca/en/agriculture-agri-food/news/2024/09/manitoba-celebrates-10-years-of-farm-and-food-awareness-week-with-support-to-agriculture-in-the-classroom-manitoba.html",
@@ -67284,6 +67383,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T13:54:36.395677+00:00",
+    "version": 6
+  },
+  "7d02c02c83ac5d0ff5716177cb4ac4c4|2026-08-19 12:45:00|https://www.canada.ca/en/health-canada/news/2026/08/supporting-the-development-of-integrated-mental-health-services-for-youth-in-yukon.html|https://www.canada.ca/fr/sante-canada/nouvelles/2026/08/soutien-au-developpement-de-services-integres-de-sante-mentale-pour-les-jeunes-du-yukon.html": {
+    "PUBDATE": "2026-08-19 12:45:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/health-canada/news/2026/08/supporting-the-development-of-integrated-mental-health-services-for-youth-in-yukon.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/sante-canada/nouvelles/2026/08/soutien-au-developpement-de-services-integres-de-sante-mentale-pour-les-jeunes-du-yukon.html",
+    "hash": "7d02c02c83ac5d0ff5716177cb4ac4c4",
+    "image_count": 0,
+    "quote_count": 4,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:34.789707+00:00",
     "version": 6
   },
   "7d04c823820b7b494c7806e00bef06bd|2024-11-21 21:00:33|https://www.canada.ca/en/health-canada/news/2024/11/government-of-canada-to-announce-funding-under-the-substance-use-and-addictions-program-for-people-living-in-niagara-ontario.html|https://www.canada.ca/fr/sante-canada/nouvelles/2024/11/le-gouvernement-du-canada-annonce-un-financement-dans-le-cadre-du-programme-sur-lusage-et-les-dependances-aux-substances-pour-les-personnes-vivant-.html": {
@@ -96931,6 +97041,17 @@
     "updated_at": "2026-05-12T14:48:36.404934+00:00",
     "version": 6
   },
+  "b551adf48eac07db45a5c9cc9fc624fa|2026-08-19 16:17:19|https://www.canada.ca/en/economic-development-quebec-regions/news/2026/08/cancellation--the-honourable-melanie-joly-to-announce-government-of-canada-support-for-saguenay-manufacturing-business.html|https://www.canada.ca/fr/developpement-economique-regions-quebec/nouvelles/2026/08/annulation--lhonorable-melanie-joly-annoncera-un-appui-du-gouvernement-du-canada-a-une-entreprise-manufacturiere-de-saguenay.html": {
+    "PUBDATE": "2026-08-19 16:17:19",
+    "TITLE_URL_EN": "https://www.canada.ca/en/economic-development-quebec-regions/news/2026/08/cancellation--the-honourable-melanie-joly-to-announce-government-of-canada-support-for-saguenay-manufacturing-business.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/developpement-economique-regions-quebec/nouvelles/2026/08/annulation--lhonorable-melanie-joly-annoncera-un-appui-du-gouvernement-du-canada-a-une-entreprise-manufacturiere-de-saguenay.html",
+    "hash": "b551adf48eac07db45a5c9cc9fc624fa",
+    "image_count": 1,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:44.191155+00:00",
+    "version": 6
+  },
   "b55aea11ddab4a15042a11ae0b515968|2024-05-23 11:00:00|https://www.canada.ca/en/immigration-refugees-citizenship/news/2024/05/speaking-notes-for-the-honourable-marc-miller-minister-of-immigration-refugees-and-citizenship-at-the-press-conference-for-the-tabling-of-bill-c-71.html|https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2024/05/allocution-prononcee-par-lhonorable-marc-miller-ministre-de-limmigration-des-refugies-et-de-la-citoyennete-a-la-conference-de-presse-pour-le-ddepot.html": {
     "PUBDATE": "2024-05-23 11:00:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2024/05/speaking-notes-for-the-honourable-marc-miller-minister-of-immigration-refugees-and-citizenship-at-the-press-conference-for-the-tabling-of-bill-c-71.html",
@@ -100000,6 +100121,17 @@
     "updated_at": "2026-05-12T13:47:16.578492+00:00",
     "version": 6
   },
+  "bb38be4c4abc9eba78969f2772a9f199|2026-08-19 09:19:13|https://www.canada.ca/en/competition-bureau/news/2026/08/competition-bureau-to-hold-technical-briefing-on-challenge-of-norteras-proposed-acquisition-of-bgs-green-giant-and-le-sieur-canadian-vegetable-busi.html|https://www.canada.ca/fr/bureau-concurrence/nouvelles/2026/08/le-bureau-de-la-concurrence-tiendra-une-seance-dinformation-technique-sur-sa-contestation-du-projet-dacquisition-par-nortera-des-marques-canadienne.html": {
+    "PUBDATE": "2026-08-19 09:19:13",
+    "TITLE_URL_EN": "https://www.canada.ca/en/competition-bureau/news/2026/08/competition-bureau-to-hold-technical-briefing-on-challenge-of-norteras-proposed-acquisition-of-bgs-green-giant-and-le-sieur-canadian-vegetable-busi.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/bureau-concurrence/nouvelles/2026/08/le-bureau-de-la-concurrence-tiendra-une-seance-dinformation-technique-sur-sa-contestation-du-projet-dacquisition-par-nortera-des-marques-canadienne.html",
+    "hash": "bb38be4c4abc9eba78969f2772a9f199",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:28.553385+00:00",
+    "version": 6
+  },
   "bb39175c1b41ef7dd82c31fc4b62c9ed|2025-03-07 15:40:17|https://www.canada.ca/en/health-canada/news/2025/03/drugs-for-rare-diseases-prince-edward-island-agreement.html|https://www.canada.ca/fr/sante-canada/nouvelles/2025/03/medicaments-pour-les-maladies-rares-entente-avec-lile-du-prince-edouard.html": {
     "PUBDATE": "2025-03-07 15:40:17",
     "TITLE_URL_EN": "https://www.canada.ca/en/health-canada/news/2025/03/drugs-for-rare-diseases-prince-edward-island-agreement.html",
@@ -101540,6 +101672,17 @@
     "updated_at": "2026-05-12T14:27:45.177132+00:00",
     "version": 6
   },
+  "be55c6593a12bf773b354234898ee488|2026-08-19 09:00:00|https://www.canada.ca/en/global-affairs/news/2026/08/statement-on-world-humanitarian-day.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/declaration-a-loccasion-de-la-journee-mondiale-de-laide-humanitaire.html": {
+    "PUBDATE": "2026-08-19 09:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/08/statement-on-world-humanitarian-day.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/declaration-a-loccasion-de-la-journee-mondiale-de-laide-humanitaire.html",
+    "hash": "be55c6593a12bf773b354234898ee488",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:30.545566+00:00",
+    "version": 6
+  },
   "be5cc4afee4d2bdb97d54dd5304ffa5f|2025-11-03 12:09:49|https://www.canada.ca/en/translation-bureau/news/2025/11/statement-from-the-translation-bureau-regarding-new-procurement-process-for-interpretation-services.html|https://www.canada.ca/fr/bureau-traduction/nouvelles/2025/11/declaration-du-bureau-de-la-traduction-concernant-le-nouveau-processus-dapprovisionnement-en-services-dinterpretation.html": {
     "PUBDATE": "2025-11-03 12:09:49",
     "TITLE_URL_EN": "https://www.canada.ca/en/translation-bureau/news/2025/11/statement-from-the-translation-bureau-regarding-new-procurement-process-for-interpretation-services.html",
@@ -102605,6 +102748,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:08:09.464126+00:00",
+    "version": 6
+  },
+  "c03408da74ede1739eab1eb564e7da8a|2026-08-19 12:15:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/08/building-canada-strong-by-investing-in-recreational-infrastructure-in-dartmouth.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/08/batir-un-canada-fort-en-investissant-dans-les-infrastructures-recreatives-a-dartmouth.html": {
+    "PUBDATE": "2026-08-19 12:15:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/08/building-canada-strong-by-investing-in-recreational-infrastructure-in-dartmouth.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/08/batir-un-canada-fort-en-investissant-dans-les-infrastructures-recreatives-a-dartmouth.html",
+    "hash": "c03408da74ede1739eab1eb564e7da8a",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:34.816742+00:00",
     "version": 6
   },
   "c03417cfc130566c072e3fa5eb92162e|2025-11-07 17:18:49|https://www.canada.ca/en/housing-infrastructure-communities/news/2025/11/media-advisory-infrastructure-announcement-in-sudbury.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2025/11/avis-aux-medias--annonce-en-matiere-dinfrastructure-a-sudbury.html": {
@@ -109625,6 +109779,17 @@
     "updated_at": "2026-08-06T02:04:21.466807+00:00",
     "version": 6
   },
+  "ccc75dab929bbe416ac3001be4ed905a|2026-08-19 15:00:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/08/ground-broken-on-159-new-affordable-homes-in-ottawas-lowertown-neighbourhood.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/08/debut-des-travaux-pour-la-construction-de-159-nouveaux-logements-abordables-dans-le-quartier-de-la-basse-ville-dottawa.html": {
+    "PUBDATE": "2026-08-19 15:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/08/ground-broken-on-159-new-affordable-homes-in-ottawas-lowertown-neighbourhood.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/08/debut-des-travaux-pour-la-construction-de-159-nouveaux-logements-abordables-dans-le-quartier-de-la-basse-ville-dottawa.html",
+    "hash": "ccc75dab929bbe416ac3001be4ed905a",
+    "image_count": 0,
+    "quote_count": 7,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:39.938907+00:00",
+    "version": 6
+  },
   "ccc76bec7ce6f76d4deba8a8cf900f6c|2026-07-04 12:00:00|https://www.canada.ca/en/natural-resources-canada/news/2026/07/canada-invests-in-clean-energy-in-alberta-and-saskatchewan.html|https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2026/07/document-dinformation--le-canada-investit-dans-lenergie-propre-en-alberta-et-en-saskatchewan.html": {
     "PUBDATE": "2026-07-04 12:00:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/natural-resources-canada/news/2026/07/canada-invests-in-clean-energy-in-alberta-and-saskatchewan.html",
@@ -113847,6 +114012,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T15:03:23.140280+00:00",
+    "version": 6
+  },
+  "d484345ef3a00dbd5337588f947d45db|2026-08-19 14:00:00|https://www.canada.ca/en/economic-development-quebec-regions/news/2026/08/invitation-to-media--carlos-leitao-tours-saguenaylac-saint-jean-region.html|https://www.canada.ca/fr/developpement-economique-regions-quebec/nouvelles/2026/08/invitation-aux-medias--carlos-leitao-en-tournee-au-saguenaylac-saint-jean.html": {
+    "PUBDATE": "2026-08-19 14:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/economic-development-quebec-regions/news/2026/08/invitation-to-media--carlos-leitao-tours-saguenaylac-saint-jean-region.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/developpement-economique-regions-quebec/nouvelles/2026/08/invitation-aux-medias--carlos-leitao-en-tournee-au-saguenaylac-saint-jean.html",
+    "hash": "d484345ef3a00dbd5337588f947d45db",
+    "image_count": 1,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:40.076859+00:00",
     "version": 6
   },
   "d489218e2b9b28b9aed255e388970747|2026-03-31 17:00:21|https://www.canada.ca/en/pacific-economic-development/news/2026/03/backgrounder-pacifican-invests-138-million-to-advance-defence-innovation-in-ai-and-aerospace-in-british-columbia.html|https://www.canada.ca/fr/developpement-economique-pacifique/nouvelles/2026/03/document-dinformation--pacifican-investit-138-millions-de-dollars-pour-accelerer-linnovation-dans-les-domaines-de-lia-et-de-laerospatiale-en-colomb.html": {
@@ -119853,6 +120029,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-06-25T02:46:38.387408+00:00",
+    "version": 6
+  },
+  "df92bca07d8fd9d0fbd1d655b41e7596|2026-08-19 08:00:00|https://www.canada.ca/en/canadian-heritage/news/2026/08/government-of-canada-to-announce-support-for-luniversite-de-lontario-francais.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/08/le-gouvernement-du-canada-annoncera-un-financement-a-luniversite-de-lontario-francais.html": {
+    "PUBDATE": "2026-08-19 08:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/08/government-of-canada-to-announce-support-for-luniversite-de-lontario-francais.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/08/le-gouvernement-du-canada-annoncera-un-financement-a-luniversite-de-lontario-francais.html",
+    "hash": "df92bca07d8fd9d0fbd1d655b41e7596",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:31.546786+00:00",
     "version": 6
   },
   "df944edfad71668b597b5f921af3aecd|2026-05-01 12:43:38|https://www.canada.ca/en/global-affairs/news/2026/05/secretary-of-state-sarai-concludes-successful-g7-development-ministers-meeting-in-france.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/05/le-secretaire-detat-sarai-conclut-une-reunion-fructueuse-des-ministres-du-developpement-du-g7-en-france.html": {
@@ -129953,6 +130140,17 @@
     "updated_at": "2026-05-12T14:12:26.110381+00:00",
     "version": 6
   },
+  "f32a372a8e89060170b31dad11040cf9|2026-08-19 09:18:42|https://www.canada.ca/en/competition-bureau/news/2026/08/competition-bureau-seeks-to-block-norteras-proposed-acquisition-of-bgs-green-giant-and-le-sieur-canadian-vegetable-business.html|https://www.canada.ca/fr/bureau-concurrence/nouvelles/2026/08/le-bureau-de-la-concurrence-cherche-a-bloquer-le-projet-dacquisition-par-nortera-des-marques-canadiennes-de-legumes-geant-vert-et-le-sieur-de-bg.html": {
+    "PUBDATE": "2026-08-19 09:18:42",
+    "TITLE_URL_EN": "https://www.canada.ca/en/competition-bureau/news/2026/08/competition-bureau-seeks-to-block-norteras-proposed-acquisition-of-bgs-green-giant-and-le-sieur-canadian-vegetable-business.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/bureau-concurrence/nouvelles/2026/08/le-bureau-de-la-concurrence-cherche-a-bloquer-le-projet-dacquisition-par-nortera-des-marques-canadiennes-de-legumes-geant-vert-et-le-sieur-de-bg.html",
+    "hash": "f32a372a8e89060170b31dad11040cf9",
+    "image_count": 0,
+    "quote_count": 1,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:30.523045+00:00",
+    "version": 6
+  },
   "f32ad6089f5ac448e88c033c394950cb|2025-12-01 16:27:09|https://www.canada.ca/en/department-national-defence/news/2025/11/minister-david-j-mcguinty-invites-applications-for-positions-on-a-national-external-advisory-committee-on-anti-black-racism.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2025/11/le-ministre-david-j-mcguinty-invite-les-personnes-interessees-a-poser-leur-candidature-pour-le-comite-consultatif-externe-national-sur-le-racisme-anti-noirs.html": {
     "PUBDATE": "2025-12-01 16:27:09",
     "TITLE_URL_EN": "https://www.canada.ca/en/department-national-defence/news/2025/11/minister-david-j-mcguinty-invites-applications-for-positions-on-a-national-external-advisory-committee-on-anti-black-racism.html",
@@ -131425,6 +131623,17 @@
     "quote_count": 6,
     "status": "ok",
     "updated_at": "2026-05-12T14:45:06.171399+00:00",
+    "version": 6
+  },
+  "f5c05cce56811a86d09bb277243a9309|2026-08-19 09:18:22|https://www.canada.ca/en/competition-bureau/news/2026/08/backgrounder-competition-bureau-seeks-to-block-norteras-proposed-acquisition-of-bgs-green-giant-and-le-sieur-canadian-vegetable-business.html|https://www.canada.ca/fr/bureau-concurrence/nouvelles/2026/08/precis-dinformation--le-bureau-de-la-concurrence-cherche-a-bloquer-le-projet-dacquisition-par-nortera-des-marques-canadiennes-de-legumes-geant-vert.html": {
+    "PUBDATE": "2026-08-19 09:18:22",
+    "TITLE_URL_EN": "https://www.canada.ca/en/competition-bureau/news/2026/08/backgrounder-competition-bureau-seeks-to-block-norteras-proposed-acquisition-of-bgs-green-giant-and-le-sieur-canadian-vegetable-business.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/bureau-concurrence/nouvelles/2026/08/precis-dinformation--le-bureau-de-la-concurrence-cherche-a-bloquer-le-projet-dacquisition-par-nortera-des-marques-canadiennes-de-legumes-geant-vert.html",
+    "hash": "f5c05cce56811a86d09bb277243a9309",
+    "image_count": 1,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-20T00:56:32.517699+00:00",
     "version": 6
   },
   "f5c21099dfd2f382e4997851a811147b|2024-11-11 15:00:50|https://www.canada.ca/en/housing-infrastructure-communities/news/2024/11/media-advisory-infrastructure-announcement-in-quebec-city.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2024/11/avis-aux-medias--annonce-en-matiere-dinfrastructure-a-quebec.html": {
