@@ -28676,6 +28676,17 @@
     "updated_at": "2026-05-12T13:33:21.839423+00:00",
     "version": 6
   },
+  "3513135c8e0fb82ec31138515b20fc71|2026-08-22 19:10:00|https://www.canada.ca/en/canadian-heritage/news/2026/08/minister-miller-will-announce-major-funding-for-a-cultural-organization-in-montreal.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/08/le-ministre-marc-miller-annoncera-loctroi-dun-financement-important-a-un-organisme-culturel-montrealais.html": {
+    "PUBDATE": "2026-08-22 19:10:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/08/minister-miller-will-announce-major-funding-for-a-cultural-organization-in-montreal.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/08/le-ministre-marc-miller-annoncera-loctroi-dun-financement-important-a-un-organisme-culturel-montrealais.html",
+    "hash": "3513135c8e0fb82ec31138515b20fc71",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-08-23T01:00:57.254976+00:00",
+    "version": 6
+  },
   "35172f44f89fd262cbce7dc2cc2a2ce8|2026-02-14 18:08:15|https://www.canada.ca/en/global-affairs/news/2026/02/canada-welcomes-polands-accession-to-g7-rapid-response-mechanism0.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/02/le-canada-se-rejouit-de-ladhesion-de-la-pologne-au-mecanisme-de-reponse-rapide-du-g70.html": {
     "PUBDATE": "2026-02-14 18:08:15",
     "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/02/canada-welcomes-polands-accession-to-g7-rapid-response-mechanism0.html",
@@ -32337,17 +32348,6 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:33:06.398251+00:00",
-    "version": 6
-  },
-  "3c0f64dd244007c504f85c4737321a70|2026-07-23 10:00:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/canada-and-nunavut-partner-to-build-essential-infrastructure-and-more-homes.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-canada-et-lontario-soulignent-une-autre-etape-importante-du-prolongement-vers-le-nord-de-la-ligne-de-metro-yonge.html": {
-    "PUBDATE": "2026-07-23 10:00:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/canada-and-nunavut-partner-to-build-essential-infrastructure-and-more-homes.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-canada-et-lontario-soulignent-une-autre-etape-importante-du-prolongement-vers-le-nord-de-la-ligne-de-metro-yonge.html",
-    "hash": "3c0f64dd244007c504f85c4737321a70",
-    "image_count": 0,
-    "quote_count": 8,
-    "status": "ok",
-    "updated_at": "2026-08-22T00:56:12.006304+00:00",
     "version": 6
   },
   "3c160e0ce2ffa6d72178b855a710ed14|2024-11-05 15:26:33|https://www.canada.ca/en/department-finance/news/2024/11/remarks-by-the-deputy-prime-minister-at-the-standing-committee-on-natural-resources-regarding-the-trans-mountain-expansion-project.html|https://www.canada.ca/fr/ministere-finances/nouvelles/2024/11/allocution-de-la-vice-premiere-ministre-devant-le-comite-permanent-des-ressources-naturelles-sur-le-projet-dagrandissement-du-.html": {
@@ -62378,6 +62378,17 @@
     "quote_count": 2,
     "status": "ok",
     "updated_at": "2026-05-12T13:45:55.471958+00:00",
+    "version": 6
+  },
+  "7320809c7ef29d423b170ab3d075d409|2026-08-22 13:15:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/08/canada-and-mississauga-invest-in-active-transportation-infrastructure.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/08/le-canada-et-mississauga-investissent-dans-les-infrastructures-de-transport-actif.html": {
+    "PUBDATE": "2026-08-22 13:15:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/08/canada-and-mississauga-invest-in-active-transportation-infrastructure.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/08/le-canada-et-mississauga-investissent-dans-les-infrastructures-de-transport-actif.html",
+    "hash": "7320809c7ef29d423b170ab3d075d409",
+    "image_count": 0,
+    "quote_count": 4,
+    "status": "ok",
+    "updated_at": "2026-08-23T01:00:57.468258+00:00",
     "version": 6
   },
   "73218ddcf8aaa8db6ef99a0b13b92613|2025-11-10 15:50:16|https://www.canada.ca/en/national-film-board/news/2025/11/discover-hairy-legs-andrea-dorfmans-warm-and-witty-animated-short-now-streaming-free-on-nfb-platforms.html|https://www.canada.ca/fr/office-national-film/nouvelles/2025/11/a-visionner-gratuitement-sur-les-plateformes-de-lonf-poil-aux-jambes-un-court-metrage-danimation-drole-et-bienveillant-dandrea-dorfman.html": {
@@ -107524,6 +107535,17 @@
     "updated_at": "2026-05-12T14:12:19.121178+00:00",
     "version": 6
   },
+  "c82d19061d8858f0f620093713e7ca85|2026-07-23 10:00:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/canada-and-nunavut-partner-to-build-essential-infrastructure-and-more-homes.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-canada-et-le-nunavut-font-equipe-pour-batir-des-infrastructures-essentielles-et-davantage-de-logements.html": {
+    "PUBDATE": "2026-07-23 10:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/canada-and-nunavut-partner-to-build-essential-infrastructure-and-more-homes.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-canada-et-le-nunavut-font-equipe-pour-batir-des-infrastructures-essentielles-et-davantage-de-logements.html",
+    "hash": "c82d19061d8858f0f620093713e7ca85",
+    "image_count": 0,
+    "quote_count": 8,
+    "status": "ok",
+    "updated_at": "2026-08-23T01:00:54.788970+00:00",
+    "version": 6
+  },
   "c82e26f36228ee2cbcc5d380081ba717|2024-11-04 10:58:56|https://www.canada.ca/en/global-affairs/news/2024/11/minister-joly-congratulates-moldovas-president-maia-sandu-on-her-re-election.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2024/11/la-ministre-joly-felicite-la-presidente-de-la-moldova-maia-sandu-pour-sa-reelection.html": {
     "PUBDATE": "2024-11-04 10:58:56",
     "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2024/11/minister-joly-congratulates-moldovas-president-maia-sandu-on-her-re-election.html",
@@ -109073,6 +109095,17 @@
     "quote_count": 6,
     "status": "ok",
     "updated_at": "2026-05-12T14:51:06.523176+00:00",
+    "version": 6
+  },
+  "caee088e134a7b8f6184b7eab1a064fd|2026-07-23 10:00:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/canada-and-ontario-celebrate-another-milestone-for-the-yonge-north-subway-extension.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-canada-et-le-nunavut-font-equipe-pour-batir-des-infrastructures-essentielles-et-davantage-de-logements.html": {
+    "PUBDATE": "2026-07-23 10:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/canada-and-ontario-celebrate-another-milestone-for-the-yonge-north-subway-extension.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-canada-et-le-nunavut-font-equipe-pour-batir-des-infrastructures-essentielles-et-davantage-de-logements.html",
+    "hash": "caee088e134a7b8f6184b7eab1a064fd",
+    "image_count": 0,
+    "quote_count": 8,
+    "status": "ok",
+    "updated_at": "2026-08-23T01:00:57.551502+00:00",
     "version": 6
   },
   "cafb14f52e08e36eef80001ab3746c77|2026-02-11 11:30:01|https://www.canada.ca/en/women-gender-equality/news/2026/02/federal-government-to-announce-support-for-women-entrepreneurs-with-disabilities.html|https://www.canada.ca/fr/femmes-egalite-genres/nouvelles/2026/02/le-gouvernement-federal-annoncera-un-soutien-aux-entrepreneures-en-situation-de-handicap.html": {
@@ -119204,6 +119237,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T13:49:52.750719+00:00",
+    "version": 6
+  },
+  "dd58eea8a184a23fbf51f48b7359b605|2026-08-22 17:49:37|https://www.canada.ca/en/employment-social-development/news/2026/08/government-of-canada-announces-peter-ballantyne-cree-nation-as-an-indigenous-skills-and-employment-training-program-agreement-holder.html|https://www.canada.ca/fr/emploi-developpement-social/nouvelles/2026/08/le-gouvernement-du-canada-annonce-que-la-premiere-nation-crie-de-peter-ballantyne-est-signataire-dune-entente-dans-le-cadre-du-programme-de-formati.html": {
+    "PUBDATE": "2026-08-22 17:49:37",
+    "TITLE_URL_EN": "https://www.canada.ca/en/employment-social-development/news/2026/08/government-of-canada-announces-peter-ballantyne-cree-nation-as-an-indigenous-skills-and-employment-training-program-agreement-holder.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/emploi-developpement-social/nouvelles/2026/08/le-gouvernement-du-canada-annonce-que-la-premiere-nation-crie-de-peter-ballantyne-est-signataire-dune-entente-dans-le-cadre-du-programme-de-formati.html",
+    "hash": "dd58eea8a184a23fbf51f48b7359b605",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-08-23T01:00:56.342456+00:00",
     "version": 6
   },
   "dd593597a641b7c6206f7a5705aabb9f|2024-06-04 09:00:03|https://www.canada.ca/en/global-affairs/news/2024/06/statement-by-foreign-affairs-minister-on-35th-anniversary-of-tiananmen-square.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2024/06/declaration-de-la-ministre-des-affaires-etrangeres-a-loccasion-du-35e-anniversaire-des-evenements-de-la-place-tiananmen.html": {
@@ -131744,17 +131788,6 @@
     "quote_count": 3,
     "status": "ok",
     "updated_at": "2026-05-15T02:42:10.059588+00:00",
-    "version": 6
-  },
-  "f568529a6084d79d94c8a90694ce291a|2026-07-23 10:00:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/canada-and-ontario-celebrate-another-milestone-for-the-yonge-north-subway-extension.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-canada-et-lontario-soulignent-une-autre-etape-importante-du-prolongement-vers-le-nord-de-la-ligne-de-metro-yonge.html": {
-    "PUBDATE": "2026-07-23 10:00:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/canada-and-ontario-celebrate-another-milestone-for-the-yonge-north-subway-extension.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/le-canada-et-lontario-soulignent-une-autre-etape-importante-du-prolongement-vers-le-nord-de-la-ligne-de-metro-yonge.html",
-    "hash": "f568529a6084d79d94c8a90694ce291a",
-    "image_count": 0,
-    "quote_count": 4,
-    "status": "ok",
-    "updated_at": "2026-08-22T00:56:12.031142+00:00",
     "version": 6
   },
   "f56cf3d6131a9eb79e9b9dcae09f8f10|2026-01-14 10:00:23|https://www.canada.ca/en/department-finance/news/2026/01/minister-mcknight-to-welcome-an-investment-in-delta-supporting-clean-technologies.html|https://www.canada.ca/fr/ministere-finances/nouvelles/2026/01/la-ministre-mcknight-souligne-un-investissement-a-delta-pour-appuyer-les-technologies-propres.html": {
