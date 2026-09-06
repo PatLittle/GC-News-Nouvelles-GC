@@ -88439,6 +88439,17 @@
     "updated_at": "2026-05-12T14:42:39.480056+00:00",
     "version": 6
   },
+  "9fe7094047b9b6c48676ba71ce05c45e|2026-09-01 09:00:00|https://www.canada.ca/en/global-affairs/news/2026/08/announcement-of-new-diplomatic-appointment.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/annonce-dune-nouvelle-nomination-diplomatique.html": {
+    "PUBDATE": "2026-09-01 09:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/08/announcement-of-new-diplomatic-appointment.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/annonce-dune-nouvelle-nomination-diplomatique.html",
+    "hash": "9fe7094047b9b6c48676ba71ce05c45e",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-06T02:30:35.541782+00:00",
+    "version": 6
+  },
   "9fe77a1b91914bc4fc3e293f4c552dd7|2024-08-07 05:58:00|https://www.canada.ca/en/economic-development-quebec-regions/news/2024/08/invitation-to-media--minister-soraya-martinez-ferrada-to-announce-ced-support-for-gaspesie-tourism-sector.html|https://www.canada.ca/fr/developpement-economique-regions-quebec/nouvelles/2024/08/invitation-aux-medias--la-ministre-soraya-martinez-ferrada-annoncera-des-appuis-de-dec-au-secteur-touristique-de-la-gaspesie.html": {
     "PUBDATE": "2024-08-07 05:58:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/economic-development-quebec-regions/news/2024/08/invitation-to-media--minister-soraya-martinez-ferrada-to-announce-ced-support-for-gaspesie-tourism-sector.html",
@@ -105773,17 +105784,6 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:43:12.880870+00:00",
-    "version": 6
-  },
-  "c1378eaaa4ab5b92d4c2ba78f122075a|2026-09-01 09:00:00|https://www.canada.ca/en/global-affairs/news/2026/08/announcement-of-new-diplomatic-appointment.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/notice-biographique---amanda-strohan.html": {
-    "PUBDATE": "2026-09-01 09:00:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/08/announcement-of-new-diplomatic-appointment.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/notice-biographique---amanda-strohan.html",
-    "hash": "c1378eaaa4ab5b92d4c2ba78f122075a",
-    "image_count": 0,
-    "quote_count": 0,
-    "status": "ok",
-    "updated_at": "2026-09-04T02:33:09.622263+00:00",
     "version": 6
   },
   "c1419d19b34e785bc14f9ae7e95b0389|2025-06-30 16:09:29|https://www.canada.ca/en/global-affairs/news/2025/06/joint-statement-of-the-g7-foreign-ministers-on-iran-and-the-middle-east.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2025/06/declaration-commune-des-ministres-des-affaires-etrangeres-du-g7-sur-liran-et-le-moyen-orient.html": {
@@ -126950,17 +126950,6 @@
     "updated_at": "2026-05-12T14:54:21.457170+00:00",
     "version": 6
   },
-  "e6e98b92ac3765328a31f154f6da4b38|2026-09-01 09:00:00|https://www.canada.ca/en/global-affairs/news/2026/08/biographical-note---amanda-strohan.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/notice-biographique---amanda-strohan.html": {
-    "PUBDATE": "2026-09-01 09:00:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/08/biographical-note---amanda-strohan.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/notice-biographique---amanda-strohan.html",
-    "hash": "e6e98b92ac3765328a31f154f6da4b38",
-    "image_count": 0,
-    "quote_count": 0,
-    "status": "ok",
-    "updated_at": "2026-09-04T02:33:11.561864+00:00",
-    "version": 6
-  },
   "e6f79977af0d8f974bd00ecb798dd2fb|2025-03-11 12:21:26|https://www.canada.ca/en/atlantic-canada-opportunities/news/2025/03/government-of-canada-investing-in-air-access-in-atlantic-canada.html|https://www.canada.ca/fr/promotion-economique-canada-atlantique/nouvelles/2025/03/le-gouvernement-du-canada-investit-dans-lacces-aerien-au-canada-atlantique.html": {
     "PUBDATE": "2025-03-11 12:21:26",
     "TITLE_URL_EN": "https://www.canada.ca/en/atlantic-canada-opportunities/news/2025/03/government-of-canada-investing-in-air-access-in-atlantic-canada.html",
@@ -134296,6 +134285,17 @@
     "quote_count": 3,
     "status": "ok",
     "updated_at": "2026-08-19T00:56:54.788422+00:00",
+    "version": 6
+  },
+  "f4b1fd37b4aed73fbb4ac77a3293b40f|2026-09-01 09:00:00|https://www.canada.ca/en/global-affairs/news/2026/08/biographical-note---amanda-strohan.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/annonce-dune-nouvelle-nomination-diplomatique.html": {
+    "PUBDATE": "2026-09-01 09:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/08/biographical-note---amanda-strohan.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/annonce-dune-nouvelle-nomination-diplomatique.html",
+    "hash": "f4b1fd37b4aed73fbb4ac77a3293b40f",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-06T02:30:33.773611+00:00",
     "version": 6
   },
   "f4bbf0197cf61352a9952efd03b17587|2026-07-16 14:15:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-water-and-wastewater-infrastructure-to-support-housing-growth.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-les-infrastructures-dapprovisionnement-en-eau-et-de-traitement-des-eaux-usees-afin-de-soutenir-la-constru.html": {
