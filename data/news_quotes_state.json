@@ -3574,6 +3574,17 @@
     "updated_at": "2026-09-08T02:40:31.928783+00:00",
     "version": 6
   },
+  "06d8f685a44d56e10d29a809b02a55cb|2026-09-11 10:01:00|https://www.canada.ca/en/parks-canada/news/2026/09/government-of-canada-announces-substantial-completion-of-a-new-346m-parks-canada-national-fire-equipment-cache.html|https://www.canada.ca/fr/parcs-canada/nouvelles/2026/09/le-gouvernement-du-canada-annonce-lachevement-substantiel-du-nouveau-depot-national-de-materiel-de-lutte-contre-les-incendies-de-parcs-canada-dune-.html": {
+    "PUBDATE": "2026-09-11 10:01:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/parks-canada/news/2026/09/government-of-canada-announces-substantial-completion-of-a-new-346m-parks-canada-national-fire-equipment-cache.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/parcs-canada/nouvelles/2026/09/le-gouvernement-du-canada-annonce-lachevement-substantiel-du-nouveau-depot-national-de-materiel-de-lutte-contre-les-incendies-de-parcs-canada-dune-.html",
+    "hash": "06d8f685a44d56e10d29a809b02a55cb",
+    "image_count": 1,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:41.928483+00:00",
+    "version": 6
+  },
   "06ded076ad2c18f264c427d1eb99c8f8|2024-08-27 11:00:00|https://www.canada.ca/en/parks-canada/news/2024/08/parks-canada-honours-national-historic-significance-of-early-science-in-canadas-north-and-the-hudsons-bay-company.html|https://www.canada.ca/fr/parcs-canada/nouvelles/2024/08/parcs-canada-souligne-limportance-historique-nationale-des-debuts-des-connaissances-scientifiques-dans-le-nord-canadien-et-du-role-joue-par-la-comp.html": {
     "PUBDATE": "2024-08-27 11:00:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/parks-canada/news/2024/08/parks-canada-honours-national-historic-significance-of-early-science-in-canadas-north-and-the-hudsons-bay-company.html",
@@ -5585,6 +5596,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:17:21.798526+00:00",
+    "version": 6
+  },
+  "0a80dda3315e40237e99b4531a476575|2026-09-09 13:00:03|https://www.canada.ca/en/women-gender-equality/news/2026/09/minister-valdez-to-announce-federal-investment-advancing-menstrual-equity-and-affordability-in-communities-across-canada.html|https://www.canada.ca/fr/femmes-egalite-genres/nouvelles/2026/09/la-ministre-valdez-annoncera-un-investissement-federal-visant-a-faire-progresser-lequite-menstruelle-et-a-ameliorer-labordabilite-des-produits-mens.html": {
+    "PUBDATE": "2026-09-09 13:00:03",
+    "TITLE_URL_EN": "https://www.canada.ca/en/women-gender-equality/news/2026/09/minister-valdez-to-announce-federal-investment-advancing-menstrual-equity-and-affordability-in-communities-across-canada.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/femmes-egalite-genres/nouvelles/2026/09/la-ministre-valdez-annoncera-un-investissement-federal-visant-a-faire-progresser-lequite-menstruelle-et-a-ameliorer-labordabilite-des-produits-mens.html",
+    "hash": "0a80dda3315e40237e99b4531a476575",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:35.494514+00:00",
     "version": 6
   },
   "0a82e7e282b54ed51516807a33285432|2026-09-01 13:15:14|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/09/building-canada-strong-by-investing-in-north-calgary-water-servicing-project.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/09/batir-un-canada-fort-en-investissant-dans-le-projet-dalimentation-en-eau-du-nord-de-calgary.html": {
@@ -8599,17 +8621,6 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-08-08T01:11:52.878223+00:00",
-    "version": 6
-  },
-  "0ff59f209432aec7ad26209a64c05a8c|2026-09-10 13:15:00|https://www.canada.ca/en/canada-water-agency/news/2026/09/ps-grant-highlights-launch-of-public-engagement-on-canadas-national-water-security-strategy-and-announces-new-projects-to-protect-the-fraser-river.html|https://www.canada.ca/fr/agence-eau-canada/nouvelles/2026/09/protection-de-leau-douce--lagence-de-leau-du-canada-investit-plus-de-480-000--dans-trois-nouveaux-projets-de-lautre-cote-du-fleuve-fraser.html": {
-    "PUBDATE": "2026-09-10 13:15:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/canada-water-agency/news/2026/09/ps-grant-highlights-launch-of-public-engagement-on-canadas-national-water-security-strategy-and-announces-new-projects-to-protect-the-fraser-river.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/agence-eau-canada/nouvelles/2026/09/protection-de-leau-douce--lagence-de-leau-du-canada-investit-plus-de-480-000--dans-trois-nouveaux-projets-de-lautre-cote-du-fleuve-fraser.html",
-    "hash": "0ff59f209432aec7ad26209a64c05a8c",
-    "image_count": 0,
-    "quote_count": 4,
-    "status": "ok",
-    "updated_at": "2026-09-11T02:36:40.649515+00:00",
     "version": 6
   },
   "0ff85577978ab9d45bc724f0b7584f4d|2026-05-08 11:47:11|https://www.canada.ca/en/innovation-science-economic-development/news/2026/05/minister-joly-to-discuss-the-power-of-shared-prosperity-at-the-2026-global-progress-action-summit.html|https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2026/05/la-ministre-joly-discutera-de-limportance-dune-prosperite-partagee-au-global-progress-action-summit-de-2026.html": {
@@ -17751,6 +17762,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-06-20T02:51:33.047071+00:00",
+    "version": 6
+  },
+  "1fb8c7deb34e7fe03796dd9eb1f03279|2026-09-10 13:15:00|https://www.canada.ca/en/canada-water-agency/news/2026/09/protecting-fresh-water-canada-water-agency-invests-over-480000-in-three-new-projects-across-the-fraser-river.html|https://www.canada.ca/fr/agence-eau-canada/nouvelles/2026/09/ps-grant-met-en-lumiere-le-lancement-de-la-participation-publique-en-vue-dune-strategie-nationale-de-securite-sur-leau-douce-du-canada-et-annonce-d.html": {
+    "PUBDATE": "2026-09-10 13:15:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canada-water-agency/news/2026/09/protecting-fresh-water-canada-water-agency-invests-over-480000-in-three-new-projects-across-the-fraser-river.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/agence-eau-canada/nouvelles/2026/09/ps-grant-met-en-lumiere-le-lancement-de-la-participation-publique-en-vue-dune-strategie-nationale-de-securite-sur-leau-douce-du-canada-et-annonce-d.html",
+    "hash": "1fb8c7deb34e7fe03796dd9eb1f03279",
+    "image_count": 0,
+    "quote_count": 4,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:31.634775+00:00",
     "version": 6
   },
   "1fbf90de22e5bb051a3da7e33bb87e03|2026-06-23 10:03:11|https://www.canada.ca/en/canadian-coast-guard/news/2026/06/canadian-coast-guard-begins-2026-arctic-summer-season.html|https://www.canada.ca/fr/garde-cotiere-canadienne/nouvelles/2026/06/la-garde-cotiere-canadienne-commence-sa-saison-estivale-de-2026-dans-larctique.html": {
@@ -27422,6 +27444,17 @@
     "updated_at": "2026-05-12T13:34:59.172421+00:00",
     "version": 6
   },
+  "30f0ac1ce70eb387afd4c908fd998ea7|2026-09-11 17:30:33|https://www.canada.ca/en/agriculture-agri-food/news/2026/09/minister-macdonald-concludes-successful-outreach-to-southern-alberta.html|https://www.canada.ca/fr/agriculture-agroalimentaire/nouvelles/2026/09/le-ministre-macdonald-conclut-une-visite-fructueuse-dans-le-sud-de-lalberta.html": {
+    "PUBDATE": "2026-09-11 17:30:33",
+    "TITLE_URL_EN": "https://www.canada.ca/en/agriculture-agri-food/news/2026/09/minister-macdonald-concludes-successful-outreach-to-southern-alberta.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/agriculture-agroalimentaire/nouvelles/2026/09/le-ministre-macdonald-conclut-une-visite-fructueuse-dans-le-sud-de-lalberta.html",
+    "hash": "30f0ac1ce70eb387afd4c908fd998ea7",
+    "image_count": 0,
+    "quote_count": 1,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:43.584467+00:00",
+    "version": 6
+  },
   "30f831ba9c5228d2cb95f53c479baffa|2024-07-19 10:00:00|https://www.canada.ca/en/natural-resources-canada/news/2024/07/canada-and-new-brunswick-to-plant-over-52-million-climate-resilient-trees.html|https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2024/07/le-canada-et-le-nouveau-brunswick-planteront-plus-de-52-millions-darbres-adaptes-au-climat.html": {
     "PUBDATE": "2024-07-19 10:00:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/natural-resources-canada/news/2024/07/canada-and-new-brunswick-to-plant-over-52-million-climate-resilient-trees.html",
@@ -27486,6 +27519,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:29:09.397104+00:00",
+    "version": 6
+  },
+  "310d8989cb1e53e3fa681611cf162791|2026-09-11 16:30:47|https://www.canada.ca/en/correctional-service/news/2026/09/seizure-of-contraband-and-unauthorized-items-at-stony-mountain-institution0.html|https://www.canada.ca/fr/service-correctionnel/nouvelles/2026/09/saisie-dobjets-interdits-et-non-autorises-a-letablissement-de-stony-mountain0.html": {
+    "PUBDATE": "2026-09-11 16:30:47",
+    "TITLE_URL_EN": "https://www.canada.ca/en/correctional-service/news/2026/09/seizure-of-contraband-and-unauthorized-items-at-stony-mountain-institution0.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/service-correctionnel/nouvelles/2026/09/saisie-dobjets-interdits-et-non-autorises-a-letablissement-de-stony-mountain0.html",
+    "hash": "310d8989cb1e53e3fa681611cf162791",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:42.103661+00:00",
     "version": 6
   },
   "31105237f35143183ba4c4340d4c58d4|2026-04-28 12:21:53|https://www.canada.ca/en/global-affairs/news/2026/04/minister-anand-and-moroccan-counterpart-discuss-canadas-position-on-western-sahara.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/04/la-ministre-anand-sentretient-avec-son-homologue-marocain-sur-la-position-du-canada-au-sujet-du-sahara-occidental.html": {
@@ -32427,6 +32471,17 @@
     "updated_at": "2026-05-12T14:13:29.335414+00:00",
     "version": 6
   },
+  "3a0a74cea38ef896a02e223691aa6a12|2026-09-11 10:58:38|https://www.canada.ca/en/public-services-procurement/news/2026/09/closure-of-the-gatineau-side-access-to-the-chaudiere-crossing.html|https://www.canada.ca/fr/services-publics-approvisionnement/nouvelles/2026/09/fermeture-de-lacces-a-la-traverse-des-chaudieres-du-cote-de-gatineau.html": {
+    "PUBDATE": "2026-09-11 10:58:38",
+    "TITLE_URL_EN": "https://www.canada.ca/en/public-services-procurement/news/2026/09/closure-of-the-gatineau-side-access-to-the-chaudiere-crossing.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/services-publics-approvisionnement/nouvelles/2026/09/fermeture-de-lacces-a-la-traverse-des-chaudieres-du-cote-de-gatineau.html",
+    "hash": "3a0a74cea38ef896a02e223691aa6a12",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:38.723731+00:00",
+    "version": 6
+  },
   "3a0af4f99025acca945b69a2719d0d2d|2026-05-04 12:40:20|https://www.canada.ca/en/health-canada/news/2026/05/remarks-for-the-honourable-marjorie-michel-minister-of-health---health-and-economic-prosperity-opportunities-for-canada---cd-howe-institute.html|https://www.canada.ca/fr/sante-canada/nouvelles/2026/05/notes-dallocution-pour-lhonorable-marjorie-michel-ministre-de-la-sante---sante-et-prosperite-economique--les-possibilites-pour-le-canada---institut.html": {
     "PUBDATE": "2026-05-04 12:40:20",
     "TITLE_URL_EN": "https://www.canada.ca/en/health-canada/news/2026/05/remarks-for-the-honourable-marjorie-michel-minister-of-health---health-and-economic-prosperity-opportunities-for-canada---cd-howe-institute.html",
@@ -34614,6 +34669,17 @@
     "quote_count": 2,
     "status": "ok",
     "updated_at": "2026-08-13T01:26:11.942540+00:00",
+    "version": 6
+  },
+  "3e4a9b4f9d5975f259cabbc5d3d6c2a7|2026-09-11 17:30:00|https://www.canada.ca/en/canadian-heritage/news/2026/09/secretary-of-state-van-koeverden-announces-key-measures-to-build-canada-strong-through-sport.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/09/le-secretaire-detat-van-koeverden-annonce-des-mesures-cles-pour-batir-un-canada-fort-grace-au-sport.html": {
+    "PUBDATE": "2026-09-11 17:30:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/09/secretary-of-state-van-koeverden-announces-key-measures-to-build-canada-strong-through-sport.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/09/le-secretaire-detat-van-koeverden-annonce-des-mesures-cles-pour-batir-un-canada-fort-grace-au-sport.html",
+    "hash": "3e4a9b4f9d5975f259cabbc5d3d6c2a7",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:43.462143+00:00",
     "version": 6
   },
   "3e58fe459e7a75d49468ff42a4bb6090|2026-06-16 10:17:40|https://www.canada.ca/en/indigenous-services-canada/news/2026/06/minister-gull-masty-introduces-legislation-to-support-access-to-clean-drinking-water-in-first-nations-communities-and-announces-historic-funding-co.html|https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/06/la-ministre-gull-masty-presente-un-projet-de-loi-visant-a-soutenir-lacces-a-leau-potable-propre-dans-les-communautes-des-premieres-nations-et-annon.html": {
@@ -37045,6 +37111,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T13:50:55.346620+00:00",
+    "version": 6
+  },
+  "42daf0008b9f881108eb60a5e8c81dbf|2026-09-11 13:00:16|https://www.canada.ca/en/food-inspection-agency/news/2026/09/canada-regains-market-access-for-beef-exports-to-the-dominican-republic.html|https://www.canada.ca/fr/agence-inspection-aliments/nouvelles/2026/09/le-canada-recupere-lacces-au-marche-pour-ses-exportations-de-viande-de-buf-vers-la-republique-dominicaine.html": {
+    "PUBDATE": "2026-09-11 13:00:16",
+    "TITLE_URL_EN": "https://www.canada.ca/en/food-inspection-agency/news/2026/09/canada-regains-market-access-for-beef-exports-to-the-dominican-republic.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/agence-inspection-aliments/nouvelles/2026/09/le-canada-recupere-lacces-au-marche-pour-ses-exportations-de-viande-de-buf-vers-la-republique-dominicaine.html",
+    "hash": "42daf0008b9f881108eb60a5e8c81dbf",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:41.735525+00:00",
     "version": 6
   },
   "42dd896a8d5514ca2c8f0b59b05343b1|2026-09-08 15:32:27|https://www.canada.ca/en/employment-social-development/news/2026/09/secretary-of-state-mclean-to-announce-new-horizons-for-seniors-program-nhsp-funding-for-alberta-seniors.html|https://www.canada.ca/fr/emploi-developpement-social/nouvelles/2026/09/la-secretaire-detat-mclean-annoncera-un-financement-pour-les-aines-de-lalberta-dans-le-cadre-du-programme-nouveaux-horizons-pour-les-aines-pnha.html": {
@@ -44934,6 +45011,17 @@
     "updated_at": "2026-05-12T13:53:22.256504+00:00",
     "version": 6
   },
+  "5054a9e78383fbb1a7a83c5b581431ab|2026-09-11 13:55:15|https://www.canada.ca/en/public-services-procurement/news/2026/09/closure-of-alexandra-bridge-to-motorists.html|https://www.canada.ca/fr/services-publics-approvisionnement/nouvelles/2026/09/fermeture-du-pont-alexandra-aux-automobilistes.html": {
+    "PUBDATE": "2026-09-11 13:55:15",
+    "TITLE_URL_EN": "https://www.canada.ca/en/public-services-procurement/news/2026/09/closure-of-alexandra-bridge-to-motorists.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/services-publics-approvisionnement/nouvelles/2026/09/fermeture-du-pont-alexandra-aux-automobilistes.html",
+    "hash": "5054a9e78383fbb1a7a83c5b581431ab",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:44.439344+00:00",
+    "version": 6
+  },
   "50571e553119206482903fdc862851f1|2026-05-26 11:53:19|https://www.canada.ca/en/global-affairs/news/2026/05/minister-anand-meets-with-india-commerce-and-industry-minister-piyush-goyal.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/05/la-ministre-anand-rencontre-le-ministre-du-commerce-et-de-lindustrie-de-linde-piyush-goyal.html": {
     "PUBDATE": "2026-05-26 11:53:19",
     "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/05/minister-anand-meets-with-india-commerce-and-industry-minister-piyush-goyal.html",
@@ -46012,17 +46100,6 @@
     "updated_at": "2026-05-12T13:26:30.546270+00:00",
     "version": 6
   },
-  "5242b55cc47994337404670f0966fb99|2026-09-09 10:45:00|https://www.canada.ca/en/canada-water-agency/news/2026/09/canada-and-manitoba-renew-commitment-to-lake-winnipeg-as-canada-announces-over-28-million-for-freshwater-projects.html|https://www.canada.ca/fr/agence-eau-canada/nouvelles/2026/09/le-depute-duguid-souligne-le-lancement-de-lengagement-public-sur-la-strategie-nationale-de-securite-hydrique-du-canada-et-annonce-de-nouveaux-proje.html": {
-    "PUBDATE": "2026-09-09 10:45:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/canada-water-agency/news/2026/09/canada-and-manitoba-renew-commitment-to-lake-winnipeg-as-canada-announces-over-28-million-for-freshwater-projects.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/agence-eau-canada/nouvelles/2026/09/le-depute-duguid-souligne-le-lancement-de-lengagement-public-sur-la-strategie-nationale-de-securite-hydrique-du-canada-et-annonce-de-nouveaux-proje.html",
-    "hash": "5242b55cc47994337404670f0966fb99",
-    "image_count": 0,
-    "quote_count": 4,
-    "status": "ok",
-    "updated_at": "2026-09-10T02:43:18.298783+00:00",
-    "version": 6
-  },
   "52462f4a1227fd5838217701d34c9bdf|2025-12-01 12:11:31|https://www.canada.ca/en/public-safety-canada/news/2025/12/government-of-canada-boosts-aerial-firefighting-capacity-to-protect-communities-from-wildfires.html|https://www.canada.ca/fr/securite-publique-canada/nouvelles/2025/12/le-gouvernement-du-canada-renforce-les-capacites-aeriennes-de-lutte-contre-les-incendies-pour-proteger-les-communautes-contre-les-feux-de-foret.html": {
     "PUBDATE": "2025-12-01 12:11:31",
     "TITLE_URL_EN": "https://www.canada.ca/en/public-safety-canada/news/2025/12/government-of-canada-boosts-aerial-firefighting-capacity-to-protect-communities-from-wildfires.html",
@@ -46780,17 +46857,6 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-07-17T02:09:33.197179+00:00",
-    "version": 6
-  },
-  "5388da8e69ba965a29dce75266eae056|2026-09-09 10:45:00|https://www.canada.ca/en/canada-water-agency/news/2026/09/mp-duguid-highlights-launch-of-public-engagement-on-canadas-national-water-security-strategy-and-announces-new-projects-to-protect-lake-winnipeg.html|https://www.canada.ca/fr/agence-eau-canada/nouvelles/2026/09/le-depute-duguid-souligne-le-lancement-de-lengagement-public-sur-la-strategie-nationale-de-securite-hydrique-du-canada-et-annonce-de-nouveaux-proje.html": {
-    "PUBDATE": "2026-09-09 10:45:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/canada-water-agency/news/2026/09/mp-duguid-highlights-launch-of-public-engagement-on-canadas-national-water-security-strategy-and-announces-new-projects-to-protect-lake-winnipeg.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/agence-eau-canada/nouvelles/2026/09/le-depute-duguid-souligne-le-lancement-de-lengagement-public-sur-la-strategie-nationale-de-securite-hydrique-du-canada-et-annonce-de-nouveaux-proje.html",
-    "hash": "5388da8e69ba965a29dce75266eae056",
-    "image_count": 0,
-    "quote_count": 4,
-    "status": "ok",
-    "updated_at": "2026-09-10T02:43:16.696732+00:00",
     "version": 6
   },
   "538b3c8b0280d6b31fdc855dedd6e0cd|2025-03-26 09:27:02|https://www.canada.ca/en/correctional-service/news/2025/03/death-of-an-inmate-from-regional-reception-centre.html|https://www.canada.ca/fr/service-correctionnel/nouvelles/2025/03/deces-dun-detenu-du-centre-regional-de-reception.html": {
@@ -55351,6 +55417,17 @@
     "updated_at": "2026-05-12T15:11:19.019804+00:00",
     "version": 6
   },
+  "62a40db4449e442cce17296756d9a8e4|2026-09-11 16:05:00|https://www.canada.ca/en/canadian-heritage/news/2026/09/secretary-of-state-van-koeverden-to-join-ward-5-councillor-raj-dhaliwal-for-field-hockey-try-it-day-in-calgary.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/09/le-secretaire-detat-van-koeverden-se-joindra-au-conseiller-municipal-du-5e-arrondissement-raj-dhaliwal-a-loccasion-dune-journee-dinitiation-au-hock.html": {
+    "PUBDATE": "2026-09-11 16:05:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/09/secretary-of-state-van-koeverden-to-join-ward-5-councillor-raj-dhaliwal-for-field-hockey-try-it-day-in-calgary.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/09/le-secretaire-detat-van-koeverden-se-joindra-au-conseiller-municipal-du-5e-arrondissement-raj-dhaliwal-a-loccasion-dune-journee-dinitiation-au-hock.html",
+    "hash": "62a40db4449e442cce17296756d9a8e4",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:41.117510+00:00",
+    "version": 6
+  },
   "62a5936176ac5a3176d4a058157cdfc4|2026-04-30 13:02:39|https://www.canada.ca/en/canadian-coast-guard/news/2026/04/msc-baltic-iii-technical-briefing.html|https://www.canada.ca/fr/garde-cotiere-canadienne/nouvelles/2026/04/seance-dinformation-technique-sur-le-msc-baltic-iii.html": {
     "PUBDATE": "2026-04-30 13:02:39",
     "TITLE_URL_EN": "https://www.canada.ca/en/canadian-coast-guard/news/2026/04/msc-baltic-iii-technical-briefing.html",
@@ -55580,6 +55657,17 @@
     "quote_count": 4,
     "status": "ok",
     "updated_at": "2026-05-22T02:51:26.731755+00:00",
+    "version": 6
+  },
+  "6303d382e301a87912dc355f1cdd2d6c|2026-09-11 12:35:00|https://www.canada.ca/en/canadian-heritage/news/2026/09/statement-by-minister-miller-on-rosh-hashanah.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/09/declaration-du-ministre-miller-a-loccasion-de-roch-hachana.html": {
+    "PUBDATE": "2026-09-11 12:35:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/09/statement-by-minister-miller-on-rosh-hashanah.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/09/declaration-du-ministre-miller-a-loccasion-de-roch-hachana.html",
+    "hash": "6303d382e301a87912dc355f1cdd2d6c",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:40.194511+00:00",
     "version": 6
   },
   "630a0f04f1d1905b0534d111411868f6|2024-10-17 14:27:59|https://www.canada.ca/en/transport-canada/news/2024/10/government-of-canada-to-make-an-announcement-to-strengthen-supply-chains-in-quebec.html|https://www.canada.ca/fr/transports-canada/nouvelles/2024/10/le-gouvernement-du-canada-fera-une-annonce-pour-renforcer-les-chaines-dapprovisionnement-au-quebec.html": {
@@ -57529,6 +57617,17 @@
     "updated_at": "2026-05-12T13:49:28.684641+00:00",
     "version": 6
   },
+  "66fe7920d7af52cea0781888609d394f|2026-09-10 16:44:41|https://www.canada.ca/en/parks-canada/news/2026/09/backgrounder-parks-canada-national-fire-equipment-cache-completion-september-2026.html|https://www.canada.ca/fr/parcs-canada/nouvelles/2026/09/document-dinformation-achevement-du-depot-national-de-materiel-de-lutte-contre-les-incendies-de-parcs-canada---septembre-2026.html": {
+    "PUBDATE": "2026-09-10 16:44:41",
+    "TITLE_URL_EN": "https://www.canada.ca/en/parks-canada/news/2026/09/backgrounder-parks-canada-national-fire-equipment-cache-completion-september-2026.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/parcs-canada/nouvelles/2026/09/document-dinformation-achevement-du-depot-national-de-materiel-de-lutte-contre-les-incendies-de-parcs-canada---septembre-2026.html",
+    "hash": "66fe7920d7af52cea0781888609d394f",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:38.050089+00:00",
+    "version": 6
+  },
   "66fe82897e37e74d5179415fb1290a0c|2026-06-05 18:40:29|https://www.canada.ca/en/innovation-science-economic-development/news/2026/06/federal-provincial-and-territorial-ministers-and-representatives-responsible-for-rural-development-met-in-prince-edward-island-to-strengthen-collab.html|https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2026/06/les-ministres-et-representants-federaux-provinciaux-et-territoriaux-responsables-du-developpement-rural-se-sont-reunis-a-lile-du-prince-edouard-pou.html": {
     "PUBDATE": "2026-06-05 18:40:29",
     "TITLE_URL_EN": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/06/federal-provincial-and-territorial-ministers-and-representatives-responsible-for-rural-development-met-in-prince-edward-island-to-strengthen-collab.html",
@@ -58495,6 +58594,17 @@
     "quote_count": 5,
     "status": "ok",
     "updated_at": "2026-05-12T15:01:22.264871+00:00",
+    "version": 6
+  },
+  "693446645856f6f24d47b79e38d8f9a7|2026-09-11 17:40:00|https://www.canada.ca/en/canadian-heritage/news/2026/09/secretary-of-state-van-koeverden-announces-canada-strong-through-sport-the-playground-to-podium-summit.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/09/le-secretaire-detat-van-koeverden-annonce-la-tenue-dun-canada-fort-grace-au-sport--le-sommet-du-terrain-de-jeu-au-podium.html": {
+    "PUBDATE": "2026-09-11 17:40:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/09/secretary-of-state-van-koeverden-announces-canada-strong-through-sport-the-playground-to-podium-summit.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/09/le-secretaire-detat-van-koeverden-annonce-la-tenue-dun-canada-fort-grace-au-sport--le-sommet-du-terrain-de-jeu-au-podium.html",
+    "hash": "693446645856f6f24d47b79e38d8f9a7",
+    "image_count": 0,
+    "quote_count": 1,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:47.219929+00:00",
     "version": 6
   },
   "6937499130a6e9540f169606951fc77b|2024-05-23 14:10:23|https://www.canada.ca/en/prairies-economic-development/news/2024/05/federal-government-to-announce-a-new-commitment-to-advancing-economic-reconciliation-and-the-revitalization-of-downtown-winnipeg.html|https://www.canada.ca/fr/developpement-economique-prairies/nouvelles/2024/05/le-gouvernement-federal-annonce-un-nouvel-engagement-en-faveur-de-la-reconciliation-economique-et-de-la-revitalisation-du-centre-ville-de-winnipeg.html": {
@@ -62875,6 +62985,17 @@
     "updated_at": "2026-09-04T02:33:23.654245+00:00",
     "version": 6
   },
+  "70b3aafddea4ace8621fb0bef4cdc2d9|2026-09-09 10:45:00|https://www.canada.ca/en/canada-water-agency/news/2026/09/mp-duguid-highlights-launch-of-public-engagement-on-canadas-national-water-security-strategy-and-announces-new-projects-to-protect-lake-winnipeg.html|https://www.canada.ca/fr/agence-eau-canada/nouvelles/2026/09/le-canada-et-le-manitoba-renouvellent-leur-engagement-envers-le-lac-winnipeg-alors-que-le-canada-annonce-plus-de-28-millions-de-dollars-pour-des-pr.html": {
+    "PUBDATE": "2026-09-09 10:45:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canada-water-agency/news/2026/09/mp-duguid-highlights-launch-of-public-engagement-on-canadas-national-water-security-strategy-and-announces-new-projects-to-protect-lake-winnipeg.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/agence-eau-canada/nouvelles/2026/09/le-canada-et-le-manitoba-renouvellent-leur-engagement-envers-le-lac-winnipeg-alors-que-le-canada-annonce-plus-de-28-millions-de-dollars-pour-des-pr.html",
+    "hash": "70b3aafddea4ace8621fb0bef4cdc2d9",
+    "image_count": 0,
+    "quote_count": 4,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:35.400805+00:00",
+    "version": 6
+  },
   "70b95286bd205fed89c39a0e0d393244|2026-01-16 14:10:59|https://www.canada.ca/en/employment-social-development/news/2026/01/minister-hajdu-invites-organizations-to-apply-for-funding-to-improve-workplace-accessibility.html|https://www.canada.ca/fr/emploi-developpement-social/nouvelles/2026/01/la-ministre-hajdu-invite-les-organisations-a-faire-une-demande-de-financement-pour-ameliorer-laccessibilite-en-milieu-de-travail.html": {
     "PUBDATE": "2026-01-16 14:10:59",
     "TITLE_URL_EN": "https://www.canada.ca/en/employment-social-development/news/2026/01/minister-hajdu-invites-organizations-to-apply-for-funding-to-improve-workplace-accessibility.html",
@@ -66162,6 +66283,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-07-11T02:08:14.576627+00:00",
+    "version": 6
+  },
+  "76dd360acaef5db4f2ff36821a9e1589|2026-09-11 10:04:52|https://www.canada.ca/en/public-safety-canada/news/2026/09/mp-kelloway-to-announce-funding-to-support-efforts-in-preventing-gun-and-gang-violence-in-cape-breton.html|https://www.canada.ca/fr/securite-publique-canada/nouvelles/2026/09/le-depute-kelloway-annoncera-un-financement-pour-soutenir-les-efforts-visant-a-prevenir-la-violence-liee-aux-armes-a-feu-et-aux-gangs-a-cape-breton.html": {
+    "PUBDATE": "2026-09-11 10:04:52",
+    "TITLE_URL_EN": "https://www.canada.ca/en/public-safety-canada/news/2026/09/mp-kelloway-to-announce-funding-to-support-efforts-in-preventing-gun-and-gang-violence-in-cape-breton.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/securite-publique-canada/nouvelles/2026/09/le-depute-kelloway-annoncera-un-financement-pour-soutenir-les-efforts-visant-a-prevenir-la-violence-liee-aux-armes-a-feu-et-aux-gangs-a-cape-breton.html",
+    "hash": "76dd360acaef5db4f2ff36821a9e1589",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:37.515723+00:00",
     "version": 6
   },
   "76dd5c68a2daae727e0a1c656fb622c8|2025-11-13 20:00:23|https://www.canada.ca/en/radio-television-telecommunications/news/2025/11/joanne-levy-to-the-canadas-rural-and-remote-broadband-community-conference.html|https://www.canada.ca/fr/radiodiffusion-telecommunications/nouvelles/2025/11/joanne-levy-a-la-conference-de-la-canadas-rural-and-remote-broadband-community.html": {
@@ -89176,6 +89308,17 @@
     "updated_at": "2026-05-12T14:42:39.480056+00:00",
     "version": 6
   },
+  "9fe7094047b9b6c48676ba71ce05c45e|2026-09-01 09:00:00|https://www.canada.ca/en/global-affairs/news/2026/08/announcement-of-new-diplomatic-appointment.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/annonce-dune-nouvelle-nomination-diplomatique.html": {
+    "PUBDATE": "2026-09-01 09:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/08/announcement-of-new-diplomatic-appointment.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/annonce-dune-nouvelle-nomination-diplomatique.html",
+    "hash": "9fe7094047b9b6c48676ba71ce05c45e",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:32.402816+00:00",
+    "version": 6
+  },
   "9fe77a1b91914bc4fc3e293f4c552dd7|2024-08-07 05:58:00|https://www.canada.ca/en/economic-development-quebec-regions/news/2024/08/invitation-to-media--minister-soraya-martinez-ferrada-to-announce-ced-support-for-gaspesie-tourism-sector.html|https://www.canada.ca/fr/developpement-economique-regions-quebec/nouvelles/2024/08/invitation-aux-medias--la-ministre-soraya-martinez-ferrada-annoncera-des-appuis-de-dec-au-secteur-touristique-de-la-gaspesie.html": {
     "PUBDATE": "2024-08-07 05:58:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/economic-development-quebec-regions/news/2024/08/invitation-to-media--minister-soraya-martinez-ferrada-to-announce-ced-support-for-gaspesie-tourism-sector.html",
@@ -92958,6 +93101,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:56:28.121081+00:00",
+    "version": 6
+  },
+  "a773edf36263a9354b8eb58a608522f9|2026-09-10 13:15:00|https://www.canada.ca/en/canada-water-agency/news/2026/09/ps-grant-highlights-launch-of-public-engagement-on-canadas-national-water-security-strategy-and-announces-new-projects-to-protect-the-fraser-river.html|https://www.canada.ca/fr/agence-eau-canada/nouvelles/2026/09/ps-grant-met-en-lumiere-le-lancement-de-la-participation-publique-en-vue-dune-strategie-nationale-de-securite-sur-leau-douce-du-canada-et-annonce-d.html": {
+    "PUBDATE": "2026-09-10 13:15:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canada-water-agency/news/2026/09/ps-grant-highlights-launch-of-public-engagement-on-canadas-national-water-security-strategy-and-announces-new-projects-to-protect-the-fraser-river.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/agence-eau-canada/nouvelles/2026/09/ps-grant-met-en-lumiere-le-lancement-de-la-participation-publique-en-vue-dune-strategie-nationale-de-securite-sur-leau-douce-du-canada-et-annonce-d.html",
+    "hash": "a773edf36263a9354b8eb58a608522f9",
+    "image_count": 0,
+    "quote_count": 4,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:34.423156+00:00",
     "version": 6
   },
   "a78231f5ac0bb4d4eb87c2bbe9426ff7|2026-01-15 16:12:00|https://www.canada.ca/en/environment-climate-change/news/2026/01/canada-invests-around-7-1-million-in-climate-resilience-across-the-country.html|https://www.canada.ca/fr/environnement-changement-climatique/nouvelles/2026/01/le-canada-investit-environ-7-1-millions-de-dollars-dans-la-resilience-climatique-a-lechelle-du-pays.html": {
@@ -106600,17 +106754,6 @@
     "updated_at": "2026-05-12T14:43:12.880870+00:00",
     "version": 6
   },
-  "c1378eaaa4ab5b92d4c2ba78f122075a|2026-09-01 09:00:00|https://www.canada.ca/en/global-affairs/news/2026/08/announcement-of-new-diplomatic-appointment.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/notice-biographique---amanda-strohan.html": {
-    "PUBDATE": "2026-09-01 09:00:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/08/announcement-of-new-diplomatic-appointment.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/notice-biographique---amanda-strohan.html",
-    "hash": "c1378eaaa4ab5b92d4c2ba78f122075a",
-    "image_count": 0,
-    "quote_count": 0,
-    "status": "ok",
-    "updated_at": "2026-09-10T02:43:11.162102+00:00",
-    "version": 6
-  },
   "c1419d19b34e785bc14f9ae7e95b0389|2025-06-30 16:09:29|https://www.canada.ca/en/global-affairs/news/2025/06/joint-statement-of-the-g7-foreign-ministers-on-iran-and-the-middle-east.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2025/06/declaration-commune-des-ministres-des-affaires-etrangeres-du-g7-sur-liran-et-le-moyen-orient.html": {
     "PUBDATE": "2025-06-30 16:09:29",
     "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2025/06/joint-statement-of-the-g7-foreign-ministers-on-iran-and-the-middle-east.html",
@@ -113508,6 +113651,17 @@
     "updated_at": "2026-06-25T02:46:40.201840+00:00",
     "version": 6
   },
+  "ccdf9e57e88f70f54487c2f937722b7b|2026-09-11 17:04:06|https://www.canada.ca/en/agriculture-agri-food/news/2026/09/government-of-canada-to-announce-investments-aimed-at-strengthening-canadas-domestic-food-system.html|https://www.canada.ca/fr/agriculture-agroalimentaire/nouvelles/2026/09/le-gouvernement-du-canada-annoncera-des-investissements-visant-a-renforcer-le-systeme-alimentaire-canadien.html": {
+    "PUBDATE": "2026-09-11 17:04:06",
+    "TITLE_URL_EN": "https://www.canada.ca/en/agriculture-agri-food/news/2026/09/government-of-canada-to-announce-investments-aimed-at-strengthening-canadas-domestic-food-system.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/agriculture-agroalimentaire/nouvelles/2026/09/le-gouvernement-du-canada-annoncera-des-investissements-visant-a-renforcer-le-systeme-alimentaire-canadien.html",
+    "hash": "ccdf9e57e88f70f54487c2f937722b7b",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:44.094121+00:00",
+    "version": 6
+  },
   "cce03cf630c83332494d4b43f626f9ad|2025-06-07 13:00:53|https://www.canada.ca/en/canadian-coast-guard/news/2025/06/canadian-coast-guard-welcomes-new-fleet-officers-at-college-graduation-ceremony.html|https://www.canada.ca/fr/garde-cotiere-canadienne/nouvelles/2025/06/la-garde-cotiere-canadienne-accueille-de-nouveaux-officiers-de-la-flotte-a-loccasion-de-la-ceremonie-de-remise-des-diplomes-du-college.html": {
     "PUBDATE": "2025-06-07 13:00:53",
     "TITLE_URL_EN": "https://www.canada.ca/en/canadian-coast-guard/news/2025/06/canadian-coast-guard-welcomes-new-fleet-officers-at-college-graduation-ceremony.html",
@@ -117105,6 +117259,17 @@
     "updated_at": "2026-08-08T01:11:52.797640+00:00",
     "version": 6
   },
+  "d2dce7263ff5783ca3d59f6fb19e41be|2026-09-11 12:00:00|https://www.canada.ca/en/department-national-defence/news/2026/09/statement-from-the-minister-of-national-defence-on-the-25th-anniversary-of-911.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/09/declaration-du-ministre-de-la-defense-nationale-a-loccasion-du-25e-anniversaire-du-11-septembre.html": {
+    "PUBDATE": "2026-09-11 12:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/department-national-defence/news/2026/09/statement-from-the-minister-of-national-defence-on-the-25th-anniversary-of-911.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/09/declaration-du-ministre-de-la-defense-nationale-a-loccasion-du-25e-anniversaire-du-11-septembre.html",
+    "hash": "d2dce7263ff5783ca3d59f6fb19e41be",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:38.652631+00:00",
+    "version": 6
+  },
   "d2deaf2efad502e9b429e167bc2d6812|2024-07-18 13:46:44|https://www.canada.ca/en/agriculture-agri-food/news/2024/07/statement-from-federal-provincial-and-territorial-ministers-of-agriculture-on-the-grocery-sector-code-of-conduct.html|https://www.canada.ca/fr/agriculture-agroalimentaire/nouvelles/2024/07/declaration-des-ministres-federal-provinciaux-et-territoriaux-de-lagriculture-sur-le-code-de-conduite-du-secteur-des-produits-depicerie.html": {
     "PUBDATE": "2024-07-18 13:46:44",
     "TITLE_URL_EN": "https://www.canada.ca/en/agriculture-agri-food/news/2024/07/statement-from-federal-provincial-and-territorial-ministers-of-agriculture-on-the-grocery-sector-code-of-conduct.html",
@@ -119754,6 +119919,17 @@
     "quote_count": 2,
     "status": "ok",
     "updated_at": "2026-05-12T14:35:46.923757+00:00",
+    "version": 6
+  },
+  "d7c410f970f1a5a86ba88d9c6ddb613a|2026-09-09 10:45:00|https://www.canada.ca/en/canada-water-agency/news/2026/09/canada-and-manitoba-renew-commitment-to-lake-winnipeg-as-canada-announces-over-28-million-for-freshwater-projects.html|https://www.canada.ca/fr/agence-eau-canada/nouvelles/2026/09/le-canada-et-le-manitoba-renouvellent-leur-engagement-envers-le-lac-winnipeg-alors-que-le-canada-annonce-plus-de-28-millions-de-dollars-pour-des-pr.html": {
+    "PUBDATE": "2026-09-09 10:45:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canada-water-agency/news/2026/09/canada-and-manitoba-renew-commitment-to-lake-winnipeg-as-canada-announces-over-28-million-for-freshwater-projects.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/agence-eau-canada/nouvelles/2026/09/le-canada-et-le-manitoba-renouvellent-leur-engagement-envers-le-lac-winnipeg-alors-que-le-canada-annonce-plus-de-28-millions-de-dollars-pour-des-pr.html",
+    "hash": "d7c410f970f1a5a86ba88d9c6ddb613a",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:32.531426+00:00",
     "version": 6
   },
   "d7d78ac2c405fc3962e38d6bdc723151|2025-03-05 15:31:25|https://www.canada.ca/en/prairies-economic-development/news/2025/03/minister-duguid-to-announce-federal-assistance-for-initiatives-to-bolster-economic-activity-and-rebuilding-efforts-in-jasper.html|https://www.canada.ca/fr/developpement-economique-prairies/nouvelles/2025/03/le-ministre-duguid-annoncera-une-aide-federale-pour-des-initiatives-visant-a-stimuler-lactivite-economique-et-les-efforts-de-reconstruction-a-jasper.html": {
@@ -122746,6 +122922,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T13:49:52.750719+00:00",
+    "version": 6
+  },
+  "dd585829c1caf02daa993823077f9ec5|2026-09-11 11:23:06|https://www.canada.ca/en/environment-climate-change/news/2026/09/algoma-steel-inc-fined-12-million-for-federal-environmental-and-wildlife-offences-related-to-a-gear-oil-deposit-into-the-st-marys-river-ontario.html|https://www.canada.ca/fr/environnement-changement-climatique/nouvelles/2026/09/algoma-steel-inc-recoit-une-amende-de-12-million-de-dollars-pour-des-infractions-a-des-lois-federales-sur-lenvironnement-et-la-faune-en-lien-avec-u.html": {
+    "PUBDATE": "2026-09-11 11:23:06",
+    "TITLE_URL_EN": "https://www.canada.ca/en/environment-climate-change/news/2026/09/algoma-steel-inc-fined-12-million-for-federal-environmental-and-wildlife-offences-related-to-a-gear-oil-deposit-into-the-st-marys-river-ontario.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/environnement-changement-climatique/nouvelles/2026/09/algoma-steel-inc-recoit-une-amende-de-12-million-de-dollars-pour-des-infractions-a-des-lois-federales-sur-lenvironnement-et-la-faune-en-lien-avec-u.html",
+    "hash": "dd585829c1caf02daa993823077f9ec5",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:39.647653+00:00",
     "version": 6
   },
   "dd58eea8a184a23fbf51f48b7359b605|2026-08-22 17:49:37|https://www.canada.ca/en/employment-social-development/news/2026/08/government-of-canada-announces-peter-ballantyne-cree-nation-as-an-indigenous-skills-and-employment-training-program-agreement-holder.html|https://www.canada.ca/fr/emploi-developpement-social/nouvelles/2026/08/le-gouvernement-du-canada-annonce-que-la-premiere-nation-crie-de-peter-ballantyne-est-signataire-dune-entente-dans-le-cadre-du-programme-de-formati.html": {
@@ -126301,6 +126488,17 @@
     "updated_at": "2026-05-12T14:34:03.355167+00:00",
     "version": 6
   },
+  "e3c00ce301dfc413f23aa2c6fe782d43|2026-09-11 10:00:14|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/09/infrastructure-announcement-selwyn.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/09/annonce-en-matiere-dinfrastructure-selwyn.html": {
+    "PUBDATE": "2026-09-11 10:00:14",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/09/infrastructure-announcement-selwyn.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/09/annonce-en-matiere-dinfrastructure-selwyn.html",
+    "hash": "e3c00ce301dfc413f23aa2c6fe782d43",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:36.786460+00:00",
+    "version": 6
+  },
   "e3c14f60f09e3ecec25cf6d3818516b3|2026-06-08 15:30:00|https://www.canada.ca/en/health-canada/news/2026/06/government-of-canada-announces-appointment-to-the-canadian-centre-on-substance-use-and-addiction.html|https://www.canada.ca/fr/sante-canada/nouvelles/2026/06/le-gouvernement-du-canada-annonce-une-nomination-au-centre-canadien-sur-les-dependances-et-lusage-de-substance.html": {
     "PUBDATE": "2026-06-08 15:30:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/health-canada/news/2026/06/government-of-canada-announces-appointment-to-the-canadian-centre-on-substance-use-and-addiction.html",
@@ -127916,17 +128114,6 @@
     "quote_count": 4,
     "status": "ok",
     "updated_at": "2026-05-12T14:54:21.457170+00:00",
-    "version": 6
-  },
-  "e6e98b92ac3765328a31f154f6da4b38|2026-09-01 09:00:00|https://www.canada.ca/en/global-affairs/news/2026/08/biographical-note---amanda-strohan.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/notice-biographique---amanda-strohan.html": {
-    "PUBDATE": "2026-09-01 09:00:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/08/biographical-note---amanda-strohan.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/notice-biographique---amanda-strohan.html",
-    "hash": "e6e98b92ac3765328a31f154f6da4b38",
-    "image_count": 0,
-    "quote_count": 0,
-    "status": "ok",
-    "updated_at": "2026-09-10T02:43:12.021726+00:00",
     "version": 6
   },
   "e6f79977af0d8f974bd00ecb798dd2fb|2025-03-11 12:21:26|https://www.canada.ca/en/atlantic-canada-opportunities/news/2025/03/government-of-canada-investing-in-air-access-in-atlantic-canada.html|https://www.canada.ca/fr/promotion-economique-canada-atlantique/nouvelles/2025/03/le-gouvernement-du-canada-investit-dans-lacces-aerien-au-canada-atlantique.html": {
@@ -130974,6 +131161,17 @@
     "quote_count": 1,
     "status": "ok",
     "updated_at": "2026-08-29T05:17:02.372246+00:00",
+    "version": 6
+  },
+  "eccb16fc4e3909804ad3f5eb14b01b89|2026-09-11 12:00:44|https://www.canada.ca/en/prairies-economic-development/news/2026/09/atom-jet-industries-expands-production-and-reaches-new-markets-in-response-to-unjustfied-us-tariffs.html|https://www.canada.ca/fr/developpement-economique-prairies/nouvelles/2026/09/atom-jet-industries-elargit-sa-production-et-atteint-de-nouveaux-marches-en-reponse-aux-droits-de-douane-americains-injustifies.html": {
+    "PUBDATE": "2026-09-11 12:00:44",
+    "TITLE_URL_EN": "https://www.canada.ca/en/prairies-economic-development/news/2026/09/atom-jet-industries-expands-production-and-reaches-new-markets-in-response-to-unjustfied-us-tariffs.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/developpement-economique-prairies/nouvelles/2026/09/atom-jet-industries-elargit-sa-production-et-atteint-de-nouveaux-marches-en-reponse-aux-droits-de-douane-americains-injustifies.html",
+    "hash": "eccb16fc4e3909804ad3f5eb14b01b89",
+    "image_count": 1,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:42.870175+00:00",
     "version": 6
   },
   "eccc4c1ae86901587216ccef5d8d538b|2024-10-16 15:54:35|https://www.canada.ca/en/employment-social-development/news/2024/10/backgrounder-canada-retraining-and-opportunities-initiative.html|https://www.canada.ca/fr/emploi-developpement-social/nouvelles/2024/10/document-dinformation-initiative-canadienne-pour-le-perfectionnement-professionnel-et-les-possibilites-demploi.html": {
@@ -135288,6 +135486,17 @@
     "updated_at": "2026-08-19T00:56:54.788422+00:00",
     "version": 6
   },
+  "f4b1fd37b4aed73fbb4ac77a3293b40f|2026-09-01 09:00:00|https://www.canada.ca/en/global-affairs/news/2026/08/biographical-note---amanda-strohan.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/annonce-dune-nouvelle-nomination-diplomatique.html": {
+    "PUBDATE": "2026-09-01 09:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/08/biographical-note---amanda-strohan.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/08/annonce-dune-nouvelle-nomination-diplomatique.html",
+    "hash": "f4b1fd37b4aed73fbb4ac77a3293b40f",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:33.350909+00:00",
+    "version": 6
+  },
   "f4bbf0197cf61352a9952efd03b17587|2026-07-16 14:15:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-water-and-wastewater-infrastructure-to-support-housing-growth.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/07/batir-un-canada-fort-en-investissant-dans-les-infrastructures-dapprovisionnement-en-eau-et-de-traitement-des-eaux-usees-afin-de-soutenir-la-constru.html": {
     "PUBDATE": "2026-07-16 14:15:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/07/building-canada-strong-by-investing-in-water-and-wastewater-infrastructure-to-support-housing-growth.html",
@@ -137158,17 +137367,6 @@
     "updated_at": "2026-05-12T13:33:32.292621+00:00",
     "version": 6
   },
-  "f7fa2186f61ffc8495efa3f9e48fc69f|2026-09-10 13:15:00|https://www.canada.ca/en/canada-water-agency/news/2026/09/protecting-fresh-water-canada-water-agency-invests-over-480000-in-three-new-projects-across-the-fraser-river.html|https://www.canada.ca/fr/agence-eau-canada/nouvelles/2026/09/protection-de-leau-douce--lagence-de-leau-du-canada-investit-plus-de-480-000--dans-trois-nouveaux-projets-de-lautre-cote-du-fleuve-fraser.html": {
-    "PUBDATE": "2026-09-10 13:15:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/canada-water-agency/news/2026/09/protecting-fresh-water-canada-water-agency-invests-over-480000-in-three-new-projects-across-the-fraser-river.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/agence-eau-canada/nouvelles/2026/09/protection-de-leau-douce--lagence-de-leau-du-canada-investit-plus-de-480-000--dans-trois-nouveaux-projets-de-lautre-cote-du-fleuve-fraser.html",
-    "hash": "f7fa2186f61ffc8495efa3f9e48fc69f",
-    "image_count": 0,
-    "quote_count": 0,
-    "status": "ok",
-    "updated_at": "2026-09-11T02:36:40.962997+00:00",
-    "version": 6
-  },
   "f7ff823b71510ce6bf4d35f0ed606d98|2026-02-27 09:59:57|https://www.canada.ca/en/department-finance/news/2026/02/government-launches-consultations-to-strengthen-canadas-automotive-remission-framework.html|https://www.canada.ca/fr/ministere-finances/nouvelles/2026/02/le-gouvernement-lance-des-consultations-afin-de-renforcer-le-cadre-de-remise-pour-le-secteur-canadien-de-lautomobile.html": {
     "PUBDATE": "2026-02-27 09:59:57",
     "TITLE_URL_EN": "https://www.canada.ca/en/department-finance/news/2026/02/government-launches-consultations-to-strengthen-canadas-automotive-remission-framework.html",
@@ -138817,6 +139015,17 @@
     "quote_count": 2,
     "status": "ok",
     "updated_at": "2026-05-12T14:11:58.590550+00:00",
+    "version": 6
+  },
+  "fb3d80eb335fa1dfffce2457a756eb90|2026-09-10 16:30:00|https://www.canada.ca/en/canadian-heritage/news/2026/09/secretary-of-state-van-koeverden-to-make-an-announcement-on-building-canada-strong-through-sport.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/09/le-secretaire-detat-van-koeverden-fera-une-annonce-concernant-le-recours-au-sport-pour-batir-un-canada-fort.html": {
+    "PUBDATE": "2026-09-10 16:30:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/09/secretary-of-state-van-koeverden-to-make-an-announcement-on-building-canada-strong-through-sport.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/09/le-secretaire-detat-van-koeverden-fera-une-annonce-concernant-le-recours-au-sport-pour-batir-un-canada-fort.html",
+    "hash": "fb3d80eb335fa1dfffce2457a756eb90",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-09-12T02:45:33.201014+00:00",
     "version": 6
   },
   "fb43525c212e408eb89eb34ab407a08e|2025-03-24 12:19:00|https://www.canada.ca/en/privy-council/news/2025/03/measures-to-protect-the-2025-general-election.html|https://www.canada.ca/fr/conseil-prive/nouvelles/2025/03/mesures-pour-proteger-lelection-generale-de-2025.html": {
