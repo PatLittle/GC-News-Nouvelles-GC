@@ -76,17 +76,6 @@
     "updated_at": "2026-05-16T02:32:01.964256+00:00",
     "version": 6
   },
-  "003cc6e3d35eca10234d9091cc974198|2026-11-13 14:51:02|https://www.canada.ca/en/indigenous-services-canada/news/2026/11/parliamentary-secretary-lavack-to-highlight-budget-2026-investments-for-indigenous-communities-in-saskatoon.html|https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/la-secretaire-parlementaire-lavack-presente-les-investissements-pour-les-communautes-autochtones-du-budget-2026-a-saskatoon.html": {
-    "PUBDATE": "2026-11-13 14:51:02",
-    "TITLE_URL_EN": "https://www.canada.ca/en/indigenous-services-canada/news/2026/11/parliamentary-secretary-lavack-to-highlight-budget-2026-investments-for-indigenous-communities-in-saskatoon.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/la-secretaire-parlementaire-lavack-presente-les-investissements-pour-les-communautes-autochtones-du-budget-2026-a-saskatoon.html",
-    "hash": "003cc6e3d35eca10234d9091cc974198",
-    "image_count": 0,
-    "quote_count": 0,
-    "status": "ok",
-    "updated_at": "2026-11-15T04:27:47.846467+00:00",
-    "version": 6
-  },
   "004503a8fd88c570f6bf135a91aaacc9|2024-10-11 14:49:22|https://www.canada.ca/en/environment-climate-change/news/2024/10/mercer-peace-river-pulp-ltd-in-alberta-fined-1-million-for-unlawful-deposit-of-effluent-into-the-peace-river.html|https://www.canada.ca/fr/environnement-changement-climatique/nouvelles/2024/10/en-alberta-mercer-peace-river-pulp-ltd-a-recu-une-amende-de-1-million-de-dollars-pour-avoir-rejete-illegalement-un-effluent-dans-la-riviere-de-la-paix.html": {
     "PUBDATE": "2024-10-11 14:49:22",
     "TITLE_URL_EN": "https://www.canada.ca/en/environment-climate-change/news/2024/10/mercer-peace-river-pulp-ltd-in-alberta-fined-1-million-for-unlawful-deposit-of-effluent-into-the-peace-river.html",
@@ -4773,17 +4762,6 @@
     "updated_at": "2026-05-12T14:41:03.283313+00:00",
     "version": 6
   },
-  "083d5446d16be86cbfc5461f4376ed5c|2026-11-14 10:30:00|https://www.canada.ca/en/canadian-heritage/news/2026/11/parliamentary-secretary-chenette-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/le-ministre-miller-presente-les-investissements-du-gouvernement-du-canada-dans-le-budgetde-2026--maitres-chez-nous.html": {
-    "PUBDATE": "2026-11-14 10:30:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/11/parliamentary-secretary-chenette-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/le-ministre-miller-presente-les-investissements-du-gouvernement-du-canada-dans-le-budgetde-2026--maitres-chez-nous.html",
-    "hash": "083d5446d16be86cbfc5461f4376ed5c",
-    "image_count": 0,
-    "quote_count": 2,
-    "status": "ok",
-    "updated_at": "2026-11-16T04:24:33.143226+00:00",
-    "version": 6
-  },
   "083dbf59c56895606d69dedce73a5f78|2024-11-24 14:53:53|https://www.canada.ca/en/environment-climate-change/news/2024/11/as-cop29-wraps-up-canada-reaffirms-its-commitment-to-global-climate-action-and-remains-determined-to-keep-15-c-alive.html|https://www.canada.ca/fr/environnement-changement-climatique/nouvelles/2024/11/alors-que-la-cop29-se-termine-le-canada-reitere-son-engagement-envers-laction-climatique-mondiale-et-demeure-determine-a-garder-vivant-lobjectif-de.html": {
     "PUBDATE": "2024-11-24 14:53:53",
     "TITLE_URL_EN": "https://www.canada.ca/en/environment-climate-change/news/2024/11/as-cop29-wraps-up-canada-reaffirms-its-commitment-to-global-climate-action-and-remains-determined-to-keep-15-c-alive.html",
@@ -6630,6 +6608,17 @@
     "quote_count": 1,
     "status": "ok",
     "updated_at": "2026-05-12T14:32:55.262897+00:00",
+    "version": 6
+  },
+  "0b880601d44cf9c2171404d30aa96efd|2026-11-13 14:51:02|https://www.canada.ca/en/indigenous-services-canada/news/2026/11/parliamentary-secretary-lavack-to-highlight-budget-2026-investments-for-indigenous-communities-in-saskatoon.html|https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/la-secretaire-parlementaire-lavack-presente-les-investissements-pour-les-communautes-autochtones-du-budget-2026-a-saskatoon.html": {
+    "PUBDATE": "2026-11-13 14:51:02",
+    "TITLE_URL_EN": "https://www.canada.ca/en/indigenous-services-canada/news/2026/11/parliamentary-secretary-lavack-to-highlight-budget-2026-investments-for-indigenous-communities-in-saskatoon.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/la-secretaire-parlementaire-lavack-presente-les-investissements-pour-les-communautes-autochtones-du-budget-2026-a-saskatoon.html",
+    "hash": "0b880601d44cf9c2171404d30aa96efd",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:26.181547+00:00",
     "version": 6
   },
   "0b882cf0f281f9dae85ddc1f035d3d45|2025-10-21 12:48:49|https://www.canada.ca/en/department-national-defence/news/2025/10/statement-by-the-minister-of-national-defence-in-response-to-the-auditor-general-of-canadas-report-on-recruiting-for-canadas-military.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2025/10/declaration-du-ministre-de-la-defense-nationale-en-reponse-au-rapport-de-la-verificatrice-generale-du-canada-sur-le-recrutement-de-larmee-canadienne.html": {
@@ -15608,6 +15597,17 @@
     "updated_at": "2026-05-29T09:38:09.806490+00:00",
     "version": 6
   },
+  "197888ea0bb6b110adddff195fe22eda|2026-11-16 12:08:17|https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-meets-with-indonesian-and-singaporean-partners-to-advance-trade-and-investment-priorities.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/le-ministre-sidhu-rencontre-ses-partenaires-de-lindonesie-et-de-singapour-afin-de-faire-progresser-les-priorites-en-matiere-de-commerce-et-dinvesti.html": {
+    "PUBDATE": "2026-11-16 12:08:17",
+    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-meets-with-indonesian-and-singaporean-partners-to-advance-trade-and-investment-priorities.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/le-ministre-sidhu-rencontre-ses-partenaires-de-lindonesie-et-de-singapour-afin-de-faire-progresser-les-priorites-en-matiere-de-commerce-et-dinvesti.html",
+    "hash": "197888ea0bb6b110adddff195fe22eda",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:35.819020+00:00",
+    "version": 6
+  },
   "197aa94f4edb497fe1575a27aee5f6b8|2026-09-28 16:12:47|https://www.canada.ca/en/environment-climate-change/news/2026/09/federal-government-advances-climate-resilience-at-2026-adaptation-canada-conference.html|https://www.canada.ca/fr/environnement-changement-climatique/nouvelles/2026/09/le-gouvernement-federal-favorise-la-resilience-face-au-climat-lors-de-la-conference-adaptation-canada-2026.html": {
     "PUBDATE": "2026-09-28 16:12:47",
     "TITLE_URL_EN": "https://www.canada.ca/en/environment-climate-change/news/2026/09/federal-government-advances-climate-resilience-at-2026-adaptation-canada-conference.html",
@@ -15991,6 +15991,17 @@
     "quote_count": 1,
     "status": "ok",
     "updated_at": "2026-05-12T14:13:26.448069+00:00",
+    "version": 6
+  },
+  "1a1136abe362952a996ce83b7603ea72|2026-11-16 11:02:56|https://www.canada.ca/en/northern-economic-development/news/2026/11/cannor-opens-its-expression-of-interest-intake-for-projects-beginning-in-2027-2028.html|https://www.canada.ca/fr/developpement-economique-nord/nouvelles/2026/11/cannor-lance-son-appel-de-declaration-dinteret-pour-les-projets-debutant-en-2027-2028.html": {
+    "PUBDATE": "2026-11-16 11:02:56",
+    "TITLE_URL_EN": "https://www.canada.ca/en/northern-economic-development/news/2026/11/cannor-opens-its-expression-of-interest-intake-for-projects-beginning-in-2027-2028.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/developpement-economique-nord/nouvelles/2026/11/cannor-lance-son-appel-de-declaration-dinteret-pour-les-projets-debutant-en-2027-2028.html",
+    "hash": "1a1136abe362952a996ce83b7603ea72",
+    "image_count": 0,
+    "quote_count": 1,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:33.723962+00:00",
     "version": 6
   },
   "1a12790959ffbbf0dceeef3a0b7d823b|2025-05-07 13:30:26|https://www.canada.ca/en/veterans-affairs-canada/news/2025/05/government-of-canada-to-host-national-ceremony-commemorating-the-80th-anniversary-of-the-liberation-of-the-netherlands-and-victory-in-europe-v-e-day.html|https://www.canada.ca/fr/anciens-combattants-canada/nouvelles/2025/05/le-gouvernement-du-canada-organisera-une-ceremonie-nationale-pour-souligner-le-80e-anniversaire-de-la-liberation-des-pays-bas-et-le-jour-de-la-vict.html": {
@@ -18501,6 +18512,17 @@
     "updated_at": "2026-05-12T14:42:07.674369+00:00",
     "version": 6
   },
+  "1df9b86416f5da76fb15648ec4723f82|2026-11-16 22:20:04|https://www.canada.ca/en/department-finance/news/2026/11/joint-outcomes-of-the-2nd-canada-china-economic-and-financial-strategic-dialogue.html|https://www.canada.ca/fr/ministere-finances/nouvelles/2026/11/resultats-conjoints-du-deuxieme-dialogue-strategique-economique-et-financier-entre-le-canada-et-la-chine.html": {
+    "PUBDATE": "2026-11-16 22:20:04",
+    "TITLE_URL_EN": "https://www.canada.ca/en/department-finance/news/2026/11/joint-outcomes-of-the-2nd-canada-china-economic-and-financial-strategic-dialogue.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ministere-finances/nouvelles/2026/11/resultats-conjoints-du-deuxieme-dialogue-strategique-economique-et-financier-entre-le-canada-et-la-chine.html",
+    "hash": "1df9b86416f5da76fb15648ec4723f82",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:39.833423+00:00",
+    "version": 6
+  },
   "1dfbfcefac5b7e04c3cf1a9e61397f7a|2024-10-04 13:27:27|https://www.canada.ca/en/economic-development-quebec-regions/news/2024/10/launch-of-call-for-social-innovation-projects-in-montreals-east-end.html|https://www.canada.ca/fr/developpement-economique-regions-quebec/nouvelles/2024/10/lancement-dun-appel-de-projets-en-innovation-sociale-dans-lest-de-montreal.html": {
     "PUBDATE": "2024-10-04 13:27:27",
     "TITLE_URL_EN": "https://www.canada.ca/en/economic-development-quebec-regions/news/2024/10/launch-of-call-for-social-innovation-projects-in-montreals-east-end.html",
@@ -19392,6 +19414,17 @@
     "updated_at": "2026-10-14T03:12:01.789041+00:00",
     "version": 6
   },
+  "1f75296a8727ed7167dce9850c0a5414|2026-11-16 11:22:28|https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/louis-riel-day-commemorated-by-ministers-of-crown-indigenous-relations-northern-and-arctic-affairs-and-indigenous-services.html|https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/les-ministres-des-relations-couronne-autochtones-des-affaires-du-nord-et-de-larctique-et-des-services-aux-autochtones-soulignent-la-journee-louis-riel.html": {
+    "PUBDATE": "2026-11-16 11:22:28",
+    "TITLE_URL_EN": "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/louis-riel-day-commemorated-by-ministers-of-crown-indigenous-relations-northern-and-arctic-affairs-and-indigenous-services.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/les-ministres-des-relations-couronne-autochtones-des-affaires-du-nord-et-de-larctique-et-des-services-aux-autochtones-soulignent-la-journee-louis-riel.html",
+    "hash": "1f75296a8727ed7167dce9850c0a5414",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:32.458299+00:00",
+    "version": 6
+  },
   "1f77a50ae1378c434699898a1063a371|2025-11-07 09:46:40|https://www.canada.ca/en/housing-infrastructure-communities/news/2025/11/media-advisory-public-transit-infrastructure-announcement-in-new-brunswick.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2025/11/avis-aux-medias--annonce-concernant-des-infrastructures-de-transport-en-commun-au-nouveaubrunswick.html": {
     "PUBDATE": "2025-11-07 09:46:40",
     "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2025/11/media-advisory-public-transit-infrastructure-announcement-in-new-brunswick.html",
@@ -20171,17 +20204,6 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T13:40:05.971385+00:00",
-    "version": 6
-  },
-  "21030ca05c58938324b76a684be0d626|2026-11-13 15:18:13|https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/minister-alty-highlights-budget-2026-investments-in-indigenous-housing-prosperity.html|https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/le-ministre-alty-souligne-les-investissements-prevus-dans-le-budget-2026-en-faveur-du-logement-et-de-la-prosperite-des-populations-autochtones.html": {
-    "PUBDATE": "2026-11-13 15:18:13",
-    "TITLE_URL_EN": "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/minister-alty-highlights-budget-2026-investments-in-indigenous-housing-prosperity.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/le-ministre-alty-souligne-les-investissements-prevus-dans-le-budget-2026-en-faveur-du-logement-et-de-la-prosperite-des-populations-autochtones.html",
-    "hash": "21030ca05c58938324b76a684be0d626",
-    "image_count": 0,
-    "quote_count": 2,
-    "status": "ok",
-    "updated_at": "2026-11-15T04:27:48.728611+00:00",
     "version": 6
   },
   "21089b5e8d61def2e34422bd0c46f17e|2025-01-06 10:00:00|https://www.canada.ca/en/health-canada/news/2025/01/message-from-the-minister-of-health---firefighter-cancer-awareness-month.html|https://www.canada.ca/fr/sante-canada/nouvelles/2025/01/message-du-ministre-de-la-sante--mois-de-la-sensibilisation-au-cancer-chez-les-pompiers.html": {
@@ -23649,6 +23671,17 @@
     "updated_at": "2026-05-12T13:26:28.136418+00:00",
     "version": 6
   },
+  "2688b4d57efc8b4657863f93a7f540c5|2026-11-16 14:48:41|https://www.canada.ca/en/northern-economic-development/news/2026/11/new-pilimmaksaivik-funding-to-support-pre-employment-training-for-inuit-in-nunavut.html|https://www.canada.ca/fr/developpement-economique-nord/nouvelles/2026/11/nouveau-financement-de-pilimmaksaivik-pour-soutenir-la-formation-prealable-a-lemploi-des-inuit-du-nunavut.html": {
+    "PUBDATE": "2026-11-16 14:48:41",
+    "TITLE_URL_EN": "https://www.canada.ca/en/northern-economic-development/news/2026/11/new-pilimmaksaivik-funding-to-support-pre-employment-training-for-inuit-in-nunavut.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/developpement-economique-nord/nouvelles/2026/11/nouveau-financement-de-pilimmaksaivik-pour-soutenir-la-formation-prealable-a-lemploi-des-inuit-du-nunavut.html",
+    "hash": "2688b4d57efc8b4657863f93a7f540c5",
+    "image_count": 0,
+    "quote_count": 1,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:35.804563+00:00",
+    "version": 6
+  },
   "268aef4df69e50fb4bcaa62e2d2afe32|2026-06-01 13:00:00|https://www.canada.ca/en/canadian-heritage/news/2026/06/installation-ceremony-of-the-honourable-louise-arbour-as-the-31st-governor-general-of-canada.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/06/ceremonie-dinstallation-de-lhonorable-louise-arbour-a-titre-de-31e-gouverneure-generale-du-canada.html": {
     "PUBDATE": "2026-06-01 13:00:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/06/installation-ceremony-of-the-honourable-louise-arbour-as-the-31st-governor-general-of-canada.html",
@@ -26454,6 +26487,17 @@
     "updated_at": "2026-05-12T13:35:16.193047+00:00",
     "version": 6
   },
+  "2b27fa39b5545949289d2b77ebfc0d5c|2026-09-29 08:33:00|https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/09/canada-is-supporting-new-projects-to-promote-francophone-immigration-and-strengthen-francophone-minority-communities.html|https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/09/projets-visant-a-soutenir-les-communautes-francophones-en-situation-minoritaire.html": {
+    "PUBDATE": "2026-09-29 08:33:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/09/canada-is-supporting-new-projects-to-promote-francophone-immigration-and-strengthen-francophone-minority-communities.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/09/projets-visant-a-soutenir-les-communautes-francophones-en-situation-minoritaire.html",
+    "hash": "2b27fa39b5545949289d2b77ebfc0d5c",
+    "image_count": 0,
+    "quote_count": 4,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:25.342466+00:00",
+    "version": 6
+  },
   "2b2857298031ccc094a64fd32f79aad7|2026-07-06 11:48:00|https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/07/projects-aimed-at-supporting-francophone-minority-communities.html|https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/07/projets-visant-a-soutenir-les-communautes-francophones-en-situation-minoritaire.html": {
     "PUBDATE": "2026-07-06 11:48:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/07/projects-aimed-at-supporting-francophone-minority-communities.html",
@@ -27057,6 +27101,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T13:52:50.161478+00:00",
+    "version": 6
+  },
+  "2c0997ae13ed6e18f26c9b532bbc6c4e|2026-11-16 10:00:00|https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/lets-talk-money-get-debt-help-you-can-trust.html|https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2026/11/parlons-dargent--obtenez-de-laide-digne-de-confiance-pour-gerer-vos-dettes.html": {
+    "PUBDATE": "2026-11-16 10:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/lets-talk-money-get-debt-help-you-can-trust.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2026/11/parlons-dargent--obtenez-de-laide-digne-de-confiance-pour-gerer-vos-dettes.html",
+    "hash": "2c0997ae13ed6e18f26c9b532bbc6c4e",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:29.481393+00:00",
     "version": 6
   },
   "2c0b6efbcb32c32b8d0e480c758cf8b5|2025-10-16 12:54:41|https://www.canada.ca/en/atlantic-canada-opportunities/news/2025/10/federal-government-to-announce-support-for-shellfish-industry.html|https://www.canada.ca/fr/promotion-economique-canada-atlantique/nouvelles/2025/10/le-gouvernement-federal-annonce-son-soutien-a-lindustrie-des-mollusques-et-crustaces.html": {
@@ -36750,6 +36805,17 @@
     "updated_at": "2026-05-12T14:13:00.915746+00:00",
     "version": 6
   },
+  "3bdc1fa9c72113e4170cd5a55e6e3fb2|2026-11-16 11:00:00|https://www.canada.ca/en/health-canada/news/2026/11/joint-statement-on-national-addictions-awareness-week.html|https://www.canada.ca/fr/sante-canada/nouvelles/2026/11/declaration-commune-a-loccasion-de-la-semaine-nationale-de-sensibilisation-aux-dependances.html": {
+    "PUBDATE": "2026-11-16 11:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/health-canada/news/2026/11/joint-statement-on-national-addictions-awareness-week.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/sante-canada/nouvelles/2026/11/declaration-commune-a-loccasion-de-la-semaine-nationale-de-sensibilisation-aux-dependances.html",
+    "hash": "3bdc1fa9c72113e4170cd5a55e6e3fb2",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:32.635503+00:00",
+    "version": 6
+  },
   "3bddd2f4eee4c8caccb0159a52be86e3|2026-03-18 12:14:55|https://www.canada.ca/en/fisheries-oceans/news/2026/03/minister-thompson-champions-canadas-seafood-industry-at-seafood-expo-north-america.html|https://www.canada.ca/fr/peches-oceans/nouvelles/2026/03/la-ministre-thompson-defend-lindustrie-des-produits-de-la-mer-du-canada-a-la-seafood-expo-north-america.html": {
     "PUBDATE": "2026-03-18 12:14:55",
     "TITLE_URL_EN": "https://www.canada.ca/en/fisheries-oceans/news/2026/03/minister-thompson-champions-canadas-seafood-industry-at-seafood-expo-north-america.html",
@@ -38420,6 +38486,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:37:34.755012+00:00",
+    "version": 6
+  },
+  "3ec666737b33b0afcc8a41a1e38c81d8|2026-11-16 19:07:26|https://www.canada.ca/en/department-national-defence/news/2026/11/governor-general-of-canada-presides-over-commissioning-ceremony-of-hmcs-robert-hampton-gray.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/11/la-gouverneure-generale-du-canada-preside-la-ceremonie-de-mise-en-service-du-ncsm-robert-hampton-gray.html": {
+    "PUBDATE": "2026-11-16 19:07:26",
+    "TITLE_URL_EN": "https://www.canada.ca/en/department-national-defence/news/2026/11/governor-general-of-canada-presides-over-commissioning-ceremony-of-hmcs-robert-hampton-gray.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/11/la-gouverneure-generale-du-canada-preside-la-ceremonie-de-mise-en-service-du-ncsm-robert-hampton-gray.html",
+    "hash": "3ec666737b33b0afcc8a41a1e38c81d8",
+    "image_count": 0,
+    "quote_count": 4,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:36.852517+00:00",
     "version": 6
   },
   "3ec9228d8fe2e431db781cddc730051c|2026-08-11 14:57:56|https://www.canada.ca/en/employment-social-development/news/2026/08/government-of-canada-invests-over-321-million-to-support-employment-and-skills-training-opportunities-for-first-nations-youth-in-treaty-7-territory.html|https://www.canada.ca/fr/emploi-developpement-social/nouvelles/2026/08/le-gouvernement-du-canada-investit-plus-de-321-millions-de-dollars-pour-soutenir-lemploi-et-la-formation-professionnelle-pour-les-jeunes-des-premie.html": {
@@ -43493,17 +43570,6 @@
     "updated_at": "2026-05-12T14:06:08.388796+00:00",
     "version": 6
   },
-  "46830ad294a5dec8b9f96590eb1f82aa|2026-11-13 12:22:17|https://www.canada.ca/en/indigenous-services-canada/news/2026/11/minister-gull-masty-and-parliamentary-secretary-grant-highlight-government-of-canadas-investments-for-indigenous-communities-from-budget-2026-maste.html|https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/la-ministre-gull-masty-et-le-secretaire-parlementaire-grant-presentent-les-investissements-pour-les-communautes-autochtones-dans-le-budget-2026--ma.html": {
-    "PUBDATE": "2026-11-13 12:22:17",
-    "TITLE_URL_EN": "https://www.canada.ca/en/indigenous-services-canada/news/2026/11/minister-gull-masty-and-parliamentary-secretary-grant-highlight-government-of-canadas-investments-for-indigenous-communities-from-budget-2026-maste.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/la-ministre-gull-masty-et-le-secretaire-parlementaire-grant-presentent-les-investissements-pour-les-communautes-autochtones-dans-le-budget-2026--ma.html",
-    "hash": "46830ad294a5dec8b9f96590eb1f82aa",
-    "image_count": 0,
-    "quote_count": 3,
-    "status": "ok",
-    "updated_at": "2026-11-14T04:38:26.559099+00:00",
-    "version": 6
-  },
   "4685911bc7fc5fe68e2283632039c96c|2024-11-25 11:32:00|https://www.canada.ca/en/health-canada/news/2024/11/message-from-the-minister-of-mental-health-and-addictions-and-associate-minister-of-health-national-addictions-awareness-week.html|https://www.canada.ca/fr/sante-canada/nouvelles/2024/11/message-de-la-ministre-de-la-sante-mentale-et-des-dependances-et-ministre-associee-de-la-sante-semaine-nationale-de-sensibilisation-aux-dependances.html": {
     "PUBDATE": "2024-11-25 11:32:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/health-canada/news/2024/11/message-from-the-minister-of-mental-health-and-addictions-and-associate-minister-of-health-national-addictions-awareness-week.html",
@@ -45361,6 +45427,17 @@
     "quote_count": 2,
     "status": "ok",
     "updated_at": "2026-05-12T14:23:43.130807+00:00",
+    "version": 6
+  },
+  "498ad7313df66e33892f204ec02ed143|2026-11-16 11:01:05|https://www.canada.ca/en/fisheries-oceans/news/2026/11/statement-by-minister-thompson-on-fisheries-act-engagement.html|https://www.canada.ca/fr/peches-oceans/nouvelles/2026/11/declaration-de-la-ministre-thompson-sur-lengagement-des-partenaires-a-legard-de-la-loi-sur-les-peches.html": {
+    "PUBDATE": "2026-11-16 11:01:05",
+    "TITLE_URL_EN": "https://www.canada.ca/en/fisheries-oceans/news/2026/11/statement-by-minister-thompson-on-fisheries-act-engagement.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/peches-oceans/nouvelles/2026/11/declaration-de-la-ministre-thompson-sur-lengagement-des-partenaires-a-legard-de-la-loi-sur-les-peches.html",
+    "hash": "498ad7313df66e33892f204ec02ed143",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:31.683582+00:00",
     "version": 6
   },
   "498bbd04a61076d8a67adde8a9698d03|2024-09-27 13:09:00|https://www.canada.ca/en/northern-economic-development/news/2024/09/minister-dan-vandal-announces-an-investment-of-over-800000-supporting-the-growth-of-the-tourism-industry-across-the-north.html|https://www.canada.ca/fr/developpement-economique-nord/nouvelles/2024/09/le-ministre-dan-vandal-annonce-un-investissement-de-plus-de-800000-pour-soutenir-la-croissance-de-lindustrie-du-tourisme-dans-le-nord.html": {
@@ -59883,6 +59960,17 @@
     "updated_at": "2026-05-12T14:44:14.900870+00:00",
     "version": 6
   },
+  "60d66525153df88f619bd932e3884864|2026-11-14 10:30:00|https://www.canada.ca/en/canadian-heritage/news/2026/11/minister-miller-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/la-secretaire-parlementaire-chenette-presente-les-investissements-du-gouvernement-du-canada-dans-le-budgetde-2026--maitres-chez-nous.html": {
+    "PUBDATE": "2026-11-14 10:30:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/11/minister-miller-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/la-secretaire-parlementaire-chenette-presente-les-investissements-du-gouvernement-du-canada-dans-le-budgetde-2026--maitres-chez-nous.html",
+    "hash": "60d66525153df88f619bd932e3884864",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:30.439608+00:00",
+    "version": 6
+  },
   "60daa8ed0b7204aff386297a96d301ff|2026-11-10 09:00:55|https://www.canada.ca/en/global-affairs/news/2026/11/backgrounder-project-announcements-made-by-secretary-of-state-sarai-during-visit-to-zambia.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/document-dinformation--annonces-de-projets-faites-par-le-secretaire-detat-sarai-lors-de-sa-visite-en-zambie.html": {
     "PUBDATE": "2026-11-10 09:00:55",
     "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/11/backgrounder-project-announcements-made-by-secretary-of-state-sarai-during-visit-to-zambia.html",
@@ -71323,6 +71411,17 @@
     "updated_at": "2026-05-12T14:56:36.369459+00:00",
     "version": 6
   },
+  "743ff82f465f12a150b9cee94548075b|2026-11-16 10:35:47|https://www.canada.ca/en/environment-climate-change/news/2026/11/minister-dabrusin-wraps-up-cop31-with-new-climate-finance-a-methane-innovation-launch-and-a-leadership-role-on-oceans.html|https://www.canada.ca/fr/environnement-changement-climatique/nouvelles/2026/11/la-ministre-julie-dabrusin-conclut-sa-participation-a-la-cop31-avec-du-nouveau-financement-climatique-une-initiative-novatrice-sur-le-methane-et-un.html": {
+    "PUBDATE": "2026-11-16 10:35:47",
+    "TITLE_URL_EN": "https://www.canada.ca/en/environment-climate-change/news/2026/11/minister-dabrusin-wraps-up-cop31-with-new-climate-finance-a-methane-innovation-launch-and-a-leadership-role-on-oceans.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/environnement-changement-climatique/nouvelles/2026/11/la-ministre-julie-dabrusin-conclut-sa-participation-a-la-cop31-avec-du-nouveau-financement-climatique-une-initiative-novatrice-sur-le-methane-et-un.html",
+    "hash": "743ff82f465f12a150b9cee94548075b",
+    "image_count": 0,
+    "quote_count": 1,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:30.669587+00:00",
+    "version": 6
+  },
   "74432789f4f5507401e9b918d738bc71|2024-11-13 15:29:34|https://www.canada.ca/en/innovation-science-economic-development/news/2024/11/parliamentary-secretary-koutrakis-represents-canada-at-the-united-nations-tourism-executive-council-in-cartagena-de-indias-colombia.html|https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2024/11/la-secretaire-parlementaire-koutrakis-represente-le-canada-a-la-session-du-conseil-executif-donu-tourisme-a-carthagenes-des-indes-en-colombie.html": {
     "PUBDATE": "2024-11-13 15:29:34",
     "TITLE_URL_EN": "https://www.canada.ca/en/innovation-science-economic-development/news/2024/11/parliamentary-secretary-koutrakis-represents-canada-at-the-united-nations-tourism-executive-council-in-cartagena-de-indias-colombia.html",
@@ -71475,17 +71574,6 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-06-27T02:41:57.641238+00:00",
-    "version": 6
-  },
-  "746e697bb73919d36d6d6937323c8cc5|2026-09-29 08:33:00|https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/09/canada-is-supporting-new-projects-to-promote-francophone-immigration-and-strengthen-francophone-minority-communities.html|https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/09/le-canada-appuie-de-nouveaux-projets-visant-a-promouvoir-limmigration-francophone-et-a-renforcer-les-communautes-francophones-en-situation-minoritaire.html": {
-    "PUBDATE": "2026-09-29 08:33:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/09/canada-is-supporting-new-projects-to-promote-francophone-immigration-and-strengthen-francophone-minority-communities.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/09/le-canada-appuie-de-nouveaux-projets-visant-a-promouvoir-limmigration-francophone-et-a-renforcer-les-communautes-francophones-en-situation-minoritaire.html",
-    "hash": "746e697bb73919d36d6d6937323c8cc5",
-    "image_count": 0,
-    "quote_count": 4,
-    "status": "ok",
-    "updated_at": "2026-11-16T04:24:33.059426+00:00",
     "version": 6
   },
   "74724ccb790c6214839fffdd89e7c518|2024-07-16 09:09:58|https://www.canada.ca/en/fisheries-oceans/news/2024/07/minister-lebouthillier-announces-a-massive-investment-of-over-50-million-in-small-craft-harbours-in-the-gaspe-peninsula.html|https://www.canada.ca/fr/peches-oceans/nouvelles/2024/07/la-ministre-lebouthillier-annonce-un-investissement-massif-de-plus-de-50-m-dans-les-ports-pour-petits-bateaux-de-la-gaspesie.html": {
@@ -82829,17 +82917,6 @@
     "updated_at": "2026-06-20T02:51:26.456589+00:00",
     "version": 6
   },
-  "87a84f1905d11f15de103666171a4a0a|2026-10-22 19:06:50|https://www.canada.ca/en/department-national-defence/news/2026/10/canadian-armed-forces-provides-update-on-incident-at-canadian-forces-base-wainwright.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/10/les-forces-armees-canadiennes-font-le-point-sur-laccident-survenu-a-la-base-des-forces-canadiennes-wainwright.html": {
-    "PUBDATE": "2026-10-22 19:06:50",
-    "TITLE_URL_EN": "https://www.canada.ca/en/department-national-defence/news/2026/10/canadian-armed-forces-provides-update-on-incident-at-canadian-forces-base-wainwright.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/10/les-forces-armees-canadiennes-font-le-point-sur-laccident-survenu-a-la-base-des-forces-canadiennes-wainwright.html",
-    "hash": "87a84f1905d11f15de103666171a4a0a",
-    "image_count": 0,
-    "quote_count": 3,
-    "status": "ok",
-    "updated_at": "2026-10-23T03:02:17.668459+00:00",
-    "version": 6
-  },
   "87b252678583799e4e04e58f9adcf4ac|2026-02-20 12:00:12|https://www.canada.ca/en/prairies-economic-development/news/2026/02/government-of-canada-to-announce-federal-support-for-indigenous-economic-development.html|https://www.canada.ca/fr/developpement-economique-prairies/nouvelles/2026/02/le-gouvernement-du-canada-annoncera-un-soutien-federal-destine-au-developpement-economique-autochtone.html": {
     "PUBDATE": "2026-02-20 12:00:12",
     "TITLE_URL_EN": "https://www.canada.ca/en/prairies-economic-development/news/2026/02/government-of-canada-to-announce-federal-support-for-indigenous-economic-development.html",
@@ -93466,17 +93543,6 @@
     "updated_at": "2026-05-12T14:09:04.745390+00:00",
     "version": 6
   },
-  "98bce67346e57019969fcad439e1f4b3|2026-11-14 10:30:00|https://www.canada.ca/en/canadian-heritage/news/2026/11/minister-miller-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/le-ministre-miller-presente-les-investissements-du-gouvernement-du-canada-dans-le-budgetde-2026--maitres-chez-nous.html": {
-    "PUBDATE": "2026-11-14 10:30:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/11/minister-miller-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/le-ministre-miller-presente-les-investissements-du-gouvernement-du-canada-dans-le-budgetde-2026--maitres-chez-nous.html",
-    "hash": "98bce67346e57019969fcad439e1f4b3",
-    "image_count": 0,
-    "quote_count": 2,
-    "status": "ok",
-    "updated_at": "2026-11-16T04:24:33.141720+00:00",
-    "version": 6
-  },
   "98cb9dcade5dc15ac12179a411f5b8b7|2026-04-29 22:34:48|https://www.canada.ca/en/department-finance/news/2026/04/canada-welcomes-progress-towards-the-establishment-of-the-defence-security-and-resilience-bank-and-hosting-its-headquarters.html|https://www.canada.ca/fr/ministere-finances/nouvelles/2026/04/le-canada-se-rejouit-des-progres-realises-vers-letablissement-de-la-banque-de-la-defense-de-la-securite-et-de-la-resilience.html": {
     "PUBDATE": "2026-04-29 22:34:48",
     "TITLE_URL_EN": "https://www.canada.ca/en/department-finance/news/2026/04/canada-welcomes-progress-towards-the-establishment-of-the-defence-security-and-resilience-bank-and-hosting-its-headquarters.html",
@@ -93543,6 +93609,17 @@
     "updated_at": "2026-05-12T14:47:34.997019+00:00",
     "version": 6
   },
+  "98e5e65329d3486f089695da7ab3d8bc|2026-11-16 11:30:35|https://www.canada.ca/en/natural-resources-canada/news/2026/11/canada-invests-in-critical-mineral-mining-in-the-yukon.html|https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2026/11/le-canada-investit-dans-lexploitation-de-mineraux-critiques-au-yukon.html": {
+    "PUBDATE": "2026-11-16 11:30:35",
+    "TITLE_URL_EN": "https://www.canada.ca/en/natural-resources-canada/news/2026/11/canada-invests-in-critical-mineral-mining-in-the-yukon.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2026/11/le-canada-investit-dans-lexploitation-de-mineraux-critiques-au-yukon.html",
+    "hash": "98e5e65329d3486f089695da7ab3d8bc",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:33.547382+00:00",
+    "version": 6
+  },
   "98ef8e5e44a4b2726a1e75cbe2befaab|2025-12-17 00:02:01|https://www.canada.ca/en/correctional-service/news/2025/12/recapture-of-inmate-from-buffalo-sage-wellness-house---section-81.html|https://www.canada.ca/fr/service-correctionnel/nouvelles/2025/12/apprehension-dune-detenue-de-la-maison-de-ressourcement-buffalo-sage--article-81.html": {
     "PUBDATE": "2025-12-17 00:02:01",
     "TITLE_URL_EN": "https://www.canada.ca/en/correctional-service/news/2025/12/recapture-of-inmate-from-buffalo-sage-wellness-house---section-81.html",
@@ -93596,17 +93673,6 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T15:09:35.311595+00:00",
-    "version": 6
-  },
-  "98f90406ffbd45cd927babaf0eb39218|2026-11-13 09:48:12|https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/parliamentary-secretary-battiste-to-highlight-budget-2026-investments-in-first-nations-water-and-critical-infrastructure.html|https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/le-secretaire-parlementaire-battiste-presente-les-investissements-prevus-dans-le-budget-de-2026-pour-lapprovisionnement-en-eau-et-les-infrastructur.html": {
-    "PUBDATE": "2026-11-13 09:48:12",
-    "TITLE_URL_EN": "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/parliamentary-secretary-battiste-to-highlight-budget-2026-investments-in-first-nations-water-and-critical-infrastructure.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/le-secretaire-parlementaire-battiste-presente-les-investissements-prevus-dans-le-budget-de-2026-pour-lapprovisionnement-en-eau-et-les-infrastructur.html",
-    "hash": "98f90406ffbd45cd927babaf0eb39218",
-    "image_count": 0,
-    "quote_count": 0,
-    "status": "ok",
-    "updated_at": "2026-11-14T04:38:13.589046+00:00",
     "version": 6
   },
   "98facba4154cb72119923e9de2bb8f44|2024-10-18 19:50:00|https://www.canada.ca/en/indigenous-services-canada/news/2024/10/first-nations-leadership-vote-on-the-final-agreement-to-reform-child-and-family-services.html|https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2024/10/les-dirigeants-des-premieres-nations-votent-sur-lentente-definitive-sur-la-reforme-a-long-terme-du-programme-des-services-a-lenfance-et-a-la-famille.html": {
@@ -95963,6 +96029,28 @@
     "updated_at": "2026-05-12T14:38:23.007783+00:00",
     "version": 6
   },
+  "9c5a4fb04e690a19a164d1c3ae78bca9|2026-11-14 10:30:00|https://www.canada.ca/en/canadian-heritage/news/2026/11/parliamentary-secretary-chenette-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/la-secretaire-parlementaire-chenette-presente-les-investissements-du-gouvernement-du-canada-dans-le-budgetde-2026--maitres-chez-nous.html": {
+    "PUBDATE": "2026-11-14 10:30:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/11/parliamentary-secretary-chenette-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/la-secretaire-parlementaire-chenette-presente-les-investissements-du-gouvernement-du-canada-dans-le-budgetde-2026--maitres-chez-nous.html",
+    "hash": "9c5a4fb04e690a19a164d1c3ae78bca9",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:31.483274+00:00",
+    "version": 6
+  },
+  "9c5aa90be63a82d89fa378a302b5b865|2026-11-14 12:51:00|https://www.canada.ca/en/agriculture-agri-food/news/2026/11/minister-macdonald-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html|https://www.canada.ca/fr/agriculture-agroalimentaire/nouvelles/2026/11/le-ministre-macdonald-presente-les-investissements-du-gouvernement-du-canada-dans-le-budget-de-2026--maitres-chez-nous.html": {
+    "PUBDATE": "2026-11-14 12:51:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/agriculture-agri-food/news/2026/11/minister-macdonald-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/agriculture-agroalimentaire/nouvelles/2026/11/le-ministre-macdonald-presente-les-investissements-du-gouvernement-du-canada-dans-le-budget-de-2026--maitres-chez-nous.html",
+    "hash": "9c5aa90be63a82d89fa378a302b5b865",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:30.522226+00:00",
+    "version": 6
+  },
   "9c5d46246d51bb4d3ca2b7b68347a471|2025-06-26 10:00:18|https://www.canada.ca/en/border-services-agency/news/2025/06/cbsa-investigation-leads-to-firearm-and-forgery-related-charges-for-a-resident-of-markham-ontario.html|https://www.canada.ca/fr/agence-services-frontaliers/nouvelles/2025/06/une-enquete-de-lasfc-mene-a-des-accusations-liees-aux-armes-a-feu-et-a-la-contrefacon-pour-un-resident-de-markham-ontario.html": {
     "PUBDATE": "2025-06-26 10:00:18",
     "TITLE_URL_EN": "https://www.canada.ca/en/border-services-agency/news/2025/06/cbsa-investigation-leads-to-firearm-and-forgery-related-charges-for-a-resident-of-markham-ontario.html",
@@ -96786,6 +96874,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:09:45.761998+00:00",
+    "version": 6
+  },
+  "9d58013360db5fc54bd598986ff7706a|2026-11-16 17:12:47|https://www.canada.ca/en/department-finance/news/2026/11/government-of-canada-tables-plan-to-ease-grocery-costs-support-homeownership-and-encourage-new-home-construction.html|https://www.canada.ca/fr/ministere-finances/nouvelles/2026/11/le-gouvernement-du-canada-depose-un-plan-visant-a-attenuer-le-cout-du-panier-depicerie-a-soutenir-laccession-a-la-propriete-et-a-stimuler-la-constr.html": {
+    "PUBDATE": "2026-11-16 17:12:47",
+    "TITLE_URL_EN": "https://www.canada.ca/en/department-finance/news/2026/11/government-of-canada-tables-plan-to-ease-grocery-costs-support-homeownership-and-encourage-new-home-construction.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ministere-finances/nouvelles/2026/11/le-gouvernement-du-canada-depose-un-plan-visant-a-attenuer-le-cout-du-panier-depicerie-a-soutenir-laccession-a-la-propriete-et-a-stimuler-la-constr.html",
+    "hash": "9d58013360db5fc54bd598986ff7706a",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:37.687013+00:00",
     "version": 6
   },
   "9d5b42b1a92179930b0e4ae316b79ad6|2026-06-08 19:03:47|https://www.canada.ca/en/agriculture-agri-food/news/2026/06/minister-macdonald-concludes-g7-agriculture-ministers-meeting.html|https://www.canada.ca/fr/agriculture-agroalimentaire/nouvelles/2026/06/le-ministre-macdonald-conclut-sa-participation-a-la-reunion-des-ministres-de-lagriculture-du-g7.html": {
@@ -101386,6 +101485,17 @@
     "updated_at": "2026-05-12T13:53:04.054173+00:00",
     "version": 6
   },
+  "a50c08d77479b1daac363ba925baae53|2026-11-13 16:22:42|https://www.canada.ca/en/indigenous-services-canada/news/2026/11/partners-and-community-come-together-to-celebrate-aqqusariaq.html|https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/les-partenaires-et-la-communaute-se-reunissent-pour-celebrer-aqqusariaq.html": {
+    "PUBDATE": "2026-11-13 16:22:42",
+    "TITLE_URL_EN": "https://www.canada.ca/en/indigenous-services-canada/news/2026/11/partners-and-community-come-together-to-celebrate-aqqusariaq.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/les-partenaires-et-la-communaute-se-reunissent-pour-celebrer-aqqusariaq.html",
+    "hash": "a50c08d77479b1daac363ba925baae53",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:27.448469+00:00",
+    "version": 6
+  },
   "a514529dcfc4c9fc9a7c7142e0d7b54d|2025-04-04 10:00:00|https://www.canada.ca/en/border-services-agency/news/2025/04/joint-cbsa-and-opp-investigation-into-illegal-hiring-of-foreign-nationals-leads-to-sentencing-of-three-businesses.html|https://www.canada.ca/fr/agence-services-frontaliers/nouvelles/2025/04/une-enquete-conjointe-de-lasfc-et-de-la-police-provinciale-de-lontario-sur-lembauche-illegale-de-ressortissants-etrangers-aboutit-a-la-condamnation.html": {
     "PUBDATE": "2025-04-04 10:00:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/border-services-agency/news/2025/04/joint-cbsa-and-opp-investigation-into-illegal-hiring-of-foreign-nationals-leads-to-sentencing-of-three-businesses.html",
@@ -102099,17 +102209,6 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:17:18.723802+00:00",
-    "version": 6
-  },
-  "a65d3b1a717afb7381f3351e91238157|2026-11-13 16:22:42|https://www.canada.ca/en/indigenous-services-canada/news/2026/11/partners-and-community-come-together-to-celebrate-aqqusariaq.html|https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/les-partenaires-et-la-communaute-se-reunissent-pour-celebrer-aqqusariaq.html": {
-    "PUBDATE": "2026-11-13 16:22:42",
-    "TITLE_URL_EN": "https://www.canada.ca/en/indigenous-services-canada/news/2026/11/partners-and-community-come-together-to-celebrate-aqqusariaq.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/les-partenaires-et-la-communaute-se-reunissent-pour-celebrer-aqqusariaq.html",
-    "hash": "a65d3b1a717afb7381f3351e91238157",
-    "image_count": 0,
-    "quote_count": 3,
-    "status": "ok",
-    "updated_at": "2026-11-15T04:27:52.042718+00:00",
     "version": 6
   },
   "a65e783c00aeba98c1f1f3cac9fd7315|2026-03-04 08:11:34|https://www.canada.ca/en/atlantic-canada-opportunities/news/2026/03/government-of-canada-supports-community-infrastructure-and-economic-growth-in-saint-quentin.html|https://www.canada.ca/fr/promotion-economique-canada-atlantique/nouvelles/2026/03/le-gouvernement-du-canada-appuie-linfrastructure-communautaire-et-la-croissance-economique-a-saintquentin.html": {
@@ -104332,6 +104431,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-21T02:50:45.643633+00:00",
+    "version": 6
+  },
+  "aac8c469197a7af132757dc18df86da6|2026-11-16 11:40:23|https://www.canada.ca/en/space-agency/news/2026/11/canadian-space-agency-astronaut-jenni-gibbons-to-visit-whitehorse.html|https://www.canada.ca/fr/agence-spatiale/nouvelles/2026/11/lastronaute-de-lagence-spatiale-canadienne-jenni-gibbons-de-passage-a-whitehorse.html": {
+    "PUBDATE": "2026-11-16 11:40:23",
+    "TITLE_URL_EN": "https://www.canada.ca/en/space-agency/news/2026/11/canadian-space-agency-astronaut-jenni-gibbons-to-visit-whitehorse.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/agence-spatiale/nouvelles/2026/11/lastronaute-de-lagence-spatiale-canadienne-jenni-gibbons-de-passage-a-whitehorse.html",
+    "hash": "aac8c469197a7af132757dc18df86da6",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:34.838581+00:00",
     "version": 6
   },
   "aad5a54346be6f7c9377f2ce888abdd3|2026-01-08 10:52:09|https://www.canada.ca/en/global-affairs/news/2026/01/government-of-canada-honours-victims-of-flight-ps752-six-years-after-tragedy.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/01/le-gouvernement-du-canada-rend-hommage-aux-victimes-du-vol-ps752-six-ans-apres-la-tragedie.html": {
@@ -109515,6 +109625,17 @@
     "updated_at": "2026-05-12T14:52:06.676010+00:00",
     "version": 6
   },
+  "b347d32dcf26870262da83df3f516df9|2026-10-22 19:06:50|https://www.canada.ca/en/department-national-defence/news/2026/10/canadian-armed-forces-provides-update-on-incident-at-canadian-forces-base-wainwright.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/10/les-forces-armees-canadiennes-font-le-point-sur-laccident-survenu-a-la-base-des-forces-canadiennes-wainwright.html": {
+    "PUBDATE": "2026-10-22 19:06:50",
+    "TITLE_URL_EN": "https://www.canada.ca/en/department-national-defence/news/2026/10/canadian-armed-forces-provides-update-on-incident-at-canadian-forces-base-wainwright.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/10/les-forces-armees-canadiennes-font-le-point-sur-laccident-survenu-a-la-base-des-forces-canadiennes-wainwright.html",
+    "hash": "b347d32dcf26870262da83df3f516df9",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:25.204524+00:00",
+    "version": 6
+  },
   "b34a7dbfd2055c728c6c3fda6aa37db1|2026-11-12 17:58:47|https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/minister-chartrand-to-highlight-budget-2026-investments-in-first-nations-inuit-and-metis-supports.html|https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/la-ministre-chartrand-presentera-les-investissements-du-budget-de-2026-destines-a-soutenir-les-premieres-nations-les-inuit-et-les-metis.html": {
     "PUBDATE": "2026-11-12 17:58:47",
     "TITLE_URL_EN": "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/minister-chartrand-to-highlight-budget-2026-investments-in-first-nations-inuit-and-metis-supports.html",
@@ -110217,6 +110338,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:26:36.755913+00:00",
+    "version": 6
+  },
+  "b4b68ffa94c0815b5fe42b354c7eb35c|2026-11-13 09:48:12|https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/parliamentary-secretary-battiste-to-highlight-budget-2026-investments-in-first-nations-water-and-critical-infrastructure.html|https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/le-secretaire-parlementaire-battiste-presente-les-investissements-prevus-dans-le-budget-de-2026-pour-lapprovisionnement-en-eau-et-les-infrastructur.html": {
+    "PUBDATE": "2026-11-13 09:48:12",
+    "TITLE_URL_EN": "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/parliamentary-secretary-battiste-to-highlight-budget-2026-investments-in-first-nations-water-and-critical-infrastructure.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/le-secretaire-parlementaire-battiste-presente-les-investissements-prevus-dans-le-budget-de-2026-pour-lapprovisionnement-en-eau-et-les-infrastructur.html",
+    "hash": "b4b68ffa94c0815b5fe42b354c7eb35c",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:26.369421+00:00",
     "version": 6
   },
   "b4cdae363e0394e480f475575c301bc6|2025-06-10 08:46:06|https://www.canada.ca/en/correctional-service/news/2025/06/seizure-of-contraband-and-unauthorized-items-at-dorchester-penitentiary---medium-security-unit.html|https://www.canada.ca/fr/service-correctionnel/nouvelles/2025/06/saisie-dobjets-interdits-et-objets-non-autorises-au-penitencier-de-dorchester---unite-a-securite-moyenne.html": {
@@ -111185,17 +111317,6 @@
     "quote_count": 2,
     "status": "ok",
     "updated_at": "2026-05-12T14:24:27.742940+00:00",
-    "version": 6
-  },
-  "b6763944bf10cb0d53fb7157a37696ad|2026-11-13 13:46:38|https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/ps-battiste-highlights-government-of-canadas-investments-for-indigenous-communities-from-budget-2026-masters-of-our-destiny.html|https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/sp-battiste-presente-les-investissements-du-gouvernement-du-canada-destines-aux-communautes-autochtones-prevus-dans-le-budget-2026--maitres-chez-nous.html": {
-    "PUBDATE": "2026-11-13 13:46:38",
-    "TITLE_URL_EN": "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/ps-battiste-highlights-government-of-canadas-investments-for-indigenous-communities-from-budget-2026-masters-of-our-destiny.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/sp-battiste-presente-les-investissements-du-gouvernement-du-canada-destines-aux-communautes-autochtones-prevus-dans-le-budget-2026--maitres-chez-nous.html",
-    "hash": "b6763944bf10cb0d53fb7157a37696ad",
-    "image_count": 0,
-    "quote_count": 2,
-    "status": "ok",
-    "updated_at": "2026-11-14T04:38:34.157631+00:00",
     "version": 6
   },
   "b676aee3a2c1ff946b1a87ece7539612|2026-09-02 13:15:35|https://www.canada.ca/en/prairies-economic-development/news/2026/09/backgrounder-government-of-canada-announces-investments-to-support-saskatchewan-workers-and-businesses.html|https://www.canada.ca/fr/developpement-economique-prairies/nouvelles/2026/09/document-dinformation--le-gouvernement-du-canada-annonce-des-investissements-pour-appuyer-les-travailleurs-et-les-entreprises-de-la-saskatchewan.html": {
@@ -112703,6 +112824,17 @@
     "quote_count": -1,
     "status": "not_found",
     "updated_at": "2026-05-12T14:27:23.776461+00:00",
+    "version": 6
+  },
+  "b8fc2bb201ac8cd0464cfaa5b0f9915f|2026-11-16 11:30:38|https://www.canada.ca/en/public-services-procurement/news/2026/11/government-of-canada-moves-forward-with-permanent-bridge-replacement-and-renewal-of-the-lasalle-causeway.html|https://www.canada.ca/fr/services-publics-approvisionnement/nouvelles/2026/11/le-gouvernement-du-canada-va-de-lavant-avec-la-mise-en-place-dun-pont-de-remplacement-permanent-et-la-renovation-du-pont-jetee-lasalle.html": {
+    "PUBDATE": "2026-11-16 11:30:38",
+    "TITLE_URL_EN": "https://www.canada.ca/en/public-services-procurement/news/2026/11/government-of-canada-moves-forward-with-permanent-bridge-replacement-and-renewal-of-the-lasalle-causeway.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/services-publics-approvisionnement/nouvelles/2026/11/le-gouvernement-du-canada-va-de-lavant-avec-la-mise-en-place-dun-pont-de-remplacement-permanent-et-la-renovation-du-pont-jetee-lasalle.html",
+    "hash": "b8fc2bb201ac8cd0464cfaa5b0f9915f",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:33.666424+00:00",
     "version": 6
   },
   "b901803c930a8664d1f612dda07d9d27|2025-11-21 14:35:07|https://www.canada.ca/en/veterans-affairs-canada/news/2025/11/colonel-retd-nishika-jardine-reappointed-as-veterans-ombud.html|https://www.canada.ca/fr/anciens-combattants-canada/nouvelles/2025/11/la-colonelle-a-la-retraite-nishika-jardine-reconduite-dans-ses-fonctions-dombud-des-veterans.html": {
@@ -114232,6 +114364,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T15:12:05.679430+00:00",
+    "version": 6
+  },
+  "bb7c8be7debc2ce30150f23bf2405d22|2026-11-16 10:08:49|https://www.canada.ca/en/centre-occupational-health-safety/news/2026/11/scholarship-supports-aspiring-health-and-safety-professionals.html|https://www.canada.ca/fr/centre-hygiene-securite-travail/nouvelles/2026/11/bourse-detudes-destinee-aux-futurs-professionnels-de-la-sante-et-de-la-securite.html": {
+    "PUBDATE": "2026-11-16 10:08:49",
+    "TITLE_URL_EN": "https://www.canada.ca/en/centre-occupational-health-safety/news/2026/11/scholarship-supports-aspiring-health-and-safety-professionals.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/centre-hygiene-securite-travail/nouvelles/2026/11/bourse-detudes-destinee-aux-futurs-professionnels-de-la-sante-et-de-la-securite.html",
+    "hash": "bb7c8be7debc2ce30150f23bf2405d22",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:29.542528+00:00",
     "version": 6
   },
   "bb8186b4e5fce0d3b2afaedf37547268|2025-09-22 22:36:39|https://www.canada.ca/en/global-affairs/news/2025/09/joint-statement-offer-to-assist-with-treatments-of-patients-from-gaza-in-the-occupied-west-bank-including-east-jerusalem.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2025/09/declaration-conjointe--offre-dassistance-pour-le-traitement-des-patients-venant-de-gaza-en-cisjordanie-occupee-y-compris-a-jerusalem-est.html": {
@@ -119822,6 +119965,17 @@
     "updated_at": "2026-10-27T03:23:24.734727+00:00",
     "version": 6
   },
+  "c4679094b0dc19bb264cd8adade235aa|2026-09-29 08:33:00|https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/09/projects-aimed-at-supporting-francophone-minority-communities.html|https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/09/projets-visant-a-soutenir-les-communautes-francophones-en-situation-minoritaire.html": {
+    "PUBDATE": "2026-09-29 08:33:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/09/projects-aimed-at-supporting-francophone-minority-communities.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/09/projets-visant-a-soutenir-les-communautes-francophones-en-situation-minoritaire.html",
+    "hash": "c4679094b0dc19bb264cd8adade235aa",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:25.297220+00:00",
+    "version": 6
+  },
   "c46e359e110741eca257edab931ef8fc|2025-03-07 16:35:37|https://www.canada.ca/en/department-justice/news/2025/03/minister-of-justice-and-attorney-general-of-canada-announces-judicial-appointments-to-the-federal-court.html|https://www.canada.ca/fr/ministere-justice/nouvelles/2025/03/le-ministre-de-la-justice-et-procureur-general-du-canada-annonce-des-nominations-a-la-cour-federale.html": {
     "PUBDATE": "2025-03-07 16:35:37",
     "TITLE_URL_EN": "https://www.canada.ca/en/department-justice/news/2025/03/minister-of-justice-and-attorney-general-of-canada-announces-judicial-appointments-to-the-federal-court.html",
@@ -120535,6 +120689,17 @@
     "quote_count": 1,
     "status": "ok",
     "updated_at": "2026-05-12T14:02:13.695900+00:00",
+    "version": 6
+  },
+  "c581d1866af5d422968031983f2cb090|2026-11-14 11:51:38|https://www.canada.ca/en/indigenous-services-canada/news/2026/11/ginette-lavack-parliamentary-secretary-to-the-minister-of-indigenous-services-canada-highlights-government-of-canadas-investments-for-indigenous-co.html|https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/ginette-lavack-secretaire-parlementaire-de-la-ministre-des-services-aux-autochtones-presente-les-investissements-du-gouvernement-du-canada-pour-les.html": {
+    "PUBDATE": "2026-11-14 11:51:38",
+    "TITLE_URL_EN": "https://www.canada.ca/en/indigenous-services-canada/news/2026/11/ginette-lavack-parliamentary-secretary-to-the-minister-of-indigenous-services-canada-highlights-government-of-canadas-investments-for-indigenous-co.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/ginette-lavack-secretaire-parlementaire-de-la-ministre-des-services-aux-autochtones-presente-les-investissements-du-gouvernement-du-canada-pour-les.html",
+    "hash": "c581d1866af5d422968031983f2cb090",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:28.468134+00:00",
     "version": 6
   },
   "c58f271a8a01f5a180b7df59be24cfb4|2024-05-22 10:25:00|https://www.canada.ca/en/office-infrastructure/news/2024/05/the-government-of-canada-cutric-and-the-city-of-sarnia-to-support-a-planning-project-to-transition-to-zero-emissions-public-transit-buses.html|https://www.canada.ca/fr/bureau-infrastructure/nouvelles/2024/05/le-gouvernement-du-canada-le-crituc-et-la-ville-de-sarnia-soutiennent-un-projet-de-planification-de-la-transition-vers-des-autobus-de-transport-en-.html": {
@@ -131999,6 +132164,17 @@
     "updated_at": "2026-11-08T03:59:04.430273+00:00",
     "version": 6
   },
+  "d7d24b63589d8489fee741f345126f8c|2026-11-16 11:50:16|https://www.canada.ca/en/department-national-defence/news/2026/11/national-defence-to-hold-public-engagement-session-at-5-wing-goose-bay.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/11/la-defense-nationale-tiendra-une-seance-de-consultation-publique-a-la-5e-escadre-goose-bay.html": {
+    "PUBDATE": "2026-11-16 11:50:16",
+    "TITLE_URL_EN": "https://www.canada.ca/en/department-national-defence/news/2026/11/national-defence-to-hold-public-engagement-session-at-5-wing-goose-bay.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/11/la-defense-nationale-tiendra-une-seance-de-consultation-publique-a-la-5e-escadre-goose-bay.html",
+    "hash": "d7d24b63589d8489fee741f345126f8c",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:34.641184+00:00",
+    "version": 6
+  },
   "d7d78ac2c405fc3962e38d6bdc723151|2025-03-05 15:31:25|https://www.canada.ca/en/prairies-economic-development/news/2025/03/minister-duguid-to-announce-federal-assistance-for-initiatives-to-bolster-economic-activity-and-rebuilding-efforts-in-jasper.html|https://www.canada.ca/fr/developpement-economique-prairies/nouvelles/2025/03/le-ministre-duguid-annoncera-une-aide-federale-pour-des-initiatives-visant-a-stimuler-lactivite-economique-et-les-efforts-de-reconstruction-a-jasper.html": {
     "PUBDATE": "2025-03-05 15:31:25",
     "TITLE_URL_EN": "https://www.canada.ca/en/prairies-economic-development/news/2025/03/minister-duguid-to-announce-federal-assistance-for-initiatives-to-bolster-economic-activity-and-rebuilding-efforts-in-jasper.html",
@@ -133462,17 +133638,6 @@
     "updated_at": "2026-05-12T14:15:00.135153+00:00",
     "version": 6
   },
-  "da41150616938e29ae2026595320df04|2026-11-14 11:51:38|https://www.canada.ca/en/indigenous-services-canada/news/2026/11/ginette-lavack-parliamentary-secretary-to-the-minister-of-indigenous-services-canada-highlights-government-of-canadas-investments-for-indigenous-co.html|https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/ginette-lavack-secretaire-parlementaire-de-la-ministre-des-services-aux-autochtones-presente-les-investissements-du-gouvernement-du-canada-pour-les.html": {
-    "PUBDATE": "2026-11-14 11:51:38",
-    "TITLE_URL_EN": "https://www.canada.ca/en/indigenous-services-canada/news/2026/11/ginette-lavack-parliamentary-secretary-to-the-minister-of-indigenous-services-canada-highlights-government-of-canadas-investments-for-indigenous-co.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/ginette-lavack-secretaire-parlementaire-de-la-ministre-des-services-aux-autochtones-presente-les-investissements-du-gouvernement-du-canada-pour-les.html",
-    "hash": "da41150616938e29ae2026595320df04",
-    "image_count": 0,
-    "quote_count": 3,
-    "status": "ok",
-    "updated_at": "2026-11-15T04:28:00.463947+00:00",
-    "version": 6
-  },
   "da445b02067e0fbff3c5818342ecd5a9|2025-03-24 14:19:56|https://www.canada.ca/en/department-national-defence/news/2025/03/hmcs-ottawa-returns-from-operations-horizon-and-neon.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2025/03/le-ncsm-ottawa-revient-des-operations-horizon-et-neon.html": {
     "PUBDATE": "2025-03-24 14:19:56",
     "TITLE_URL_EN": "https://www.canada.ca/en/department-national-defence/news/2025/03/hmcs-ottawa-returns-from-operations-horizon-and-neon.html",
@@ -134692,6 +134857,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:07:47.680488+00:00",
+    "version": 6
+  },
+  "dc53d7a841cd92fee060df3291c55039|2026-11-13 12:22:17|https://www.canada.ca/en/indigenous-services-canada/news/2026/11/minister-gull-masty-and-parliamentary-secretary-grant-highlight-government-of-canadas-investments-for-indigenous-communities-from-budget-2026-maste.html|https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/la-ministre-gull-masty-et-le-secretaire-parlementaire-grant-presentent-les-investissements-pour-les-communautes-autochtones-dans-le-budget-2026--ma.html": {
+    "PUBDATE": "2026-11-13 12:22:17",
+    "TITLE_URL_EN": "https://www.canada.ca/en/indigenous-services-canada/news/2026/11/minister-gull-masty-and-parliamentary-secretary-grant-highlight-government-of-canadas-investments-for-indigenous-communities-from-budget-2026-maste.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/la-ministre-gull-masty-et-le-secretaire-parlementaire-grant-presentent-les-investissements-pour-les-communautes-autochtones-dans-le-budget-2026--ma.html",
+    "hash": "dc53d7a841cd92fee060df3291c55039",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:25.264145+00:00",
     "version": 6
   },
   "dc5a999e07505632f160b8baf8caa6d0|2025-07-07 15:20:52|https://www.canada.ca/en/department-national-defence/news/2025/07/hmc-ships-edmonton-and-yellowknife-depart-for-nato-mine-countermeasures-mission-in-europe.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2025/07/les-navires-csm-edmonton-et-yellowknife-partent-pour-une-mission-de-lutte-contre-les-mines-de-lotan-en-europe.html": {
@@ -143692,6 +143868,17 @@
     "updated_at": "2026-05-12T14:18:28.700576+00:00",
     "version": 6
   },
+  "eba59b888f0e740c7a893b279f5134f5|2026-11-13 15:18:13|https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/minister-alty-highlights-budget-2026-investments-in-indigenous-housing-prosperity.html|https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/le-ministre-alty-souligne-les-investissements-prevus-dans-le-budget-2026-en-faveur-du-logement-et-de-la-prosperite-des-populations-autochtones.html": {
+    "PUBDATE": "2026-11-13 15:18:13",
+    "TITLE_URL_EN": "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/minister-alty-highlights-budget-2026-investments-in-indigenous-housing-prosperity.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/le-ministre-alty-souligne-les-investissements-prevus-dans-le-budget-2026-en-faveur-du-logement-et-de-la-prosperite-des-populations-autochtones.html",
+    "hash": "eba59b888f0e740c7a893b279f5134f5",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:26.312926+00:00",
+    "version": 6
+  },
   "ebacb3696d9aec208bff4068becccd7e|2025-07-21 10:46:32|https://www.canada.ca/en/global-affairs/news/2025/07/joint-statement-on-behalf-of-26-partners-on-the-occupied-palestinian-territories.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2025/07/declaration-commune-emise-au-nom-de-26-partenaires-sur-les-territoires-palestiniens-occupes.html": {
     "PUBDATE": "2025-07-21 10:46:32",
     "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2025/07/joint-statement-on-behalf-of-26-partners-on-the-occupied-palestinian-territories.html",
@@ -146605,6 +146792,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:56:16.607954+00:00",
+    "version": 6
+  },
+  "f0a1f2fa323ec71d39d5db5be2dc1215|2026-11-16 09:00:00|https://www.canada.ca/en/natural-resources-canada/news/2026/11/parliamentary-secretary-guay-to-speak-at-irpp-fall-lecture.html|https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2026/11/le-secretaire-parlementaire-guay-prendra-la-parole-a-loccasion-de-la-conference-dautomne-de-lirpp.html": {
+    "PUBDATE": "2026-11-16 09:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/natural-resources-canada/news/2026/11/parliamentary-secretary-guay-to-speak-at-irpp-fall-lecture.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2026/11/le-secretaire-parlementaire-guay-prendra-la-parole-a-loccasion-de-la-conference-dautomne-de-lirpp.html",
+    "hash": "f0a1f2fa323ec71d39d5db5be2dc1215",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:30.331334+00:00",
     "version": 6
   },
   "f0a33101107c68c041cf3cefff5d7d64|2025-01-20 13:00:00|https://www.canada.ca/en/canadian-heritage/news/2025/01/government-of-canada-invests-more-than-28-million-in-cultural-infrastructure-in-new-brunswick.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2025/01/le-gouvernement-du-canada-investit-plus-de-28-millions-de-dollars-dans-les-infrastructures-culturelles-au-nouveau-brunswick.html": {
@@ -152998,17 +153196,6 @@
     "updated_at": "2026-09-02T02:29:50.136129+00:00",
     "version": 6
   },
-  "fb56ceb58596879b104f259b638cf130|2026-09-29 08:33:00|https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/09/projects-aimed-at-supporting-francophone-minority-communities.html|https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/09/le-canada-appuie-de-nouveaux-projets-visant-a-promouvoir-limmigration-francophone-et-a-renforcer-les-communautes-francophones-en-situation-minoritaire.html": {
-    "PUBDATE": "2026-09-29 08:33:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/09/projects-aimed-at-supporting-francophone-minority-communities.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/09/le-canada-appuie-de-nouveaux-projets-visant-a-promouvoir-limmigration-francophone-et-a-renforcer-les-communautes-francophones-en-situation-minoritaire.html",
-    "hash": "fb56ceb58596879b104f259b638cf130",
-    "image_count": 0,
-    "quote_count": 4,
-    "status": "ok",
-    "updated_at": "2026-11-16T04:24:33.217663+00:00",
-    "version": 6
-  },
   "fb57498f964357e35d5437e5c82dc8df|2025-11-08 12:05:55|https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2025/11/ps-battiste-highlights-budget-investments-to-the-baddeck-recreational-facility.html|https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2025/11/le-secretaire-parlementaire-battiste-met-en-lumiere-les-investissements-du-budget-au-centre-recreatif-de-baddeck.html": {
     "PUBDATE": "2025-11-08 12:05:55",
     "TITLE_URL_EN": "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2025/11/ps-battiste-highlights-budget-investments-to-the-baddeck-recreational-facility.html",
@@ -153337,6 +153524,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T13:27:34.137290+00:00",
+    "version": 6
+  },
+  "fbb6ef9785f501d5ab395e18146282b4|2026-11-16 12:51:07|https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/statement-from-minister-joly-on-quebecor-and-telus.html|https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2026/11/declaration-de-la-ministre-joly-au-sujet-de-quebecor-et-telus.html": {
+    "PUBDATE": "2026-11-16 12:51:07",
+    "TITLE_URL_EN": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/statement-from-minister-joly-on-quebecor-and-telus.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2026/11/declaration-de-la-ministre-joly-au-sujet-de-quebecor-et-telus.html",
+    "hash": "fbb6ef9785f501d5ab395e18146282b4",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:35.562793+00:00",
     "version": 6
   },
   "fbb7b0332dcc3c9ca9b620cd01b76417|2025-03-19 22:05:00|https://www.canada.ca/en/privy-council/news/2025/03/statement-from-the-deputy-clerk-of-the-privy-council-and-national-security-and-intelligence-advisor-to-the-prime-minister.html|https://www.canada.ca/fr/conseil-prive/nouvelles/2025/03/declaration-de-la-sous-greffiere-du-conseil-prive-et-conseillere-a-la-securite-nationale-et-au-renseignement-aupres-du-premier-ministre.html": {
@@ -155416,6 +155614,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T15:05:45.588813+00:00",
+    "version": 6
+  },
+  "ff18b7fdacff3587d79ac3e4986bf89e|2026-11-13 13:46:38|https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/ps-battiste-highlights-government-of-canadas-investments-for-indigenous-communities-from-budget-2026-masters-of-our-destiny.html|https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/sp-battiste-presente-les-investissements-du-gouvernement-du-canada-destines-aux-communautes-autochtones-prevus-dans-le-budget-2026--maitres-chez-nous.html": {
+    "PUBDATE": "2026-11-13 13:46:38",
+    "TITLE_URL_EN": "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/ps-battiste-highlights-government-of-canadas-investments-for-indigenous-communities-from-budget-2026-masters-of-our-destiny.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/sp-battiste-presente-les-investissements-du-gouvernement-du-canada-destines-aux-communautes-autochtones-prevus-dans-le-budget-2026--maitres-chez-nous.html",
+    "hash": "ff18b7fdacff3587d79ac3e4986bf89e",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-11-17T06:09:24.289771+00:00",
     "version": 6
   },
   "ff1a522333fd863245b0578d7507c34a|2024-08-20 12:00:09|https://www.canada.ca/en/treasury-board-secretariat/news/2024/08/statement-from-the-treasury-board-of-canada-secretariat-to-all-employees-of-the-core-public-administration-regarding-pay-equity-and-to-all-members-.html|https://www.canada.ca/fr/secretariat-conseil-tresor/nouvelles/2024/08/declaration-du-secretariat-du-conseil-du-tresor-du-canada-aux-fonctionnaires-de-ladministration-publique-centrale-concernant-lequite-salariale-et-a.html": {
