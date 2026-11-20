@@ -340,6 +340,17 @@
     "updated_at": "2026-05-12T14:43:00.236817+00:00",
     "version": 6
   },
+  "00cc7d695bf83d30ba69a6c8aa28bef6|2026-11-18 07:55:21|https://www.canada.ca/en/correctional-service/news/2026/11/death-of-an-inmate-from-pacific-institutions-regional-treatment-centre.html|https://www.canada.ca/fr/service-correctionnel/nouvelles/2026/11/deces-dun-detenu-du-centre-regional-de-traitement-de-letablissement-du-pacifique.html": {
+    "PUBDATE": "2026-11-18 07:55:21",
+    "TITLE_URL_EN": "https://www.canada.ca/en/correctional-service/news/2026/11/death-of-an-inmate-from-pacific-institutions-regional-treatment-centre.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/service-correctionnel/nouvelles/2026/11/deces-dun-detenu-du-centre-regional-de-traitement-de-letablissement-du-pacifique.html",
+    "hash": "00cc7d695bf83d30ba69a6c8aa28bef6",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:20.682484+00:00",
+    "version": 6
+  },
   "00cedaa392dc26746ef0625e83c98146|2025-03-06 15:42:33|https://www.canada.ca/en/prairies-economic-development/news/2025/03/government-of-canada-investments-bolster-business-housing-and-tourism-recovery-in-jasper.html|https://www.canada.ca/fr/developpement-economique-prairies/nouvelles/2025/03/des-investissements-du-gouvernement-du-canada-stimulent-la-reprise-des-affaires-de-la-construction-et-du-tourisme-a-jasper.html": {
     "PUBDATE": "2025-03-06 15:42:33",
     "TITLE_URL_EN": "https://www.canada.ca/en/prairies-economic-development/news/2025/03/government-of-canada-investments-bolster-business-housing-and-tourism-recovery-in-jasper.html",
@@ -3506,6 +3517,17 @@
     "quote_count": 12,
     "status": "ok",
     "updated_at": "2026-05-23T02:36:09.003442+00:00",
+    "version": 6
+  },
+  "0627b6f55084f5270d1836a2cd573def|2026-11-18 15:20:46|https://www.canada.ca/en/correctional-service/news/2026/11/death-of-an-inmate-from-drumheller-institution.html|https://www.canada.ca/fr/service-correctionnel/nouvelles/2026/11/deces-dun-detenu-de-letablissement-de-drumheller.html": {
+    "PUBDATE": "2026-11-18 15:20:46",
+    "TITLE_URL_EN": "https://www.canada.ca/en/correctional-service/news/2026/11/death-of-an-inmate-from-drumheller-institution.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/service-correctionnel/nouvelles/2026/11/deces-dun-detenu-de-letablissement-de-drumheller.html",
+    "hash": "0627b6f55084f5270d1836a2cd573def",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:27.047548+00:00",
     "version": 6
   },
   "06326e3e2fea13762788c284b6855418|2024-07-17 09:00:00|https://www.canada.ca/en/canadian-heritage/news/2024/07/government-of-canada-invests-more-than-350000-in-la-picasse-cultural-community-centre.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2024/07/le-gouvernement-du-canada-investit-plus-de-350-000-dollars-dans-le-centre-communautaire-culturel-la-picasse.html": {
@@ -12086,6 +12108,17 @@
     "quote_count": 1,
     "status": "ok",
     "updated_at": "2026-05-12T14:19:23.105246+00:00",
+    "version": 6
+  },
+  "13dad08714fb2a00438c64465679fd85|2026-11-19 13:43:10|https://www.canada.ca/en/global-affairs/news/2026/11/advisory-committee-on-canada-us-economic-relations-meets-to-discuss-trade-priorities-and-support-for-canadian-businesses.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/le-comite-consultatif-sur-les-relations-economiques-entre-le-canada-et-les-etats-unis-se-reunit-pour-discuter-des-priorites-commerciales-et-du-sout.html": {
+    "PUBDATE": "2026-11-19 13:43:10",
+    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/11/advisory-committee-on-canada-us-economic-relations-meets-to-discuss-trade-priorities-and-support-for-canadian-businesses.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/le-comite-consultatif-sur-les-relations-economiques-entre-le-canada-et-les-etats-unis-se-reunit-pour-discuter-des-priorites-commerciales-et-du-sout.html",
+    "hash": "13dad08714fb2a00438c64465679fd85",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:38.214444+00:00",
     "version": 6
   },
   "13db496c0296534bffcbc309d691d329|2026-03-02 11:00:58|https://www.canada.ca/en/natural-resources-canada/news/2026/03/canada-secures-30-new-critical-minerals-partnerships-and-unlocks-121-billion-in-mining-project-capital0.html|https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2026/03/le-canada-conclut-30-nouveaux-partenariats-sur-les-mineraux-critiques-et-debloque-121-milliards-de-dollars-pour-financer-des-projets-miniers0.html": {
@@ -20723,6 +20756,17 @@
     "updated_at": "2026-05-12T14:30:28.042812+00:00",
     "version": 6
   },
+  "21c632bf36a9ee6688d2bd4c9e6524e1|2026-11-18 16:03:34|https://www.canada.ca/en/financial-consumer-agency/news/2026/11/speech-at-the-canadian-institutes-32nd-conference-on-regulatory-compliance-for-financial-institutions-by-commissioner-shereen-benzvy-miller.html|https://www.canada.ca/fr/agence-consommation-matiere-financiere/nouvelles/2026/11/discours-a-loccasion-de-la-32e-conference-phare-de-linstitut-canadien-sur-la-conformite-reglementaire-des-institutions-financieres-par-la-commissai.html": {
+    "PUBDATE": "2026-11-18 16:03:34",
+    "TITLE_URL_EN": "https://www.canada.ca/en/financial-consumer-agency/news/2026/11/speech-at-the-canadian-institutes-32nd-conference-on-regulatory-compliance-for-financial-institutions-by-commissioner-shereen-benzvy-miller.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/agence-consommation-matiere-financiere/nouvelles/2026/11/discours-a-loccasion-de-la-32e-conference-phare-de-linstitut-canadien-sur-la-conformite-reglementaire-des-institutions-financieres-par-la-commissai.html",
+    "hash": "21c632bf36a9ee6688d2bd4c9e6524e1",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:31.225183+00:00",
+    "version": 6
+  },
   "21c7dc0aa2a186f666144fa45f2cdd9c|2026-09-08 16:52:48|https://www.canada.ca/en/pacific-economic-development/news/2026/09/bc-businesses-can-now-access-expanded-support-through-the-regional-tariff-response-initiative.html|https://www.canada.ca/fr/developpement-economique-pacifique/nouvelles/2026/09/les-entreprises-de-la-colombie-britannique-ont-maintenant-acces-a-un-soutien-elargi-dans-le-cadre-de-linitiative-regionale-de-reponse-tarifaire.html": {
     "PUBDATE": "2026-09-08 16:52:48",
     "TITLE_URL_EN": "https://www.canada.ca/en/pacific-economic-development/news/2026/09/bc-businesses-can-now-access-expanded-support-through-the-regional-tariff-response-initiative.html",
@@ -28489,6 +28533,17 @@
     "updated_at": "2026-05-12T14:26:00.772238+00:00",
     "version": 6
   },
+  "2df399a8c088a8622105e39575328522|2026-11-19 10:06:57|https://www.canada.ca/en/canadian-coast-guard/news/2026/11/the-canadian-coast-guard-extends-emergency-towing-vessel-contract-on-the-west-coast.html|https://www.canada.ca/fr/garde-cotiere-canadienne/nouvelles/2026/11/la-garde-cotiere-canadienne-prolonge-le-contrat-pour-les-remorqueurs-durgence-maritime-sur-la-cote-ouest.html": {
+    "PUBDATE": "2026-11-19 10:06:57",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-coast-guard/news/2026/11/the-canadian-coast-guard-extends-emergency-towing-vessel-contract-on-the-west-coast.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/garde-cotiere-canadienne/nouvelles/2026/11/la-garde-cotiere-canadienne-prolonge-le-contrat-pour-les-remorqueurs-durgence-maritime-sur-la-cote-ouest.html",
+    "hash": "2df399a8c088a8622105e39575328522",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:36.360084+00:00",
+    "version": 6
+  },
   "2dfb34e70133721d776a7a7f3685c14d|2025-08-25 10:58:48|https://www.canada.ca/en/economic-development-quebec-regions/news/2025/08/backgrounder-government-of-canada-invests-in-five-businesses-to-support-economic-growth-in-mrc-de-la-vallee-de-lor.html|https://www.canada.ca/fr/developpement-economique-regions-quebec/nouvelles/2025/08/document-dinformation--le-gouvernement-du-canada-investit-dans-5-entreprises-pour-appuyer-la-croissance-de-leconomie-de-la-mrc-de-la-vallee-de-lor.html": {
     "PUBDATE": "2025-08-25 10:58:48",
     "TITLE_URL_EN": "https://www.canada.ca/en/economic-development-quebec-regions/news/2025/08/backgrounder-government-of-canada-invests-in-five-businesses-to-support-economic-growth-in-mrc-de-la-vallee-de-lor.html",
@@ -31281,6 +31336,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-07-15T01:55:26.765218+00:00",
+    "version": 6
+  },
+  "32c8a666b1c6e651ccf1f132189c7511|2026-11-19 09:01:06|https://www.canada.ca/en/transport-canada/news/2026/11/minister-of-transport-steven-mackinnon-and-ontarios-minister-of-transportation-prabmeet-singh-sarkaria-to-announce-investments-to-support-trade-div.html|https://www.canada.ca/fr/transports-canada/nouvelles/2026/11/le-ministre-des-transports-steven-mackinnon-et-le-ministre-des-transports-de-lontario-prabmeet-singh-sarkaria-annonceront-des-investissements-visan.html": {
+    "PUBDATE": "2026-11-19 09:01:06",
+    "TITLE_URL_EN": "https://www.canada.ca/en/transport-canada/news/2026/11/minister-of-transport-steven-mackinnon-and-ontarios-minister-of-transportation-prabmeet-singh-sarkaria-to-announce-investments-to-support-trade-div.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/transports-canada/nouvelles/2026/11/le-ministre-des-transports-steven-mackinnon-et-le-ministre-des-transports-de-lontario-prabmeet-singh-sarkaria-annonceront-des-investissements-visan.html",
+    "hash": "32c8a666b1c6e651ccf1f132189c7511",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:35.033121+00:00",
     "version": 6
   },
   "32cd4e78b144e230b723a37de34b6c9c|2024-11-18 09:12:20|https://www.canada.ca/en/space-agency/news/2024/11/joshua-kutryk-to-speak-to-thousands-of-canadian-students.html|https://www.canada.ca/fr/agence-spatiale/nouvelles/2024/11/joshua-kutryk-sadressera-a-des-milliers-deleves-canadiens.html": {
@@ -35309,6 +35375,17 @@
     "updated_at": "2026-10-09T04:11:53.059154+00:00",
     "version": 6
   },
+  "3913d55b2f13ddcbba231154f8373d59|2026-10-28 13:59:21|https://www.canada.ca/en/global-affairs/news/2026/10/joint-statement-on-democratic-peoples-republic-of-korea-dprk-sanctions.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/10/declaration-commune-concernant-les-sanctions-a-lencontre-de-la-republique-populaire-democratique-de-coree-rpdc.html": {
+    "PUBDATE": "2026-10-28 13:59:21",
+    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/10/joint-statement-on-democratic-peoples-republic-of-korea-dprk-sanctions.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/10/declaration-commune-concernant-les-sanctions-a-lencontre-de-la-republique-populaire-democratique-de-coree-rpdc.html",
+    "hash": "3913d55b2f13ddcbba231154f8373d59",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:19.702914+00:00",
+    "version": 6
+  },
   "3916ec15aac5703c192dc7c301a12eef|2025-02-07 16:13:13|https://www.canada.ca/en/correctional-service/news/2025/02/assault-of-an-inmate-at-beaver-creek-institution.html|https://www.canada.ca/fr/service-correctionnel/nouvelles/2025/02/agression-contre-un-detenu-a-letablissement-de-beaver-creek.html": {
     "PUBDATE": "2025-02-07 16:13:13",
     "TITLE_URL_EN": "https://www.canada.ca/en/correctional-service/news/2025/02/assault-of-an-inmate-at-beaver-creek-institution.html",
@@ -36066,17 +36143,6 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:05:16.643556+00:00",
-    "version": 6
-  },
-  "3a40738ae17e3c9ab4844b22f557a905|2026-10-28 13:59:21|https://www.canada.ca/en/global-affairs/news/2026/10/joint-statement-on-democratic-peoples-republic-of-korea-dprk-sanctions.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/10/declaration-commune-concernant-les-sanctions-a-lencontre-de-la-republique-populaire-democratique-de-coree-rpdc.html": {
-    "PUBDATE": "2026-10-28 13:59:21",
-    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/10/joint-statement-on-democratic-peoples-republic-of-korea-dprk-sanctions.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/10/declaration-commune-concernant-les-sanctions-a-lencontre-de-la-republique-populaire-democratique-de-coree-rpdc.html",
-    "hash": "3a40738ae17e3c9ab4844b22f557a905",
-    "image_count": 0,
-    "quote_count": 0,
-    "status": "ok",
-    "updated_at": "2026-10-29T04:00:06.747063+00:00",
     "version": 6
   },
   "3a43a4c9f84b4230280c8b418d527865|2026-08-21 17:15:26|https://www.canada.ca/en/department-national-defence/news/2026/08/canada-marks-the-start-of-major-infrastructure-upgrades-at-5th-canadian-division-support-base-gagetown.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/08/le-canada-marque-le-debut-dimportants-travaux-de-modernisation-des-infrastructures-a-la-base-de-soutien-de-la-5e-division-du-canada-gagetown.html": {
@@ -37364,6 +37430,17 @@
     "quote_count": 1,
     "status": "ok",
     "updated_at": "2026-05-12T14:53:45.379718+00:00",
+    "version": 6
+  },
+  "3cb71a01fc35d32df492979cce3adcdd|2026-11-19 09:05:12|https://www.canada.ca/en/department-justice/news/2026/11/government-of-canada-to-study-how-to-strengthen-the-divorce-act-in-response-to-family-violence.html|https://www.canada.ca/fr/ministere-justice/nouvelles/2026/11/le-gouvernement-du-canada-examinera-les-moyens-de-renforcer-la-loi-sur-le-divorce-face-a-la-violence-familiale.html": {
+    "PUBDATE": "2026-11-19 09:05:12",
+    "TITLE_URL_EN": "https://www.canada.ca/en/department-justice/news/2026/11/government-of-canada-to-study-how-to-strengthen-the-divorce-act-in-response-to-family-violence.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ministere-justice/nouvelles/2026/11/le-gouvernement-du-canada-examinera-les-moyens-de-renforcer-la-loi-sur-le-divorce-face-a-la-violence-familiale.html",
+    "hash": "3cb71a01fc35d32df492979cce3adcdd",
+    "image_count": 0,
+    "quote_count": 1,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:34.066954+00:00",
     "version": 6
   },
   "3cb8878b0daf3fc4998079bef67ee46e|2024-10-11 11:00:01|https://www.canada.ca/en/innovation-science-economic-development/news/2024/10/government-of-canada-to-highlight-support-for-advanced-computing-infrastructure-for-researchers.html|https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2024/10/le-gouvernement-du-canada-soulignera-le-soutien-affecte-a-linfrastructure-de-calcul-informatique-de-pointe-pour-la-recherche.html": {
@@ -38961,17 +39038,6 @@
     "updated_at": "2026-05-12T13:39:55.553080+00:00",
     "version": 6
   },
-  "3f5d500300e81aa909770b0e79dde458|2026-11-17 15:20:40|https://www.canada.ca/en/global-affairs/news/2026/11/minister-anand-meets-with-director-of-the-office-of-the-central-commission-for-foreign-affairs-and-minister-of-foreign-affairs-of-the-peoples-repub.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/la-ministre-anand-rencontre-le-directeur-du-bureau-de-la-commission-centrale-des-affaires-etrangeres-et-ministre-des-affaires-etrangeres-de-la-repu.html": {
-    "PUBDATE": "2026-11-17 15:20:40",
-    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-anand-meets-with-director-of-the-office-of-the-central-commission-for-foreign-affairs-and-minister-of-foreign-affairs-of-the-peoples-repub.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/la-ministre-anand-rencontre-le-directeur-du-bureau-de-la-commission-centrale-des-affaires-etrangeres-et-ministre-des-affaires-etrangeres-de-la-repu.html",
-    "hash": "3f5d500300e81aa909770b0e79dde458",
-    "image_count": 0,
-    "quote_count": 0,
-    "status": "ok",
-    "updated_at": "2026-11-18T05:38:04.128644+00:00",
-    "version": 6
-  },
   "3f5e7cd27dcd511bd733ba07be3d61aa|2026-07-06 12:52:31|https://www.canada.ca/en/space-agency/news/2026/07/canada-recognizes-the-career-and-achievements-of-canadian-space-agency-astronaut-jeremy-hansen.html|https://www.canada.ca/fr/agence-spatiale/nouvelles/2026/07/le-canada-honore-la-carriere-et-les-realisations-de-lastronaute-de-lagence-spatiale-canadienne-jeremy-hansen.html": {
     "PUBDATE": "2026-07-06 12:52:31",
     "TITLE_URL_EN": "https://www.canada.ca/en/space-agency/news/2026/07/canada-recognizes-the-career-and-achievements-of-canadian-space-agency-astronaut-jeremy-hansen.html",
@@ -40048,17 +40114,6 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T13:34:42.517208+00:00",
-    "version": 6
-  },
-  "411711cdc90b3f2523727213f8c6756c|2026-11-13 15:58:37|https://www.canada.ca/en/global-affairs/news/2026/11/minister-anand-to-attend-the-48th-session-of-the-francophonie-ministerial-conference-20th-francophonie-summit-and-apec.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/la-ministre-anand-participera-a-la-48e-session-de-la-conference-ministerielle-de-la-francophonie-au-20e-sommet-de-la-francophonie-et-a-la-reunion-d.html": {
-    "PUBDATE": "2026-11-13 15:58:37",
-    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-anand-to-attend-the-48th-session-of-the-francophonie-ministerial-conference-20th-francophonie-summit-and-apec.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/la-ministre-anand-participera-a-la-48e-session-de-la-conference-ministerielle-de-la-francophonie-au-20e-sommet-de-la-francophonie-et-a-la-reunion-d.html",
-    "hash": "411711cdc90b3f2523727213f8c6756c",
-    "image_count": 0,
-    "quote_count": 0,
-    "status": "ok",
-    "updated_at": "2026-11-15T04:27:50.061001+00:00",
     "version": 6
   },
   "4117bbcdfca31289f8e4701fb93fc016|2026-03-24 13:15:43|https://www.canada.ca/en/institutes-health-research/news/2026/03/government-of-canada-invests-3-million-to-strengthen-primary-care-research.html|https://www.canada.ca/fr/instituts-recherche-sante/nouvelles/2026/03/le-gouvernement-du-canada-investit-3-millions-de-dollars-pour-renforcer-la-recherche-sur-les-soins-primaires.html": {
@@ -45077,6 +45132,17 @@
     "updated_at": "2026-05-12T14:02:56.140802+00:00",
     "version": 6
   },
+  "48dd610d664acb7745ef6742d37ed1e2|2026-11-18 13:30:00|https://www.canada.ca/en/canadian-heritage/news/2026/11/secretary-of-state-van-koeverden-to-announce-strengthened-support-for-indigenous-sport-and-highlight-budget-2026-investments-in-community-ice-rinks.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/le-secretaire-detat-van-koeverden-annoncera-un-soutien-accru-au-sport-autochtone-et-mettra-en-avant-les-investissements-du-budget-de-2026-dans-les-.html": {
+    "PUBDATE": "2026-11-18 13:30:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/11/secretary-of-state-van-koeverden-to-announce-strengthened-support-for-indigenous-sport-and-highlight-budget-2026-investments-in-community-ice-rinks.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/le-secretaire-detat-van-koeverden-annoncera-un-soutien-accru-au-sport-autochtone-et-mettra-en-avant-les-investissements-du-budget-de-2026-dans-les-.html",
+    "hash": "48dd610d664acb7745ef6742d37ed1e2",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:27.003359+00:00",
+    "version": 6
+  },
   "48e495c62e98bfd4567e3b217a5eb12f|2026-03-26 17:22:44|https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/03/how-nutrition-north-canada-strengthens-food-security-and-sovereignty-builds-up-food-economies-and-bolsters-food-ecosystems.html|https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/03/comment-nutrition-nord-canada-renforce-la-securite-et-la-souverainete-alimentaires-developpe-les-economies-alimentaires-et-dynamise-les-ecosystemes.html": {
     "PUBDATE": "2026-03-26 17:22:44",
     "TITLE_URL_EN": "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/03/how-nutrition-north-canada-strengthens-food-security-and-sovereignty-builds-up-food-economies-and-bolsters-food-ecosystems.html",
@@ -47132,6 +47198,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-09-24T02:47:33.044944+00:00",
+    "version": 6
+  },
+  "4c2eb0931e30fec820443b31d9188e4d|2026-11-19 08:30:00|https://www.canada.ca/en/natural-resources-canada/news/2026/11/government-of-canada-invests-to-diversify-markets-and-economic-opportunities-for-canadas-forest-sector.html|https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2026/11/le-gouvernement-du-canada-investit-pour-diversifier-les-marches-et-les-debouches-economiques-dans-le-secteur-forestier-canadien.html": {
+    "PUBDATE": "2026-11-19 08:30:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/natural-resources-canada/news/2026/11/government-of-canada-invests-to-diversify-markets-and-economic-opportunities-for-canadas-forest-sector.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2026/11/le-gouvernement-du-canada-investit-pour-diversifier-les-marches-et-les-debouches-economiques-dans-le-secteur-forestier-canadien.html",
+    "hash": "4c2eb0931e30fec820443b31d9188e4d",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:33.180366+00:00",
     "version": 6
   },
   "4c2ff7194c71843b34e9fb8eea0ddaed|2026-04-02 15:02:00|https://www.canada.ca/en/transport-canada/news/2026/04/government-of-canada-announces-stronger-protections-for-southern-resident-killer-whales-in-2026.html|https://www.canada.ca/fr/transports-canada/nouvelles/2026/04/le-gouvernement-du-canada-annonce-des-mesures-de-protection-plus-rigoureuses-pour-les-epaulards-residents-du-sud-a-partir-de-2026.html": {
@@ -49310,6 +49387,17 @@
     "quote_count": 3,
     "status": "ok",
     "updated_at": "2026-10-17T02:40:05.203279+00:00",
+    "version": 6
+  },
+  "4fa55faf8c199a8b492e01dbd43f3e9e|2026-11-19 09:32:12|https://www.canada.ca/en/treasury-board-secretariat/news/2026/11/national-standing-offers-for-carbon-dioxide-removal-credits.html|https://www.canada.ca/fr/secretariat-conseil-tresor/nouvelles/2026/11/offres-a-commandes-nationales-pour-des-credits-delimination-du-dioxyde-de-carbone.html": {
+    "PUBDATE": "2026-11-19 09:32:12",
+    "TITLE_URL_EN": "https://www.canada.ca/en/treasury-board-secretariat/news/2026/11/national-standing-offers-for-carbon-dioxide-removal-credits.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/secretariat-conseil-tresor/nouvelles/2026/11/offres-a-commandes-nationales-pour-des-credits-delimination-du-dioxyde-de-carbone.html",
+    "hash": "4fa55faf8c199a8b492e01dbd43f3e9e",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:34.105015+00:00",
     "version": 6
   },
   "4fa6086d0509efad141b86f501e1e974|2025-04-15 10:00:02|https://www.canada.ca/en/border-services-agency/news/2025/04/travelling-for-easter-the-cbsa-gives-tips-for-a-smooth-trip.html|https://www.canada.ca/fr/agence-services-frontaliers/nouvelles/2025/04/vous-voyagez-pour-paques-lasfc-vous-donne-des-conseils-pour-un-voyage-sans-souci.html": {
@@ -55228,17 +55316,6 @@
     "quote_count": 2,
     "status": "ok",
     "updated_at": "2026-05-12T14:15:44.391497+00:00",
-    "version": 6
-  },
-  "59aecd71ee9b8ecf41b70370d6dd23f6|2026-11-02 09:00:03|https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-to-advance-canadas-trade-and-investment-priorities-during-visit-to-china.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/le-ministre-sidhu-fera-la-promotion-des-priorites-du-canada-en-matiere-de-commerce-et-dinvestissement-lors-de-sa-visite-en-chine.html": {
-    "PUBDATE": "2026-11-02 09:00:03",
-    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-to-advance-canadas-trade-and-investment-priorities-during-visit-to-china.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/le-ministre-sidhu-fera-la-promotion-des-priorites-du-canada-en-matiere-de-commerce-et-dinvestissement-lors-de-sa-visite-en-chine.html",
-    "hash": "59aecd71ee9b8ecf41b70370d6dd23f6",
-    "image_count": 0,
-    "quote_count": 1,
-    "status": "ok",
-    "updated_at": "2026-11-03T04:59:40.593876+00:00",
     "version": 6
   },
   "59b174192454469135ae9e0dd9286b3e|2026-05-19 15:04:04|https://www.canada.ca/en/public-safety-canada/news/2026/05/mp-deschenes-theriault-to-make-a-funding-announcement-related-to-at-risk-youth-in-new-brunswick.html|https://www.canada.ca/fr/securite-publique-canada/nouvelles/2026/05/le-depute-deschenes-theriault-annoncera-un-financement-visant-a-soutenir-les-jeunes-a-risque-au-nouveau-brunswick.html": {
@@ -62886,17 +62963,6 @@
     "updated_at": "2026-05-12T14:48:51.809096+00:00",
     "version": 6
   },
-  "65a1c2e985919768604dde0527a2c94c|2026-11-12 19:30:48|https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-meets-with-indias-minister-of-commerce-and-industry-to-advance-canada-india-trade-and-investment-priorities.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/le-ministre-sidhu-sentretient-avec-le-ministre-indien-du-commerce-et-de-lindustrie-afin-de-faire-avancer-les-priorites-en-matiere-de-commerce-et-di.html": {
-    "PUBDATE": "2026-11-12 19:30:48",
-    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-meets-with-indias-minister-of-commerce-and-industry-to-advance-canada-india-trade-and-investment-priorities.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/le-ministre-sidhu-sentretient-avec-le-ministre-indien-du-commerce-et-de-lindustrie-afin-de-faire-avancer-les-priorites-en-matiere-de-commerce-et-di.html",
-    "hash": "65a1c2e985919768604dde0527a2c94c",
-    "image_count": 0,
-    "quote_count": 0,
-    "status": "ok",
-    "updated_at": "2026-11-14T04:38:09.234733+00:00",
-    "version": 6
-  },
   "65a64d628b35cf159f3fddc5f773c40a|2026-03-27 09:02:23|https://www.canada.ca/en/public-safety-canada/news/2026/03/legislation-that-strengthens-the-immigration-system-and-border-security-receives-royal-assent.html|https://www.canada.ca/fr/securite-publique-canada/nouvelles/2026/03/une-loi-qui-renforce-le-systeme-dimmigration-et-la-securite-frontaliere-recoit-la-sanction-royale.html": {
     "PUBDATE": "2026-03-27 09:02:23",
     "TITLE_URL_EN": "https://www.canada.ca/en/public-safety-canada/news/2026/03/legislation-that-strengthens-the-immigration-system-and-border-security-receives-royal-assent.html",
@@ -68430,6 +68496,17 @@
     "updated_at": "2026-05-12T15:12:05.778575+00:00",
     "version": 6
   },
+  "6ee721aedacd701d2c48f3bd0be8ad53|2026-11-13 15:58:37|https://www.canada.ca/en/global-affairs/news/2026/11/minister-anand-to-attend-the-48th-session-of-the-francophonie-ministerial-conference-20th-francophonie-summit-and-apec.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/la-ministre-anand-participera-a-la-48e-session-de-la-conference-ministerielle-de-la-francophonie-au-20e-sommet-de-la-francophonie-et-a-la-reunion-d.html": {
+    "PUBDATE": "2026-11-13 15:58:37",
+    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-anand-to-attend-the-48th-session-of-the-francophonie-ministerial-conference-20th-francophonie-summit-and-apec.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/la-ministre-anand-participera-a-la-48e-session-de-la-conference-ministerielle-de-la-francophonie-au-20e-sommet-de-la-francophonie-et-a-la-reunion-d.html",
+    "hash": "6ee721aedacd701d2c48f3bd0be8ad53",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:23.679151+00:00",
+    "version": 6
+  },
   "6ee8452013e678f18e9e5eee8834c6fa|2025-05-09 14:39:16|https://www.canada.ca/en/national-film-board/news/2025/05/the-nfb-at-the-2025-sommets-du-cinema-danimation--artists-talk-closing-film-six-shorts-in-the-canadian-competition-and-more.html|https://www.canada.ca/fr/office-national-film/nouvelles/2025/05/lonf-aux-sommets-du-cinema-danimation-2025--une-lecon-de-cinema-un-film-de-cloture-six-courts-metrages-en-competition-canadienne-et-plus-encore.html": {
     "PUBDATE": "2025-05-09 14:39:16",
     "TITLE_URL_EN": "https://www.canada.ca/en/national-film-board/news/2025/05/the-nfb-at-the-2025-sommets-du-cinema-danimation--artists-talk-closing-film-six-shorts-in-the-canadian-competition-and-more.html",
@@ -71640,6 +71717,17 @@
     "quote_count": 2,
     "status": "ok",
     "updated_at": "2026-05-12T13:50:37.871544+00:00",
+    "version": 6
+  },
+  "74679032ab3f59e2d8de7a8656b797ca|2026-11-18 09:52:53|https://www.canada.ca/en/canadian-coast-guard/news/2026/11/closure-of-the-canadian-coast-guards-arctic-marine-response-station-in-rankin-inlet-nunavut.html|https://www.canada.ca/fr/garde-cotiere-canadienne/nouvelles/2026/11/fermeture-de-la-station-dintervention-maritime-dans-larctique-de-la-garde-cotiere-canadienne-a-rankin-inlet-au-nunavut.html": {
+    "PUBDATE": "2026-11-18 09:52:53",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-coast-guard/news/2026/11/closure-of-the-canadian-coast-guards-arctic-marine-response-station-in-rankin-inlet-nunavut.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/garde-cotiere-canadienne/nouvelles/2026/11/fermeture-de-la-station-dintervention-maritime-dans-larctique-de-la-garde-cotiere-canadienne-a-rankin-inlet-au-nunavut.html",
+    "hash": "74679032ab3f59e2d8de7a8656b797ca",
+    "image_count": 1,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:29.944060+00:00",
     "version": 6
   },
   "7468740c68d66031217e5bffb1b1c174|2024-11-20 14:28:50|https://www.canada.ca/en/department-national-defence/news/2024/11/statement-from-minister-blair-on-the-fourth-biannual-report-of-external-monitor.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2024/11/declaration-du-ministre-blair-portant-sur-le-quatrieme-rapport-semestriel-de-la-surveillante-externe.html": {
@@ -75360,6 +75448,17 @@
     "updated_at": "2026-05-12T15:09:17.887328+00:00",
     "version": 6
   },
+  "7acc7fef41e586cf1527620f27b207fd|2026-11-19 13:10:00|https://www.canada.ca/en/canadian-heritage/news/2026/11/secretary-of-state-van-koeverden-announces-strengthened-support-for-indigenous-sport-and-additional-funding-for-2028-north-american-indigenous-games.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/le-secretaire-detat-van-koeverden-annonce-un-soutien-accru-au-sport-autochtone-et-un-financement-supplementaire-pour-les-jeux-autochtones-de-lameri.html": {
+    "PUBDATE": "2026-11-19 13:10:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/11/secretary-of-state-van-koeverden-announces-strengthened-support-for-indigenous-sport-and-additional-funding-for-2028-north-american-indigenous-games.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/le-secretaire-detat-van-koeverden-annonce-un-soutien-accru-au-sport-autochtone-et-un-financement-supplementaire-pour-les-jeux-autochtones-de-lameri.html",
+    "hash": "7acc7fef41e586cf1527620f27b207fd",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:36.323892+00:00",
+    "version": 6
+  },
   "7acd8cf16c188342b263ef1e01749786|2025-02-27 09:00:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2025/02/investing-in-rural-active-transportation.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2025/02/investir-dans-le-transport-actif-en-milieu-rural.html": {
     "PUBDATE": "2025-02-27 09:00:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2025/02/investing-in-rural-active-transportation.html",
@@ -75523,6 +75622,17 @@
     "quote_count": 1,
     "status": "ok",
     "updated_at": "2026-05-12T14:20:29.227942+00:00",
+    "version": 6
+  },
+  "7afface662eb25f0cdbf17b4bfbfe67b|2026-11-18 09:40:00|https://www.canada.ca/en/environment-climate-change/news/2026/11/canada-delivers-its-national-statement-at-cop31.html|https://www.canada.ca/fr/environnement-changement-climatique/nouvelles/2026/11/le-canada-prononce-sa-declaration-nationale-a-la-cop31.html": {
+    "PUBDATE": "2026-11-18 09:40:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/environment-climate-change/news/2026/11/canada-delivers-its-national-statement-at-cop31.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/environnement-changement-climatique/nouvelles/2026/11/le-canada-prononce-sa-declaration-nationale-a-la-cop31.html",
+    "hash": "7afface662eb25f0cdbf17b4bfbfe67b",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:23.885059+00:00",
     "version": 6
   },
   "7b1bf2457074bdfcc805463d7b60e9d3|2024-08-20 06:58:00|https://www.canada.ca/en/economic-development-quebec-regions/news/2024/08/invitation-to-media-sophie-chatel-to-visit-thorne-sme-chalets-prunellas-facilities.html|https://www.canada.ca/fr/developpement-economique-regions-quebec/nouvelles/2024/08/invitation-aux-medias--sophie-chatel-visitera-les-installations-de-chalets-prunella-une-pme-de-thorne.html": {
@@ -75886,6 +75996,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-08-06T02:04:27.781825+00:00",
+    "version": 6
+  },
+  "7babdc21b979d8815f5d9cda52cee02c|2026-11-19 14:27:40|https://www.canada.ca/en/department-national-defence/news/2026/11/minister-mcguinty-participates-in-the-coalition-of-the-willing.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/11/le-ministre-mcguinty-participe-a-la-coalition-des-volontaires.html": {
+    "PUBDATE": "2026-11-19 14:27:40",
+    "TITLE_URL_EN": "https://www.canada.ca/en/department-national-defence/news/2026/11/minister-mcguinty-participates-in-the-coalition-of-the-willing.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/11/le-ministre-mcguinty-participe-a-la-coalition-des-volontaires.html",
+    "hash": "7babdc21b979d8815f5d9cda52cee02c",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:41.186484+00:00",
     "version": 6
   },
   "7bac9ade3f5c4ad535777ccded06d9c0|2026-03-04 12:30:03|https://www.canada.ca/en/innovation-science-economic-development/news/2026/03/secretary-of-state-belanger-to-highlight-affordability-measures.html|https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2026/03/le-secretaire-detat-belanger-presentera-des-mesures-visant-a-ameliorer-labordabilite.html": {
@@ -76656,6 +76777,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:13:01.518533+00:00",
+    "version": 6
+  },
+  "7d2261527fe4d71d204fc88cd7472b21|2026-11-19 09:35:37|https://www.canada.ca/en/treasury-board-secretariat/news/2026/11/government-of-canada-establishes-national-standing-offers-for-canadian-carbon-dioxide-removal-credits.html|https://www.canada.ca/fr/secretariat-conseil-tresor/nouvelles/2026/11/le-gouvernement-du-canada-met-en-place-des-offres-a-commandes-nationales-pour-des-credits-delimination-du-dioxyde-de-carbone.html": {
+    "PUBDATE": "2026-11-19 09:35:37",
+    "TITLE_URL_EN": "https://www.canada.ca/en/treasury-board-secretariat/news/2026/11/government-of-canada-establishes-national-standing-offers-for-canadian-carbon-dioxide-removal-credits.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/secretariat-conseil-tresor/nouvelles/2026/11/le-gouvernement-du-canada-met-en-place-des-offres-a-commandes-nationales-pour-des-credits-delimination-du-dioxyde-de-carbone.html",
+    "hash": "7d2261527fe4d71d204fc88cd7472b21",
+    "image_count": 0,
+    "quote_count": 4,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:35.170542+00:00",
     "version": 6
   },
   "7d22d6d1f35a8feb152761195d3f2977|2026-04-24 11:03:19|https://www.canada.ca/en/global-affairs/news/2026/04/minister-anand-announces-contribution-for-repairs-to-chornobyl-confinement-structure.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/04/la-ministre-anand-annonce-une-contribution-pour-la-reparation-de-lenceinte-de-confinement-de-tchernobyl.html": {
@@ -78803,6 +78935,17 @@
     "updated_at": "2026-07-07T02:36:40.799115+00:00",
     "version": 6
   },
+  "80c62efbaca834daa2c1e1aa4e653cb1|2026-11-18 15:03:05|https://www.canada.ca/en/department-national-defence/news/2026/11/minister-mcguinty-to-co-host-the-18th-annual-halifax-international-security-forum.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/11/le-ministre-mcguinty-coorganisera-la-18e-edition-annuelle-du-forum-dhalifax-sur-la-securite-internationale.html": {
+    "PUBDATE": "2026-11-18 15:03:05",
+    "TITLE_URL_EN": "https://www.canada.ca/en/department-national-defence/news/2026/11/minister-mcguinty-to-co-host-the-18th-annual-halifax-international-security-forum.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/11/le-ministre-mcguinty-coorganisera-la-18e-edition-annuelle-du-forum-dhalifax-sur-la-securite-internationale.html",
+    "hash": "80c62efbaca834daa2c1e1aa4e653cb1",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:28.044653+00:00",
+    "version": 6
+  },
   "80c684956f29ab4cdae3a59318dc24f4|2024-07-19 08:41:43|https://www.canada.ca/en/environment-climate-change/news/2024/07/canada-child-benefit-increases-again-to-keep-up-with-the-cost-of-living.html|https://www.canada.ca/fr/environnement-changement-climatique/nouvelles/2024/07/le-gouvernement-du-canada-augmente-de-nouveau-lallocation-canadienne-pour-enfants-afin-de-tenir-compte-du-cout-de-la-vie.html": {
     "PUBDATE": "2024-07-19 08:41:43",
     "TITLE_URL_EN": "https://www.canada.ca/en/environment-climate-change/news/2024/07/canada-child-benefit-increases-again-to-keep-up-with-the-cost-of-living.html",
@@ -79054,6 +79197,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-08-28T08:38:11.486706+00:00",
+    "version": 6
+  },
+  "8121a302de165a46da13daf1f9140566|2026-11-19 13:42:39|https://www.canada.ca/en/parole-board/news/2026/11/parole-board-of-canada-launches-service-portal-for-record-suspension-applicants.html|https://www.canada.ca/fr/commission-liberations-conditionnelles/news/2026/11/la-commission-des-liberations-conditionnelles-du-canada-lance-le-portail-de-services-pour-les-demandeurs-de-suspension-du-casier.html": {
+    "PUBDATE": "2026-11-19 13:42:39",
+    "TITLE_URL_EN": "https://www.canada.ca/en/parole-board/news/2026/11/parole-board-of-canada-launches-service-portal-for-record-suspension-applicants.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/commission-liberations-conditionnelles/news/2026/11/la-commission-des-liberations-conditionnelles-du-canada-lance-le-portail-de-services-pour-les-demandeurs-de-suspension-du-casier.html",
+    "hash": "8121a302de165a46da13daf1f9140566",
+    "image_count": 0,
+    "quote_count": 1,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:40.236926+00:00",
     "version": 6
   },
   "812764abef98d7da646d62d650234a10|2024-09-09 13:28:05|https://www.canada.ca/en/global-affairs/news/2024/09/statement-by-minister-of-foreign-affairs-on-situation-in-venezuela.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2024/09/declaration-de-la-ministre-des-affaires-etrangeres-sur-la-situation-au-venezuela.html": {
@@ -82235,6 +82389,17 @@
     "updated_at": "2026-05-21T02:50:34.697075+00:00",
     "version": 6
   },
+  "863aa5770bb467d26f501475dbaec232|2026-11-18 15:32:10|https://www.canada.ca/en/department-national-defence/news/2026/11/statement-from-the-canadian-forces-provost-marshal.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/11/declaration-de-la-grande-prevot-des-forces-canadiennes.html": {
+    "PUBDATE": "2026-11-18 15:32:10",
+    "TITLE_URL_EN": "https://www.canada.ca/en/department-national-defence/news/2026/11/statement-from-the-canadian-forces-provost-marshal.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/11/declaration-de-la-grande-prevot-des-forces-canadiennes.html",
+    "hash": "863aa5770bb467d26f501475dbaec232",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:32.180506+00:00",
+    "version": 6
+  },
   "863fa62fb3c4a7788477012e163974b5|2026-11-10 14:00:59|https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/canada-takes-action-to-efficiently-process-existing-permanent-residence-applications-for-ukrainians-and-hong-kongers.html|https://www.canada.ca/fr/immigration-refugies-citoyennete/nouvelles/2026/11/le-canada-prend-des-mesures-pour-traiter-efficacement-les-demandes-de-residence-permanente-existantes-des-ukrainiens-et-des-hongkongais.html": {
     "PUBDATE": "2026-11-10 14:00:59",
     "TITLE_URL_EN": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/canada-takes-action-to-efficiently-process-existing-permanent-residence-applications-for-ukrainians-and-hong-kongers.html",
@@ -84983,6 +85148,17 @@
     "quote_count": 2,
     "status": "ok",
     "updated_at": "2026-05-12T13:40:30.960460+00:00",
+    "version": 6
+  },
+  "8b3f89054cf21a9677a91caa4f455185|2026-11-19 12:00:04|https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/minister-joly-to-announce-investment-to-expand-canadas-automobile-industry.html|https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2026/11/la-ministre-joly-annoncera-un-investissement-dans-lexpansion-de-lindustrie-automobile-canadienne.html": {
+    "PUBDATE": "2026-11-19 12:00:04",
+    "TITLE_URL_EN": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/minister-joly-to-announce-investment-to-expand-canadas-automobile-industry.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2026/11/la-ministre-joly-annoncera-un-investissement-dans-lexpansion-de-lindustrie-automobile-canadienne.html",
+    "hash": "8b3f89054cf21a9677a91caa4f455185",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:36.324031+00:00",
     "version": 6
   },
   "8b4027966fc17d4da90dd8ff90812d3d|2026-07-14 17:36:51|https://www.canada.ca/en/global-affairs/news/2026/07/canada-brazil-joint-statement.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/07/declaration-commune-canada-bresil.html": {
@@ -91431,6 +91607,17 @@
     "updated_at": "2026-05-12T15:04:34.147965+00:00",
     "version": 6
   },
+  "955d96e4b910f25d168caf4352e0650a|2026-11-06 12:50:50|https://www.canada.ca/en/global-affairs/news/2026/11/statement-on-the-sentencing-of-joshua-wong-contacts.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/declaration-concernant-la-peine-infligee-a-joshua-wong.html": {
+    "PUBDATE": "2026-11-06 12:50:50",
+    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/11/statement-on-the-sentencing-of-joshua-wong-contacts.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/declaration-concernant-la-peine-infligee-a-joshua-wong.html",
+    "hash": "955d96e4b910f25d168caf4352e0650a",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:20.714075+00:00",
+    "version": 6
+  },
   "9565fc668684b1a1af3184d612679ee8|2025-06-22 16:35:33|https://www.canada.ca/en/global-affairs/news/2025/06/canada-deepens-bilateral-and-trade-ties-with-united-arab-emirates.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2025/06/le-canada-renforce-ses-liens-bilateraux-et-commerciaux-avec-les-emirats-arabes-unis.html": {
     "PUBDATE": "2025-06-22 16:35:33",
     "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2025/06/canada-deepens-bilateral-and-trade-ties-with-united-arab-emirates.html",
@@ -93079,6 +93266,17 @@
     "quote_count": 3,
     "status": "ok",
     "updated_at": "2026-05-12T14:12:09.415679+00:00",
+    "version": 6
+  },
+  "97ee28ffa1ab8b9c939964e944038682|2026-11-19 18:29:28|https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/canadian-council-of-tourism-ministers-meets-in-fredericton-new-brunswick-to-strengthen-innovation-competitiveness-and-resilience.html|https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2026/11/le-conseil-canadien-des-ministres-du-tourisme-se-reunit-a-fredericton-au-nouveau-brunswick-pour-renforcer-linnovation-la-competitivite-et-la-resili.html": {
+    "PUBDATE": "2026-11-19 18:29:28",
+    "TITLE_URL_EN": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/canadian-council-of-tourism-ministers-meets-in-fredericton-new-brunswick-to-strengthen-innovation-competitiveness-and-resilience.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2026/11/le-conseil-canadien-des-ministres-du-tourisme-se-reunit-a-fredericton-au-nouveau-brunswick-pour-renforcer-linnovation-la-competitivite-et-la-resili.html",
+    "hash": "97ee28ffa1ab8b9c939964e944038682",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:41.531033+00:00",
     "version": 6
   },
   "97f2ea498c969c9dce9ef0ca36bc77a8|2024-06-17 16:37:42|https://www.canada.ca/en/department-finance/news/2024/06/weekly-update-on-the-governments-economic-plan1.html|https://www.canada.ca/fr/ministere-finances/nouvelles/2024/06/le-point-hebdomadaire-sur-le-plan-economique-du-gouvernement1.html": {
@@ -96414,6 +96612,17 @@
     "updated_at": "2026-05-12T14:59:43.731946+00:00",
     "version": 6
   },
+  "9c98743dd78b8970f4a1b60c08c631ff|2026-11-02 09:00:03|https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-to-advance-canadas-trade-and-investment-priorities-during-visit-to-china.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/le-ministre-sidhu-fera-la-promotion-des-priorites-du-canada-en-matiere-de-commerce-et-dinvestissement-lors-de-sa-visite-en-chine.html": {
+    "PUBDATE": "2026-11-02 09:00:03",
+    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-to-advance-canadas-trade-and-investment-priorities-during-visit-to-china.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/le-ministre-sidhu-fera-la-promotion-des-priorites-du-canada-en-matiere-de-commerce-et-dinvestissement-lors-de-sa-visite-en-chine.html",
+    "hash": "9c98743dd78b8970f4a1b60c08c631ff",
+    "image_count": 0,
+    "quote_count": 1,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:21.653131+00:00",
+    "version": 6
+  },
   "9c9a2fed82f196b336e63d0f26cd8ea9|2025-10-09 19:15:16|https://www.canada.ca/en/canadian-heritage/news/2025/10/minister-steven-guilbeault-to-introduce-new-measures-to-reduce-costs-for-canadian-families.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2025/10/le-ministre-steven-guilbeault-presentera-de-nouvelles-mesures-pour-reduire-les-couts-auxquels-font-face-les-familles-canadiennes.html": {
     "PUBDATE": "2025-10-09 19:15:16",
     "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2025/10/minister-steven-guilbeault-to-introduce-new-measures-to-reduce-costs-for-canadian-families.html",
@@ -97325,6 +97534,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T13:59:15.164388+00:00",
+    "version": 6
+  },
+  "9db5c28197ea71619906001c2a6745fa|2026-11-12 19:30:48|https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-meets-with-indias-minister-of-commerce-and-industry-to-advance-canada-india-trade-and-investment-priorities.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/le-ministre-sidhu-sentretient-avec-le-ministre-indien-du-commerce-et-de-lindustrie-afin-de-faire-avancer-les-priorites-en-matiere-de-commerce-et-di.html": {
+    "PUBDATE": "2026-11-12 19:30:48",
+    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-meets-with-indias-minister-of-commerce-and-industry-to-advance-canada-india-trade-and-investment-priorities.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/le-ministre-sidhu-sentretient-avec-le-ministre-indien-du-commerce-et-de-lindustrie-afin-de-faire-avancer-les-priorites-en-matiere-de-commerce-et-di.html",
+    "hash": "9db5c28197ea71619906001c2a6745fa",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:19.704810+00:00",
     "version": 6
   },
   "9db7f9271332a8a5d22645b52ddeb761|2025-09-03 09:35:00|https://www.canada.ca/en/taxpayers-ombudsperson/news/2025/09/statement-from-the-taxpayers-ombudsperson-about-100-day-plan-to-strengthen-service-at-the-canada-revenue-agency.html|https://www.canada.ca/fr/ombudsman-contribuables/nouvelles/2025/09/declaration-de-lombudsman-des-contribuables-au-sujet-dun-plan-de-100-jours-pour-renforcer-le-service-a-lagence-du-revenu-du-canada.html": {
@@ -103982,6 +104202,17 @@
     "updated_at": "2026-05-12T13:38:51.464484+00:00",
     "version": 6
   },
+  "a95f6fbce95c3db0f178895b32018ad1|2026-11-18 13:59:35|https://www.canada.ca/en/competition-bureau/news/2026/11/old-navy-and-gap-marketing-practices-investigation-to-advance-upon-court-order.html|https://www.canada.ca/fr/bureau-concurrence/nouvelles/2026/11/lenquete-sur-les-pratiques-commerciales-dold-navy-et-de-gap-se-poursuit-grace-a-une-ordonnance-judiciaire.html": {
+    "PUBDATE": "2026-11-18 13:59:35",
+    "TITLE_URL_EN": "https://www.canada.ca/en/competition-bureau/news/2026/11/old-navy-and-gap-marketing-practices-investigation-to-advance-upon-court-order.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/bureau-concurrence/nouvelles/2026/11/lenquete-sur-les-pratiques-commerciales-dold-navy-et-de-gap-se-poursuit-grace-a-une-ordonnance-judiciaire.html",
+    "hash": "a95f6fbce95c3db0f178895b32018ad1",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:30.028218+00:00",
+    "version": 6
+  },
   "a973dac558f536654512d62b0b9a1727|2024-10-16 11:58:31|https://www.canada.ca/en/prairies-economic-development/news/2024/10/mp-chahal-to-announce-federal-support-for-calgary-companies-to-scale-up-and-access-new-markets.html|https://www.canada.ca/fr/developpement-economique-prairies/nouvelles/2024/10/le-depute-chahal-annoncera-une-aide-federale-destinee-aux-entreprises-de-calgary-pour-leur-permettre-de-se-developper-et-dacceder-a-de-nouveaux-mar.html": {
     "PUBDATE": "2024-10-16 11:58:31",
     "TITLE_URL_EN": "https://www.canada.ca/en/prairies-economic-development/news/2024/10/mp-chahal-to-announce-federal-support-for-calgary-companies-to-scale-up-and-access-new-markets.html",
@@ -105555,6 +105786,17 @@
     "updated_at": "2026-05-12T13:29:16.223711+00:00",
     "version": 6
   },
+  "ac6f0d89f973f20205fb19c1005fb85e|2026-11-19 14:57:56|https://www.canada.ca/en/canada-energy-regulator/news/2026/11/canada-energy-regulator-issues-monetary-penalties-to-westcoast-energy-gp-inc-and-ogilvie-mountain-holdings-lp.html|https://www.canada.ca/fr/regie-energie-canada/nouvelles/2026/11/la-regie-de-lenergie-du-canada-delivre-une-sanction-administrative-pecuniaire-a-westcoast-energy-gp-inc-et-a-ogilvie-mountain-holdings-lp.html": {
+    "PUBDATE": "2026-11-19 14:57:56",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canada-energy-regulator/news/2026/11/canada-energy-regulator-issues-monetary-penalties-to-westcoast-energy-gp-inc-and-ogilvie-mountain-holdings-lp.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/regie-energie-canada/nouvelles/2026/11/la-regie-de-lenergie-du-canada-delivre-une-sanction-administrative-pecuniaire-a-westcoast-energy-gp-inc-et-a-ogilvie-mountain-holdings-lp.html",
+    "hash": "ac6f0d89f973f20205fb19c1005fb85e",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:41.478049+00:00",
+    "version": 6
+  },
   "ac70c763c82a812892bed1d9a912b859|2024-08-13 14:26:25|https://www.canada.ca/en/housing-infrastructure-communities/news/2024/08/backgrounder-communities-in-british-columbia-to-benefit-from-investments-in-active-transportation.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2024/08/document-dinformation--des-collectivites-de-la-colombie-britannique-vont-beneficier-dinvestissements-dans-le-transport-actif.html": {
     "PUBDATE": "2024-08-13 14:26:25",
     "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2024/08/backgrounder-communities-in-british-columbia-to-benefit-from-investments-in-active-transportation.html",
@@ -106070,6 +106312,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T13:43:14.012565+00:00",
+    "version": 6
+  },
+  "ad2715ed2a428d8b62b4abafc4f7399a|2026-11-19 07:58:00|https://www.canada.ca/en/economic-development-quebec-regions/news/2026/11/invitation-to-media--mp-alexandra-mendes-to-announce-government-of-canada-support-for-brossard-sme.html|https://www.canada.ca/fr/developpement-economique-regions-quebec/nouvelles/2026/11/invitation-aux-medias--la-deputee-alexandra-mendes-annoncera-un-appui-du-gouvernement-du-canada-a-une-pme-de-brossard.html": {
+    "PUBDATE": "2026-11-19 07:58:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/economic-development-quebec-regions/news/2026/11/invitation-to-media--mp-alexandra-mendes-to-announce-government-of-canada-support-for-brossard-sme.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/developpement-economique-regions-quebec/nouvelles/2026/11/invitation-aux-medias--la-deputee-alexandra-mendes-annoncera-un-appui-du-gouvernement-du-canada-a-une-pme-de-brossard.html",
+    "hash": "ad2715ed2a428d8b62b4abafc4f7399a",
+    "image_count": 1,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:35.035768+00:00",
     "version": 6
   },
   "ad2c6ad16e0890967e7800363cd6a1ef|2024-09-18 14:00:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2024/09/media-advisory-infrastructure-announcement-in-kitchener.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2024/09/avis-aux-medias--annonce-en-matiere-dinfrastructure-a-kitchener.html": {
@@ -108369,6 +108622,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T13:47:05.988658+00:00",
+    "version": 6
+  },
+  "b11dbf29f16e1cfc6e97bf3f6b9ab8c9|2026-11-18 10:37:29|https://www.canada.ca/en/indigenous-services-canada/news/2026/11/inuit-tapiriit-kanatami-and-government-of-canada-announce-pirutsiagutiit-a-new-inuit-led-program-for-inuit-children.html|https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/linuit-tapiriit-kanatami-et-le-gouvernement-du-canada-annoncent-la-creation-de-pirutsiagutiit-un-nouveau-programme-dirige-par-les-inuit-pour-les-en.html": {
+    "PUBDATE": "2026-11-18 10:37:29",
+    "TITLE_URL_EN": "https://www.canada.ca/en/indigenous-services-canada/news/2026/11/inuit-tapiriit-kanatami-and-government-of-canada-announce-pirutsiagutiit-a-new-inuit-led-program-for-inuit-children.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/linuit-tapiriit-kanatami-et-le-gouvernement-du-canada-annoncent-la-creation-de-pirutsiagutiit-un-nouveau-programme-dirige-par-les-inuit-pour-les-en.html",
+    "hash": "b11dbf29f16e1cfc6e97bf3f6b9ab8c9",
+    "image_count": 1,
+    "quote_count": 9,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:29.893028+00:00",
     "version": 6
   },
   "b12adab623412d25a2ea66563d2e2876|2024-12-03 10:50:59|https://www.canada.ca/en/employment-social-development/news/2024/12/statement-by-the-minister-of-diversity-inclusion-and-persons-with-disabilities-kamal-khera-on-international-day-of-persons-with-disabilities.html|https://www.canada.ca/fr/emploi-developpement-social/nouvelles/2024/12/declaration-de-la-ministre-de-la-diversite-de-linclusion-et-des-personnes-en-situation-de-handicap-kamal-khera-a-loccasion-de-la-journee-internatio.html": {
@@ -115169,6 +115433,17 @@
     "updated_at": "2026-05-12T14:11:09.421707+00:00",
     "version": 6
   },
+  "bcb7d5bc1337f7d8d8cd64a6583c6667|2026-11-18 10:00:00|https://www.canada.ca/en/natural-resources-canada/news/2026/11/canada-invests-to-drive-clean-energy-create-jobs-and-spur-innovation-in-the-atlantic.html|https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2026/11/le-canada-investit-pour-favoriser-lenergie-propre-creer-des-emplois-et-stimuler-linnovation-au-canada-atlantique.html": {
+    "PUBDATE": "2026-11-18 10:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/natural-resources-canada/news/2026/11/canada-invests-to-drive-clean-energy-create-jobs-and-spur-innovation-in-the-atlantic.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2026/11/le-canada-investit-pour-favoriser-lenergie-propre-creer-des-emplois-et-stimuler-linnovation-au-canada-atlantique.html",
+    "hash": "bcb7d5bc1337f7d8d8cd64a6583c6667",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:23.858967+00:00",
+    "version": 6
+  },
   "bcb8c28bfa0efdae6f5d416c2483f4e6|2025-01-10 15:00:00|https://www.canada.ca/en/canadian-heritage/news/2025/01/government-of-canada-invests-in-important-cultural-infrastructure-projects-in-calgary.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2025/01/le-gouvernement-du-canada-investit-dans-dimportants-projets-dinfrastructure-culturelle-a-calgary.html": {
     "PUBDATE": "2025-01-10 15:00:00",
     "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2025/01/government-of-canada-invests-in-important-cultural-infrastructure-projects-in-calgary.html",
@@ -118172,6 +118447,17 @@
     "updated_at": "2026-09-10T02:43:12.096772+00:00",
     "version": 6
   },
+  "c199c2a340e273b97586406f401747ee|2026-11-18 13:00:19|https://www.canada.ca/en/department-justice/news/2026/11/minister-fraser-to-hold-media-availability-on-canadas-national-judicial-symposium-series.html|https://www.canada.ca/fr/ministere-justice/nouvelles/2026/11/le-ministre-fraser-tiendra-une-rencontre-avec-les-medias-sur-la-serie-nationale-de-symposiums-judiciaires-du-canada.html": {
+    "PUBDATE": "2026-11-18 13:00:19",
+    "TITLE_URL_EN": "https://www.canada.ca/en/department-justice/news/2026/11/minister-fraser-to-hold-media-availability-on-canadas-national-judicial-symposium-series.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ministere-justice/nouvelles/2026/11/le-ministre-fraser-tiendra-une-rencontre-avec-les-medias-sur-la-serie-nationale-de-symposiums-judiciaires-du-canada.html",
+    "hash": "c199c2a340e273b97586406f401747ee",
+    "image_count": 1,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:29.912593+00:00",
+    "version": 6
+  },
   "c19ada7eaf7d0a9c43d8dd8144808a54|2025-10-31 15:27:10|https://www.canada.ca/en/environment-climate-change/news/2025/10/chairs-statement-on-extreme-weather-prediction-preparedness-and-response.html|https://www.canada.ca/fr/environnement-changement-climatique/nouvelles/2025/10/declaration-de-la-presidente-sur-la-prevision-la-preparation-et-lintervention-en-cas-devenements-meteorologiques-extremes.html": {
     "PUBDATE": "2025-10-31 15:27:10",
     "TITLE_URL_EN": "https://www.canada.ca/en/environment-climate-change/news/2025/10/chairs-statement-on-extreme-weather-prediction-preparedness-and-response.html",
@@ -118874,6 +119160,17 @@
     "quote_count": 1,
     "status": "ok",
     "updated_at": "2026-05-12T13:34:40.180946+00:00",
+    "version": 6
+  },
+  "c2ad78f1b58c0123cf77ed4cc5c2ec09|2026-11-18 12:02:49|https://www.canada.ca/en/space-agency/news/2026/11/from-whitehorse-to-space-yukon-students-hear-from-csa-astronauts-jenni-gibbons-and-joshua-kutryk.html|https://www.canada.ca/fr/agence-spatiale/nouvelles/2026/11/de-whitehorse-a-lespace--des-eleves-du-yukon-font-la-rencontre-de-lastronaute-de-lasc-jenni-gibbons-et-recoivent-un-message-special-de-lastronaute-.html": {
+    "PUBDATE": "2026-11-18 12:02:49",
+    "TITLE_URL_EN": "https://www.canada.ca/en/space-agency/news/2026/11/from-whitehorse-to-space-yukon-students-hear-from-csa-astronauts-jenni-gibbons-and-joshua-kutryk.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/agence-spatiale/nouvelles/2026/11/de-whitehorse-a-lespace--des-eleves-du-yukon-font-la-rencontre-de-lastronaute-de-lasc-jenni-gibbons-et-recoivent-un-message-special-de-lastronaute-.html",
+    "hash": "c2ad78f1b58c0123cf77ed4cc5c2ec09",
+    "image_count": 0,
+    "quote_count": 1,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:27.827673+00:00",
     "version": 6
   },
   "c2b577037cb58c7998ddb16217c0c4d1|2026-08-24 12:03:04|https://www.canada.ca/en/innovation-science-economic-development/news/2026/08/backgrounder-government-of-canada-to-help-bring-high-speed-internet-access-to-communities-across-ontario.html|https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2026/08/document-dinformation--le-gouvernement-du-canada-contribuera-a-etendre-lacces-a-internet-haute-vitesse-dans-des-collectivites-de-lontario.html": {
@@ -120920,6 +121217,17 @@
     "quote_count": 6,
     "status": "ok",
     "updated_at": "2026-05-12T14:51:12.771325+00:00",
+    "version": 6
+  },
+  "c5afa0432f74a115782236a87e3c2261|2026-11-18 10:00:00|https://www.canada.ca/en/natural-resources-canada/news/2026/11/backgrounder-canada-invests-to-drive-clean-energy-create-jobs-and-spur-innovation-in-the-atlantic.html|https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2026/11/document-dinformation--le-canada-investit-pour-favoriser-lenergie-propre-creer-des-emplois-et-stimuler-linnovation-au-canada-atlantique.html": {
+    "PUBDATE": "2026-11-18 10:00:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/natural-resources-canada/news/2026/11/backgrounder-canada-invests-to-drive-clean-energy-create-jobs-and-spur-innovation-in-the-atlantic.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2026/11/document-dinformation--le-canada-investit-pour-favoriser-lenergie-propre-creer-des-emplois-et-stimuler-linnovation-au-canada-atlantique.html",
+    "hash": "c5afa0432f74a115782236a87e3c2261",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:23.813632+00:00",
     "version": 6
   },
   "c5b2ba5928f70d66d1ee81cd012f7108|2024-11-06 16:29:06|https://www.canada.ca/en/innovation-science-economic-development/news/2024/11/statement-from-minister-champagne-responding-to-bells-petition-to-rescind-the-canadian-radio-television-and-telecommunications-commissions-decision.html|https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2024/11/declaration-du-ministre-champagne-en-reponse-a-la-demande-de-bell-visant-a-faire-annuler-la-decision-du-conseil-de-la-radiodiffusion-et-des-telecom.html": {
@@ -132131,6 +132439,17 @@
     "updated_at": "2026-07-01T02:56:32.923246+00:00",
     "version": 6
   },
+  "d783680b4f86c142f6b5493d6449125b|2026-11-19 14:32:13|https://www.canada.ca/en/canadian-heritage/news/2026/11/ministers-miller-and-solomon-announce-members-of-the-advisory-council-on-artificial-intelligence-and-culture.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/les-ministres-miller-et-solomon-annoncent-la-composition-du-conseil-consultatif-sur-lintelligence-artificielle-et-la-culture.html": {
+    "PUBDATE": "2026-11-19 14:32:13",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/11/ministers-miller-and-solomon-announce-members-of-the-advisory-council-on-artificial-intelligence-and-culture.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/les-ministres-miller-et-solomon-annoncent-la-composition-du-conseil-consultatif-sur-lintelligence-artificielle-et-la-culture.html",
+    "hash": "d783680b4f86c142f6b5493d6449125b",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:39.310062+00:00",
+    "version": 6
+  },
   "d7863dd9cb0b7659a4c94556f961a5d8|2025-08-29 08:00:11|https://www.canada.ca/en/space-agency/news/2025/08/strengthening-canada-through-space-science-and-discovery.html|https://www.canada.ca/fr/agence-spatiale/nouvelles/2025/08/le-canada-encore-plus-competitif-grace-aux-sciences-spatiales.html": {
     "PUBDATE": "2025-08-29 08:00:11",
     "TITLE_URL_EN": "https://www.canada.ca/en/space-agency/news/2025/08/strengthening-canada-through-space-science-and-discovery.html",
@@ -134859,17 +135178,6 @@
     "updated_at": "2026-05-12T14:04:45.806010+00:00",
     "version": 6
   },
-  "dc15b8a1eee4aa4dd5d350e8e05c965c|2026-11-06 12:50:50|https://www.canada.ca/en/global-affairs/news/2026/11/statement-on-the-sentencing-of-joshua-wong-contacts.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/declaration-concernant-la-peine-infligee-a-joshua-wong.html": {
-    "PUBDATE": "2026-11-06 12:50:50",
-    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/11/statement-on-the-sentencing-of-joshua-wong-contacts.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/declaration-concernant-la-peine-infligee-a-joshua-wong.html",
-    "hash": "dc15b8a1eee4aa4dd5d350e8e05c965c",
-    "image_count": 0,
-    "quote_count": 0,
-    "status": "ok",
-    "updated_at": "2026-11-08T03:58:47.831298+00:00",
-    "version": 6
-  },
   "dc1b3c20377430326af7a0bc4a54e386|2026-07-22 16:19:57|https://www.canada.ca/en/prairies-economic-development/news/2026/07/government-of-canada-announces-support-for-agriculture-sector-in-saskatchewan.html|https://www.canada.ca/fr/developpement-economique-prairies/nouvelles/2026/07/le-gouvernement-du-canada-annonce-son-soutien-au-secteur-agricole-en-saskatchewan.html": {
     "PUBDATE": "2026-07-22 16:19:57",
     "TITLE_URL_EN": "https://www.canada.ca/en/prairies-economic-development/news/2026/07/government-of-canada-announces-support-for-agriculture-sector-in-saskatchewan.html",
@@ -137532,6 +137840,17 @@
     "updated_at": "2026-05-12T15:03:47.184784+00:00",
     "version": 6
   },
+  "e04e2c624a9941b286a065080bc49a01|2026-11-19 16:55:42|https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/bill-c-10-receives-royal-assent-establishing-a-commissioner-for-modern-treaty-implementation.html|https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/le-projet-de-loi-c-10-recoit-la-sanction-royale-etablissant-la-creation-dun-poste-de-commissaire-a-la-mise-en-uvre-des-traites-modernes.html": {
+    "PUBDATE": "2026-11-19 16:55:42",
+    "TITLE_URL_EN": "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/bill-c-10-receives-royal-assent-establishing-a-commissioner-for-modern-treaty-implementation.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/le-projet-de-loi-c-10-recoit-la-sanction-royale-etablissant-la-creation-dun-poste-de-commissaire-a-la-mise-en-uvre-des-traites-modernes.html",
+    "hash": "e04e2c624a9941b286a065080bc49a01",
+    "image_count": 0,
+    "quote_count": 3,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:38.495425+00:00",
+    "version": 6
+  },
   "e05669dc54cf6043d9a4af1c548cc926|2024-06-25 11:11:03|https://www.canada.ca/en/competition-bureau/news/2024/06/significant-changes-to-strengthen-the-competition-act-become-law.html|https://www.canada.ca/fr/bureau-concurrence/nouvelles/2024/06/des-changements-importants-visant-a-renforcer-la-loi-sur-la-concurrence-deviennent-loi.html": {
     "PUBDATE": "2024-06-25 11:11:03",
     "TITLE_URL_EN": "https://www.canada.ca/en/competition-bureau/news/2024/06/significant-changes-to-strengthen-the-competition-act-become-law.html",
@@ -138751,6 +139070,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:33:19.294594+00:00",
+    "version": 6
+  },
+  "e2781b0b1b3f89e02da276a848c44c06|2026-11-13 13:43:03|https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-advances-canadaindia-trade-and-innovation-partnerships-during-visit-to-india.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/le-ministre-sidhu-renforce-les-partenariats-axes-sur-le-commerce-et-linnovation-entre-le-canada-et-linde-lors-dune-visite-en-inde.html": {
+    "PUBDATE": "2026-11-13 13:43:03",
+    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-advances-canadaindia-trade-and-innovation-partnerships-during-visit-to-india.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/le-ministre-sidhu-renforce-les-partenariats-axes-sur-le-commerce-et-linnovation-entre-le-canada-et-linde-lors-dune-visite-en-inde.html",
+    "hash": "e2781b0b1b3f89e02da276a848c44c06",
+    "image_count": 0,
+    "quote_count": 1,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:23.677049+00:00",
     "version": 6
   },
   "e27b545fdfb131fabf2a7daacb2fd4b0|2026-02-02 10:00:02|https://www.canada.ca/en/canadian-heritage/news/2026/02/government-of-canada-celebrates-30-years-of-black-history-month.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/02/le-gouvernement-du-canada-celebre-les-30-ans-du-mois-de-lhistoire-des-noirs.html": {
@@ -143021,17 +143351,6 @@
     "updated_at": "2026-05-12T13:54:58.772380+00:00",
     "version": 6
   },
-  "e9a42f015886fcc2d1e25d2050dacb7b|2026-11-13 13:43:03|https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-advances-canadaindia-trade-and-innovation-partnerships-during-visit-to-india.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/le-ministre-sidhu-renforce-les-partenariats-axes-sur-le-commerce-et-linnovation-entre-le-canada-et-linde-lors-dune-visite-en-inde.html": {
-    "PUBDATE": "2026-11-13 13:43:03",
-    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-sidhu-advances-canadaindia-trade-and-innovation-partnerships-during-visit-to-india.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/le-ministre-sidhu-renforce-les-partenariats-axes-sur-le-commerce-et-linnovation-entre-le-canada-et-linde-lors-dune-visite-en-inde.html",
-    "hash": "e9a42f015886fcc2d1e25d2050dacb7b",
-    "image_count": 0,
-    "quote_count": 1,
-    "status": "ok",
-    "updated_at": "2026-11-14T04:38:35.655650+00:00",
-    "version": 6
-  },
   "e9a8cfe5ed14f3572d47bc83c66e9de5|2025-02-19 10:57:37|https://www.canada.ca/en/atlantic-canada-opportunities/news/2025/02/government-of-canada-to-announce-support-for-connexionworks.html|https://www.canada.ca/fr/promotion-economique-canada-atlantique/nouvelles/2025/02/le-gouvernement-du-canada-annonce-un-soutien-pour-connexionworks.html": {
     "PUBDATE": "2025-02-19 10:57:37",
     "TITLE_URL_EN": "https://www.canada.ca/en/atlantic-canada-opportunities/news/2025/02/government-of-canada-to-announce-support-for-connexionworks.html",
@@ -143096,6 +143415,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:51:30.711808+00:00",
+    "version": 6
+  },
+  "e9d56084772addb32533cc300da995c3|2026-11-18 10:37:24|https://www.canada.ca/en/indigenous-services-canada/news/2026/11/pirutsiagutiit-national-framework.html|https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/cadre-national-pirutsiagutiit.html": {
+    "PUBDATE": "2026-11-18 10:37:24",
+    "TITLE_URL_EN": "https://www.canada.ca/en/indigenous-services-canada/news/2026/11/pirutsiagutiit-national-framework.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/services-autochtones-canada/nouvelles/2026/11/cadre-national-pirutsiagutiit.html",
+    "hash": "e9d56084772addb32533cc300da995c3",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:24.908464+00:00",
     "version": 6
   },
   "e9d6a4a14057bad23776b24a349c3cc7|2026-08-06 09:15:01|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/08/building-canada-strong-by-investing-in-the-infrastructure-needed-to-build-more-homes-in-kinkora.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/08/batir-un-canada-fort-en-investissant-dans-les-infrastructures-necessaires-pour-construire-plus-de-logements-a-kinkora.html": {
@@ -151667,6 +151997,17 @@
     "updated_at": "2026-05-12T13:25:06.670616+00:00",
     "version": 6
   },
+  "f829d526efc98eeebf6a845aca1873be|2026-11-17 15:20:40|https://www.canada.ca/en/global-affairs/news/2026/11/minister-anand-meets-with-director-of-the-office-of-the-central-commission-for-foreign-affairs-and-minister-of-foreign-affairs-of-the-peoples-repub.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/la-ministre-anand-rencontre-le-directeur-du-bureau-de-la-commission-centrale-des-affaires-etrangeres-et-ministre-des-affaires-etrangeres-de-la-repu.html": {
+    "PUBDATE": "2026-11-17 15:20:40",
+    "TITLE_URL_EN": "https://www.canada.ca/en/global-affairs/news/2026/11/minister-anand-meets-with-director-of-the-office-of-the-central-commission-for-foreign-affairs-and-minister-of-foreign-affairs-of-the-peoples-repub.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/la-ministre-anand-rencontre-le-directeur-du-bureau-de-la-commission-centrale-des-affaires-etrangeres-et-ministre-des-affaires-etrangeres-de-la-repu.html",
+    "hash": "f829d526efc98eeebf6a845aca1873be",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:20.653152+00:00",
+    "version": 6
+  },
   "f82ec335c35e6db828b6d5b23f5fb63f|2024-10-28 10:11:35|https://www.canada.ca/en/public-services-procurement/news/2024/10/sidewalk-closure-on-chaudiere-crossing0.html|https://www.canada.ca/fr/services-publics-approvisionnement/nouvelles/2024/10/fermeture-de-trottoir-sur-la-traverse-des-chaudieres0.html": {
     "PUBDATE": "2024-10-28 10:11:35",
     "TITLE_URL_EN": "https://www.canada.ca/en/public-services-procurement/news/2024/10/sidewalk-closure-on-chaudiere-crossing0.html",
@@ -156208,6 +156549,17 @@
     "quote_count": 5,
     "status": "ok",
     "updated_at": "2026-05-12T14:52:51.847111+00:00",
+    "version": 6
+  },
+  "ffe57ca5a84f8e97f1b378f9c78b5563|2026-11-19 14:29:14|https://www.canada.ca/en/correctional-service/news/2026/11/assault-of-an-inmate-at-mountain-institution.html|https://www.canada.ca/fr/service-correctionnel/nouvelles/2026/11/agression-contre-un-detenu-a-letablissement-mountain.html": {
+    "PUBDATE": "2026-11-19 14:29:14",
+    "TITLE_URL_EN": "https://www.canada.ca/en/correctional-service/news/2026/11/assault-of-an-inmate-at-mountain-institution.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/service-correctionnel/nouvelles/2026/11/agression-contre-un-detenu-a-letablissement-mountain.html",
+    "hash": "ffe57ca5a84f8e97f1b378f9c78b5563",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-20T05:23:40.205411+00:00",
     "version": 6
   },
   "ffe9e644ce5c57f5ad8ef9757e24af58|2024-10-29 11:42:19|https://www.canada.ca/en/housing-infrastructure-communities/news/2024/10/supporting-communities-in-tackling-homelessness.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2024/10/soutien-aux-collectivites-dans-la-lutte-contre-litinerance.html": {
