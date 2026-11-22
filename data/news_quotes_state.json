@@ -81509,6 +81509,17 @@
     "updated_at": "2026-05-12T14:54:58.096741+00:00",
     "version": 6
   },
+  "84b9c9ada4814427dd5aa37c112e222e|2026-11-21 08:30:57|https://www.canada.ca/en/atlantic-canada-opportunities/news/2026/11/keeping-the-light-on-at-sandy-point.html|https://www.canada.ca/fr/promotion-economique-canada-atlantique/nouvelles/2026/11/un-avenir-lumineux-pour-sandy-point.html": {
+    "PUBDATE": "2026-11-21 08:30:57",
+    "TITLE_URL_EN": "https://www.canada.ca/en/atlantic-canada-opportunities/news/2026/11/keeping-the-light-on-at-sandy-point.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/promotion-economique-canada-atlantique/nouvelles/2026/11/un-avenir-lumineux-pour-sandy-point.html",
+    "hash": "84b9c9ada4814427dd5aa37c112e222e",
+    "image_count": 2,
+    "quote_count": 4,
+    "status": "ok",
+    "updated_at": "2026-11-22T04:43:06.255990+00:00",
+    "version": 6
+  },
   "84bb741e5b44dc1f26d0d8246a81ee9b|2026-11-08 13:11:52|https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/parliamentary-secretary-hanley-to-highlight-federal-budget-investments-in-whitehorse-on-affordability.html|https://www.canada.ca/fr/relations-couronne-autochtones-affaires-nord/nouvelles/2026/11/le-secretaire-parlementaire-hanley-presente-les-investissements-du-budget-federal-en-matiere-dabordabilite-a-whitehorse.html": {
     "PUBDATE": "2026-11-08 13:11:52",
     "TITLE_URL_EN": "https://www.canada.ca/en/crown-indigenous-relations-northern-affairs/news/2026/11/parliamentary-secretary-hanley-to-highlight-federal-budget-investments-in-whitehorse-on-affordability.html",
@@ -156483,6 +156494,17 @@
     "quote_count": 4,
     "status": "ok",
     "updated_at": "2026-05-12T13:32:47.865275+00:00",
+    "version": 6
+  },
+  "ff5b0921ece9297d8255dc0a96dd7d82|2026-11-21 10:54:26|https://www.canada.ca/en/department-national-defence/news/2026/11/canada-to-join-the-nato-innovation-fund.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/11/le-canada-se-joint-au-fonds-otan-pour-linnovation.html": {
+    "PUBDATE": "2026-11-21 10:54:26",
+    "TITLE_URL_EN": "https://www.canada.ca/en/department-national-defence/news/2026/11/canada-to-join-the-nato-innovation-fund.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/11/le-canada-se-joint-au-fonds-otan-pour-linnovation.html",
+    "hash": "ff5b0921ece9297d8255dc0a96dd7d82",
+    "image_count": 0,
+    "quote_count": 4,
+    "status": "ok",
+    "updated_at": "2026-11-22T04:43:01.027950+00:00",
     "version": 6
   },
   "ff5c30dbca390a9d454841623e8f31a9|2026-06-23 12:00:09|https://www.canada.ca/en/health-canada/news/2026/06/government-of-canada-to-make-an-announcement-on-climate-action-related-to-health.html|https://www.canada.ca/fr/sante-canada/nouvelles/2026/06/le-gouvernement-du-canada-annoncera-des-mesures-prevues-en-matiere-daction-climatique-dans-le-secteur-de-la-sante.html": {
