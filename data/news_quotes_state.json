@@ -4784,17 +4784,6 @@
     "updated_at": "2026-05-12T14:41:03.283313+00:00",
     "version": 6
   },
-  "083d5446d16be86cbfc5461f4376ed5c|2026-11-14 10:30:00|https://www.canada.ca/en/canadian-heritage/news/2026/11/parliamentary-secretary-chenette-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/le-ministre-miller-presente-les-investissements-du-gouvernement-du-canada-dans-le-budgetde-2026--maitres-chez-nous.html": {
-    "PUBDATE": "2026-11-14 10:30:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/11/parliamentary-secretary-chenette-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/le-ministre-miller-presente-les-investissements-du-gouvernement-du-canada-dans-le-budgetde-2026--maitres-chez-nous.html",
-    "hash": "083d5446d16be86cbfc5461f4376ed5c",
-    "image_count": 0,
-    "quote_count": 2,
-    "status": "ok",
-    "updated_at": "2026-11-21T05:17:23.879699+00:00",
-    "version": 6
-  },
   "083dbf59c56895606d69dedce73a5f78|2024-11-24 14:53:53|https://www.canada.ca/en/environment-climate-change/news/2024/11/as-cop29-wraps-up-canada-reaffirms-its-commitment-to-global-climate-action-and-remains-determined-to-keep-15-c-alive.html|https://www.canada.ca/fr/environnement-changement-climatique/nouvelles/2024/11/alors-que-la-cop29-se-termine-le-canada-reitere-son-engagement-envers-laction-climatique-mondiale-et-demeure-determine-a-garder-vivant-lobjectif-de.html": {
     "PUBDATE": "2024-11-24 14:53:53",
     "TITLE_URL_EN": "https://www.canada.ca/en/environment-climate-change/news/2024/11/as-cop29-wraps-up-canada-reaffirms-its-commitment-to-global-climate-action-and-remains-determined-to-keep-15-c-alive.html",
@@ -11569,6 +11558,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-11-09T04:13:04.795224+00:00",
+    "version": 6
+  },
+  "130a82167a3428e8fcfbe7f5558853de|2026-11-22 10:30:58|https://www.canada.ca/en/economic-development-southern-ontario/news/2026/11/government-of-canada-helps-keep-torontos-holiday-magic-going.html|https://www.canada.ca/fr/developpement-economique-sud-ontario/nouvelles/2026/11/le-gouvernement-du-canada-contribue-a-perpetuer-la-magie-des-fetes-a-toronto.html": {
+    "PUBDATE": "2026-11-22 10:30:58",
+    "TITLE_URL_EN": "https://www.canada.ca/en/economic-development-southern-ontario/news/2026/11/government-of-canada-helps-keep-torontos-holiday-magic-going.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/developpement-economique-sud-ontario/nouvelles/2026/11/le-gouvernement-du-canada-contribue-a-perpetuer-la-magie-des-fetes-a-toronto.html",
+    "hash": "130a82167a3428e8fcfbe7f5558853de",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-11-23T05:20:07.746160+00:00",
     "version": 6
   },
   "130b13f8ce1155ce9ba509cc81311f58|2026-11-13 20:30:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/11/fpt-forum-on-housing-and-homelessness-2026-ministers-meeting--joint-communique.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/11/reunion-des-ministres-du-forum-fpt-sur-le-logement-et-litinerance2026--communique-conjoint.html": {
@@ -50599,6 +50599,17 @@
     "updated_at": "2026-10-29T04:00:11.928132+00:00",
     "version": 6
   },
+  "517e51e65a6f72d0c723cddc40bc58c0|2026-11-22 10:30:00|https://www.canada.ca/en/housing-infrastructure-communities/news/2026/11/statement-by-the-minister-of-housing-and-infrastructure-and-minister-responsible-for-pacific-economic-development-canada-on-national-housing-day.html|https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/11/declaration-du-ministre-du-logement-et-de-linfrastructure-et-ministre-responsable-de-developpement-economique-canada-pour-le-pacifique-a-loccasion-.html": {
+    "PUBDATE": "2026-11-22 10:30:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/housing-infrastructure-communities/news/2026/11/statement-by-the-minister-of-housing-and-infrastructure-and-minister-responsible-for-pacific-economic-development-canada-on-national-housing-day.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/logement-infrastructures-collectivites/nouvelles/2026/11/declaration-du-ministre-du-logement-et-de-linfrastructure-et-ministre-responsable-de-developpement-economique-canada-pour-le-pacifique-a-loccasion-.html",
+    "hash": "517e51e65a6f72d0c723cddc40bc58c0",
+    "image_count": 0,
+    "quote_count": 0,
+    "status": "ok",
+    "updated_at": "2026-11-23T05:20:04.501947+00:00",
+    "version": 6
+  },
   "5183cc1038ead9b7dc66843d3d405128|2024-07-09 16:00:01|https://www.canada.ca/en/innovation-science-economic-development/news/2024/07/minister-champagne-to-highlight-ai-project-for-health-care-supported-by-canadas-digital-technology-cluster.html|https://www.canada.ca/fr/innovation-sciences-developpement-economique/nouvelles/2024/07/le-ministre-champagne-soulignera-un-projet-de-la-grappe-des-technologies-numeriques-du-canada-faisant-appel-a-lintelligence-artificielle-dans-le-do.html": {
     "PUBDATE": "2024-07-09 16:00:01",
     "TITLE_URL_EN": "https://www.canada.ca/en/innovation-science-economic-development/news/2024/07/minister-champagne-to-highlight-ai-project-for-health-care-supported-by-canadas-digital-technology-cluster.html",
@@ -60244,6 +60255,17 @@
     "quote_count": 1,
     "status": "ok",
     "updated_at": "2026-05-12T14:44:14.900870+00:00",
+    "version": 6
+  },
+  "60d66525153df88f619bd932e3884864|2026-11-14 10:30:00|https://www.canada.ca/en/canadian-heritage/news/2026/11/minister-miller-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/la-secretaire-parlementaire-chenette-presente-les-investissements-du-gouvernement-du-canada-dans-le-budgetde-2026--maitres-chez-nous.html": {
+    "PUBDATE": "2026-11-14 10:30:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/11/minister-miller-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/la-secretaire-parlementaire-chenette-presente-les-investissements-du-gouvernement-du-canada-dans-le-budgetde-2026--maitres-chez-nous.html",
+    "hash": "60d66525153df88f619bd932e3884864",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-11-23T05:20:05.805915+00:00",
     "version": 6
   },
   "60daa8ed0b7204aff386297a96d301ff|2026-11-10 09:00:55|https://www.canada.ca/en/global-affairs/news/2026/11/backgrounder-project-announcements-made-by-secretary-of-state-sarai-during-visit-to-zambia.html|https://www.canada.ca/fr/affaires-mondiales/nouvelles/2026/11/document-dinformation--annonces-de-projets-faites-par-le-secretaire-detat-sarai-lors-de-sa-visite-en-zambie.html": {
@@ -79804,6 +79826,17 @@
     "updated_at": "2026-05-12T14:51:06.021134+00:00",
     "version": 6
   },
+  "81df6eb5ef2a2ddc134cc676d7052c1e|2026-11-22 18:55:20|https://www.canada.ca/en/department-national-defence/news/2026/11/minister-mcguinty-concludes-halifax-international-security-forum-advancing-canadas-defence-priorities-and-partnerships-with-allies.html|https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/11/le-ministre-mcguinty-conclut-sa-visite-au-forum-dhalifax-sur-la-securite-internationale-ou-il-a-fait-progresser-les-priorites-du-canada-en-matiere-.html": {
+    "PUBDATE": "2026-11-22 18:55:20",
+    "TITLE_URL_EN": "https://www.canada.ca/en/department-national-defence/news/2026/11/minister-mcguinty-concludes-halifax-international-security-forum-advancing-canadas-defence-priorities-and-partnerships-with-allies.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/ministere-defense-nationale/nouvelles/2026/11/le-ministre-mcguinty-conclut-sa-visite-au-forum-dhalifax-sur-la-securite-internationale-ou-il-a-fait-progresser-les-priorites-du-canada-en-matiere-.html",
+    "hash": "81df6eb5ef2a2ddc134cc676d7052c1e",
+    "image_count": 0,
+    "quote_count": 1,
+    "status": "ok",
+    "updated_at": "2026-11-23T05:20:05.530458+00:00",
+    "version": 6
+  },
   "81ea5d95ef6532a47fcff22960351224|2025-07-18 14:30:27|https://www.canada.ca/en/natural-resources-canada/news/2025/07/canada-invests-in-wildfire-innovation-and-resilience-through-new-centre-of-excellence.html|https://www.canada.ca/fr/ressources-naturelles-canada/nouvelles/2025/07/le-canada-investit-dans-linnovation-et-la-resilience-face-aux-feux-de-foret-par-le-biais-dun-nouveau-centre-dexcellence.html": {
     "PUBDATE": "2025-07-18 14:30:27",
     "TITLE_URL_EN": "https://www.canada.ca/en/natural-resources-canada/news/2025/07/canada-invests-in-wildfire-innovation-and-resilience-through-new-centre-of-excellence.html",
@@ -93994,17 +94027,6 @@
     "updated_at": "2026-05-12T14:09:04.745390+00:00",
     "version": 6
   },
-  "98bce67346e57019969fcad439e1f4b3|2026-11-14 10:30:00|https://www.canada.ca/en/canadian-heritage/news/2026/11/minister-miller-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/le-ministre-miller-presente-les-investissements-du-gouvernement-du-canada-dans-le-budgetde-2026--maitres-chez-nous.html": {
-    "PUBDATE": "2026-11-14 10:30:00",
-    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/11/minister-miller-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html",
-    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/le-ministre-miller-presente-les-investissements-du-gouvernement-du-canada-dans-le-budgetde-2026--maitres-chez-nous.html",
-    "hash": "98bce67346e57019969fcad439e1f4b3",
-    "image_count": 0,
-    "quote_count": 2,
-    "status": "ok",
-    "updated_at": "2026-11-21T05:17:24.622815+00:00",
-    "version": 6
-  },
   "98cb9dcade5dc15ac12179a411f5b8b7|2026-04-29 22:34:48|https://www.canada.ca/en/department-finance/news/2026/04/canada-welcomes-progress-towards-the-establishment-of-the-defence-security-and-resilience-bank-and-hosting-its-headquarters.html|https://www.canada.ca/fr/ministere-finances/nouvelles/2026/04/le-canada-se-rejouit-des-progres-realises-vers-letablissement-de-la-banque-de-la-defense-de-la-securite-et-de-la-resilience.html": {
     "PUBDATE": "2026-04-29 22:34:48",
     "TITLE_URL_EN": "https://www.canada.ca/en/department-finance/news/2026/04/canada-welcomes-progress-towards-the-establishment-of-the-defence-security-and-resilience-bank-and-hosting-its-headquarters.html",
@@ -96511,6 +96533,17 @@
     "quote_count": 0,
     "status": "ok",
     "updated_at": "2026-05-12T14:38:23.007783+00:00",
+    "version": 6
+  },
+  "9c5a4fb04e690a19a164d1c3ae78bca9|2026-11-14 10:30:00|https://www.canada.ca/en/canadian-heritage/news/2026/11/parliamentary-secretary-chenette-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html|https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/la-secretaire-parlementaire-chenette-presente-les-investissements-du-gouvernement-du-canada-dans-le-budgetde-2026--maitres-chez-nous.html": {
+    "PUBDATE": "2026-11-14 10:30:00",
+    "TITLE_URL_EN": "https://www.canada.ca/en/canadian-heritage/news/2026/11/parliamentary-secretary-chenette-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html",
+    "TITLE_URL_FR": "https://www.canada.ca/fr/patrimoine-canadien/nouvelles/2026/11/la-secretaire-parlementaire-chenette-presente-les-investissements-du-gouvernement-du-canada-dans-le-budgetde-2026--maitres-chez-nous.html",
+    "hash": "9c5a4fb04e690a19a164d1c3ae78bca9",
+    "image_count": 0,
+    "quote_count": 2,
+    "status": "ok",
+    "updated_at": "2026-11-23T05:20:04.734083+00:00",
     "version": 6
   },
   "9c5aa90be63a82d89fa378a302b5b865|2026-11-14 12:51:00|https://www.canada.ca/en/agriculture-agri-food/news/2026/11/minister-macdonald-highlights-government-of-canadas-investments-from-budget-2026-masters-of-our-destiny.html|https://www.canada.ca/fr/agriculture-agroalimentaire/nouvelles/2026/11/le-ministre-macdonald-presente-les-investissements-du-gouvernement-du-canada-dans-le-budget-de-2026--maitres-chez-nous.html": {
